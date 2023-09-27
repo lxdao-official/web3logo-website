@@ -1,95 +1,225 @@
+import { Box, Button, Input, InputAdornment, Stack } from '@mui/material'
+import Grid from '@mui/material/Unstable_Grid2'
 import Image from 'next/image'
-import styles from './page.module.css'
+import logo from '@/public/images/logo.svg'
+import logos_bitcoin from '@/public/images/logos_bitcoin.svg'
+import 'css-init'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
+    <Box padding="0 80px">
+      <Box
+        paddingTop="132px"
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+        flexDirection="column"
+      >
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          src={logo}
+          style={{ width: 349, marginBottom: 64 }}
+          alt="web3logo"
         />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+        <Box
+          sx={{
+            width: 616,
+            height: 56,
+            padding: '8px 16px',
+            borderRadius: 100,
+            border: '1px solid #DAE0E6',
+            boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+          }}
         >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+          <Input
+            style={{ width: '100%', height: '100%', margin: 'auto' }}
+            disableUnderline={true}
+            placeholder="Search web3 logo..."
+            startAdornment={
+              <InputAdornment position="start">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19"
+                  height="18"
+                  viewBox="0 0 19 18"
+                  fill="none"
+                >
+                  <g clipPath="url(#clip0_341_1263)">
+                    <path
+                      d="M17.1596 17.8404C17.4857 18.1665 18.0143 18.1665 18.3404 17.8404C18.6665 17.5143 18.6665 16.9857 18.3404 16.6596L17.1596 17.8404ZM14.0032 7.54412C14.0032 10.8352 11.3352 13.5032 8.04412 13.5032V15.1732C12.2576 15.1732 15.6732 11.7576 15.6732 7.54412H14.0032ZM8.04412 13.5032C4.75299 13.5032 2.085 10.8352 2.085 7.54412H0.415C0.415 11.7576 3.83067 15.1732 8.04412 15.1732V13.5032ZM2.085 7.54412C2.085 4.25299 4.75299 1.585 8.04412 1.585V-0.085C3.83067 -0.085 0.415 3.33067 0.415 7.54412H2.085ZM8.04412 1.585C11.3352 1.585 14.0032 4.25299 14.0032 7.54412H15.6732C15.6732 3.33067 12.2576 -0.085 8.04412 -0.085V1.585ZM12.3066 12.9875L17.1596 17.8404L18.3404 16.6596L13.4875 11.8066L12.3066 12.9875Z"
+                      fill="#919BA7"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_341_1263">
+                      <rect
+                        width="18"
+                        height="18"
+                        fill="white"
+                        transform="translate(0.5)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </InputAdornment>
+            }
+            endAdornment={
+              <Button
+                variant="contained"
+                style={{
+                  background: '#000',
+                  borderRadius: 100,
+                  boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+                }}
+              >
+                Search
+              </Button>
+            }
+          />
+        </Box>
+      </Box>
+      <Box marginTop="95px" marginBottom="48px">
+        <Button
+          variant="outlined"
+          style={{
+            borderRadius: 100,
+            marginRight: 8,
+            borderColor: '#D0D5DD',
+            color: '#000',
+          }}
         >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+          DAO
+        </Button>
+        <Button
+          variant="outlined"
+          style={{
+            borderRadius: 100,
+            marginRight: 8,
+            borderColor: '#D0D5DD',
+            color: '#000',
+          }}
         >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+          DAO
+        </Button>
+        <Button
+          variant="outlined"
+          style={{
+            borderRadius: 100,
+            marginRight: 8,
+            borderColor: '#D0D5DD',
+            color: '#000',
+          }}
         >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+          DAO
+        </Button>
+      </Box>
+      <Box>
+        <Grid container spacing={3}>
+          <Grid lg={3} md={4} sm={6} xs={6}>
+            <Box
+              position="relative"
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              height={200}
+              border="1px solid #EAEBF0"
+              borderRadius="10px"
+              boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
+              style={{ cursor: 'pointer' }}
+              sx={{
+                '&:hover': {
+                  boxShadow: '0px 4px 30px 0px rgba(16, 24, 40, 0.05)',
+                  '& div': {
+                    display: 'block',
+                  },
+                  '& button': {
+                    padding: '0 8px',
+                    color: '#A5B1C2',
+                    borderRadius: '2px',
+                    border: '1px solid #F5F5F5',
+                  },
+                },
+              }}
+            >
+              <Box position="absolute" left="20px" top="20px" display="none">
+                Etherscan
+              </Box>
+              <Image
+                src={logos_bitcoin}
+                style={{ maxWidth: '80px', maxHeight: '80px' }}
+                alt="logo"
+              />
+              <Stack
+                position="absolute"
+                bottom="16px"
+                left="16px"
+                spacing={1}
+                direction="row"
+                display="none"
+                zIndex={1000}
+              >
+                <Button variant="outlined" size="small" style={{}}>
+                  SVG
+                </Button>
+                <Button variant="outlined" size="small">
+                  3.5K
+                </Button>
+              </Stack>
+            </Box>
+          </Grid>
+          <Grid lg={3} md={4} sm={6} xs={6}>
+            <Box
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              height={200}
+              border="1px solid #EAEBF0"
+              borderRadius="10px"
+              boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
+            >
+              xs=4
+            </Box>
+          </Grid>
+          <Grid lg={3} md={4} sm={6} xs={6}>
+            <Box
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              height={200}
+              border="1px solid #EAEBF0"
+              borderRadius="10px"
+              boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
+            >
+              xs=4
+            </Box>
+          </Grid>
+          <Grid lg={3} md={4} sm={6} xs={6}>
+            <Box
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              height={200}
+              border="1px solid #EAEBF0"
+              borderRadius="10px"
+              boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
+            >
+              xs=8
+            </Box>
+          </Grid>
+          <Grid lg={3} md={4} sm={6} xs={6}>
+            <Box
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              height={200}
+              border="1px solid #EAEBF0"
+              borderRadius="10px"
+              boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
+            >
+              xs=8
+            </Box>
+          </Grid>
+        </Grid>
+      </Box>
+    </Box>
   )
 }
