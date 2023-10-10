@@ -1,13 +1,22 @@
-import { Box, Button, Input, InputAdornment, Stack } from '@mui/material'
+import {
+  Box,
+  Button,
+  Input,
+  InputAdornment,
+  Stack,
+  Typography,
+} from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
 import Image from 'next/image'
 import logo from '@/public/images/logo.svg'
 import logos_bitcoin from '@/public/images/logos_bitcoin.svg'
+import empty from '@/public/images/empty.svg'
+import Link from 'next/link'
 import 'css-init'
 
 export default function Home() {
   return (
-    <Box padding="0 80px">
+    <Box>
       <Box
         paddingTop="132px"
         display="flex"
@@ -115,56 +124,58 @@ export default function Home() {
       <Box>
         <Grid container spacing={3}>
           <Grid lg={3} md={4} sm={6} xs={6}>
-            <Box
-              position="relative"
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-              height={200}
-              border="1px solid #EAEBF0"
-              borderRadius="10px"
-              boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
-              style={{ cursor: 'pointer' }}
-              sx={{
-                '&:hover': {
-                  boxShadow: '0px 4px 30px 0px rgba(16, 24, 40, 0.05)',
-                  '& div': {
-                    display: 'block',
+            <Link href="/detail/etherscan">
+              <Box
+                position="relative"
+                display="flex"
+                justifyContent="center"
+                alignItems="center"
+                height={200}
+                border="1px solid #EAEBF0"
+                borderRadius="10px"
+                boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
+                style={{ cursor: 'pointer' }}
+                sx={{
+                  '&:hover': {
+                    boxShadow: '0px 4px 30px 0px rgba(16, 24, 40, 0.05)',
+                    '& div': {
+                      display: 'block',
+                    },
+                    '& button': {
+                      padding: '0 8px',
+                      color: '#A5B1C2',
+                      borderRadius: '2px',
+                      border: '1px solid #F5F5F5',
+                    },
                   },
-                  '& button': {
-                    padding: '0 8px',
-                    color: '#A5B1C2',
-                    borderRadius: '2px',
-                    border: '1px solid #F5F5F5',
-                  },
-                },
-              }}
-            >
-              <Box position="absolute" left="20px" top="20px" display="none">
-                Etherscan
-              </Box>
-              <Image
-                src={logos_bitcoin}
-                style={{ maxWidth: '80px', maxHeight: '80px' }}
-                alt="logo"
-              />
-              <Stack
-                position="absolute"
-                bottom="16px"
-                left="16px"
-                spacing={1}
-                direction="row"
-                display="none"
-                zIndex={1000}
+                }}
               >
-                <Button variant="outlined" size="small" style={{}}>
-                  SVG
-                </Button>
-                <Button variant="outlined" size="small">
-                  3.5K
-                </Button>
-              </Stack>
-            </Box>
+                <Box position="absolute" left="20px" top="20px" display="none">
+                  Etherscan
+                </Box>
+                <Image
+                  src={logos_bitcoin}
+                  style={{ maxWidth: '80px', maxHeight: '80px' }}
+                  alt="logo"
+                />
+                <Stack
+                  position="absolute"
+                  bottom="16px"
+                  left="16px"
+                  spacing={1}
+                  direction="row"
+                  display="none"
+                  zIndex={1000}
+                >
+                  <Button variant="outlined" size="small" style={{}}>
+                    SVG
+                  </Button>
+                  <Button variant="outlined" size="small">
+                    3.5K
+                  </Button>
+                </Stack>
+              </Box>
+            </Link>
           </Grid>
           <Grid lg={3} md={4} sm={6} xs={6}>
             <Box
@@ -219,6 +230,52 @@ export default function Home() {
             </Box>
           </Grid>
         </Grid>
+      </Box>
+
+      {/* ====== empty */}
+      <Box textAlign="center" marginTop="124px">
+        <Image
+          src={empty}
+          alt="empty"
+          style={{ margin: 'auto', width: '60px', height: '60px' }}
+        />
+        <Typography
+          component="h1"
+          fontSize="28px"
+          fontWeight="600"
+          marginTop="24px"
+        >
+          No logos related to &quot;
+          <Typography
+            component="span"
+            color="#0D5FFF"
+            fontSize="28px"
+            fontWeight="600"
+          >
+            gitcoin
+          </Typography>
+          &quot; were found
+        </Typography>
+        <Typography
+          component="p"
+          fontSize="16px"
+          fontWeight={500}
+          color="#5F6D7E"
+          marginBottom="24px"
+        >
+          Upload a Web3logo, Earn LXDAO Points
+        </Typography>
+        <Button
+          variant="contained"
+          style={{
+            padding: '12px 18px',
+            background: '#000',
+            borderRadius: 100,
+            boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+          }}
+        >
+          Upload gitcoin logo
+        </Button>
       </Box>
     </Box>
   )
