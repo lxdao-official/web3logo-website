@@ -90,10 +90,7 @@ function Upload() {
       logoName: '',
       logoType: '',
       website: '',
-      files: [
-        ,
-        'https:/nftstorage.link/ipfs/bafkreiauxrwcagu2w3knv2l5t4ax45vom7t3ibsfqtgy7sima3aoucqzva',
-      ],
+      files: [],
       agree: false,
     },
   })

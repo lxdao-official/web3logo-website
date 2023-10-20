@@ -31,6 +31,7 @@
     "@lxdao/uploader3-connector": "^1.0.1",
     "@mui/icons-material": "^5.14.11",
     "@mui/material": "^5.14.11",
+    "@rainbow-me/rainbowkit": "^1.1.2",
     "@types/node": "20.7.0",
     "@types/react": "18.2.23",
     "@types/react-dom": "18.2.7",
@@ -44,7 +45,9 @@
     "react-dom": "18.2.0",
     "react-hook-form": "^7.47.0",
     "styled-components": "^6.0.8",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "viem": "^1.16.6",
+    "wagmi": "^1.4.4"
   },
   "devDependencies": {
     "eslint-config-prettier": "^9.0.0",
