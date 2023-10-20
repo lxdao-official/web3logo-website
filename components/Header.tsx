@@ -2,6 +2,7 @@ import { Box, Button } from '@mui/material'
 import Image from 'next/image'
 import logo from '@/public/images/logo.svg'
 import Link from 'next/link'
+import { ConnectButton } from '@rainbow-me/rainbowkit'
 
 function Header() {
   return (
@@ -19,7 +20,7 @@ function Header() {
         <Link href="/">
           <Image src={logo} style={{ width: 130 }} alt="web3logo" />
         </Link>
-        <Button>upload web3 logo</Button>
+        <ConnectButton />
       </Box>
     </>
   )
