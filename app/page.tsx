@@ -1,3 +1,4 @@
+'use client'
 import {
   Box,
   Button,
@@ -7,14 +8,47 @@ import {
   Typography,
 } from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
-import Image from 'next/image'
-import logo from '@/public/images/logo.svg'
-import logos_bitcoin from '@/public/images/logos_bitcoin.svg'
 import empty from '@/public/images/empty.svg'
 import Link from 'next/link'
 import 'css-init'
+import API from '@/utils/API'
+import { useEffect, useRef, useState } from 'react'
+import { useQuery } from '@tanstack/react-query'
+import Image from 'next/image'
 
 export default function Home() {
+  const [inputValue, setInputValue] = useState('')
+  const [logoNamesList, setLogoNamesList] = useState<LogoName[]>([])
+  const inputRef = useRef<HTMLInputElement>(null)
+  const pageInfo = useRef<{ page: number; size: number }>({ page: 0, size: 10 })
+  const { data, isError, isSuccess, isLoading } = useQuery<FindLogoName>({
+    queryKey: ['FindLogoNameByPage', inputValue, pageInfo],
+    queryFn: () =>
+      API.get(`/logos/findLogoName`, {
+        params: {
+          key: inputValue,
+          page: pageInfo.current.page,
+          size: pageInfo.current.size,
+        },
+      }),
+  })
+
+  useEffect(() => {
+    console.log(data)
+    if (isError) {
+      setLogoNamesList([])
+    }
+    if (pageInfo.current.page === 0) {
+      setLogoNamesList(data?.data || [])
+    } else {
+      setLogoNamesList([...logoNamesList, ...(data?.data || [])])
+    }
+  }, [data])
+
+  const handleSearch = () => {
+    setInputValue(inputRef.current?.value || '')
+  }
+
   return (
     <Box>
       <Box
@@ -24,8 +58,9 @@ export default function Home() {
         alignItems="center"
         flexDirection="column"
       >
-        <Image
-          src={logo}
+        <Box
+          component="img"
+          src="/images/logo.svg"
           style={{ width: 349, marginBottom: 64 }}
           alt="web3logo"
         />
@@ -40,6 +75,7 @@ export default function Home() {
           }}
         >
           <Input
+            inputRef={inputRef}
             style={{ width: '100%', height: '100%', margin: 'auto' }}
             disableUnderline={true}
             placeholder="Search web3 logo..."
@@ -79,6 +115,7 @@ export default function Home() {
                   borderRadius: 100,
                   boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
                 }}
+                onClick={handleSearch}
               >
                 Search
               </Button>
@@ -121,162 +158,124 @@ export default function Home() {
           DAO
         </Button>
       </Box>
+
       <Box>
         <Grid container spacing={3}>
-          <Grid lg={3} md={4} sm={6} xs={6}>
-            <Link href="/detail/etherscan">
-              <Box
-                position="relative"
-                display="flex"
-                justifyContent="center"
-                alignItems="center"
-                height={200}
-                border="1px solid #EAEBF0"
-                borderRadius="10px"
-                boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
-                style={{ cursor: 'pointer' }}
-                sx={{
-                  '&:hover': {
-                    boxShadow: '0px 4px 30px 0px rgba(16, 24, 40, 0.05)',
-                    '& div': {
-                      display: 'block',
-                    },
-                    '& button': {
-                      padding: '0 8px',
-                      color: '#A5B1C2',
-                      borderRadius: '2px',
-                      border: '1px solid #F5F5F5',
-                    },
-                  },
-                }}
-              >
-                <Box position="absolute" left="20px" top="20px" display="none">
-                  Etherscan
-                </Box>
-                <Image
-                  src={logos_bitcoin}
-                  style={{ maxWidth: '80px', maxHeight: '80px' }}
-                  alt="logo"
-                />
-                <Stack
-                  position="absolute"
-                  bottom="16px"
-                  left="16px"
-                  spacing={1}
-                  direction="row"
-                  display="none"
-                  zIndex={1000}
-                >
-                  <Button variant="outlined" size="small" style={{}}>
-                    SVG
-                  </Button>
-                  <Button variant="outlined" size="small">
-                    3.5K
-                  </Button>
-                </Stack>
-              </Box>
-            </Link>
-          </Grid>
-          <Grid lg={3} md={4} sm={6} xs={6}>
-            <Box
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-              height={200}
-              border="1px solid #EAEBF0"
-              borderRadius="10px"
-              boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
-            >
-              xs=4
-            </Box>
-          </Grid>
-          <Grid lg={3} md={4} sm={6} xs={6}>
-            <Box
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-              height={200}
-              border="1px solid #EAEBF0"
-              borderRadius="10px"
-              boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
-            >
-              xs=4
-            </Box>
-          </Grid>
-          <Grid lg={3} md={4} sm={6} xs={6}>
-            <Box
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-              height={200}
-              border="1px solid #EAEBF0"
-              borderRadius="10px"
-              boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
-            >
-              xs=8
-            </Box>
-          </Grid>
-          <Grid lg={3} md={4} sm={6} xs={6}>
-            <Box
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-              height={200}
-              border="1px solid #EAEBF0"
-              borderRadius="10px"
-              boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
-            >
-              xs=8
-            </Box>
-          </Grid>
+          {logoNamesList &&
+            logoNamesList.map((item, index) => (
+              <Grid lg={3} md={4} sm={6} xs={6} key={index}>
+                <Link href={`/detail/${item.logoName}`}>
+                  <Box
+                    position="relative"
+                    display="flex"
+                    justifyContent="center"
+                    alignItems="center"
+                    height={200}
+                    border="1px solid #EAEBF0"
+                    borderRadius="10px"
+                    boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
+                    style={{ cursor: 'pointer' }}
+                    sx={{
+                      '&:hover': {
+                        boxShadow: '0px 4px 30px 0px rgba(16, 24, 40, 0.05)',
+                        '& div': {
+                          display: 'block',
+                        },
+                        '& button': {
+                          padding: '0 8px',
+                          color: '#A5B1C2',
+                          borderRadius: '2px',
+                          border: '1px solid #F5F5F5',
+                        },
+                      },
+                    }}
+                  >
+                    <Box
+                      position="absolute"
+                      left="20px"
+                      top="20px"
+                      display="none"
+                    >
+                      {item.logoName}
+                    </Box>
+                    <Box
+                      component="img"
+                      src={item.logo.length > 0 ? item.logo[0].file : ''}
+                      style={{ maxWidth: '80px', maxHeight: '80px' }}
+                      alt="logo"
+                    />
+                    <Stack
+                      position="absolute"
+                      bottom="16px"
+                      left="16px"
+                      spacing={1}
+                      direction="row"
+                      display="none"
+                      zIndex={1000}
+                    >
+                      <Button variant="outlined" size="small">
+                        SVG
+                      </Button>
+                      <Button variant="outlined" size="small">
+                        {item.logo[0].downloadNum > 1000
+                          ? (item.logo[0].downloadNum / 1000).toFixed(1) + 'K'
+                          : item.logo[0].downloadNum}
+                      </Button>
+                    </Stack>
+                  </Box>
+                </Link>
+              </Grid>
+            ))}
         </Grid>
       </Box>
 
       {/* ====== empty */}
-      <Box textAlign="center" marginTop="124px">
-        <Image
-          src={empty}
-          alt="empty"
-          style={{ margin: 'auto', width: '60px', height: '60px' }}
-        />
-        <Typography
-          component="h1"
-          fontSize="28px"
-          fontWeight="600"
-          marginTop="24px"
-        >
-          No logos related to &quot;
+      {isError || logoNamesList.length == 0 ? (
+        <Box textAlign="center" marginTop="124px">
+          <Image
+            src={empty}
+            alt="empty"
+            style={{ margin: 'auto', width: '60px', height: '60px' }}
+          />
           <Typography
-            component="span"
-            color="#0D5FFF"
+            component="h1"
             fontSize="28px"
             fontWeight="600"
+            marginTop="24px"
           >
-            gitcoin
+            No logos related to &quot;
+            <Typography
+              component="span"
+              color="#0D5FFF"
+              fontSize="28px"
+              fontWeight="600"
+            >
+              gitcoin
+            </Typography>
+            &quot; were found
           </Typography>
-          &quot; were found
-        </Typography>
-        <Typography
-          component="p"
-          fontSize="16px"
-          fontWeight={500}
-          color="#5F6D7E"
-          marginBottom="24px"
-        >
-          Upload a Web3logo, Earn LXDAO Points
-        </Typography>
-        <Button
-          variant="contained"
-          style={{
-            padding: '12px 18px',
-            background: '#000',
-            borderRadius: 100,
-            boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
-          }}
-        >
-          Upload gitcoin logo
-        </Button>
-      </Box>
+          <Typography
+            component="p"
+            fontSize="16px"
+            fontWeight={500}
+            color="#5F6D7E"
+            marginBottom="24px"
+          >
+            Upload a Web3logo, Earn LXDAO Points
+          </Typography>
+          <Button
+            variant="contained"
+            style={{
+              padding: '12px 18px',
+              background: '#000',
+              borderRadius: 100,
+              boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+            }}
+          >
+            Upload gitcoin logo
+          </Button>
+        </Box>
+      ) : null}
     </Box>
   )
 }

@@ -224,7 +224,7 @@ function DetailPage(props: { params: { type: string } }) {
           component="h2"
           fontSize="16px"
           lineHeight="30px"
-          color="##272D37"
+          color="#272D37"
           marginBottom="24px"
         >
           Same type
