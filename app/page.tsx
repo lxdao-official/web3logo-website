@@ -15,14 +15,21 @@ import API from '@/utils/API'
 import { useEffect, useRef, useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import Image from 'next/image'
+import InfiniteScroll from 'react-infinite-scroll-component'
 
 export default function Home() {
   const [inputValue, setInputValue] = useState('')
+  const [hasMore, setHasMore] = useState(true)
   const [logoNamesList, setLogoNamesList] = useState<LogoName[]>([])
   const inputRef = useRef<HTMLInputElement>(null)
-  const pageInfo = useRef<{ page: number; size: number }>({ page: 0, size: 10 })
+  const pageInfo = useRef<{ page: number; size: number }>({ page: 0, size: 20 })
   const { data, isError, isSuccess, isLoading } = useQuery<FindLogoName>({
-    queryKey: ['FindLogoNameByPage', inputValue, pageInfo],
+    queryKey: [
+      'FindLogoNameByPage',
+      inputValue,
+      pageInfo.current.page,
+      pageInfo.current.size,
+    ],
     queryFn: () =>
       API.get(`/logos/findLogoName`, {
         params: {
@@ -34,9 +41,11 @@ export default function Home() {
   })
 
   useEffect(() => {
-    console.log(data)
     if (isError) {
       setLogoNamesList([])
+    }
+    if (isSuccess && data.data.length < pageInfo.current.size) {
+      setHasMore(false)
     }
     if (pageInfo.current.page === 0) {
       setLogoNamesList(data?.data || [])
@@ -45,8 +54,21 @@ export default function Home() {
     }
   }, [data])
 
+  const initSearchParam = () => {
+    setHasMore(true)
+    setLogoNamesList([])
+    pageInfo.current.page = 0
+  }
+
   const handleSearch = () => {
+    initSearchParam()
     setInputValue(inputRef.current?.value || '')
+  }
+
+  const fetchMoreData = () => {
+    if (hasMore && isSuccess) {
+      pageInfo.current.page += 1
+    }
   }
 
   return (
@@ -159,75 +181,100 @@ export default function Home() {
         </Button>
       </Box>
 
-      <Box>
-        <Grid container spacing={3}>
-          {logoNamesList &&
-            logoNamesList.map((item, index) => (
-              <Grid lg={3} md={4} sm={6} xs={6} key={index}>
-                <Link href={`/detail/${item.logoName}`}>
-                  <Box
-                    position="relative"
-                    display="flex"
-                    justifyContent="center"
-                    alignItems="center"
-                    height={200}
-                    border="1px solid #EAEBF0"
-                    borderRadius="10px"
-                    boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
-                    style={{ cursor: 'pointer' }}
-                    sx={{
-                      '&:hover': {
-                        boxShadow: '0px 4px 30px 0px rgba(16, 24, 40, 0.05)',
-                        '& div': {
-                          display: 'block',
-                        },
-                        '& button': {
-                          padding: '0 8px',
-                          color: '#A5B1C2',
-                          borderRadius: '2px',
-                          border: '1px solid #F5F5F5',
-                        },
-                      },
-                    }}
-                  >
+      <InfiniteScroll
+        dataLength={logoNamesList.length}
+        next={fetchMoreData}
+        hasMore={hasMore}
+        loader={
+          <Typography
+            component="p"
+            textAlign="center"
+            display={isLoading ? 'block' : 'none'}
+          >
+            Loading...
+          </Typography>
+        }
+        endMessage={
+          <Typography component="p" textAlign="center" marginTop="24px">
+            No more data
+          </Typography>
+        }
+      >
+        <Box>
+          <Grid container spacing={3}>
+            {logoNamesList &&
+              logoNamesList.map((item, index) => (
+                <Grid lg={3} md={4} sm={6} xs={6} key={index}>
+                  <Link href={`/detail/${item.logoName}`}>
                     <Box
-                      position="absolute"
-                      left="20px"
-                      top="20px"
-                      display="none"
+                      position="relative"
+                      display="flex"
+                      justifyContent="center"
+                      alignItems="center"
+                      height={200}
+                      border="1px solid #EAEBF0"
+                      borderRadius="10px"
+                      boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
+                      style={{ cursor: 'pointer' }}
+                      sx={{
+                        '&:hover': {
+                          boxShadow: '0px 4px 30px 0px rgba(16, 24, 40, 0.05)',
+                          '& div': {
+                            display: 'block',
+                          },
+                          '& button': {
+                            padding: '0 8px',
+                            color: '#A5B1C2',
+                            borderRadius: '2px',
+                            border: '1px solid #F5F5F5',
+                          },
+                        },
+                      }}
                     >
-                      {item.logoName}
+                      <Box
+                        position="absolute"
+                        left="20px"
+                        top="20px"
+                        display="none"
+                      >
+                        {item.logoName}
+                      </Box>
+                      {item.logo[0] && (
+                        <>
+                          <Box
+                            component="img"
+                            src={item.logo[0].file}
+                            style={{ maxWidth: '80px', maxHeight: '80px' }}
+                            alt="logo"
+                          />
+                          <Stack
+                            position="absolute"
+                            bottom="16px"
+                            left="16px"
+                            spacing={1}
+                            direction="row"
+                            display="none"
+                            zIndex={1000}
+                          >
+                            <Button variant="outlined" size="small">
+                              SVG
+                            </Button>
+                            <Button variant="outlined" size="small">
+                              {item.logo[0].downloadNum > 1000
+                                ? (item.logo[0].downloadNum / 1000).toFixed(1) +
+                                  'K'
+                                : item.logo[0].downloadNum}
+                            </Button>
+                          </Stack>
+                        </>
+                      )}
                     </Box>
-                    <Box
-                      component="img"
-                      src={item.logo.length > 0 ? item.logo[0].file : ''}
-                      style={{ maxWidth: '80px', maxHeight: '80px' }}
-                      alt="logo"
-                    />
-                    <Stack
-                      position="absolute"
-                      bottom="16px"
-                      left="16px"
-                      spacing={1}
-                      direction="row"
-                      display="none"
-                      zIndex={1000}
-                    >
-                      <Button variant="outlined" size="small">
-                        SVG
-                      </Button>
-                      <Button variant="outlined" size="small">
-                        {item.logo[0].downloadNum > 1000
-                          ? (item.logo[0].downloadNum / 1000).toFixed(1) + 'K'
-                          : item.logo[0].downloadNum}
-                      </Button>
-                    </Stack>
-                  </Box>
-                </Link>
-              </Grid>
-            ))}
-        </Grid>
-      </Box>
+                  </Link>
+                </Grid>
+              ))}
+          </Grid>
+        </Box>
+      </InfiniteScroll>
 
       {/* ====== empty */}
       {isError || logoNamesList.length == 0 ? (
