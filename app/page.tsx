@@ -16,6 +16,7 @@ import { useEffect, useRef, useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import Image from 'next/image'
 import InfiniteScroll from 'react-infinite-scroll-component'
+import { formatNumWithK } from '@/utils'
 
 export default function Home() {
   const [inputValue, setInputValue] = useState('')
@@ -205,7 +206,7 @@ export default function Home() {
             {logoNamesList &&
               logoNamesList.map((item, index) => (
                 <Grid lg={3} md={4} sm={6} xs={6} key={index}>
-                  <Link href={`/detail/${item.logoName}`}>
+                  <Link href={`/detail/${item.id}`}>
                     <Box
                       position="relative"
                       display="flex"
@@ -260,10 +261,7 @@ export default function Home() {
                               SVG
                             </Button>
                             <Button variant="outlined" size="small">
-                              {item.logo[0].downloadNum > 1000
-                                ? (item.logo[0].downloadNum / 1000).toFixed(1) +
-                                  'K'
-                                : item.logo[0].downloadNum}
+                              {formatNumWithK(item.logo[0].downloadNum)}
                             </Button>
                           </Stack>
                         </>

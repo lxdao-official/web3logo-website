@@ -10,8 +10,9 @@ import { configureChains, createConfig, WagmiConfig } from 'wagmi'
 import { mainnet, polygon, optimism, arbitrum, base, zora } from 'wagmi/chains'
 import { alchemyProvider } from 'wagmi/providers/alchemy'
 import { publicProvider } from 'wagmi/providers/public'
-
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const queryClient = new QueryClient()
 
@@ -60,6 +61,7 @@ export default function RootLayout({
             </RainbowKitProvider>
           </WagmiConfig>
         </QueryClientProvider>
+        <ToastContainer />
       </body>
     </html>
   )
