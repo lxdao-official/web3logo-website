@@ -15,14 +15,11 @@ import { Uploader3 } from '@lxdao/uploader3'
 import { createConnector } from '@lxdao/uploader3-connector'
 import Image from 'next/image'
 import { useState } from 'react'
-
-type Inputs = {
-  logoName: string
-  logoType: string
-  website: string
-  files: string[]
-  agree: boolean
-}
+import { logoTypeConfig } from '@/config'
+import { useMutation, useQueryClient } from '@tanstack/react-query'
+import API from '@/utils/API'
+import { toast } from 'react-toastify'
+import { useAccount } from 'wagmi'
 
 const FormInput = styled.input`
   font-size: 16px;
@@ -35,7 +32,7 @@ const FormInput = styled.input`
   margin-top: 20px;
 `
 
-const ImageBox = styled.div`
+export const ImageBox = styled.div`
   position: relative;
   border: 1px solid #d0d5dd;
   width: 160px;
@@ -85,7 +82,8 @@ function Upload() {
     handleSubmit,
     control,
     formState: { errors },
-  } = useForm<Inputs>({
+    reset,
+  } = useForm<uploadInputs>({
     defaultValues: {
       logoName: '',
       logoType: '',
@@ -95,12 +93,34 @@ function Upload() {
     },
   })
 
+  const { address } = useAccount()
+
   const [loading1, setLoading1] = useState(false)
   const [loading2, setLoading2] = useState(false)
 
-  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data)
+  const submitMutation = useMutation({
+    mutationKey: ['submitMutation'],
+    mutationFn: (info: uploadInputs) =>
+      API.post('/logos', { ...info, authorAddress: address }),
+    onError: (error) => toast.error(error.message),
+    onSuccess: (success) => {
+      toast.success('Submit successful')
+      reset()
+    },
+  })
 
-  console.log('errors', errors)
+  const onSubmit: SubmitHandler<uploadInputs> = (data) => {
+    if (!address) {
+      return toast.info('please connect wallet')
+    }
+    if (data.files[0]) {
+      data.files[0].fileName = `${data.logoName}-white`
+    }
+    if (data.files[1]) {
+      data.files[1].fileName = `${data.logoName}-dark`
+    }
+    submitMutation.mutate(data)
+  }
 
   return (
     <>
@@ -176,9 +196,11 @@ function Upload() {
                     textAlign: 'left',
                   }}
                 >
-                  <MenuItem value={10}>Ten</MenuItem>
-                  <MenuItem value={20}>Twenty</MenuItem>
-                  <MenuItem value={30}>Thirty</MenuItem>
+                  {logoTypeConfig.map((type) => (
+                    <MenuItem key={type} value={type}>
+                      {type}
+                    </MenuItem>
+                  ))}
                 </Select>
               )}
             />
@@ -224,12 +246,16 @@ function Upload() {
                     <Uploader3
                       connector={connector}
                       onUpload={(result) => {
+                        value[0] = undefined
                         setLoading1(true)
                       }}
                       onComplete={(result) => {
                         console.log(result)
                         if (result.status === 'done') {
-                          value[0] = result.url
+                          value[0] = {
+                            file: result.url,
+                            fileType: result.type.split('/')[1],
+                          }
                           onChange(value)
                         }
                         setLoading1(false)
@@ -237,7 +263,7 @@ function Upload() {
                     >
                       {value[0] ? (
                         <Image
-                          src={value[0]}
+                          src={value[0]?.file}
                           alt="logo"
                           width={160}
                           height={160}
@@ -291,11 +317,15 @@ function Upload() {
                     <Uploader3
                       connector={connector}
                       onUpload={(result) => {
+                        value[1] = undefined
                         setLoading2(true)
                       }}
                       onComplete={(result) => {
                         if (result.status === 'done') {
-                          value[1] = result.url
+                          value[1] = {
+                            file: result.url,
+                            fileType: result.type.split('/')[1],
+                          }
                           onChange(value)
                         }
                         setLoading2(false)
@@ -303,7 +333,7 @@ function Upload() {
                     >
                       {value[1] ? (
                         <Image
-                          src={value[1]}
+                          src={value[1]?.file}
                           alt="logo"
                           width={160}
                           height={160}

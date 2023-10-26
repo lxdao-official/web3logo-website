@@ -1,5 +1,18 @@
 'use client'
-import { Box, Breadcrumbs, Typography, Button, Stack } from '@mui/material'
+import {
+  Box,
+  Breadcrumbs,
+  Typography,
+  Button,
+  Stack,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  TextField,
+  DialogContentText,
+  DialogActions,
+  CircularProgress,
+} from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
 import Image from 'next/image'
 import logos_bitcoin from '@/public/images/logos_bitcoin.svg'
@@ -10,11 +23,14 @@ import download_grey from '@/public/images/download_grey.svg'
 import upload from '@/public/images/upload.png'
 import API from '@/utils/API'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
-import { useEffect } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { formatNumWithK, formateAddress } from '@/utils'
 import Link from 'next/link'
 import { useAccount } from 'wagmi'
 import { toast } from 'react-toastify'
+import { Uploader3 } from '@lxdao/uploader3'
+import { createConnector } from '@lxdao/uploader3-connector'
+import { ImageBox } from '@/app/upload/page'
 
 function DetailPage(props: { params: { id: string } }) {
   const {
@@ -22,20 +38,27 @@ function DetailPage(props: { params: { id: string } }) {
   } = props
 
   const queryClient = useQueryClient()
-
+  const [open, setOpen] = useState(false)
+  const [hasAddress, setHasAddress] = useState(false)
   const { address } = useAccount()
+  const inputRef = useRef<HTMLInputElement>(null)
+  const [fileInfo, setFileInfo] = useState<FileObject | false>(false)
+  const [loading, setLoading] = useState(false)
+  const connector = createConnector('NFT.storage', {
+    token: process.env.NEXT_PUBLIC_NFT_STORAGE_KEY || '',
+  })
 
-  const { data, isError, isSuccess } = useQuery<LogoNameDetail>({
+  const { data, isError } = useQuery<LogoNameDetail>({
     queryKey: ['queryDetail', id, address],
     queryFn: () =>
       API.get(`/logos/findLogoName/${id}`, { params: { address } }),
   })
-  const { data: otherData } = useQuery<FindLogoName>({
-    queryKey: ['FindLogoNameByPage', data?.logoName],
+  const { data: otherData, isSuccess } = useQuery<FindLogoName>({
+    queryKey: ['FindLogoNameByPage', data?.logoType],
     queryFn: () =>
       API.get(`/logos/findLogoName`, {
         params: {
-          key: data?.logoName,
+          logoType: data?.logoType,
           page: 0,
           size: 100,
         },
@@ -45,6 +68,10 @@ function DetailPage(props: { params: { id: string } }) {
       return { ...otherData, data: newData }
     },
   })
+
+  useEffect(() => {
+    setHasAddress(!!address)
+  }, [address])
 
   const downloadImg = async ({ id, name }: { id: number; name: string }) => {
     const response = await API.get(`/logos/downloadLogo/${id}`, {
@@ -91,6 +118,18 @@ function DetailPage(props: { params: { id: string } }) {
     },
   })
 
+  const submitMutation = useMutation({
+    mutationKey: ['submitMutation'],
+    mutationFn: (
+      info: FileObject & { authorAddress: string; logoNameId: number }
+    ) => API.post('/logos/onlyUploadFile', { ...info, authorAddress: address }),
+    onError: (error) => toast.error(error.message),
+    onSuccess: (success) => {
+      toast.success('Submit successful')
+      handleClose()
+    },
+  })
+
   const handleFavorite = async (
     id: number,
     isFavorite: boolean | undefined,
@@ -105,6 +144,25 @@ function DetailPage(props: { params: { id: string } }) {
     } else {
       saveFavoriteMutation.mutate({ id, address })
     }
+  }
+
+  const handleClose = () => {
+    setOpen(false)
+    inputRef.current!.value = ''
+    setFileInfo(false)
+  }
+
+  const handleSubmit = () => {
+    if (loading) return
+    if (!inputRef.current?.value) return toast.info('please input file name')
+    if (!fileInfo) return toast.info('please upload logo')
+    const info: FileObject & { authorAddress: string; logoNameId: number } = {
+      ...fileInfo,
+      fileName: inputRef.current!.value,
+      authorAddress: address || '',
+      logoNameId: data?.id as number,
+    }
+    submitMutation.mutate(info)
   }
 
   return (
@@ -154,7 +212,7 @@ function DetailPage(props: { params: { id: string } }) {
                     '&:hover': {
                       boxShadow: '0px 4px 30px 0px rgba(16, 24, 40, 0.05)',
                       '& div': {
-                        display: 'block',
+                        display: 'flex',
                       },
                       '& button': {
                         padding: '0 8px',
@@ -171,7 +229,7 @@ function DetailPage(props: { params: { id: string } }) {
                     top="20px"
                     display="none"
                   >
-                    {data?.logoName}
+                    {logo.fileName}
                   </Box>
                   <Typography
                     component="img"
@@ -193,7 +251,7 @@ function DetailPage(props: { params: { id: string } }) {
                       size="small"
                       style={{ minWidth: '40px' }}
                     >
-                      SVG
+                      {logo.fileType}
                     </Button>
                     <Button
                       variant="outlined"
@@ -297,12 +355,10 @@ function DetailPage(props: { params: { id: string } }) {
               </Grid>
             ))}
 
-          <Grid lg={3} md={4} sm={6} xs={6}>
-            <Link
-              href="/upload"
-              style={{ textDecoration: 'none', color: '#000' }}
-            >
+          {hasAddress && (
+            <Grid lg={3} md={4} sm={6} xs={6}>
               <Box
+                onClick={() => setOpen(true)}
                 position="relative"
                 display="flex"
                 justifyContent="center"
@@ -332,8 +388,8 @@ function DetailPage(props: { params: { id: string } }) {
                   Upload
                 </Typography>
               </Box>
-            </Link>
-          </Grid>
+            </Grid>
+          )}
         </Grid>
       </Box>
       <Box marginTop="48px" borderTop="1px solid #EAEBF0" paddingTop="12px">
@@ -352,90 +408,173 @@ function DetailPage(props: { params: { id: string } }) {
           </Link>{' '}
           .
         </Typography>
-        <Typography
-          component="h2"
-          fontSize="16px"
-          lineHeight="30px"
-          color="#272D37"
-          marginBottom="24px"
-        >
-          Same type
-        </Typography>
-        <Box>
-          <Grid container spacing={3}>
-            {otherData?.data &&
-              otherData?.data.length > 0 &&
-              otherData?.data.map((item) => (
-                <Grid lg={3} md={4} sm={6} xs={6} key={item.id}>
-                  <Link
-                    href={`/detail/${item.id}`}
-                    style={{ textDecoration: 'none', color: '#000' }}
-                  >
-                    <Box
-                      position="relative"
-                      display="flex"
-                      justifyContent="center"
-                      alignItems="center"
-                      height={200}
-                      border="1px solid #EAEBF0"
-                      borderRadius="10px"
-                      boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
-                      style={{ cursor: 'pointer' }}
-                      sx={{
-                        '&:hover': {
-                          boxShadow: '0px 4px 30px 0px rgba(16, 24, 40, 0.05)',
-                          '& div': {
-                            display: 'block',
-                          },
-                          '& button': {
-                            padding: '0 8px',
-                            color: '#A5B1C2',
-                            borderRadius: '2px',
-                            border: '1px solid #F5F5F5',
-                          },
-                        },
-                      }}
+        {otherData?.data && otherData?.data.length > 0 ? (
+          <Box>
+            <Typography
+              component="h2"
+              fontSize="16px"
+              lineHeight="30px"
+              color="#272D37"
+              marginBottom="24px"
+            >
+              Same type
+            </Typography>
+            <Box>
+              <Grid container spacing={3}>
+                {otherData?.data.map((item) => (
+                  <Grid lg={3} md={4} sm={6} xs={6} key={item.id}>
+                    <Link
+                      href={`/detail/${item.id}`}
+                      style={{ textDecoration: 'none', color: '#000' }}
                     >
                       <Box
-                        position="absolute"
-                        left="20px"
-                        top="20px"
-                        display="none"
+                        position="relative"
+                        display="flex"
+                        justifyContent="center"
+                        alignItems="center"
+                        height={200}
+                        border="1px solid #EAEBF0"
+                        borderRadius="10px"
+                        boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
+                        style={{ cursor: 'pointer' }}
+                        sx={{
+                          '&:hover': {
+                            boxShadow:
+                              '0px 4px 30px 0px rgba(16, 24, 40, 0.05)',
+                            '& div': {
+                              display: 'block',
+                            },
+                            '& button': {
+                              padding: '0 8px',
+                              color: '#A5B1C2',
+                              borderRadius: '2px',
+                              border: '1px solid #F5F5F5',
+                            },
+                          },
+                        }}
                       >
-                        {item.logoName}
+                        <Box
+                          position="absolute"
+                          left="20px"
+                          top="20px"
+                          display="none"
+                        >
+                          {item.logoName}
+                        </Box>
+                        {item.logo[0] && (
+                          <>
+                            <Image
+                              src={item.logo[0].file}
+                              style={{ maxWidth: '80px', maxHeight: '80px' }}
+                              alt="logo"
+                            />
+                            <Stack
+                              position="absolute"
+                              bottom="16px"
+                              left="16px"
+                              spacing={1}
+                              direction="row"
+                              display="none"
+                              zIndex={1000}
+                            >
+                              <Button variant="outlined" size="small">
+                                {item.logo[0].fileType}
+                              </Button>
+                              <Button variant="outlined" size="small">
+                                {formatNumWithK(item.logo[0].downloadNum)}
+                              </Button>
+                            </Stack>
+                          </>
+                        )}
                       </Box>
-                      {item.logo[0] && (
-                        <>
-                          <Image
-                            src={item.logo[0].file}
-                            style={{ maxWidth: '80px', maxHeight: '80px' }}
-                            alt="logo"
-                          />
-                          <Stack
-                            position="absolute"
-                            bottom="16px"
-                            left="16px"
-                            spacing={1}
-                            direction="row"
-                            display="none"
-                            zIndex={1000}
-                          >
-                            <Button variant="outlined" size="small">
-                              SVG
-                            </Button>
-                            <Button variant="outlined" size="small">
-                              {formatNumWithK(item.logo[0].downloadNum)}
-                            </Button>
-                          </Stack>
-                        </>
-                      )}
-                    </Box>
-                  </Link>
-                </Grid>
-              ))}
-          </Grid>
-        </Box>
+                    </Link>
+                  </Grid>
+                ))}
+              </Grid>
+            </Box>
+          </Box>
+        ) : null}
       </Box>
+
+      <Dialog open={open} onClose={handleClose}>
+        <DialogTitle>Upload</DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            Please enter the name of the logo
+          </DialogContentText>
+          <TextField
+            inputRef={inputRef}
+            autoFocus
+            margin="dense"
+            id="name"
+            label="logo name"
+            fullWidth
+            variant="standard"
+            sx={{ marginBottom: '24px' }}
+          />
+
+          <Uploader3
+            connector={connector}
+            onUpload={(result) => {
+              setLoading(true)
+              setFileInfo(false)
+            }}
+            onComplete={(result) => {
+              if (result.status === 'done') {
+                setFileInfo({
+                  file: result.url,
+                  fileType: result.type.split('/')[1],
+                })
+              }
+              setLoading(false)
+            }}
+          >
+            {fileInfo ? (
+              <Image
+                src={fileInfo.file}
+                alt="logo"
+                width={160}
+                height={160}
+                style={{
+                  maxWidth: '100%',
+                  maxHeight: '100%',
+                  border: '1px solid #d0d5dd',
+                }}
+              />
+            ) : (
+              <ImageBox>
+                {loading ? (
+                  <CircularProgress
+                    style={{
+                      position: 'absolute',
+                    }}
+                  />
+                ) : (
+                  <>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="36"
+                      height="36"
+                      viewBox="0 0 36 36"
+                      fill="none"
+                    >
+                      <path
+                        d="M16.5 24V11.775L12.6 15.675L10.5 13.5L18 6L25.5 13.5L23.4 15.675L19.5 11.775V24H16.5ZM9 30C8.175 30 7.4685 29.706 6.8805 29.118C6.2925 28.53 5.999 27.824 6 27V22.5H9V27H27V22.5H30V27C30 27.825 29.706 28.5315 29.118 29.1195C28.53 29.7075 27.824 30.001 27 30H9Z"
+                        fill="black"
+                      />
+                    </svg>
+                    logo（.svg）
+                  </>
+                )}
+              </ImageBox>
+            )}
+          </Uploader3>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleClose}>Cancel</Button>
+          <Button onClick={handleSubmit}>Confirm</Button>
+        </DialogActions>
+      </Dialog>
     </Box>
   )
 }

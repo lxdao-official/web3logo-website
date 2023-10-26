@@ -17,6 +17,7 @@ import { useQuery } from '@tanstack/react-query'
 import Image from 'next/image'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { formatNumWithK } from '@/utils'
+import { logoTypeConfig } from '@/config'
 
 export default function Home() {
   const [inputValue, setInputValue] = useState('')
@@ -147,39 +148,20 @@ export default function Home() {
         </Box>
       </Box>
       <Box marginTop="95px" marginBottom="48px">
-        <Button
-          variant="outlined"
-          style={{
-            borderRadius: 100,
-            marginRight: 8,
-            borderColor: '#D0D5DD',
-            color: '#000',
-          }}
-        >
-          DAO
-        </Button>
-        <Button
-          variant="outlined"
-          style={{
-            borderRadius: 100,
-            marginRight: 8,
-            borderColor: '#D0D5DD',
-            color: '#000',
-          }}
-        >
-          DAO
-        </Button>
-        <Button
-          variant="outlined"
-          style={{
-            borderRadius: 100,
-            marginRight: 8,
-            borderColor: '#D0D5DD',
-            color: '#000',
-          }}
-        >
-          DAO
-        </Button>
+        {logoTypeConfig.map((type) => (
+          <Button
+            key={type}
+            variant="outlined"
+            style={{
+              borderRadius: 100,
+              marginRight: 8,
+              borderColor: '#D0D5DD',
+              color: '#000',
+            }}
+          >
+            {type}
+          </Button>
+        ))}
       </Box>
 
       <InfiniteScroll
@@ -196,9 +178,11 @@ export default function Home() {
           </Typography>
         }
         endMessage={
-          <Typography component="p" textAlign="center" marginTop="24px">
-            No more data
-          </Typography>
+          logoNamesList.length > 0 && (
+            <Typography component="p" textAlign="center" marginTop="24px">
+              No more data
+            </Typography>
+          )
         }
       >
         <Box>
