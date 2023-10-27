@@ -1,3 +1,15 @@
+type PersonalDataType = {
+  data: (FavoriteData & Logo)[]
+  code: number
+  message: string
+}
+
+interface FavoriteData {
+  id: number
+  logo: Logo
+  address: string
+}
+
 type uploadInputs = {
   logoName: string
   logoType: string
@@ -52,4 +64,5 @@ interface Logo {
   favoritesNum: number
   isFavorite?: boolean
   favoriteId?: number
+  logoName?: LogoName
 }

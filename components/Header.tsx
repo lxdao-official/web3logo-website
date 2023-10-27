@@ -1,5 +1,5 @@
 'use client'
-import { Box, Button } from '@mui/material'
+import { Avatar, Box, Button } from '@mui/material'
 import Image from 'next/image'
 import logo from '@/public/images/logo.svg'
 import Link from 'next/link'
@@ -14,10 +14,12 @@ function Header() {
   const pathName = usePathname()
   const router = useRouter()
   const [uploadBtnShow, setUploadBtnShow] = useState(true)
+  const [hasAvatar, setHasAvatar] = useState(false)
 
   useEffect(() => {
     const isNotShow = address && pathName === '/upload'
     setUploadBtnShow(!isNotShow)
+    setHasAvatar(!!address)
   }, [pathName, address])
 
   return (
@@ -52,8 +54,19 @@ function Header() {
               Upload Web3Logo
             </Button>
           )}
-
-          <ConnectButton />
+          {hasAvatar && (
+            <Avatar
+              src="/images/oneself.svg"
+              alt="avatar"
+              style={{ marginRight: '12px', cursor: 'pointer' }}
+              onClick={() => router.push('/personal')}
+            />
+          )}
+          <ConnectButton
+            accountStatus="address"
+            chainStatus="none"
+            showBalance={false}
+          />
         </Box>
       </Box>
     </>

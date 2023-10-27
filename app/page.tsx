@@ -221,6 +221,7 @@ export default function Home() {
                         left="20px"
                         top="20px"
                         display="none"
+                        color="#000"
                       >
                         {item.logoName}
                       </Box>
@@ -242,7 +243,7 @@ export default function Home() {
                             zIndex={1000}
                           >
                             <Button variant="outlined" size="small">
-                              SVG
+                              {item.logo[0].fileType}
                             </Button>
                             <Button variant="outlined" size="small">
                               {formatNumWithK(item.logo[0].downloadNum)}
