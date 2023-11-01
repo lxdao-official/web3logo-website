@@ -15,7 +15,7 @@ import {
 } from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
 import Image from 'next/image'
-import heart from '@/public/images/heart.svg'
+import heart_logo from '@/public/images/heart_logo.png'
 import heart_grey from '@/public/images/heart_grey.svg'
 import download from '@/public/images/download.svg'
 import download_grey from '@/public/images/download_grey.svg'
@@ -30,7 +30,15 @@ import { toast } from 'react-toastify'
 import { Uploader3 } from '@lxdao/uploader3'
 import { createConnector } from '@lxdao/uploader3-connector'
 import { ImageBox } from '@/app/upload/page'
-import Heart from 'react-animated-heart'
+import styled from '@emotion/styled'
+import './index.css'
+
+const Heart = styled.div`
+  width: 46px;
+  height: 46px;
+  background-image: url(/images/heart_logo.png);
+  background-repeat: no-repeat;
+`
 
 function DetailPage(props: { params: { id: string } }) {
   const {
@@ -267,34 +275,11 @@ function DetailPage(props: { params: { id: string } }) {
                     right="16px"
                     spacing={1}
                     direction="row"
-                    // display="none"
+                    display="none"
                     zIndex={1000}
                   >
-                    {/* <Image
-                      src={heart}
-                      alt="love"
-                      style={{
-                        backgroundColor: 'rgba(65, 106, 252, 0.05)',
-                        width: '46px',
-                        height: '46px',
-                        padding: '14px',
-                        borderRadius: '50%',
-                      }}
-                      onClick={() =>
-                        handleFavorite(
-                          logo.id,
-                          logo.isFavorite,
-                          logo.favoriteId
-                        )
-                      }
-                    /> */}
                     <Heart
-                      styles={{
-                        width: '80px',
-                        height: '80px',
-                        backgroundPosition: logo.isFavorite ? '-2800px 0' : '',
-                      }}
-                      isClick={!!logo.isFavorite}
+                      className={logo.isFavorite ? 'heart-active' : ''}
                       onClick={() =>
                         handleFavorite(
                           logo.id,
@@ -478,7 +463,8 @@ function DetailPage(props: { params: { id: string } }) {
                         </Box>
                         {item.logo[0] && (
                           <>
-                            <Image
+                            <Typography
+                              component="img"
                               src={item.logo[0].file}
                               style={{ maxWidth: '80px', maxHeight: '80px' }}
                               alt="logo"

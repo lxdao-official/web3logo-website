@@ -20,7 +20,18 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import API from '@/utils/API'
 import { useRouter } from 'next/navigation'
 import { toast } from 'react-toastify'
-import Heart from 'react-animated-heart'
+import styled from '@emotion/styled'
+
+const Heart = styled.div`
+  width: 46px;
+  height: 46px;
+  background-image: url(/images/heart_logo.png);
+  background-repeat: no-repeat;
+  background-position: -1288px 0;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+`
 
 function Personal() {
   const { address = '' } = useAccount()
@@ -194,18 +205,7 @@ function Personal() {
                       alt="logo"
                     />
                     {tabKey === 'favorite' && (
-                      <Heart
-                        styles={{
-                          position: 'absolute',
-                          right: '10px',
-                          bottom: '10px',
-                          width: '80px',
-                          height: '80px',
-                          backgroundPosition: true ? '-2800px 0' : '',
-                        }}
-                        isClick={true}
-                        onClick={() => handleCancel(item.id!)}
-                      />
+                      <Heart onClick={() => handleCancel(item.id!)} />
                     )}
                   </Box>
                 </Grid>

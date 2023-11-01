@@ -1,0 +1,13 @@
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -1288px 0;
+  }
+}
+.heart-active {
+  background-position: -1288px 0;
+  animation: backgroundAnimation 0.5s steps(28, start);
+}
