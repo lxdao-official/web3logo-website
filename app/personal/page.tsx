@@ -13,18 +13,22 @@ import {
   Typography,
 } from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
-import Image from 'next/image'
+// import Image from 'next/image'
 import { useAccount } from 'wagmi'
 import { formateAddress } from '@/utils'
-import { useMutation, useQuery } from '@tanstack/react-query'
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import API from '@/utils/API'
 import { useRouter } from 'next/navigation'
+import { toast } from 'react-toastify'
+import Heart from 'react-animated-heart'
 
 function Personal() {
   const { address = '' } = useAccount()
   const router = useRouter()
   const [tabKey, setTabKey] = useState('upload')
+  const [addressInfo, setAddressInfo] = useState('')
   const [logoList, setLogoList] = useState<(Logo & FavoriteData)[]>([])
+  const queryClient = useQueryClient()
 
   const changeTab = (tabKey: string) => {
     setTabKey(tabKey)
@@ -34,10 +38,11 @@ function Personal() {
     if (!address) {
       router.push('/')
     }
+    setAddressInfo(address as string)
   }, [address])
 
   const { data, isSuccess } = useQuery<PersonalDataType>({
-    queryKey: ['queryLogoList', tabKey, address],
+    queryKey: ['queryCheckingLogoList', tabKey, address],
     queryFn: () =>
       API.get('/logos/getLogoByAddress', {
         params: { address, type: tabKey },
@@ -45,10 +50,28 @@ function Personal() {
   })
 
   useEffect(() => {
-    if (data?.data && data?.data.length > 0) {
-      setLogoList(data.data)
+    if (isSuccess && data && data?.data && Array.isArray(data?.data)) {
+      setLogoList(data?.data || [])
     }
-  }, [data])
+  }, [data, isSuccess])
+
+  const removeFavoriteMutation = useMutation({
+    mutationFn: ({ favoriteId }: { favoriteId: number }) =>
+      API.delete(`/favorites/removeFavorite/${favoriteId}`),
+    mutationKey: ['removeFavoriteMutation'],
+    onSuccess: () => {
+      queryClient.invalidateQueries({
+        queryKey: ['queryCheckingLogoList'],
+      })
+      toast.success('Cancel Successful')
+    },
+    onError: (error) => {
+      toast.error('Error saving favorite: ' + error.message)
+    },
+  })
+  const handleCancel = async (favoriteId: number) => {
+    removeFavoriteMutation.mutate({ favoriteId })
+  }
 
   return (
     <Box paddingTop="80px">
@@ -66,19 +89,17 @@ function Personal() {
       >
         Welcome to join and contribute.
       </Typography>
-      {address && (
-        <Typography
-          component="span"
-          style={{
-            color: '#5F6D7E',
-            fontSize: '14px',
-            lineHeight: '20px',
-            letterSpacing: '-0.1px',
-          }}
-        >
-          {formateAddress(address as string)}
-        </Typography>
-      )}
+      <Box
+        style={{
+          color: '#5F6D7E',
+          fontSize: '14px',
+          lineHeight: '20px',
+          letterSpacing: '-0.1px',
+        }}
+        component="p"
+      >
+        {addressInfo ? formateAddress(addressInfo as string) : ''}
+      </Box>
       <Box style={{ padding: '36px 0' }}>
         <Button
           variant="contained"
@@ -166,33 +187,66 @@ function Personal() {
                         ? item.logo?.fileName
                         : item.fileName}
                     </Box>
-                    <Image
-                      width={80}
-                      height={80}
+                    <Typography
+                      component="img"
                       src={tabKey === 'favorite' ? item.logo?.file : item.file}
                       style={{ maxWidth: '80px', maxHeight: '80px' }}
                       alt="logo"
                     />
+                    {tabKey === 'favorite' && (
+                      <Heart
+                        styles={{
+                          position: 'absolute',
+                          right: '10px',
+                          bottom: '10px',
+                          width: '80px',
+                          height: '80px',
+                          backgroundPosition: true ? '-2800px 0' : '',
+                        }}
+                        isClick={true}
+                        onClick={() => handleCancel(item.id!)}
+                      />
+                    )}
                   </Box>
                 </Grid>
               ))}
           </Grid>
         ) : (
-          <BasicTable logoList={logoList} />
+          <BasicTable
+            logoList={logoList}
+            tabKey={tabKey}
+            address={addressInfo}
+          />
         )}
       </Box>
     </Box>
   )
 }
 
-function BasicTable(props: { logoList: Logo[] }) {
+function BasicTable(props: {
+  logoList: Logo[]
+  tabKey: string
+  address: string
+}) {
   const { logoList } = props
+  const queryClient = useQueryClient()
   const checkMutation = useMutation({
     mutationKey: ['checkMutation'],
-    mutationFn: (id: string) => API.get('', { params: id }),
+    mutationFn: (info: { id: number; isAgree: boolean }[]) =>
+      API.post('/logos/checkLogo', info),
+    onSuccess: () => {
+      queryClient.invalidateQueries({
+        queryKey: ['queryCheckingLogoList'],
+      })
+      toast.success(`Operate successfully`)
+    },
+    onError: (error) => toast.error(error.message),
   })
-  const handleChecked = (id) => {
-    checkMutation.mutate(id)
+  const handleAgree = (id: number) => {
+    checkMutation.mutate([{ id, isAgree: true }])
+  }
+  const handleReject = (id: number) => {
+    checkMutation.mutate([{ id, isAgree: false }])
   }
   return (
     <TableContainer component={Paper}>
@@ -200,10 +254,10 @@ function BasicTable(props: { logoList: Logo[] }) {
         <TableHead>
           <TableRow>
             <TableCell>fileName</TableCell>
-            <TableCell align="right">file</TableCell>
-            <TableCell align="right">fileType</TableCell>
-            <TableCell align="right">website</TableCell>
-            <TableCell align="right">checking</TableCell>
+            <TableCell align="center">fileType</TableCell>
+            <TableCell align="center">file</TableCell>
+            <TableCell align="center">website</TableCell>
+            <TableCell align="center">checking</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -215,11 +269,19 @@ function BasicTable(props: { logoList: Logo[] }) {
               <TableCell component="th" scope="row">
                 {logo.fileName}
               </TableCell>
-              <TableCell align="right">{logo.file}</TableCell>
-              <TableCell align="right">{logo.fileType}</TableCell>
-              <TableCell align="right">{logo?.logoName?.website}</TableCell>
-              <TableCell align="right">
-                <Button onClick={() => handleChecked(logo.id)}>Checked</Button>
+              <TableCell align="center">{logo.fileType}</TableCell>
+              <TableCell align="center">
+                <Typography component="img" src="logo.file" />
+              </TableCell>
+              <TableCell align="center">{logo?.logoName?.website}</TableCell>
+              <TableCell align="center">
+                <Button
+                  onClick={() => handleAgree(logo.id)}
+                  style={{ marginRight: '12px' }}
+                >
+                  agree
+                </Button>
+                <Button onClick={() => handleReject(logo.id)}>reject</Button>
               </TableCell>
             </TableRow>
           ))}

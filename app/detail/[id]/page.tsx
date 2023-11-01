@@ -30,6 +30,7 @@ import { toast } from 'react-toastify'
 import { Uploader3 } from '@lxdao/uploader3'
 import { createConnector } from '@lxdao/uploader3-connector'
 import { ImageBox } from '@/app/upload/page'
+import Heart from 'react-animated-heart'
 
 function DetailPage(props: { params: { id: string } }) {
   const {
@@ -266,10 +267,10 @@ function DetailPage(props: { params: { id: string } }) {
                     right="16px"
                     spacing={1}
                     direction="row"
-                    display="none"
+                    // display="none"
                     zIndex={1000}
                   >
-                    <Image
+                    {/* <Image
                       src={heart}
                       alt="love"
                       style={{
@@ -279,6 +280,21 @@ function DetailPage(props: { params: { id: string } }) {
                         padding: '14px',
                         borderRadius: '50%',
                       }}
+                      onClick={() =>
+                        handleFavorite(
+                          logo.id,
+                          logo.isFavorite,
+                          logo.favoriteId
+                        )
+                      }
+                    /> */}
+                    <Heart
+                      styles={{
+                        width: '80px',
+                        height: '80px',
+                        backgroundPosition: logo.isFavorite ? '-2800px 0' : '',
+                      }}
+                      isClick={!!logo.isFavorite}
                       onClick={() =>
                         handleFavorite(
                           logo.id,

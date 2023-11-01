@@ -45,9 +45,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <QueryClientProvider client={queryClient}>
-          <WagmiConfig config={wagmiConfig}>
-            <RainbowKitProvider chains={chains}>
+        <WagmiConfig config={wagmiConfig}>
+          <RainbowKitProvider chains={chains}>
+            <QueryClientProvider client={queryClient}>
               <Header />
               <Box
                 sx={{
@@ -58,10 +58,10 @@ export default function RootLayout({
                 {children}
               </Box>
               <Footer />
-            </RainbowKitProvider>
-          </WagmiConfig>
-        </QueryClientProvider>
-        <ToastContainer />
+              <ToastContainer />
+            </QueryClientProvider>
+          </RainbowKitProvider>
+        </WagmiConfig>
       </body>
     </html>
   )

@@ -23,53 +23,51 @@ function Header() {
   }, [pathName, address])
 
   return (
-    <>
-      <Box
-        sx={{
-          width: '100%',
-          height: 86,
-          padding: '0 112px',
-        }}
-        display="flex"
-        justifyContent="space-between"
-        alignItems="center"
-      >
-        <Link href="/">
-          <Image src={logo} style={{ width: 130 }} alt="web3logo" />
-        </Link>
-        <Box display="flex">
-          {uploadBtnShow && (
-            <Button
-              disableFocusRipple={true}
-              disableRipple={true}
-              sx={{
-                borderRadius: '100px',
-                boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
-                background: '#000',
-                marginRight: '12px',
-              }}
-              variant="contained"
-              onClick={() => router.push('/upload')}
-            >
-              Upload Web3Logo
-            </Button>
-          )}
-          {hasAvatar && (
-            <Avatar
-              src="/images/oneself.svg"
-              alt="avatar"
-              style={{ marginRight: '12px', cursor: 'pointer' }}
-              onClick={() => router.push('/personal')}
-            />
-          )}
-          <ConnectButton
-            accountStatus="address"
-            chainStatus="none"
-            showBalance={false}
+    <Box
+      sx={{
+        width: '100%',
+        height: 86,
+        padding: '0 112px',
+      }}
+      display="flex"
+      justifyContent="space-between"
+      alignItems="center"
+    >
+      <Link href="/">
+        <Image src={logo} style={{ width: 130 }} alt="web3logo" />
+      </Link>
+      <Box display="flex">
+        {uploadBtnShow && (
+          <Button
+            disableFocusRipple={true}
+            disableRipple={true}
+            sx={{
+              borderRadius: '100px',
+              boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+              background: '#000',
+              marginRight: '12px',
+            }}
+            variant="contained"
+            onClick={() => router.push('/upload')}
+          >
+            Upload Web3Logo
+          </Button>
+        )}
+        {hasAvatar && (
+          <Avatar
+            src="/images/oneself.svg"
+            alt="avatar"
+            style={{ marginRight: '12px', cursor: 'pointer' }}
+            onClick={() => router.push('/personal')}
           />
-        </Box>
+        )}
+        <ConnectButton
+          accountStatus="address"
+          chainStatus="none"
+          showBalance={false}
+        />
       </Box>
-    </>
+    </Box>
   )
 }
 
