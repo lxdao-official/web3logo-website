@@ -21,6 +21,7 @@ import { logoTypeConfig } from '@/config'
 
 export default function Home() {
   const [inputValue, setInputValue] = useState('')
+  const [logoType, setLogoType] = useState('')
   const [hasMore, setHasMore] = useState(true)
   const [logoNamesList, setLogoNamesList] = useState<LogoName[]>([])
   const inputRef = useRef<HTMLInputElement>(null)
@@ -29,6 +30,7 @@ export default function Home() {
     queryKey: [
       'FindLogoNameByPage',
       inputValue,
+      logoType,
       pageInfo.current.page,
       pageInfo.current.size,
     ],
@@ -36,6 +38,7 @@ export default function Home() {
       API.get(`/logos/findLogoName`, {
         params: {
           key: inputValue,
+          logoType,
           page: pageInfo.current.page,
           size: pageInfo.current.size,
         },
@@ -71,6 +74,12 @@ export default function Home() {
     if (hasMore && isSuccess) {
       pageInfo.current.page += 1
     }
+  }
+
+  const handleSearchType = (type: string) => {
+    setLogoNamesList([])
+    pageInfo.current.page = 0
+    setLogoType(type)
   }
 
   return (
@@ -148,6 +157,19 @@ export default function Home() {
         </Box>
       </Box>
       <Box marginTop="95px" marginBottom="48px">
+        <Button
+          variant="outlined"
+          style={{
+            borderRadius: 100,
+            marginRight: 8,
+            borderColor: '#D0D5DD',
+            background: !logoType ? '#000' : '#fff',
+            color: !logoType ? '#fff' : '#000',
+          }}
+          onClick={() => handleSearchType('')}
+        >
+          All
+        </Button>
         {logoTypeConfig.map((type) => (
           <Button
             key={type}
@@ -156,8 +178,10 @@ export default function Home() {
               borderRadius: 100,
               marginRight: 8,
               borderColor: '#D0D5DD',
-              color: '#000',
+              background: logoType === type ? '#000' : '#fff',
+              color: logoType === type ? '#fff' : '#000',
             }}
+            onClick={() => handleSearchType(type)}
           >
             {type}
           </Button>
