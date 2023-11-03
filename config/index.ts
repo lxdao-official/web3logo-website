@@ -1,3 +1,5 @@
+import { createConnector } from '@lxdao/uploader3-connector'
+
 export const logoTypeConfig = [
   'hot',
   'DeFi',
@@ -9,3 +11,7 @@ export const logoTypeConfig = [
   'SocialFi',
   'GameFi',
 ]
+
+export const connector = createConnector('NFT.storage', {
+  token: process.env.NEXT_PUBLIC_NFT_STORAGE_KEY || '',
+})

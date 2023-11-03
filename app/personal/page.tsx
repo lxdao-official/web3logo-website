@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import {
   Box,
   Button,
@@ -21,6 +21,9 @@ import API from '@/utils/API'
 import { useRouter } from 'next/navigation'
 import { toast } from 'react-toastify'
 import styled from '@emotion/styled'
+import { Uploader3 } from '@lxdao/uploader3'
+import { connector } from '@/config'
+import { Img3 } from '@lxdao/img3'
 
 const Heart = styled.div`
   width: 46px;
@@ -32,14 +35,20 @@ const Heart = styled.div`
   right: 10px;
   bottom: 10px;
 `
+const ADMIN_ADDRESS = process.env.NEXT_PUBLIC_ADMIN_ADDRESS
 
 function Personal() {
   const { address = '' } = useAccount()
+  const [isAdmin, setIsAdmin] = useState(false)
   const router = useRouter()
   const [tabKey, setTabKey] = useState('upload')
   const [addressInfo, setAddressInfo] = useState('')
   const [logoList, setLogoList] = useState<(Logo & FavoriteData)[]>([])
   const queryClient = useQueryClient()
+  const [files, setFiles] = useState<
+    { name: string; fileType: string; file?: string }[]
+  >([])
+  const uploadFiles = useRef<uploadInputs[]>([])
 
   const changeTab = (tabKey: string) => {
     setTabKey(tabKey)
@@ -49,6 +58,7 @@ function Personal() {
     if (!address) {
       router.push('/')
     }
+    setIsAdmin(address === ADMIN_ADDRESS)
     setAddressInfo(address as string)
   }, [address])
 
@@ -83,6 +93,31 @@ function Personal() {
   const handleCancel = async (favoriteId: number) => {
     removeFavoriteMutation.mutate({ favoriteId })
   }
+
+  // const submitMutation = useMutation({
+  //   mutationKey: ['submitMutation'],
+  //   mutationFn: (info: uploadInputs) =>
+  //     API.post('/logos', { ...info, authorAddress: addressInfo }),
+  //   onError: (error) => toast.error(error.message),
+  //   onSuccess: (success) =>
+  //     toast.success(`${success.data.logo[0].fileName} upload successful`),
+  // })
+
+  const batchUploadFile = useMutation({
+    mutationKey: ['batchUploadFile'],
+    mutationFn: (info: uploadInputs[]) =>
+      API.post('/logos/batchUploadFile', info),
+    onError: (error) => {
+      setFiles([])
+      uploadFiles.current = []
+      toast.error(error.message)
+    },
+    onSuccess: (success) => {
+      setFiles([])
+      uploadFiles.current = []
+      toast.success(`upload successful`)
+    },
+  })
 
   return (
     <Box paddingTop="80px">
@@ -119,6 +154,7 @@ function Personal() {
             background: tabKey === 'upload' ? '#000' : '#fff',
             color: tabKey === 'upload' ? '#fff' : '#000',
             borderRadius: 100,
+            border: '1px solid #DAE0E6',
             boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
             marginRight: '12px',
           }}
@@ -150,11 +186,82 @@ function Personal() {
             borderRadius: 100,
             border: '1px solid #DAE0E6',
             boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+            marginRight: '12px',
           }}
           onClick={() => changeTab('checking')}
         >
           Checking
         </Button>
+        {isAdmin && (
+          <Uploader3
+            connector={connector}
+            multiple={true}
+            onChange={(files) => {
+              setFiles([])
+              const IsError = files.find(
+                (file) => file.name.split('-').length != 3
+              )
+              if (IsError) {
+                toast.error(`${IsError.name}: invalid naming format`)
+                return
+              }
+              const uploadFiles = files.map((file) => ({
+                fileType: file.type,
+                name: file.name,
+              }))
+              setFiles(uploadFiles)
+            }}
+            onComplete={(file) => {
+              if (file.status === 'done') {
+                const isHasFile = files.find(
+                  (f) =>
+                    file.name === f.name && file.name.split('-').length === 3
+                )
+                if (isHasFile) {
+                  const nameList = file.name.split('-')
+                  const logoName = nameList[0]
+                  const logoType = nameList[1]
+                  const fileName = nameList[2]
+
+                  const info = {
+                    logoName,
+                    logoType,
+                    website: '',
+                    files: [
+                      {
+                        file: file.url,
+                        fileType: file.type.split('/')[1],
+                        fileName,
+                      },
+                    ],
+                    agree: true,
+                    authorAddress: addressInfo,
+                  }
+                  uploadFiles.current.push(info)
+                  if (uploadFiles.current.length === files.length) {
+                    batchUploadFile.mutate(uploadFiles.current)
+                  }
+
+                  // setUploadFiles((files) => [...files, info])
+                }
+              }
+            }}
+          >
+            <Button
+              variant="contained"
+              style={{
+                padding: '12px 18px',
+                background: '#fff',
+                color: '#000',
+                borderRadius: 100,
+                border: '1px solid #DAE0E6',
+                boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+              }}
+            >
+              upload
+            </Button>
+          </Uploader3>
+        )}
       </Box>
       <Box>
         {tabKey !== 'checking' ? (
@@ -271,7 +378,7 @@ function BasicTable(props: {
               </TableCell>
               <TableCell align="center">{logo.fileType}</TableCell>
               <TableCell align="center">
-                <Typography component="img" src="logo.file" />
+                <Img3 src={logo.file} />
               </TableCell>
               <TableCell align="center">{logo?.logoName?.website}</TableCell>
               <TableCell align="center">

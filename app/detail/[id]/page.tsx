@@ -15,7 +15,6 @@ import {
 } from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
 import Image from 'next/image'
-import heart_logo from '@/public/images/heart_logo.png'
 import heart_grey from '@/public/images/heart_grey.svg'
 import download from '@/public/images/download.svg'
 import download_grey from '@/public/images/download_grey.svg'

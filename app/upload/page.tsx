@@ -15,11 +15,12 @@ import { Uploader3 } from '@lxdao/uploader3'
 import { createConnector } from '@lxdao/uploader3-connector'
 import Image from 'next/image'
 import { useState } from 'react'
-import { logoTypeConfig } from '@/config'
+import { logoTypeConfig, connector } from '@/config'
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import API from '@/utils/API'
 import { toast } from 'react-toastify'
 import { useAccount } from 'wagmi'
+import { createCanvas } from 'canvas'
 
 const FormInput = styled.input`
   font-size: 16px;
@@ -42,10 +43,6 @@ export const ImageBox = styled.div`
   align-items: center;
   flex-direction: column;
 `
-
-const connector = createConnector('NFT.storage', {
-  token: process.env.NEXT_PUBLIC_NFT_STORAGE_KEY || '',
-})
 
 function Label({
   required,
@@ -252,6 +249,23 @@ function Upload() {
                       onComplete={(result) => {
                         console.log(result)
                         if (result.status === 'done') {
+                          // if (result.type.includes('/svg')) {
+                          //   const canvas = createCanvas(
+                          //     result.crop.width,
+                          //     result.crop.height,
+                          //     'svg'
+                          //   )
+                          //   const ctx = canvas.getContext('2d')
+                          //   ctx.drawImage(
+                          //     result.url,
+                          //     0,
+                          //     0,
+                          //     result.crop.width,
+                          //     result.crop.height
+                          //   )
+                          //   const dataUrl = canvas.toDataURL()
+                          //   console.log(dataUrl)
+                          // }
                           value[0] = {
                             file: result.url,
                             fileType: result.type.split('/')[1],

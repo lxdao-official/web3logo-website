@@ -13,7 +13,7 @@ function Header() {
   const { address } = useAccount()
   const pathName = usePathname()
   const router = useRouter()
-  const [uploadBtnShow, setUploadBtnShow] = useState(true)
+  const [uploadBtnShow, setUploadBtnShow] = useState(false)
   const [hasAvatar, setHasAvatar] = useState(false)
 
   useEffect(() => {
