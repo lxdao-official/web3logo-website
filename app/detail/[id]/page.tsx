@@ -28,7 +28,6 @@ import { useAccount } from 'wagmi'
 import { toast } from 'react-toastify'
 import { Uploader3 } from '@lxdao/uploader3'
 import { createConnector } from '@lxdao/uploader3-connector'
-import { ImageBox } from '@/app/upload/page'
 import styled from '@emotion/styled'
 import './index.css'
 
@@ -37,6 +36,17 @@ const Heart = styled.div`
   height: 46px;
   background-image: url(/images/heart_logo.png);
   background-repeat: no-repeat;
+`
+
+const ImageBox = styled.div`
+  position: relative;
+  border: 1px solid #d0d5dd;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 `
 
 function DetailPage(props: { params: { id: string } }) {

@@ -33,7 +33,7 @@ const FormInput = styled.input`
   margin-top: 20px;
 `
 
-export const ImageBox = styled.div`
+const ImageBox = styled.div`
   position: relative;
   border: 1px solid #d0d5dd;
   width: 160px;
