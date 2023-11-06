@@ -36,6 +36,8 @@ const Heart = styled.div`
   bottom: 10px;
 `
 const ADMIN_ADDRESS = process.env.NEXT_PUBLIC_ADMIN_ADDRESS
+  ? process.env.NEXT_PUBLIC_ADMIN_ADDRESS.split(',')
+  : []
 
 function Personal() {
   const { address = '' } = useAccount()
@@ -58,7 +60,7 @@ function Personal() {
     if (!address) {
       router.push('/')
     }
-    setIsAdmin(address === ADMIN_ADDRESS)
+    setIsAdmin(ADMIN_ADDRESS.includes(address))
     setAddressInfo(address as string)
   }, [address])
 
@@ -93,15 +95,6 @@ function Personal() {
   const handleCancel = async (favoriteId: number) => {
     removeFavoriteMutation.mutate({ favoriteId })
   }
-
-  // const submitMutation = useMutation({
-  //   mutationKey: ['submitMutation'],
-  //   mutationFn: (info: uploadInputs) =>
-  //     API.post('/logos', { ...info, authorAddress: addressInfo }),
-  //   onError: (error) => toast.error(error.message),
-  //   onSuccess: (success) =>
-  //     toast.success(`${success.data.logo[0].fileName} upload successful`),
-  // })
 
   const batchUploadFile = useMutation({
     mutationKey: ['batchUploadFile'],
