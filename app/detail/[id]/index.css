@@ -4,10 +4,10 @@
   }
 
   100% {
-    background-position: -1288px 0;
+    background-position: -1294px 0;
   }
 }
 .heart-active {
-  background-position: -1288px 0;
+  background-position: -1294px 0;
   animation: backgroundAnimation 0.5s steps(28, start);
 }

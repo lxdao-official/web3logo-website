@@ -16,7 +16,7 @@ import { useEffect, useRef, useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import Image from 'next/image'
 import InfiniteScroll from 'react-infinite-scroll-component'
-import { formatNumWithK } from '@/utils'
+import { formatNumWithK, debounce } from '@/utils'
 import { logoTypeConfig } from '@/config'
 
 export default function Home() {
@@ -109,6 +109,9 @@ export default function Home() {
         >
           <Input
             inputRef={inputRef}
+            onChange={(e) =>
+              debounce(() => setInputValue(e.target.value), 300)()
+            }
             style={{ width: '100%', height: '100%', margin: 'auto' }}
             disableUnderline={true}
             placeholder="Search web3 logo..."
@@ -304,7 +307,7 @@ export default function Home() {
               fontSize="28px"
               fontWeight="600"
             >
-              gitcoin
+              {inputValue}
             </Typography>
             &quot; were found
           </Typography>

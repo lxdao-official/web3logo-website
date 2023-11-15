@@ -62,6 +62,7 @@ function Header() {
           />
         )}
         <ConnectButton
+          label="Connect Wallet"
           accountStatus="address"
           chainStatus="none"
           showBalance={false}

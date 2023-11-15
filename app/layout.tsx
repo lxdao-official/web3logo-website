@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import '@/app/global.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { Box } from '@mui/material'
+import { Box, ThemeProvider, createTheme } from '@mui/material'
 import '@rainbow-me/rainbowkit/styles.css'
 import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit'
 import { configureChains, createConfig, WagmiConfig } from 'wagmi'
@@ -37,6 +37,18 @@ const wagmiConfig = createConfig({
   publicClient,
 })
 
+const theme = createTheme({
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          textTransform: 'none',
+        },
+      },
+    },
+  },
+})
+
 export default function RootLayout({
   children,
 }: {
@@ -48,17 +60,19 @@ export default function RootLayout({
         <WagmiConfig config={wagmiConfig}>
           <RainbowKitProvider chains={chains}>
             <QueryClientProvider client={queryClient}>
-              <Header />
-              <Box
-                sx={{
-                  minHeight: 'calc(100vh - 86px - 360px - 64px)',
-                  margin: '0 112px',
-                }}
-              >
-                {children}
-              </Box>
-              <Footer />
-              <ToastContainer />
+              <ThemeProvider theme={theme}>
+                <Header />
+                <Box
+                  sx={{
+                    minHeight: 'calc(100vh - 86px - 360px - 64px)',
+                    margin: '0 112px',
+                  }}
+                >
+                  {children}
+                </Box>
+                <Footer />
+                <ToastContainer />
+              </ThemeProvider>
             </QueryClientProvider>
           </RainbowKitProvider>
         </WagmiConfig>

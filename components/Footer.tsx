@@ -4,9 +4,9 @@ import Link from '@mui/material/Link'
 import Grid from '@mui/material/Unstable_Grid2/Grid2'
 import Image from 'next/image'
 import logo from '@/public/images/logo.svg'
-import telegram from '@/public/images/telegram.png'
-import discord from '@/public/images/discord.png'
-import twitter from '@/public/images/twitter.png'
+import telegram from '@/public/images/telegram.svg'
+import discord from '@/public/images/discord.svg'
+import twitter from '@/public/images/twitter.svg'
 
 function Footer() {
   return (

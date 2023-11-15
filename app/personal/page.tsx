@@ -28,7 +28,8 @@ import { Img3 } from '@lxdao/img3'
 const Heart = styled.div`
   width: 46px;
   height: 46px;
-  background-image: url(/images/heart_logo.png);
+  background-image: url(/images/heart.jpg);
+  background-size: 1340px 46px;
   background-repeat: no-repeat;
   background-position: -1288px 0;
   position: absolute;
@@ -39,10 +40,11 @@ const ADMIN_ADDRESS = process.env.NEXT_PUBLIC_ADMIN_ADDRESS
   ? process.env.NEXT_PUBLIC_ADMIN_ADDRESS.split(',')
   : []
 
-function Personal() {
+function Personal({ searchParams = { address: '' } }) {
   const { address = '' } = useAccount()
   const [isAdmin, setIsAdmin] = useState(false)
-  const router = useRouter()
+  const [isSelf, setIsSelf] = useState(false)
+  const { address: pathAddress } = searchParams
   const [tabKey, setTabKey] = useState('upload')
   const [addressInfo, setAddressInfo] = useState('')
   const [logoList, setLogoList] = useState<(Logo & FavoriteData)[]>([])
@@ -57,18 +59,16 @@ function Personal() {
   }
 
   useEffect(() => {
-    if (!address) {
-      router.push('/')
-    }
     setIsAdmin(ADMIN_ADDRESS.includes(address))
-    setAddressInfo(address as string)
-  }, [address])
+    setIsSelf(!pathAddress)
+    setAddressInfo(pathAddress || (address as string))
+  }, [address, pathAddress])
 
   const { data, isSuccess } = useQuery<PersonalDataType>({
-    queryKey: ['queryCheckingLogoList', tabKey, address],
+    queryKey: ['queryCheckingLogoList', tabKey, addressInfo],
     queryFn: () =>
       API.get('/logos/getLogoByAddress', {
-        params: { address, type: tabKey },
+        params: { address: addressInfo, type: tabKey },
       }),
   })
 
@@ -93,6 +93,7 @@ function Personal() {
     },
   })
   const handleCancel = async (favoriteId: number) => {
+    if (!isSelf) return
     removeFavoriteMutation.mutate({ favoriteId })
   }
 
@@ -170,22 +171,24 @@ function Personal() {
         >
           I liked
         </Button>
-        <Button
-          variant="contained"
-          style={{
-            padding: '12px 18px',
-            background: tabKey === 'checking' ? '#000' : '#fff',
-            color: tabKey === 'checking' ? '#fff' : '#000',
-            borderRadius: 100,
-            border: '1px solid #DAE0E6',
-            boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
-            marginRight: '12px',
-          }}
-          onClick={() => changeTab('checking')}
-        >
-          Checking
-        </Button>
-        {isAdmin && (
+        {isAdmin && isSelf && (
+          <Button
+            variant="contained"
+            style={{
+              padding: '12px 18px',
+              background: tabKey === 'checking' ? '#000' : '#fff',
+              color: tabKey === 'checking' ? '#fff' : '#000',
+              borderRadius: 100,
+              border: '1px solid #DAE0E6',
+              boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+              marginRight: '12px',
+            }}
+            onClick={() => changeTab('checking')}
+          >
+            Checking
+          </Button>
+        )}
+        {isAdmin && isSelf && (
           <Uploader3
             connector={connector}
             multiple={true}

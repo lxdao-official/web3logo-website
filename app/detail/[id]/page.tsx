@@ -30,11 +30,13 @@ import { Uploader3 } from '@lxdao/uploader3'
 import { createConnector } from '@lxdao/uploader3-connector'
 import styled from '@emotion/styled'
 import './index.css'
+import { useRouter } from 'next/navigation'
 
 const Heart = styled.div`
   width: 46px;
   height: 46px;
-  background-image: url(/images/heart_logo.png);
+  background-image: url(/images/heart.jpg);
+  background-size: 1340px 46px;
   background-repeat: no-repeat;
 `
 
@@ -61,6 +63,7 @@ function DetailPage(props: { params: { id: string } }) {
   const inputRef = useRef<HTMLInputElement>(null)
   const [fileInfo, setFileInfo] = useState<FileObject | false>(false)
   const [loading, setLoading] = useState(false)
+  const router = useRouter()
   const connector = createConnector('NFT.storage', {
     token: process.env.NEXT_PUBLIC_NFT_STORAGE_KEY || '',
   })
@@ -182,6 +185,10 @@ function DetailPage(props: { params: { id: string } }) {
     submitMutation.mutate(info)
   }
 
+  const toPersonal = (address: string) => {
+    router.push(`/personal?address=${address}`)
+  }
+
   return (
     <Box>
       <Box sx={{ marginTop: '51px', lineHeight: '48px' }}>
@@ -205,7 +212,8 @@ function DetailPage(props: { params: { id: string } }) {
           fontWeight: '600',
           fontSize: '32px',
           lineHeight: '48px',
-          marginTop: '22px',
+          marginTop: '24px',
+          marginBottom: '24px',
         }}
       >
         {data?.logoName}
@@ -320,16 +328,25 @@ function DetailPage(props: { params: { id: string } }) {
                   alignItems="center"
                   fontSize="12px"
                 >
-                  <Box display="flex" alignItems="center" color="#0D5FFF">
-                    <Image
-                      src={download}
-                      alt="avatar"
-                      style={{
-                        width: '28px',
-                        height: '28px',
-                        marginRight: '12px',
-                      }}
-                    />
+                  <Box
+                    display="flex"
+                    alignItems="center"
+                    color="#0D5FFF"
+                    style={{
+                      cursor: 'pointer',
+                    }}
+                    onClick={() => toPersonal(logo.authorAddress)}
+                  >
+                    <svg
+                      style={{ marginRight: '12px' }}
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="29"
+                      height="28"
+                      viewBox="0 0 29 28"
+                      fill="none"
+                    >
+                      <circle cx="14.5" cy="14" r="14" fill="#F0F0F0" />
+                    </svg>
                     {formateAddress(logo.authorAddress)}
                   </Box>
                   <Box
