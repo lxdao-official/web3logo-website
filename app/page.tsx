@@ -204,13 +204,6 @@ export default function Home() {
             Loading...
           </Typography>
         }
-        endMessage={
-          logoNamesList.length > 0 && (
-            <Typography component="p" textAlign="center" marginTop="24px">
-              No more data
-            </Typography>
-          )
-        }
       >
         <Box>
           <Grid container spacing={3}>
@@ -329,7 +322,7 @@ export default function Home() {
               boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
             }}
           >
-            Upload gitcoin logo
+            Upload Web3 logo
           </Button>
         </Box>
       ) : null}

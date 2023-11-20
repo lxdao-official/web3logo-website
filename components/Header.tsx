@@ -43,9 +43,11 @@ function Header() {
             disableRipple={true}
             sx={{
               borderRadius: '100px',
-              boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
               background: '#000',
               marginRight: '12px',
+              '&:hover': {
+                backgroundColor: 'rgb(14,118,253)',
+              },
             }}
             variant="contained"
             onClick={() => router.push('/upload')}
