@@ -98,7 +98,10 @@ function DetailPage(props: { params: { id: string } }) {
       responseType: 'blob',
     })
     const contentType = response.headers['content-type'] || ''
-    const imgType = (contentType as string).split('/')[1]
+    let imgType = (contentType as string).split('/')[1]
+    if (imgType.indexOf('svg') !== -1) {
+      imgType = 'svg'
+    }
     const url = window.URL.createObjectURL(new Blob([response.data]))
     const link = document.createElement('a')
     link.href = url

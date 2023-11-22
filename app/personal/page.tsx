@@ -49,9 +49,9 @@ function Personal({ searchParams = { address: '' } }) {
   const [addressInfo, setAddressInfo] = useState('')
   const [logoList, setLogoList] = useState<(Logo & FavoriteData)[]>([])
   const queryClient = useQueryClient()
-  const [files, setFiles] = useState<
-    { name: string; fileType: string; file?: string }[]
-  >([])
+  const filesList = useRef<{ name: string; fileType: string; file?: string }[]>(
+    []
+  )
   const uploadFiles = useRef<uploadInputs[]>([])
 
   const changeTab = (tabKey: string) => {
@@ -102,14 +102,17 @@ function Personal({ searchParams = { address: '' } }) {
     mutationFn: (info: uploadInputs[]) =>
       API.post('/logos/batchUploadFile', info),
     onError: (error) => {
-      setFiles([])
+      filesList.current = []
       uploadFiles.current = []
       toast.error(error.message)
     },
     onSuccess: (success) => {
-      setFiles([])
+      filesList.current = []
       uploadFiles.current = []
       toast.success(`upload successful`)
+      queryClient.invalidateQueries({
+        queryKey: ['queryCheckingLogoList'],
+      })
     },
   })
 
@@ -192,8 +195,12 @@ function Personal({ searchParams = { address: '' } }) {
           <Uploader3
             connector={connector}
             multiple={true}
+            accept={['.svg']}
+            crop={false}
             onChange={(files) => {
-              setFiles([])
+              console.log(files)
+              filesList.current = []
+              uploadFiles.current = []
               const IsError = files.find(
                 (file) => file.name.split('-').length != 3
               )
@@ -201,15 +208,16 @@ function Personal({ searchParams = { address: '' } }) {
                 toast.error(`${IsError.name}: invalid naming format`)
                 return
               }
-              const uploadFiles = files.map((file) => ({
+              const uploadFilesArr = files.map((file) => ({
                 fileType: file.type,
                 name: file.name,
               }))
-              setFiles(uploadFiles)
+              filesList.current = uploadFilesArr
             }}
             onComplete={(file) => {
+              console.log(file)
               if (file.status === 'done') {
-                const isHasFile = files.find(
+                const isHasFile = filesList.current.find(
                   (f) =>
                     file.name === f.name && file.name.split('-').length === 3
                 )
@@ -234,11 +242,14 @@ function Personal({ searchParams = { address: '' } }) {
                     authorAddress: addressInfo,
                   }
                   uploadFiles.current.push(info)
-                  if (uploadFiles.current.length === files.length) {
+                  console.log(
+                    uploadFiles.current.length,
+                    filesList.current.length
+                  )
+                  if (uploadFiles.current.length === filesList.current.length) {
+                    console.log(uploadFiles.current)
                     batchUploadFile.mutate(uploadFiles.current)
                   }
-
-                  // setUploadFiles((files) => [...files, info])
                 }
               }
             }}

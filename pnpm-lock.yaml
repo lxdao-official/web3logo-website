@@ -26,11 +26,11 @@ dependencies:
     specifier: ^1.1.0
     version: 1.1.0(@babel/core@7.23.0)(react-dom@18.2.0)(react@18.2.0)
   '@lxdao/uploader3':
-    specifier: ^1.3.0
-    version: 1.3.0(@babel/core@7.23.0)(node-fetch@3.3.2)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+    specifier: ^1.5.0
+    version: 1.5.0(node-fetch@3.3.2)(react-dom@18.2.0)(react@18.2.0)
   '@lxdao/uploader3-connector':
-    specifier: ^1.0.1
-    version: 1.0.1
+    specifier: ^1.1.1
+    version: 1.1.1
   '@mui/icons-material':
     specifier: ^5.14.11
     version: 5.14.11(@mui/material@5.14.11)(@types/react@18.2.23)(react@18.2.0)
@@ -2569,10 +2569,10 @@ packages:
       - react-dom
     dev: false
 
-  /@lxdao/uploader3-connector@1.0.1:
+  /@lxdao/uploader3-connector@1.1.1:
     resolution:
       {
-        integrity: sha512-xElh9TBpqNGh7ikgPXDtISMEhEwRIBpCS1/SfxBrds3zQUTefToIv+I8J5TcB3eNpYMaoP23wxtDrFDA17D50g==,
+        integrity: sha512-RlvNzoZQbqwEde2ARtlafnMeXNNRbgNsuaRg0JWCaHVFJwN+d9bKK+g1zGmeCMk9ndMQAsC9K5ue0iEohe/SHQ==,
       }
     dependencies:
       nft.storage: 7.1.1(node-fetch@3.3.2)
@@ -2582,10 +2582,10 @@ packages:
       - supports-color
     dev: false
 
-  /@lxdao/uploader3@1.3.0(@babel/core@7.23.0)(node-fetch@3.3.2)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0):
+  /@lxdao/uploader3@1.5.0(node-fetch@3.3.2)(react-dom@18.2.0)(react@18.2.0):
     resolution:
       {
-        integrity: sha512-6LIvCc+Ntl6CsgIRHYxIzFu35HPekPsCWydLZW453hl1L5kssTOvXeNdQHAoPc+sdL4zbx+F2VhF8w6/aLiH0Q==,
+        integrity: sha512-nAoyc94yGLz3iOYXJEaoUqrMVege1Y/P57ONkrP2tcdjp9Q0ApJuj31trJzqVRLE8h4FDh5meaetdS2aN0iUJA==,
       }
     dependencies:
       '@iconify/react': 4.1.1(react@18.2.0)
@@ -2593,14 +2593,12 @@ packages:
       lodash.clonedeep: 4.5.0
       nft.storage: 7.1.1(node-fetch@3.3.2)
       react-dropzone: 14.2.3(react@18.2.0)
-      styled-components: 5.3.11(@babel/core@7.23.0)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
+      styled-components: 6.1.1(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
-      - '@babel/core'
       - encoding
       - node-fetch
       - react
       - react-dom
-      - react-is
       - supports-color
     dev: false
 
@@ -10555,6 +10553,18 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
+  /postcss@8.4.31:
+    resolution:
+      {
+        integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==,
+      }
+    engines: { node: ^10 || ^12 || >=14 }
+    dependencies:
+      nanoid: 3.3.6
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
+    dev: false
+
   /preact@10.18.1:
     resolution:
       {
@@ -11885,6 +11895,29 @@ packages:
       tslib: 2.6.2
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /styled-components@6.1.1(react-dom@18.2.0)(react@18.2.0):
+    resolution:
+      {
+        integrity: sha512-cpZZP5RrKRIClBW5Eby4JM1wElLVP4NQrJbJ0h10TidTyJf4SIIwa3zLXOoPb4gJi8MsJ8mjq5mu2IrEhZIAcQ==,
+      }
+    engines: { node: '>= 16' }
+    peerDependencies:
+      react: '>= 16.8.0'
+      react-dom: '>= 16.8.0'
+    dependencies:
+      '@emotion/is-prop-valid': 1.2.1
+      '@emotion/unitless': 0.8.1
+      '@types/stylis': 4.2.1
+      css-to-react-native: 3.2.0
+      csstype: 3.1.2
+      postcss: 8.4.31
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      shallowequal: 1.1.0
+      stylis: 4.3.0
+      tslib: 2.6.2
     dev: false
 
   /styled-jsx@5.1.1(@babel/core@7.23.0)(react@18.2.0):

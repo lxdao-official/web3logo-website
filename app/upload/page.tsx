@@ -241,6 +241,8 @@ function Upload() {
                 render={({ field: { onChange, value } }) => (
                   <Uploader3
                     connector={connector}
+                    accept={['.svg']}
+                    crop={false}
                     onUpload={(result) => {
                       value[0] = undefined
                       setLoading1(true)
@@ -312,6 +314,8 @@ function Upload() {
                 render={({ field: { onChange, value } }) => (
                   <Uploader3
                     connector={connector}
+                    accept={['.svg']}
+                    crop={false}
                     onUpload={(result) => {
                       value[1] = undefined
                       setLoading2(true)
