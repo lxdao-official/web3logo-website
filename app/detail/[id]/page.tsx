@@ -31,6 +31,7 @@ import { createConnector } from '@lxdao/uploader3-connector'
 import styled from '@emotion/styled'
 import './index.css'
 import { useRouter } from 'next/navigation'
+import { Img3 } from '@lxdao/img3'
 
 const Heart = styled.div`
   width: 46px;
@@ -545,6 +546,9 @@ function DetailPage(props: { params: { id: string } }) {
 
           <Uploader3
             connector={connector}
+            // @ts-ignore
+            accept={['.svg']}
+            crop={false}
             onUpload={(result) => {
               setLoading(true)
               setFileInfo(false)
@@ -560,12 +564,11 @@ function DetailPage(props: { params: { id: string } }) {
             }}
           >
             {fileInfo ? (
-              <Image
+              <Img3
                 src={fileInfo.file}
-                alt="logo"
-                width={160}
-                height={160}
                 style={{
+                  width: '160px',
+                  height: '160px',
                   maxWidth: '100%',
                   maxHeight: '100%',
                   border: '1px solid #d0d5dd',
