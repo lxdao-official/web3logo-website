@@ -195,7 +195,7 @@ function Personal({ searchParams = { address: '' } }) {
           <Uploader3
             connector={connector}
             multiple={true}
-            accept={['.svg']}
+            accept={['.svg'] as any[]}
             crop={false}
             onChange={(files) => {
               console.log(files)

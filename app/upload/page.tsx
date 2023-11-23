@@ -241,7 +241,7 @@ function Upload() {
                 render={({ field: { onChange, value } }) => (
                   <Uploader3
                     connector={connector}
-                    accept={['.svg']}
+                    accept={['.svg'] as any[]}
                     crop={false}
                     onUpload={(result) => {
                       value[0] = undefined
