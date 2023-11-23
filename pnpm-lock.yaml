@@ -23,14 +23,14 @@ dependencies:
     specifier: ^11.11.0
     version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.23)(react@18.2.0)
   '@lxdao/img3':
-    specifier: ^1.1.0
+    specifier: ^1.0.1
     version: 1.1.0(@babel/core@7.23.0)(react-dom@18.2.0)(react@18.2.0)
   '@lxdao/uploader3':
-    specifier: ^1.5.0
-    version: 1.5.0(node-fetch@3.3.2)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^1.5.2
+    version: 1.5.2(node-fetch@3.3.2)(react-dom@18.2.0)(react@18.2.0)
   '@lxdao/uploader3-connector':
-    specifier: ^1.1.1
-    version: 1.1.1
+    specifier: ^1.1.2
+    version: 1.1.2
   '@mui/icons-material':
     specifier: ^5.14.11
     version: 5.14.11(@mui/material@5.14.11)(@types/react@18.2.23)(react@18.2.0)
@@ -2569,10 +2569,10 @@ packages:
       - react-dom
     dev: false
 
-  /@lxdao/uploader3-connector@1.1.1:
+  /@lxdao/uploader3-connector@1.1.2:
     resolution:
       {
-        integrity: sha512-RlvNzoZQbqwEde2ARtlafnMeXNNRbgNsuaRg0JWCaHVFJwN+d9bKK+g1zGmeCMk9ndMQAsC9K5ue0iEohe/SHQ==,
+        integrity: sha512-/7uNbLjpybRfAO5jFWv8irCH3HFGcV6b9iGDx3iPiQIzGAER71aCZfGvo9MJJ1rb4YBc1pgt++D2zHZ02KnxlA==,
       }
     dependencies:
       nft.storage: 7.1.1(node-fetch@3.3.2)
@@ -2582,10 +2582,10 @@ packages:
       - supports-color
     dev: false
 
-  /@lxdao/uploader3@1.5.0(node-fetch@3.3.2)(react-dom@18.2.0)(react@18.2.0):
+  /@lxdao/uploader3@1.5.2(node-fetch@3.3.2)(react-dom@18.2.0)(react@18.2.0):
     resolution:
       {
-        integrity: sha512-nAoyc94yGLz3iOYXJEaoUqrMVege1Y/P57ONkrP2tcdjp9Q0ApJuj31trJzqVRLE8h4FDh5meaetdS2aN0iUJA==,
+        integrity: sha512-/9Wby78crZjfjRsxattdZxkm18k2+gkmy9/CNig5jBK5521v120wsIAYbE9orcd0buM5eznUOiRcjIRlOTbNqg==,
       }
     dependencies:
       '@iconify/react': 4.1.1(react@18.2.0)

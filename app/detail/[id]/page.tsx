@@ -546,7 +546,6 @@ function DetailPage(props: { params: { id: string } }) {
 
           <Uploader3
             connector={connector}
-            // @ts-ignore
             accept={['.svg']}
             crop={false}
             onUpload={(result) => {

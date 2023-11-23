@@ -195,7 +195,6 @@ function Personal({ searchParams = { address: '' } }) {
           <Uploader3
             connector={connector}
             multiple={true}
-            // @ts-ignore
             accept={['.svg']}
             crop={false}
             onChange={(files) => {
