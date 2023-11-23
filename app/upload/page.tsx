@@ -22,6 +22,7 @@ import { toast } from 'react-toastify'
 import { useAccount } from 'wagmi'
 import { createCanvas } from 'canvas'
 import { useRouter } from 'next/navigation'
+import { Img3 } from '@lxdao/img3'
 
 const FormInput = styled.input`
   font-size: 16px;
@@ -261,12 +262,11 @@ function Upload() {
                     }}
                   >
                     {value[0] ? (
-                      <Image
+                      <Img3
                         src={value[0]?.file}
-                        alt="logo"
-                        width={160}
-                        height={160}
                         style={{
+                          width: '160px',
+                          height: '160px',
                           maxWidth: '100%',
                           maxHeight: '100%',
                           border: '1px solid #d0d5dd',
@@ -334,15 +334,14 @@ function Upload() {
                     }}
                   >
                     {value[1] ? (
-                      <Image
+                      <Img3
                         src={value[1]?.file}
-                        alt="logo"
-                        width={160}
-                        height={160}
                         style={{
+                          width: '160px',
+                          height: '160px',
                           maxWidth: '100%',
                           maxHeight: '100%',
-                          border: ' 1px solid #d0d5dd',
+                          border: '1px solid #d0d5dd',
                         }}
                       />
                     ) : (
