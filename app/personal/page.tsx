@@ -28,7 +28,8 @@ import { Img3 } from '@lxdao/img3'
 const Heart = styled.div`
   width: 46px;
   height: 46px;
-  background-image: url(/images/heart_logo.png);
+  background-image: url(/images/heart.jpg);
+  background-size: 1340px 46px;
   background-repeat: no-repeat;
   background-position: -1288px 0;
   position: absolute;
@@ -36,18 +37,21 @@ const Heart = styled.div`
   bottom: 10px;
 `
 const ADMIN_ADDRESS = process.env.NEXT_PUBLIC_ADMIN_ADDRESS
+  ? process.env.NEXT_PUBLIC_ADMIN_ADDRESS.split(',')
+  : []
 
-function Personal() {
+function Personal({ searchParams = { address: '' } }) {
   const { address = '' } = useAccount()
   const [isAdmin, setIsAdmin] = useState(false)
-  const router = useRouter()
+  const [isSelf, setIsSelf] = useState(false)
+  const { address: pathAddress } = searchParams
   const [tabKey, setTabKey] = useState('upload')
   const [addressInfo, setAddressInfo] = useState('')
   const [logoList, setLogoList] = useState<(Logo & FavoriteData)[]>([])
   const queryClient = useQueryClient()
-  const [files, setFiles] = useState<
-    { name: string; fileType: string; file?: string }[]
-  >([])
+  const filesList = useRef<{ name: string; fileType: string; file?: string }[]>(
+    []
+  )
   const uploadFiles = useRef<uploadInputs[]>([])
 
   const changeTab = (tabKey: string) => {
@@ -55,18 +59,16 @@ function Personal() {
   }
 
   useEffect(() => {
-    if (!address) {
-      router.push('/')
-    }
-    setIsAdmin(address === ADMIN_ADDRESS)
-    setAddressInfo(address as string)
-  }, [address])
+    setIsAdmin(ADMIN_ADDRESS.includes(address))
+    setIsSelf(!pathAddress)
+    setAddressInfo(pathAddress || (address as string))
+  }, [address, pathAddress])
 
   const { data, isSuccess } = useQuery<PersonalDataType>({
-    queryKey: ['queryCheckingLogoList', tabKey, address],
+    queryKey: ['queryCheckingLogoList', tabKey, addressInfo],
     queryFn: () =>
       API.get('/logos/getLogoByAddress', {
-        params: { address, type: tabKey },
+        params: { address: addressInfo, type: tabKey },
       }),
   })
 
@@ -91,31 +93,26 @@ function Personal() {
     },
   })
   const handleCancel = async (favoriteId: number) => {
+    if (!isSelf) return
     removeFavoriteMutation.mutate({ favoriteId })
   }
-
-  // const submitMutation = useMutation({
-  //   mutationKey: ['submitMutation'],
-  //   mutationFn: (info: uploadInputs) =>
-  //     API.post('/logos', { ...info, authorAddress: addressInfo }),
-  //   onError: (error) => toast.error(error.message),
-  //   onSuccess: (success) =>
-  //     toast.success(`${success.data.logo[0].fileName} upload successful`),
-  // })
 
   const batchUploadFile = useMutation({
     mutationKey: ['batchUploadFile'],
     mutationFn: (info: uploadInputs[]) =>
       API.post('/logos/batchUploadFile', info),
     onError: (error) => {
-      setFiles([])
+      filesList.current = []
       uploadFiles.current = []
       toast.error(error.message)
     },
     onSuccess: (success) => {
-      setFiles([])
+      filesList.current = []
       uploadFiles.current = []
       toast.success(`upload successful`)
+      queryClient.invalidateQueries({
+        queryKey: ['queryCheckingLogoList'],
+      })
     },
   })
 
@@ -177,27 +174,33 @@ function Personal() {
         >
           I liked
         </Button>
-        <Button
-          variant="contained"
-          style={{
-            padding: '12px 18px',
-            background: tabKey === 'checking' ? '#000' : '#fff',
-            color: tabKey === 'checking' ? '#fff' : '#000',
-            borderRadius: 100,
-            border: '1px solid #DAE0E6',
-            boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
-            marginRight: '12px',
-          }}
-          onClick={() => changeTab('checking')}
-        >
-          Checking
-        </Button>
-        {isAdmin && (
+        {isAdmin && isSelf && (
+          <Button
+            variant="contained"
+            style={{
+              padding: '12px 18px',
+              background: tabKey === 'checking' ? '#000' : '#fff',
+              color: tabKey === 'checking' ? '#fff' : '#000',
+              borderRadius: 100,
+              border: '1px solid #DAE0E6',
+              boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+              marginRight: '12px',
+            }}
+            onClick={() => changeTab('checking')}
+          >
+            Checking
+          </Button>
+        )}
+        {isAdmin && isSelf && (
           <Uploader3
             connector={connector}
             multiple={true}
+            accept={['.svg']}
+            crop={false}
             onChange={(files) => {
-              setFiles([])
+              console.log(files)
+              filesList.current = []
+              uploadFiles.current = []
               const IsError = files.find(
                 (file) => file.name.split('-').length != 3
               )
@@ -205,15 +208,16 @@ function Personal() {
                 toast.error(`${IsError.name}: invalid naming format`)
                 return
               }
-              const uploadFiles = files.map((file) => ({
+              const uploadFilesArr = files.map((file) => ({
                 fileType: file.type,
                 name: file.name,
               }))
-              setFiles(uploadFiles)
+              filesList.current = uploadFilesArr
             }}
             onComplete={(file) => {
+              console.log(file)
               if (file.status === 'done') {
-                const isHasFile = files.find(
+                const isHasFile = filesList.current.find(
                   (f) =>
                     file.name === f.name && file.name.split('-').length === 3
                 )
@@ -238,11 +242,14 @@ function Personal() {
                     authorAddress: addressInfo,
                   }
                   uploadFiles.current.push(info)
-                  if (uploadFiles.current.length === files.length) {
+                  console.log(
+                    uploadFiles.current.length,
+                    filesList.current.length
+                  )
+                  if (uploadFiles.current.length === filesList.current.length) {
+                    console.log(uploadFiles.current)
                     batchUploadFile.mutate(uploadFiles.current)
                   }
-
-                  // setUploadFiles((files) => [...files, info])
                 }
               }
             }}

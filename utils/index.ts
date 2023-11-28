@@ -6,3 +6,15 @@ export const formateAddress = (address: string): string => {
   if (!address) return ''
   return address.substring(0, 6) + '...' + address.substring(address.length - 4)
 }
+
+export function debounce(func: (...args: any[]) => void, delay: number) {
+  let timerId: any
+  return function (...args: any[]) {
+    if (timerId) {
+      clearTimeout(timerId)
+    }
+    timerId = setTimeout(() => {
+      func(...args)
+    }, delay)
+  }
+}
