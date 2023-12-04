@@ -205,8 +205,8 @@ export default function Home() {
           </Typography>
         }
       >
-        <Box>
-          <Grid container spacing={3}>
+        <Box margin="0">
+          <Grid container spacing={3} margin="0">
             {logoNamesList &&
               logoNamesList.map((item, index) => (
                 <Grid lg={3} md={4} sm={6} xs={6} key={index}>
