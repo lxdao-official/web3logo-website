@@ -219,7 +219,7 @@ function Upload() {
             control={control}
             render={({ field }) => <FormInput {...field} />}
           />
-          <Label required={true} value="Upload logo file（svg/png）:" />; ;
+          <Label required={true} value="Upload logo file（svg/png）:" />
           <Box display="flex">
             <Box marginRight="20px">
               <Label
@@ -242,7 +242,7 @@ function Upload() {
                 render={({ field: { onChange, value } }) => (
                   <Uploader3
                     connector={connector}
-                    accept={['.svg']}
+                    accept={['.svg', '.jpg', '.png']}
                     crop={false}
                     onUpload={(result) => {
                       value[0] = undefined
@@ -314,7 +314,7 @@ function Upload() {
                 render={({ field: { onChange, value } }) => (
                   <Uploader3
                     connector={connector}
-                    accept={['.svg']}
+                    accept={['.svg', '.jpg', '.png']}
                     crop={false}
                     onUpload={(result) => {
                       value[1] = undefined
@@ -385,7 +385,6 @@ function Upload() {
               Please upload logo file
             </Typography>
           )}
-          ;
           <Controller
             name={'agree'}
             control={control}

@@ -10,6 +10,7 @@ export const logoTypeConfig = [
   'DAO',
   'SocialFi',
   'GameFi',
+  'Other',
 ]
 
 export const connector = createConnector('NFT.storage', {
