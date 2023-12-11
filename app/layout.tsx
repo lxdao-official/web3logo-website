@@ -63,9 +63,9 @@ export default function RootLayout({
               <ThemeProvider theme={theme}>
                 <Header />
                 <Box
+                  margin={{ lg: '0 112px', md: '0 65px', xs: '0 20px' }}
                   sx={{
                     minHeight: 'calc(100vh - 86px - 360px - 64px)',
-                    margin: '0 112px',
                   }}
                 >
                   {children}

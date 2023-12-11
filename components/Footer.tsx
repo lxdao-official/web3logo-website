@@ -10,10 +10,15 @@ import twitter from '@/public/images/twitter.svg'
 
 function Footer() {
   return (
-    <Box bgcolor="#F8F9FB" height="360px" padding="62px 112px" marginTop="64px">
+    <Box
+      padding={{ lg: '62px 112px', md: '30px 65px', xs: '10px 20px' }}
+      bgcolor="#F8F9FB"
+      height={{ md: '360px', xs: 'auto' }}
+      marginTop="64px"
+    >
       <Grid container>
         <Grid container xs={12}>
-          <Grid xs={6}>
+          <Grid xs={12} md={6} marginBottom={{ xs: '10px', md: '0' }}>
             <Image src={logo} alt="webelogo" width={130} />
             <Box
               component="p"
@@ -29,7 +34,7 @@ function Footer() {
               <Image src={twitter} alt="twitter" />
             </Box>
           </Grid>
-          <Grid xs={3} textAlign="right">
+          <Grid md={3} xs={12} textAlign={{ md: 'right' }}>
             <NavList
               title="Resources"
               items={[
@@ -40,7 +45,7 @@ function Footer() {
               ]}
             />
           </Grid>
-          <Grid xs={3} textAlign="right">
+          <Grid md={3} xs={12} textAlign={{ md: 'right' }}>
             <NavList
               title="Supporters"
               items={[
@@ -55,7 +60,8 @@ function Footer() {
         <Grid
           xs={12}
           textAlign="center"
-          style={{ color: '#5F6D7E', fontSize: 16, marginTop: 64 }}
+          marginTop={{ xs: '32px', md: '64px' }}
+          style={{ color: '#5F6D7E', fontSize: 16 }}
         >
           © 2023 Web3logo. All Rights Reserved.
         </Grid>

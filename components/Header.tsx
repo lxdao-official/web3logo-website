@@ -1,5 +1,5 @@
 'use client'
-import { Avatar, Box, Button } from '@mui/material'
+import { Avatar, Box, Button, Menu, MenuItem } from '@mui/material'
 import Image from 'next/image'
 import logo from '@/public/images/logo.svg'
 import Link from 'next/link'
@@ -15,6 +15,7 @@ function Header() {
   const router = useRouter()
   const [uploadBtnShow, setUploadBtnShow] = useState(false)
   const [hasAvatar, setHasAvatar] = useState(false)
+  const [open, setOpen] = useState(false)
 
   useEffect(() => {
     const isNotShow = address && pathName === '/upload'
@@ -22,21 +23,29 @@ function Header() {
     setHasAvatar(!!address)
   }, [pathName, address])
 
+  const handleClick = () => {
+    setOpen(true)
+  }
+  const handleClose = () => {
+    setOpen(false)
+  }
+
   return (
     <Box
+      padding={{ lg: '0 112px', md: '0 65px', xs: '0 20px' }}
       sx={{
         width: '100%',
         height: 86,
-        padding: '0 112px',
       }}
       display="flex"
       justifyContent="space-between"
       alignItems="center"
+      position="relative"
     >
       <Link href="/">
         <Image src={logo} style={{ width: 130 }} alt="web3logo" />
       </Link>
-      <Box display="flex">
+      <Box display={{ md: 'flex', xs: 'none' }}>
         {uploadBtnShow && (
           <Button
             disableFocusRipple={true}
@@ -66,6 +75,56 @@ function Header() {
         <ConnectButton
           label="Connect Wallet "
           accountStatus="address"
+          chainStatus="none"
+          showBalance={false}
+        />
+      </Box>
+
+      <Box display={{ md: 'none', xs: 'flex' }}>
+        <Button
+          id="basic-button"
+          aria-controls={open ? 'basic-menu' : undefined}
+          aria-haspopup="true"
+          aria-expanded={open ? 'true' : undefined}
+          onClick={handleClick}
+        >
+          MENU
+        </Button>
+        <Menu id="basic-menu" open={open} onClose={handleClose}>
+          {hasAvatar && (
+            <MenuItem onClick={handleClose}>
+              <Link
+                href="/personal"
+                style={{
+                  paddingLeft: '16px',
+                  paddingRight: '16px',
+                  color: '#2E2E2E',
+                  textDecoration: 'none',
+                }}
+              >
+                Personal
+              </Link>
+            </MenuItem>
+          )}
+          {uploadBtnShow && (
+            <MenuItem onClick={handleClose}>
+              <Link
+                href="/upload"
+                style={{
+                  paddingLeft: '16px',
+                  paddingRight: '16px',
+                  color: '#2E2E2E',
+                  textDecoration: 'none',
+                }}
+              >
+                upload
+              </Link>
+            </MenuItem>
+          )}
+        </Menu>
+        <ConnectButton
+          label="Connect Wallet "
+          accountStatus="avatar"
           chainStatus="none"
           showBalance={false}
         />
