@@ -141,8 +141,8 @@ function Upload() {
       <Typography
         component="p"
         marginX="auto"
+        width={{ md: '800px', xs: '95%' }}
         style={{
-          width: '800px',
           color: '#5F6D7E',
           textAlign: 'center',
           fontFamily: 'Inter',
@@ -156,7 +156,7 @@ function Upload() {
         Please ensure that the uploaded logo is correct and there are no
         copyright disputes. Let us build a better web3logo world together.
       </Typography>
-      <Box marginTop="42px" width="600px" marginX="auto">
+      <Box marginTop="42px" width={{ md: '600px', xs: '95%' }} marginX="auto">
         <form onSubmit={handleSubmit(onSubmit)}>
           <Label required={true} value="Logo name:" />
           <Controller
@@ -293,7 +293,7 @@ function Upload() {
                                 fill="black"
                               />
                             </svg>
-                            logo（.svg）
+                            logo（svg/jpg/png）
                           </>
                         )}
                       </ImageBox>

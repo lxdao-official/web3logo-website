@@ -273,7 +273,7 @@ function DetailPage(props: { params: { id: string } }) {
                     left="16px"
                     spacing={1}
                     direction="row"
-                    display="none"
+                    display={{ md: 'none', xs: 'none !important' }}
                     zIndex={1000}
                   >
                     <Button
@@ -328,7 +328,7 @@ function DetailPage(props: { params: { id: string } }) {
                 </Box>
                 <Box
                   marginTop="12px"
-                  display="flex"
+                  display={{ md: 'flex', xs: 'block' }}
                   justifyContent="space-between"
                   alignItems="center"
                   fontSize="12px"
@@ -356,7 +356,7 @@ function DetailPage(props: { params: { id: string } }) {
                   </Box>
                   <Box
                     display="flex"
-                    justifyContent="flex-end"
+                    justifyContent={{ md: 'flex-end', xs: 'flex-start' }}
                     alignItems="center"
                   >
                     <Image

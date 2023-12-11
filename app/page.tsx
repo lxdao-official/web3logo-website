@@ -85,7 +85,7 @@ export default function Home() {
   return (
     <Box>
       <Box
-        paddingTop="132px"
+        paddingTop={{ md: '132px', xs: '60px' }}
         display="flex"
         justifyContent="center"
         alignItems="center"
@@ -94,14 +94,15 @@ export default function Home() {
         <Box
           component="img"
           src="/images/logo.svg"
-          style={{ width: 349, marginBottom: 64 }}
+          width={{ md: '349px', xs: '180px' }}
+          marginBottom={{ md: '64px', xs: '32px' }}
           alt="web3logo"
         />
         <Box
+          width={{ md: 616, xs: '90%' }}
+          height={{ md: 56, xs: 40 }}
+          padding={{ md: '8px 16px', xs: '8px 4px' }}
           sx={{
-            width: 616,
-            height: 56,
-            padding: '8px 16px',
             borderRadius: 100,
             border: '1px solid #DAE0E6',
             boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
@@ -159,7 +160,11 @@ export default function Home() {
           />
         </Box>
       </Box>
-      <Box marginTop="95px" marginBottom="48px">
+      <Box
+        marginTop={{ md: '95px', xs: '60px' }}
+        marginBottom={{ md: '48px', xs: '22px' }}
+        sx={{ '&>button': { marginBottom: '5px' } }}
+      >
         <Button
           variant="outlined"
           style={{
