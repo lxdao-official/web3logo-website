@@ -263,7 +263,9 @@ export default function Home() {
                             zIndex={1000}
                           >
                             <Button variant="outlined" size="small">
-                              {item.logo[0].fileType}
+                              {item.logo[0].fileType.includes('svg')
+                                ? 'svg'
+                                : item.logo[0].fileType}
                             </Button>
                             <Button variant="outlined" size="small">
                               {formatNumWithK(item.logo[0].downloadNum)}
