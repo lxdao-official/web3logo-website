@@ -365,7 +365,7 @@ function Upload() {
                                 fill="white"
                               />
                             </svg>
-                            logo（.svg）
+                            logo（svg/jpg/png）
                           </>
                         )}
                       </ImageBox>

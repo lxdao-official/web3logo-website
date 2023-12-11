@@ -236,8 +236,9 @@ function DetailPage(props: { params: { id: string } }) {
                   border="1px solid #EAEBF0"
                   borderRadius="10px"
                   boxShadow="0px 1px 2px 0px rgba(16, 24, 40, 0.04)"
-                  style={{ cursor: 'pointer' }}
                   sx={{
+                    cursor: 'pointer',
+                    backgroundColor: '#F7F7F7',
                     '&:hover': {
                       boxShadow: '0px 4px 30px 0px rgba(16, 24, 40, 0.05)',
                       '& div': {
@@ -263,7 +264,7 @@ function DetailPage(props: { params: { id: string } }) {
                   <Typography
                     component="img"
                     src={logo.file}
-                    style={{ maxWidth: '80px', maxHeight: '80px' }}
+                    style={{ maxWidth: '80%', maxHeight: '80%' }}
                     alt="logo"
                   />
                   <Stack
@@ -280,7 +281,7 @@ function DetailPage(props: { params: { id: string } }) {
                       size="small"
                       style={{ minWidth: '40px' }}
                     >
-                      {logo.fileType}
+                      {logo.fileType.includes('svg') ? 'svg' : logo.fileType}
                     </Button>
                     <Button
                       variant="outlined"
@@ -496,7 +497,7 @@ function DetailPage(props: { params: { id: string } }) {
                             <Typography
                               component="img"
                               src={item.logo[0].file}
-                              style={{ maxWidth: '80px', maxHeight: '80px' }}
+                              style={{ maxWidth: '80%', maxHeight: '80%' }}
                               alt="logo"
                             />
                             <Stack
@@ -595,7 +596,7 @@ function DetailPage(props: { params: { id: string } }) {
                         fill="black"
                       />
                     </svg>
-                    logo（.svg）
+                    logo（svg/jpg/png）
                   </>
                 )}
               </ImageBox>
