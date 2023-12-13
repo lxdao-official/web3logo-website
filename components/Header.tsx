@@ -18,8 +18,8 @@ function Header() {
   const [open, setOpen] = useState(false)
 
   useEffect(() => {
-    const isNotShow = address && pathName === '/upload'
-    setUploadBtnShow(!isNotShow)
+    const isShow = address && pathName === '/upload'
+    setUploadBtnShow(!!isShow)
     setHasAvatar(!!address)
   }, [pathName, address])
 
