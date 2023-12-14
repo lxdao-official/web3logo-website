@@ -13,13 +13,14 @@ import Link from 'next/link'
 import 'css-init'
 import API from '@/utils/API'
 import { useEffect, useRef, useState } from 'react'
-import { useQuery } from '@tanstack/react-query'
+import { useQuery, useQueryClient } from '@tanstack/react-query'
 import Image from 'next/image'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { formatNumWithK, debounce } from '@/utils'
 import { logoTypeConfig } from '@/config'
 
 export default function Home() {
+  const queryClient = useQueryClient()
   const [inputValue, setInputValue] = useState('')
   const [logoType, setLogoType] = useState('')
   const [hasMore, setHasMore] = useState(true)
@@ -27,13 +28,7 @@ export default function Home() {
   const inputRef = useRef<HTMLInputElement>(null)
   const pageInfo = useRef<{ page: number; size: number }>({ page: 0, size: 20 })
   const { data, isError, isSuccess, isLoading } = useQuery<FindLogoName>({
-    queryKey: [
-      'FindLogoNameByPage',
-      inputValue,
-      logoType,
-      pageInfo.current.page,
-      pageInfo.current.size,
-    ],
+    queryKey: ['FindLogoNameByPage', inputValue, logoType],
     queryFn: () =>
       API.get(`/logos/findLogoName`, {
         params: {
@@ -49,7 +44,10 @@ export default function Home() {
     if (isError) {
       setLogoNamesList([])
     }
-    if (isSuccess && data.data.length < pageInfo.current.size) {
+    if (
+      data?.total &&
+      data?.total < (pageInfo.current.page + 1) * pageInfo.current.size
+    ) {
       setHasMore(false)
     }
     if (pageInfo.current.page === 0) {
@@ -60,8 +58,8 @@ export default function Home() {
   }, [data])
 
   const initSearchParam = () => {
-    setHasMore(true)
     setLogoNamesList([])
+    setHasMore(true)
     pageInfo.current.page = 0
   }
 
@@ -71,14 +69,17 @@ export default function Home() {
   }
 
   const fetchMoreData = () => {
-    if (hasMore && isSuccess) {
+    console.log('next')
+    if (hasMore) {
       pageInfo.current.page += 1
+      queryClient.invalidateQueries({
+        queryKey: ['FindLogoNameByPage'],
+      })
     }
   }
 
   const handleSearchType = (type: string) => {
-    setLogoNamesList([])
-    pageInfo.current.page = 0
+    initSearchParam()
     setLogoType(type)
   }
 
@@ -101,7 +102,7 @@ export default function Home() {
         <Box
           width={{ md: 616, xs: '90%' }}
           height={{ md: 56, xs: 40 }}
-          padding={{ md: '8px 16px', xs: '8px 4px' }}
+          padding={{ md: '8px', xs: '8px 4px' }}
           sx={{
             borderRadius: 100,
             border: '1px solid #DAE0E6',
@@ -199,7 +200,8 @@ export default function Home() {
       <InfiniteScroll
         dataLength={logoNamesList.length}
         next={fetchMoreData}
-        hasMore={hasMore}
+        hasMore={true}
+        scrollThreshold={0.0001}
         loader={
           <Typography
             component="p"
@@ -215,7 +217,7 @@ export default function Home() {
             {logoNamesList &&
               logoNamesList.map((item, index) => (
                 <Grid lg={3} md={4} sm={6} xs={6} key={index}>
-                  <Link href={`/detail/${item.id}`}>
+                  <Link href={`/detail/${item.logoName}/${item.id}`}>
                     <Box
                       position="relative"
                       display="flex"
@@ -255,7 +257,13 @@ export default function Home() {
                           <Box
                             component="img"
                             src={item.logo[0].file}
-                            style={{ maxWidth: '80px', maxHeight: '80px' }}
+                            style={{
+                              width: '80px',
+                              height: '80px',
+                              maxWidth: '80px',
+                              maxHeight: '80px',
+                              objectFit: 'contain',
+                            }}
                             alt="logo"
                           />
                           <Stack

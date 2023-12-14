@@ -52,10 +52,11 @@ const ImageBox = styled.div`
   flex-direction: column;
 `
 
-function DetailPage(props: { params: { id: string } }) {
+function DetailPage(props: { params: { ids: string[] } }) {
   const {
-    params: { id },
+    params: { ids },
   } = props
+  const [name, id] = ids
 
   const queryClient = useQueryClient()
   const [open, setOpen] = useState(false)
@@ -264,7 +265,13 @@ function DetailPage(props: { params: { id: string } }) {
                   <Typography
                     component="img"
                     src={logo.file}
-                    style={{ maxWidth: '80%', maxHeight: '80%' }}
+                    style={{
+                      width: '80%',
+                      height: '80%',
+                      maxWidth: '80%',
+                      maxHeight: '80%',
+                      objectFit: 'contain',
+                    }}
                     alt="logo"
                   />
                   <Stack
@@ -273,13 +280,14 @@ function DetailPage(props: { params: { id: string } }) {
                     left="16px"
                     spacing={1}
                     direction="row"
-                    display={{ md: 'none', xs: 'none !important' }}
+                    display="none"
                     zIndex={1000}
                   >
                     <Button
                       variant="outlined"
                       size="small"
                       style={{ minWidth: '40px' }}
+                      sx={{ background: 'white' }}
                     >
                       {logo.fileType.includes('svg') ? 'svg' : logo.fileType}
                     </Button>
@@ -287,6 +295,7 @@ function DetailPage(props: { params: { id: string } }) {
                       variant="outlined"
                       size="small"
                       style={{ minWidth: '40px' }}
+                      sx={{ background: 'white' }}
                     >
                       {formatNumWithK(logo.downloadNum)}
                     </Button>
@@ -497,7 +506,11 @@ function DetailPage(props: { params: { id: string } }) {
                             <Typography
                               component="img"
                               src={item.logo[0].file}
-                              style={{ maxWidth: '80%', maxHeight: '80%' }}
+                              style={{
+                                height: '80%',
+                                maxWidth: '80%',
+                                maxHeight: '80%',
+                              }}
                               alt="logo"
                             />
                             <Stack
