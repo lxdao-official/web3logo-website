@@ -1,59 +1,43 @@
-'use client'
-import { Inter } from 'next/font/google'
-import '@/app/global.css'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import { Box, ThemeProvider, createTheme } from '@mui/material'
-import '@rainbow-me/rainbowkit/styles.css'
-import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit'
-import { configureChains, createConfig, WagmiConfig } from 'wagmi'
-import { mainnet, polygon, optimism, arbitrum, base, zora } from 'wagmi/chains'
-import { alchemyProvider } from 'wagmi/providers/alchemy'
-import { publicProvider } from 'wagmi/providers/public'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { ToastContainer } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+import { Metadata } from 'next/types'
+import RootConfigLayout from '@/components/RootConfigLayout'
 
-const queryClient = new QueryClient({
-  defaultOptions: {
-    queries: {
-      refetchOnWindowFocus: false,
-    },
+const title = 'web3logo'
+const description =
+  'The Web3logo website is just like its name suggests. We will gather the source files (primarily in SVG format) of all Web3-related logos, making it convenient for designers, operations personnel, and all other relevant users to download and use them.'
+
+export const metadata: Metadata = {
+  title,
+  description,
+  generator: 'web3logo',
+  applicationName: 'web3logo',
+  referrer: 'origin-when-cross-origin',
+  keywords: ['web3logo', 'logo', 'web3', 'lxdao'],
+  authors: [{ name: 'web3logo' }],
+  creator: title,
+  publisher: title,
+
+  icons: {
+    icon: '/images/logo.png',
+    shortcut: '/images/logo.png',
+    apple: '/images/logo.png',
   },
-})
 
-const inter = Inter({ subsets: ['latin'] })
-const { chains, publicClient } = configureChains(
-  [mainnet, polygon, optimism, arbitrum, base, zora],
-  [
-    alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY_ID || '' }),
-    publicProvider(),
-  ]
-)
-
-const { connectors } = getDefaultWallets({
-  appName: 'Web3logo',
-  projectId: process.env.NEXT_PUBLIC_WALLET_PROJECT_ID || '',
-  chains,
-})
-
-const wagmiConfig = createConfig({
-  autoConnect: true,
-  connectors,
-  publicClient,
-})
-
-const theme = createTheme({
-  components: {
-    MuiButton: {
-      styleOverrides: {
-        root: {
-          textTransform: 'none',
-        },
+  openGraph: {
+    title,
+    description,
+    url: 'https://web3logo.info',
+    siteName: 'web3logo',
+    images: [
+      {
+        url: 'https://web3logo.info/images/logo.png',
+        width: 800,
+        height: 600,
       },
-    },
+    ],
+    locale: 'en_US',
+    type: 'website',
   },
-})
+}
 
 export default function RootLayout({
   children,
@@ -62,26 +46,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <WagmiConfig config={wagmiConfig}>
-          <RainbowKitProvider chains={chains}>
-            <QueryClientProvider client={queryClient}>
-              <ThemeProvider theme={theme}>
-                <Header />
-                <Box
-                  margin={{ lg: '0 112px', md: '0 65px', xs: '0 20px' }}
-                  sx={{
-                    minHeight: 'calc(100vh - 86px - 360px - 64px)',
-                  }}
-                >
-                  {children}
-                </Box>
-                <Footer />
-                <ToastContainer />
-              </ThemeProvider>
-            </QueryClientProvider>
-          </RainbowKitProvider>
-        </WagmiConfig>
+      <body>
+        <RootConfigLayout>{children}</RootConfigLayout>
       </body>
     </html>
   )

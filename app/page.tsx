@@ -207,6 +207,7 @@ export default function Home() {
             component="p"
             textAlign="center"
             display={isLoading ? 'block' : 'none'}
+            paddingY="110px"
           >
             Loading...
           </Typography>
@@ -294,8 +295,7 @@ export default function Home() {
         </Box>
       </InfiniteScroll>
 
-      {/* ====== empty */}
-      {isError || logoNamesList.length == 0 ? (
+      {!isLoading && logoNamesList.length == 0 ? (
         <Box textAlign="center" marginTop="124px">
           <Image
             src={empty}
@@ -315,7 +315,7 @@ export default function Home() {
               fontSize="28px"
               fontWeight="600"
             >
-              {inputValue}
+              {inputValue || logoType}
             </Typography>
             &quot; were found
           </Typography>
