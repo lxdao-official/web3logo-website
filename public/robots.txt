@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://web3logo.info
+
+# Sitemaps
+Sitemap: https://web3logo.info/sitemap.xml
