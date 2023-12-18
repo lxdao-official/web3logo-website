@@ -18,9 +18,14 @@ import Image from 'next/image'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { formatNumWithK, debounce } from '@/utils'
 import { logoTypeConfig } from '@/config'
+import { useRouter } from 'next/navigation'
+import { useAccount, useConnect } from 'wagmi'
+import { toast } from 'react-toastify'
 
 export default function Home() {
+  const route = useRouter()
   const queryClient = useQueryClient()
+  const { address } = useAccount()
   const [inputValue, setInputValue] = useState('')
   const [logoType, setLogoType] = useState('')
   const [hasMore, setHasMore] = useState(true)
@@ -81,6 +86,10 @@ export default function Home() {
   const handleSearchType = (type: string) => {
     initSearchParam()
     setLogoType(type)
+  }
+
+  const toUploadPage = () => {
+    route.push('/upload')
   }
 
   return (
@@ -328,17 +337,30 @@ export default function Home() {
           >
             Upload a Web3logo, Earn LXDAO Points
           </Typography>
-          <Button
-            variant="contained"
-            style={{
-              padding: '12px 18px',
-              background: '#000',
-              borderRadius: 100,
-              boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
-            }}
-          >
-            Upload Web3 logo
-          </Button>
+          {address ? (
+            <Button
+              variant="contained"
+              style={{
+                padding: '12px 18px',
+                background: '#000',
+                borderRadius: 100,
+                boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+              }}
+              onClick={toUploadPage}
+            >
+              Upload Web3 logo
+            </Button>
+          ) : (
+            <Typography
+              component="p"
+              fontSize="16px"
+              fontWeight={500}
+              color="#5F6D7E"
+              marginBottom="24px"
+            >
+              Please connect your wallet first
+            </Typography>
+          )}
         </Box>
       ) : null}
     </Box>
