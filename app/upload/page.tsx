@@ -94,8 +94,14 @@ function Upload() {
 
   const { address } = useAccount()
 
-  const [loading1, setLoading1] = useState(false)
-  const [loading2, setLoading2] = useState(false)
+  const [loading, setLoading] = useState(false)
+  const [uploadFiles, setUploadFiles] = useState<
+    {
+      file: string
+      fileName: string
+      fileType: string
+    }[]
+  >([])
   const router = useRouter()
 
   const submitMutation = useMutation({
@@ -106,6 +112,7 @@ function Upload() {
     onSuccess: (success) => {
       toast.success('Submit successful')
       router.push('/uploadSuccess')
+      setUploadFiles([])
       reset()
     },
   })
@@ -114,12 +121,8 @@ function Upload() {
     if (!address) {
       return toast.info('please connect wallet')
     }
-    if (data.files[0]) {
-      data.files[0].fileName = `${data.logoName}-white`
-    }
-    if (data.files[1]) {
-      data.files[1].fileName = `${data.logoName}-dark`
-    }
+
+    data.files = uploadFiles
     submitMutation.mutate(data)
   }
 
@@ -220,89 +223,80 @@ function Upload() {
             render={({ field }) => <FormInput {...field} />}
           />
           <Label required={true} value="Upload logo file（svg/png）:" />
-          <Box display="flex">
-            <Box marginRight="20px">
-              <Label
+          <Box marginTop="10px" display="flex" gap="10px">
+            {/* <Label
                 required={true}
                 value="White background"
                 style={{ color: '#666F85', lineHeight: '39px' }}
-              />
-              <Controller
-                name="files"
-                control={control}
-                rules={{
-                  required: true,
-                  validate: (value) => {
-                    console.log(value)
-                    if (value.length === 0 || !value[0]) {
-                      return 'Please upload logo file'
-                    }
-                  },
-                }}
-                render={({ field: { onChange, value } }) => (
-                  <Uploader3
-                    connector={connector}
-                    accept={['.svg', '.jpg', '.png']}
-                    crop={false}
-                    onUpload={(result) => {
-                      value[0] = undefined
-                      setLoading1(true)
-                    }}
-                    onComplete={(result) => {
-                      console.log(result)
-                      if (result.status === 'done') {
-                        value[0] = {
-                          file: result.url,
-                          fileType: result.type.split('/')[1],
-                        }
-                        onChange(value)
-                      }
-                      setLoading1(false)
-                    }}
-                  >
-                    {value[0] ? (
-                      <Img3
-                        src={value[0]?.file}
-                        style={{
-                          width: '160px',
-                          height: '160px',
-                          maxWidth: '100%',
-                          maxHeight: '100%',
-                          border: '1px solid #d0d5dd',
-                        }}
-                      />
-                    ) : (
-                      <ImageBox>
-                        {loading1 ? (
-                          <CircularProgress
-                            style={{
-                              position: 'absolute',
-                            }}
-                          />
-                        ) : (
-                          <>
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="36"
-                              height="36"
-                              viewBox="0 0 36 36"
-                              fill="none"
-                            >
-                              <path
-                                d="M16.5 24V11.775L12.6 15.675L10.5 13.5L18 6L25.5 13.5L23.4 15.675L19.5 11.775V24H16.5ZM9 30C8.175 30 7.4685 29.706 6.8805 29.118C6.2925 28.53 5.999 27.824 6 27V22.5H9V27H27V22.5H30V27C30 27.825 29.706 28.5315 29.118 29.1195C28.53 29.7075 27.824 30.001 27 30H9Z"
-                                fill="black"
-                              />
-                            </svg>
-                            logo（svg/jpg/png）
-                          </>
-                        )}
-                      </ImageBox>
-                    )}
-                  </Uploader3>
-                )}
-              />
-            </Box>
-            <Box>
+              /> */}
+            <Uploader3
+              connector={connector}
+              accept={['.svg', '.jpg', '.png']}
+              crop={false}
+              onUpload={(result) => {
+                setLoading(true)
+              }}
+              onComplete={(result) => {
+                console.log(result)
+                if (result.status === 'done') {
+                  const info = {
+                    file: result.url,
+                    fileName: result.name,
+                    fileType:
+                      result.type && result.type.includes('svg')
+                        ? 'svg'
+                        : result.type.split('/')[1],
+                  }
+                  setUploadFiles((data) => [...data, info])
+                }
+
+                setLoading(false)
+              }}
+            >
+              {
+                <ImageBox>
+                  {loading ? (
+                    <CircularProgress
+                      style={{
+                        position: 'absolute',
+                      }}
+                    />
+                  ) : (
+                    <>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="36"
+                        height="36"
+                        viewBox="0 0 36 36"
+                        fill="none"
+                      >
+                        <path
+                          d="M16.5 24V11.775L12.6 15.675L10.5 13.5L18 6L25.5 13.5L23.4 15.675L19.5 11.775V24H16.5ZM9 30C8.175 30 7.4685 29.706 6.8805 29.118C6.2925 28.53 5.999 27.824 6 27V22.5H9V27H27V22.5H30V27C30 27.825 29.706 28.5315 29.118 29.1195C28.53 29.7075 27.824 30.001 27 30H9Z"
+                          fill="black"
+                        />
+                      </svg>
+                      logo（svg/jpg/png）
+                    </>
+                  )}
+                </ImageBox>
+              }
+            </Uploader3>
+            {uploadFiles.map((img) => (
+              <Box key={img.file}>
+                <Img3
+                  src={img.file}
+                  style={{
+                    width: '160px',
+                    height: '160px',
+                    maxWidth: '100%',
+                    maxHeight: '100%',
+                    border: '1px solid #d0d5dd',
+                  }}
+                />
+              </Box>
+            ))}
+          </Box>
+          {/* <Box>
               <Label
                 required={false}
                 value="Dark background"
@@ -373,8 +367,7 @@ function Upload() {
                   </Uploader3>
                 )}
               />
-            </Box>
-          </Box>
+            </Box> */}
           {errors.files && (
             <Typography
               component="p"

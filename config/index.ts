@@ -1,7 +1,6 @@
 import { createConnector } from '@lxdao/uploader3-connector'
 
 export const logoTypeConfig = [
-  'Hot',
   'DeFi',
   'NFTs',
   'DID',
@@ -10,6 +9,7 @@ export const logoTypeConfig = [
   'DAO',
   'SocialFi',
   'GameFi',
+  'Public chain',
   'Other',
 ]
 
