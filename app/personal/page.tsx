@@ -49,6 +49,7 @@ function Personal({ searchParams = { address: '' } }) {
   const [isAdmin, setIsAdmin] = useState(false)
   const [isSelf, setIsSelf] = useState(false)
   const [uploading, setUploading] = useState(false)
+  const [uploadProgress, setUploadProgress] = useState('0/0')
   const { address: pathAddress } = searchParams
   const [tabKey, setTabKey] = useState('upload')
   const [addressInfo, setAddressInfo] = useState('')
@@ -212,7 +213,7 @@ function Personal({ searchParams = { address: '' } }) {
                 boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
               }}
             >
-              {uploading ? 'uploading' : 'upload'}
+              {uploading ? `uploading(${uploadProgress})` : 'upload'}
             </Button>
           ) : (
             <Uploader3
@@ -231,6 +232,7 @@ function Personal({ searchParams = { address: '' } }) {
                   name: file.name,
                 }))
                 filesList.current = uploadFilesArr
+                setUploadProgress(`0/${uploadFilesArr.length}`)
               }}
               onComplete={(file) => {
                 if (file.status === 'done') {
@@ -253,6 +255,9 @@ function Personal({ searchParams = { address: '' } }) {
                     authorAddress: addressInfo,
                   }
                   uploadFiles.current.push(info)
+                  setUploadProgress(
+                    `${uploadFiles.current.length}/${filesList.current.length}`
+                  )
                   if (uploadFiles.current.length === filesList.current.length) {
                     batchUploadFile.mutate(uploadFiles.current)
                   }
