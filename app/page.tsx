@@ -225,6 +225,7 @@ export default function Home() {
         <Box margin="0">
           <Grid container spacing={3} margin="0">
             {logoNamesList &&
+              logoNamesList.length > 0 &&
               logoNamesList.map((item, index) => (
                 <Grid lg={3} md={4} sm={6} xs={6} key={index}>
                   <Link href={`/detail/${item.logoName}/${item.id}`}>
@@ -286,9 +287,7 @@ export default function Home() {
                             zIndex={1000}
                           >
                             <Button variant="outlined" size="small">
-                              {item.logo[0].fileType.includes('svg')
-                                ? 'svg'
-                                : item.logo[0].fileType}
+                              {item.logo[0].fileType}
                             </Button>
                             <Button variant="outlined" size="small">
                               {formatNumWithK(item.logo[0].downloadNum)}

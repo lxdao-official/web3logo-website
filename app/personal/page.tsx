@@ -1,8 +1,10 @@
 'use client'
-import { useEffect, useRef, useState } from 'react'
+import { Dispatch, SetStateAction, useEffect, useRef, useState } from 'react'
 import {
   Box,
   Button,
+  FormControl,
+  InputLabel,
   Paper,
   Table,
   TableBody,
@@ -11,6 +13,8 @@ import {
   TableHead,
   TableRow,
   Typography,
+  Select,
+  MenuItem,
 } from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
 // import Image from 'next/image'
@@ -22,7 +26,7 @@ import { useRouter } from 'next/navigation'
 import { toast } from 'react-toastify'
 import styled from '@emotion/styled'
 import { Uploader3 } from '@lxdao/uploader3'
-import { connector } from '@/config'
+import { connector, logoTypeConfig } from '@/config'
 import { Img3 } from '@lxdao/img3'
 
 const Heart = styled.div`
@@ -44,6 +48,7 @@ function Personal({ searchParams = { address: '' } }) {
   const { address = '' } = useAccount()
   const [isAdmin, setIsAdmin] = useState(false)
   const [isSelf, setIsSelf] = useState(false)
+  const [uploading, setUploading] = useState(false)
   const { address: pathAddress } = searchParams
   const [tabKey, setTabKey] = useState('upload')
   const [addressInfo, setAddressInfo] = useState('')
@@ -105,8 +110,10 @@ function Personal({ searchParams = { address: '' } }) {
       filesList.current = []
       uploadFiles.current = []
       toast.error(error.message)
+      setUploading(false)
     },
     onSuccess: (success) => {
+      setUploading(false)
       filesList.current = []
       uploadFiles.current = []
       toast.success(`upload successful`)
@@ -191,69 +198,9 @@ function Personal({ searchParams = { address: '' } }) {
             Checking
           </Button>
         )}
-        {isAdmin && isSelf && (
-          <Uploader3
-            connector={connector}
-            multiple={true}
-            accept={['.svg']}
-            crop={false}
-            onChange={(files) => {
-              console.log(files)
-              filesList.current = []
-              uploadFiles.current = []
-              const IsError = files.find(
-                (file) => file.name.split('-').length != 3
-              )
-              if (IsError) {
-                toast.error(`${IsError.name}: invalid naming format`)
-                return
-              }
-              const uploadFilesArr = files.map((file) => ({
-                fileType: file.type,
-                name: file.name,
-              }))
-              filesList.current = uploadFilesArr
-            }}
-            onComplete={(file) => {
-              console.log(file)
-              if (file.status === 'done') {
-                const isHasFile = filesList.current.find(
-                  (f) =>
-                    file.name === f.name && file.name.split('-').length === 3
-                )
-                if (isHasFile) {
-                  const nameList = file.name.split('-')
-                  const logoName = nameList[0]
-                  const logoType = nameList[1]
-                  const fileName = nameList[2]
-
-                  const info = {
-                    logoName,
-                    logoType,
-                    website: '',
-                    files: [
-                      {
-                        file: file.url,
-                        fileType: file.type.split('/')[1],
-                        fileName,
-                      },
-                    ],
-                    agree: true,
-                    authorAddress: addressInfo,
-                  }
-                  uploadFiles.current.push(info)
-                  console.log(
-                    uploadFiles.current.length,
-                    filesList.current.length
-                  )
-                  if (uploadFiles.current.length === filesList.current.length) {
-                    console.log(uploadFiles.current)
-                    batchUploadFile.mutate(uploadFiles.current)
-                  }
-                }
-              }
-            }}
-          >
+        {isAdmin &&
+          isSelf &&
+          (uploading ? (
             <Button
               variant="contained"
               style={{
@@ -265,10 +212,70 @@ function Personal({ searchParams = { address: '' } }) {
                 boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
               }}
             >
-              upload
+              {uploading ? 'uploading' : 'upload'}
             </Button>
-          </Uploader3>
-        )}
+          ) : (
+            <Uploader3
+              connector={connector}
+              multiple={true}
+              accept={['.svg', '.png', '.jpg']}
+              crop={false}
+              onChange={(files) => {
+                if (uploading) return
+                setUploading(true)
+                filesList.current = []
+                uploadFiles.current = []
+                const uploadFilesArr = files.map((file) => ({
+                  fileType:
+                    file.type && file.type.includes('svg') ? 'svg' : file.type,
+                  name: file.name,
+                }))
+                filesList.current = uploadFilesArr
+              }}
+              onComplete={(file) => {
+                if (file.status === 'done') {
+                  const fileName = file.name
+                  const info = {
+                    logoName: fileName.split('.')[0],
+                    logoType: '',
+                    website: '',
+                    files: [
+                      {
+                        file: file.url,
+                        fileType:
+                          file.type && file.type.includes('svg')
+                            ? 'svg'
+                            : file.type.split('/')[1],
+                        fileName,
+                      },
+                    ],
+                    agree: true,
+                    authorAddress: addressInfo,
+                  }
+                  uploadFiles.current.push(info)
+                  if (uploadFiles.current.length === filesList.current.length) {
+                    batchUploadFile.mutate(uploadFiles.current)
+                  }
+                } else {
+                  setUploading(false)
+                }
+              }}
+            >
+              <Button
+                variant="contained"
+                style={{
+                  padding: '12px 18px',
+                  background: '#fff',
+                  color: '#000',
+                  borderRadius: 100,
+                  border: '1px solid #DAE0E6',
+                  boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+                }}
+              >
+                {uploading ? 'uploading' : 'upload'}
+              </Button>
+            </Uploader3>
+          ))}
       </Box>
       <Box>
         {tabKey !== 'checking' ? (
@@ -328,6 +335,7 @@ function Personal({ searchParams = { address: '' } }) {
         ) : (
           <BasicTable
             logoList={logoList}
+            setLogoList={setLogoList}
             tabKey={tabKey}
             address={addressInfo}
           />
@@ -339,14 +347,15 @@ function Personal({ searchParams = { address: '' } }) {
 
 function BasicTable(props: {
   logoList: Logo[]
+  setLogoList: Dispatch<SetStateAction<(Logo & FavoriteData)[]>>
   tabKey: string
   address: string
 }) {
-  const { logoList } = props
+  const { logoList, setLogoList } = props
   const queryClient = useQueryClient()
   const checkMutation = useMutation({
     mutationKey: ['checkMutation'],
-    mutationFn: (info: { id: number; isAgree: boolean }[]) =>
+    mutationFn: (info: { id: number; isAgree: boolean; logoType?: string }[]) =>
       API.post('/logos/checkLogo', info),
     onSuccess: () => {
       queryClient.invalidateQueries({
@@ -356,18 +365,32 @@ function BasicTable(props: {
     },
     onError: (error) => toast.error(error.message),
   })
-  const handleAgree = (id: number) => {
-    checkMutation.mutate([{ id, isAgree: true }])
+  const handleAgree = (logo: Logo) => {
+    if (!logo.logoName?.logoType) {
+      toast.info('please choose logoType')
+      return
+    }
+    checkMutation.mutate([
+      { id: logo.id, isAgree: true, logoType: logo.logoName?.logoType },
+    ])
   }
   const handleReject = (id: number) => {
     checkMutation.mutate([{ id, isAgree: false }])
   }
+
+  const changeFileLogoType = (type: string, index: number) => {
+    logoList[index].logoName!.logoType = type
+    setLogoList([...logoList] as (Logo & FavoriteData)[])
+  }
+
   return (
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
             <TableCell>fileName</TableCell>
+            <TableCell align="center">logoName</TableCell>
+            <TableCell align="center">logoType</TableCell>
             <TableCell align="center">fileType</TableCell>
             <TableCell align="center">file</TableCell>
             <TableCell align="center">website</TableCell>
@@ -375,7 +398,7 @@ function BasicTable(props: {
           </TableRow>
         </TableHead>
         <TableBody>
-          {logoList.map((logo) => (
+          {logoList.map((logo, index) => (
             <TableRow
               key={logo.id}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
@@ -383,14 +406,43 @@ function BasicTable(props: {
               <TableCell component="th" scope="row">
                 {logo.fileName}
               </TableCell>
+              <TableCell align="center">{logo.logoName?.logoName}</TableCell>
+              <TableCell align="center">
+                <FormControl fullWidth>
+                  <InputLabel id="demo-simple-select-label">
+                    logoType
+                  </InputLabel>
+                  <Select
+                    labelId="demo-simple-select-label"
+                    id="demo-simple-select"
+                    label="logoType"
+                    onChange={(e) =>
+                      changeFileLogoType(e.target.value as string, index)
+                    }
+                  >
+                    {logoTypeConfig.map((type) => (
+                      <MenuItem value={type} key={type}>
+                        {type}
+                      </MenuItem>
+                    ))}
+                  </Select>
+                </FormControl>
+              </TableCell>
               <TableCell align="center">{logo.fileType}</TableCell>
               <TableCell align="center">
-                <Img3 src={logo.file} />
+                <Img3
+                  src={logo.file}
+                  style={{
+                    width: '100px',
+                    height: '100px',
+                    objectFit: 'contain',
+                  }}
+                />
               </TableCell>
               <TableCell align="center">{logo?.logoName?.website}</TableCell>
               <TableCell align="center">
                 <Button
-                  onClick={() => handleAgree(logo.id)}
+                  onClick={() => handleAgree(logo)}
                   style={{ marginRight: '12px' }}
                 >
                   agree
