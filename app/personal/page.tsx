@@ -421,6 +421,7 @@ function BasicTable(props: {
                     labelId="demo-simple-select-label"
                     id="demo-simple-select"
                     label="logoType"
+                    value={logo.logoName ? logo.logoName!.logoType : ''}
                     onChange={(e) =>
                       changeFileLogoType(e.target.value as string, index)
                     }
