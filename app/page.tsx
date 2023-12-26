@@ -55,6 +55,7 @@ export default function Home() {
     ) {
       setHasMore(false)
     }
+    console.log(pageInfo.current.page)
     if (pageInfo.current.page === 0) {
       setLogoNamesList(data?.data || [])
     } else {
@@ -75,7 +76,7 @@ export default function Home() {
 
   const fetchMoreData = () => {
     console.log('next')
-    if (hasMore) {
+    if (hasMore && !isLoading && logoNamesList.length > 0) {
       pageInfo.current.page += 1
       queryClient.invalidateQueries({
         queryKey: ['FindLogoNameByPage'],
@@ -90,6 +91,7 @@ export default function Home() {
 
   const toUploadPage = () => {
     route.push('/upload')
+    initSearchParam()
   }
 
   return (
@@ -154,19 +156,19 @@ export default function Home() {
                 </svg>
               </InputAdornment>
             }
-            endAdornment={
-              <Button
-                variant="contained"
-                style={{
-                  background: '#000',
-                  borderRadius: 100,
-                  boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
-                }}
-                onClick={handleSearch}
-              >
-                Search
-              </Button>
-            }
+            // endAdornment={
+            // <Button
+            //   variant="contained"
+            //   style={{
+            //     background: '#000',
+            //     borderRadius: 100,
+            //     boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+            //   }}
+            //   onClick={handleSearch}
+            // >
+            //   Search
+            // </Button>
+            // }
           />
         </Box>
       </Box>
