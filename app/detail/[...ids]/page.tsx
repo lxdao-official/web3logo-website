@@ -464,7 +464,7 @@ function DetailPage(props: { params: { ids: string[] } }) {
                 {otherData?.data.map((item) => (
                   <Grid lg={3} md={4} sm={6} xs={6} key={item.id}>
                     <Link
-                      href={`/detail/${item.id}`}
+                      href={`/detail/${item.logoName}/${item.id}`}
                       style={{ textDecoration: 'none', color: '#000' }}
                     >
                       <Box
@@ -507,9 +507,11 @@ function DetailPage(props: { params: { ids: string[] } }) {
                               component="img"
                               src={item.logo[0].file}
                               style={{
+                                width: '80%',
                                 height: '80%',
                                 maxWidth: '80%',
                                 maxHeight: '80%',
+                                objectFit: 'contain',
                               }}
                               alt="logo"
                             />
