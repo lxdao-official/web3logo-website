@@ -123,7 +123,10 @@ export default function Home() {
           <Input
             inputRef={inputRef}
             onChange={(e) =>
-              debounce(() => setInputValue(e.target.value), 300)()
+              debounce(() => {
+                initSearchParam()
+                setInputValue(e.target.value)
+              }, 300)()
             }
             style={{ width: '100%', height: '100%', margin: 'auto' }}
             disableUnderline={true}
