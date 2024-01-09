@@ -19,7 +19,7 @@ import {
 import Grid from '@mui/material/Unstable_Grid2'
 // import Image from 'next/image'
 import { useAccount } from 'wagmi'
-import { formateAddress } from '@/utils'
+import { formateAddress, getImg3DidStrFromUrl } from '@/utils'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import API from '@/utils/API'
 import { useRouter } from 'next/navigation'
@@ -324,12 +324,19 @@ function Personal({ searchParams = { address: '' } }) {
                         ? item.logo?.fileName
                         : item.fileName}
                     </Box>
-                    <Typography
-                      component="img"
-                      src={tabKey === 'favorite' ? item.logo?.file : item.file}
-                      style={{ maxWidth: '80px', maxHeight: '80px' }}
-                      alt="logo"
+                    <Img3
+                      src={getImg3DidStrFromUrl(
+                        tabKey === 'favorite' ? item.logo?.file : item.file
+                      )}
+                      style={{
+                        width: '80px',
+                        height: '80px',
+                        maxWidth: '80px',
+                        maxHeight: '80px',
+                        objectFit: 'contain',
+                      }}
                     />
+
                     {tabKey === 'favorite' && (
                       <Heart onClick={() => handleCancel(item.id!)} />
                     )}
@@ -437,7 +444,7 @@ function BasicTable(props: {
               <TableCell align="center">{logo.fileType}</TableCell>
               <TableCell align="center">
                 <Img3
-                  src={logo.file}
+                  src={getImg3DidStrFromUrl(logo.file)}
                   style={{
                     width: '100px',
                     height: '100px',
