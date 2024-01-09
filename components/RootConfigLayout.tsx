@@ -13,7 +13,7 @@ import { publicProvider } from 'wagmi/providers/public'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import { Metadata } from 'next/types'
+import { Img3Provider } from '@lxdao/img3'
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -64,25 +64,29 @@ export default function RootConfigLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <WagmiConfig config={wagmiConfig}>
-          <RainbowKitProvider chains={chains}>
-            <QueryClientProvider client={queryClient}>
-              <ThemeProvider theme={theme}>
-                <Header />
-                <Box
-                  margin={{ lg: '0 112px', md: '0 65px', xs: '0 20px' }}
-                  sx={{
-                    minHeight: 'calc(100vh - 86px - 360px - 64px)',
-                  }}
-                >
-                  {children}
-                </Box>
-                <Footer />
-                <ToastContainer />
-              </ThemeProvider>
-            </QueryClientProvider>
-          </RainbowKitProvider>
-        </WagmiConfig>
+        <Img3Provider
+          defaultGateways={['https://web3logo.4everland.link/ipfs/']}
+        >
+          <WagmiConfig config={wagmiConfig}>
+            <RainbowKitProvider chains={chains}>
+              <QueryClientProvider client={queryClient}>
+                <ThemeProvider theme={theme}>
+                  <Header />
+                  <Box
+                    margin={{ lg: '0 112px', md: '0 65px', xs: '0 20px' }}
+                    sx={{
+                      minHeight: 'calc(100vh - 86px - 360px - 64px)',
+                    }}
+                  >
+                    {children}
+                  </Box>
+                  <Footer />
+                  <ToastContainer />
+                </ThemeProvider>
+              </QueryClientProvider>
+            </RainbowKitProvider>
+          </WagmiConfig>
+        </Img3Provider>
       </body>
     </html>
   )

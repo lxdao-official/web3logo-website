@@ -22,7 +22,7 @@ import upload from '@/public/images/upload.png'
 import API from '@/utils/API'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { useEffect, useRef, useState } from 'react'
-import { formatNumWithK, formateAddress } from '@/utils'
+import { formatNumWithK, formateAddress, getImg3DidStrFromUrl } from '@/utils'
 import Link from 'next/link'
 import { useAccount } from 'wagmi'
 import { toast } from 'react-toastify'
@@ -262,18 +262,17 @@ function DetailPage(props: { params: { ids: string[] } }) {
                   >
                     {logo.fileName}
                   </Box>
-                  <Typography
-                    component="img"
-                    src={logo.file}
+                  <Img3
+                    src={getImg3DidStrFromUrl(logo.file)}
                     style={{
-                      width: '80%',
-                      height: '80%',
-                      maxWidth: '80%',
-                      maxHeight: '80%',
+                      width: '80px',
+                      height: '80px',
+                      maxWidth: '80px',
+                      maxHeight: '80px',
                       objectFit: 'contain',
                     }}
-                    alt="logo"
                   />
+
                   <Stack
                     position="absolute"
                     bottom="16px"
@@ -503,9 +502,8 @@ function DetailPage(props: { params: { ids: string[] } }) {
                         </Box>
                         {item.logo[0] && (
                           <>
-                            <Typography
-                              component="img"
-                              src={item.logo[0].file}
+                            <Img3
+                              src={getImg3DidStrFromUrl(item.logo[0].file)}
                               style={{
                                 width: '80%',
                                 height: '80%',
@@ -513,7 +511,6 @@ function DetailPage(props: { params: { ids: string[] } }) {
                                 maxHeight: '80%',
                                 objectFit: 'contain',
                               }}
-                              alt="logo"
                             />
                             <Stack
                               position="absolute"
@@ -580,7 +577,7 @@ function DetailPage(props: { params: { ids: string[] } }) {
           >
             {fileInfo ? (
               <Img3
-                src={fileInfo.file}
+                src={getImg3DidStrFromUrl(fileInfo.file)}
                 style={{
                   width: '160px',
                   height: '160px',

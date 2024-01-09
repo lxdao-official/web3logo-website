@@ -16,11 +16,12 @@ import { useEffect, useRef, useState } from 'react'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 import Image from 'next/image'
 import InfiniteScroll from 'react-infinite-scroll-component'
-import { formatNumWithK, debounce } from '@/utils'
+import { formatNumWithK, debounce, getImg3DidStrFromUrl } from '@/utils'
 import { logoTypeConfig } from '@/config'
 import { useRouter } from 'next/navigation'
 import { useAccount, useConnect } from 'wagmi'
 import { toast } from 'react-toastify'
+import { Img3 } from '@lxdao/img3'
 
 export default function Home() {
   const route = useRouter()
@@ -270,9 +271,8 @@ export default function Home() {
                       </Box>
                       {item.logo[0] && (
                         <>
-                          <Box
-                            component="img"
-                            src={item.logo[0].file}
+                          <Img3
+                            src={getImg3DidStrFromUrl(item.logo[0].file)}
                             style={{
                               width: '80px',
                               height: '80px',
@@ -280,7 +280,6 @@ export default function Home() {
                               maxHeight: '80px',
                               objectFit: 'contain',
                             }}
-                            alt="logo"
                           />
                           <Stack
                             position="absolute"

@@ -23,6 +23,7 @@ import { useAccount } from 'wagmi'
 import { createCanvas } from 'canvas'
 import { useRouter } from 'next/navigation'
 import { Img3 } from '@lxdao/img3'
+import { getImg3DidStrFromUrl } from '@/utils'
 
 const FormInput = styled.input`
   font-size: 16px;
@@ -284,7 +285,7 @@ function Upload() {
             {uploadFiles.map((img) => (
               <Box key={img.file}>
                 <Img3
-                  src={img.file}
+                  src={getImg3DidStrFromUrl(img.file)}
                   style={{
                     width: '160px',
                     height: '160px',
