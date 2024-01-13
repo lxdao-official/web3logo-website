@@ -21,8 +21,8 @@ export function debounce(func: (...args: any[]) => void, delay: number) {
 
 export function getImg3DidStrFromUrl(url: string) {
   return url
-  if (!url) return url
-  const pattern = new RegExp(`\\b[a-zA-Z0-9]{59}\\b`, 'g')
-  const matches = url.match(pattern)
-  return matches && matches[0] ? `ipfs://${matches[0]}` : url
+  // if (!url) return url
+  // const pattern = new RegExp(`\\b[a-zA-Z0-9]{59}\\b`, 'g')
+  // const matches = url.match(pattern)
+  // return matches && matches[0] ? `ipfs://${matches[0]}` : url
 }
