@@ -65,7 +65,7 @@ export default function RootConfigLayout({
     <html lang="en">
       <body className={inter.className}>
         <Img3Provider
-          defaultGateways={['https://web3logo.4everland.link/ipfs/']}
+        // defaultGateways={['https://web3logo.4everland.link/ipfs/']}
         >
           <WagmiConfig config={wagmiConfig}>
             <RainbowKitProvider chains={chains}>
