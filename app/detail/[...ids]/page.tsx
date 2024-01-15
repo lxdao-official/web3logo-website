@@ -265,10 +265,10 @@ function DetailPage(props: { params: { ids: string[] } }) {
                   <Img3
                     src={getImg3DidStrFromUrl(logo.file)}
                     style={{
-                      width: '80px',
-                      height: '80px',
-                      maxWidth: '80px',
-                      maxHeight: '80px',
+                      width: '80%',
+                      height: '80%',
+                      maxWidth: '80%',
+                      maxHeight: '80%',
                       objectFit: 'contain',
                     }}
                   />
@@ -579,11 +579,11 @@ function DetailPage(props: { params: { ids: string[] } }) {
               <Img3
                 src={getImg3DidStrFromUrl(fileInfo.file)}
                 style={{
-                  width: '160px',
-                  height: '160px',
-                  maxWidth: '100%',
-                  maxHeight: '100%',
-                  border: '1px solid #d0d5dd',
+                  width: '80%',
+                  height: '80%',
+                  maxWidth: '80%',
+                  maxHeight: '80%',
+                  objectFit: 'contain',
                 }}
               />
             ) : (

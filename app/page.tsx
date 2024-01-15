@@ -274,10 +274,10 @@ export default function Home() {
                           <Img3
                             src={getImg3DidStrFromUrl(item.logo[0].file)}
                             style={{
-                              width: '80%',
-                              height: '80%',
-                              maxWidth: '80%',
-                              maxHeight: '80%',
+                              width: '80px',
+                              height: '80px',
+                              maxWidth: '80px',
+                              maxHeight: '80px',
                               objectFit: 'contain',
                             }}
                           />
