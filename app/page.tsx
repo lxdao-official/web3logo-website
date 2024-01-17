@@ -22,6 +22,7 @@ import { useRouter } from 'next/navigation'
 import { useAccount, useConnect } from 'wagmi'
 import { toast } from 'react-toastify'
 import { Img3 } from '@lxdao/img3'
+import { ConnectButton } from '@rainbow-me/rainbowkit'
 
 export default function Home() {
   const route = useRouter()
@@ -354,15 +355,14 @@ export default function Home() {
               Upload Web3 logo
             </Button>
           ) : (
-            <Typography
-              component="p"
-              fontSize="16px"
-              fontWeight={500}
-              color="#5F6D7E"
-              marginBottom="24px"
-            >
-              Please connect your wallet first
-            </Typography>
+            <Box display="flex" justifyContent="center">
+              <ConnectButton
+                label="Connect Wallet "
+                accountStatus="avatar"
+                chainStatus="none"
+                showBalance={false}
+              />
+            </Box>
           )}
         </Box>
       ) : null}
