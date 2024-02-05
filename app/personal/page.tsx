@@ -17,16 +17,13 @@ import {
   MenuItem,
 } from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
-// import Image from 'next/image'
 import { useAccount } from 'wagmi'
 import { formateAddress, getImg3DidStrFromUrl } from '@/utils'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import API from '@/utils/API'
-import { useRouter } from 'next/navigation'
 import { toast } from 'react-toastify'
 import styled from '@emotion/styled'
-import { Uploader3 } from '@lxdao/uploader3'
-import { connector, logoTypeConfig } from '@/config'
+import { logoTypeConfig } from '@/config'
 import { Img3 } from '@lxdao/img3'
 
 const Heart = styled.div`
@@ -49,7 +46,6 @@ function Personal({ searchParams = { address: '' } }) {
   const [isAdmin, setIsAdmin] = useState(false)
   const [isSelf, setIsSelf] = useState(false)
   const [uploading, setUploading] = useState(false)
-  const [uploadProgress, setUploadProgress] = useState('0/0')
   const { address: pathAddress } = searchParams
   const [tabKey, setTabKey] = useState('upload')
   const [addressInfo, setAddressInfo] = useState('')
@@ -59,6 +55,54 @@ function Personal({ searchParams = { address: '' } }) {
     []
   )
   const uploadFiles = useRef<uploadInputs[]>([])
+  const inputFile = useRef<HTMLInputElement>(null)
+  const clickImg = () => {
+    inputFile.current?.click()
+  }
+  const uploadImgFn = async (file: React.ChangeEvent<HTMLInputElement>) => {
+    setUploading(true)
+    const formData = new FormData()
+    if (!file.target.files) {
+      toast.error(`Upload error: Please refresh and select the file again`)
+      return
+    }
+    Object.values(file.target.files).map((file) => {
+      formData.append('files', file, file.name)
+    })
+
+    const result: {
+      code: number
+      message: string
+      data: { name: string; url: string }[]
+    } = await API.post('/upload-img', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+    })
+    if (result?.code == 200) {
+      const infos = result.data.map((f: { name: string; url: string }) => {
+        const [name, type] = f.name.split('.')
+        return {
+          logoName: name,
+          logoType: '',
+          website: '',
+          files: [
+            {
+              file: f.url,
+              fileName: name,
+              fileType: type,
+            },
+          ],
+          agree: true,
+          authorAddress: addressInfo,
+        }
+      })
+      batchUploadFile.mutate(infos)
+    } else {
+      setUploading(false)
+      toast.error(`upload error:${result.message}`)
+    }
+  }
 
   const changeTab = (tabKey: string) => {
     setTabKey(tabKey)
@@ -199,88 +243,32 @@ function Personal({ searchParams = { address: '' } }) {
             Checking
           </Button>
         )}
-        {isAdmin &&
-          isSelf &&
-          (uploading ? (
-            <Button
-              variant="contained"
-              style={{
-                padding: '12px 18px',
-                background: '#fff',
-                color: '#000',
-                borderRadius: 100,
-                border: '1px solid #DAE0E6',
-                boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
-              }}
-            >
-              {uploading ? `uploading(${uploadProgress})` : 'upload'}
-            </Button>
-          ) : (
-            <Uploader3
-              connector={connector}
+        {isAdmin && isSelf && (
+          <Button
+            variant="contained"
+            style={{
+              padding: '12px 18px',
+              background: tabKey === 'favorite' ? '#000' : '#fff',
+              color: tabKey === 'favorite' ? '#fff' : '#000',
+              borderRadius: 100,
+              border: '1px solid #DAE0E6',
+              boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
+              marginRight: '12px',
+            }}
+            disabled={uploading}
+            onClick={clickImg}
+          >
+            Upload{uploading && 'ing...'}
+            <input
+              type="file"
+              name="files"
               multiple={true}
-              accept={['.svg', '.png', '.jpg']}
-              crop={false}
-              onChange={(files) => {
-                if (uploading) return
-                setUploading(true)
-                filesList.current = []
-                uploadFiles.current = []
-                const uploadFilesArr = files.map((file) => ({
-                  fileType:
-                    file.type && file.type.includes('svg') ? 'svg' : file.type,
-                  name: file.name,
-                }))
-                filesList.current = uploadFilesArr
-                setUploadProgress(`0/${uploadFilesArr.length}`)
-              }}
-              onComplete={(file) => {
-                if (file.status === 'done') {
-                  const fileName = file.name
-                  const info = {
-                    logoName: fileName.split('.')[0],
-                    logoType: '',
-                    website: '',
-                    files: [
-                      {
-                        file: file.url,
-                        fileType:
-                          file.type && file.type.includes('svg')
-                            ? 'svg'
-                            : file.type.split('/')[1],
-                        fileName,
-                      },
-                    ],
-                    agree: true,
-                    authorAddress: addressInfo,
-                  }
-                  uploadFiles.current.push(info)
-                  setUploadProgress(
-                    `${uploadFiles.current.length}/${filesList.current.length}`
-                  )
-                  if (uploadFiles.current.length === filesList.current.length) {
-                    batchUploadFile.mutate(uploadFiles.current)
-                  }
-                } else {
-                  setUploading(false)
-                }
-              }}
-            >
-              <Button
-                variant="contained"
-                style={{
-                  padding: '12px 18px',
-                  background: '#fff',
-                  color: '#000',
-                  borderRadius: 100,
-                  border: '1px solid #DAE0E6',
-                  boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.04)',
-                }}
-              >
-                {uploading ? 'uploading' : 'upload'}
-              </Button>
-            </Uploader3>
-          ))}
+              style={{ display: 'none' }}
+              ref={inputFile}
+              onChange={uploadImgFn}
+            />
+          </Button>
+        )}
       </Box>
       <Box>
         {tabKey !== 'checking' ? (
@@ -324,10 +312,9 @@ function Personal({ searchParams = { address: '' } }) {
                         ? item.logo?.fileName
                         : item.fileName}
                     </Box>
-                    <Img3
-                      src={getImg3DidStrFromUrl(
-                        tabKey === 'favorite' ? item.logo?.file : item.file
-                      )}
+                    <Box
+                      component="img"
+                      src={tabKey === 'favorite' ? item.logo?.file : item.file}
                       style={{
                         width: '80px',
                         height: '80px',
@@ -443,8 +430,9 @@ function BasicTable(props: {
               </TableCell>
               <TableCell align="center">{logo.fileType}</TableCell>
               <TableCell align="center">
-                <Img3
-                  src={getImg3DidStrFromUrl(logo.file)}
+                <Box
+                  component="img"
+                  src={logo.file}
                   style={{
                     width: '100px',
                     height: '100px',
