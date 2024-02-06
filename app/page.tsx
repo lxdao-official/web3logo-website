@@ -272,8 +272,9 @@ export default function Home() {
                       </Box>
                       {item.logo[0] && (
                         <>
-                          <Img3
-                            src={getImg3DidStrFromUrl(item.logo[0].file)}
+                          <Box
+                            component="img"
+                            src={item.logo[0].file}
                             style={{
                               width: '80px',
                               height: '80px',
@@ -282,6 +283,7 @@ export default function Home() {
                               objectFit: 'contain',
                             }}
                           />
+
                           <Stack
                             position="absolute"
                             bottom="16px"

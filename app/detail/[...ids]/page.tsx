@@ -33,6 +33,8 @@ import './index.css'
 import { useRouter } from 'next/navigation'
 import { Img3 } from '@lxdao/img3'
 
+import UploadImg from '@/components/UploadImg'
+
 const Heart = styled.div`
   width: 46px;
   height: 46px;
@@ -194,6 +196,12 @@ function DetailPage(props: { params: { ids: string[] } }) {
     router.push(`/personal?address=${address}`)
   }
 
+  const uploadCallback = (files: any[]) => {
+    if (files[0]) {
+      setFileInfo(files[0])
+    }
+  }
+
   return (
     <Box>
       <Box sx={{ marginTop: '51px', lineHeight: '48px' }}>
@@ -262,8 +270,9 @@ function DetailPage(props: { params: { ids: string[] } }) {
                   >
                     {logo.fileName}
                   </Box>
-                  <Img3
-                    src={getImg3DidStrFromUrl(logo.file)}
+                  <Box
+                    component="img"
+                    src={logo.file}
                     style={{
                       width: '80%',
                       height: '80%',
@@ -502,8 +511,9 @@ function DetailPage(props: { params: { ids: string[] } }) {
                         </Box>
                         {item.logo[0] && (
                           <>
-                            <Img3
-                              src={getImg3DidStrFromUrl(item.logo[0].file)}
+                            <Box
+                              component="img"
+                              src={item.logo[0].file}
                               style={{
                                 width: '80%',
                                 height: '80%',
@@ -542,7 +552,7 @@ function DetailPage(props: { params: { ids: string[] } }) {
 
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Upload</DialogTitle>
-        <DialogContent>
+        <DialogContent style={{ width: '500px' }}>
           <DialogContentText>
             Please enter the name of the logo
           </DialogContentText>
@@ -556,64 +566,10 @@ function DetailPage(props: { params: { ids: string[] } }) {
             variant="standard"
             sx={{ marginBottom: '24px' }}
           />
-
-          <Uploader3
-            connector={connector}
-            accept={['.svg', '.jpg', '.png']}
-            crop={false}
-            onUpload={(result) => {
-              setLoading(true)
-              setFileInfo(false)
-            }}
-            onComplete={(result) => {
-              if (result.status === 'done') {
-                setFileInfo({
-                  file: result.url,
-                  fileType: result.type.split('/')[1],
-                })
-              }
-              setLoading(false)
-            }}
-          >
-            {fileInfo ? (
-              <Img3
-                src={getImg3DidStrFromUrl(fileInfo.file)}
-                style={{
-                  width: '80%',
-                  height: '80%',
-                  maxWidth: '80%',
-                  maxHeight: '80%',
-                  objectFit: 'contain',
-                }}
-              />
-            ) : (
-              <ImageBox>
-                {loading ? (
-                  <CircularProgress
-                    style={{
-                      position: 'absolute',
-                    }}
-                  />
-                ) : (
-                  <>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="36"
-                      height="36"
-                      viewBox="0 0 36 36"
-                      fill="none"
-                    >
-                      <path
-                        d="M16.5 24V11.775L12.6 15.675L10.5 13.5L18 6L25.5 13.5L23.4 15.675L19.5 11.775V24H16.5ZM9 30C8.175 30 7.4685 29.706 6.8805 29.118C6.2925 28.53 5.999 27.824 6 27V22.5H9V27H27V22.5H30V27C30 27.825 29.706 28.5315 29.118 29.1195C28.53 29.7075 27.824 30.001 27 30H9Z"
-                        fill="black"
-                      />
-                    </svg>
-                    logo（svg/jpg/png）
-                  </>
-                )}
-              </ImageBox>
-            )}
-          </Uploader3>
+          <UploadImg
+            avatarValue={fileInfo ? [fileInfo] : []}
+            onChange={uploadCallback}
+          />
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose}>Cancel</Button>

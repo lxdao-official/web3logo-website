@@ -20,7 +20,7 @@ type uploadInputs = {
 
 interface FileObject {
   file: string
-  fileName?: string
+  fileName: string
   fileType: string
 }
 
