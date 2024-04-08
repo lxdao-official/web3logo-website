@@ -63,7 +63,6 @@ function Label({
       marginTop="24px"
       sx={{
         color: '#101828',
-        fontFamily: 'Work Sans',
         fontSize: '16px',
         fontStyle: 'normal',
         fontWeight: 500,
@@ -166,7 +165,7 @@ function Upload() {
       </Typography>
       <Box marginTop="42px" width={{ md: '600px', xs: '95%' }} marginX="auto">
         <form onSubmit={handleSubmit(onSubmit)}>
-          <Label required={true} value="Logo name:" />
+          <Label required={true} value="Project name:" />
           <Controller
             name="logoName"
             control={control}
@@ -185,7 +184,7 @@ function Upload() {
               Logo name is required
             </Typography>
           )}
-          <Label required={true} value="Logo Type:" />
+          <Label required={true} value="Project Type:" />
           <Controller
             name="logoType"
             control={control}

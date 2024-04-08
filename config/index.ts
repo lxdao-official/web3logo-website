@@ -9,7 +9,7 @@ export const logoTypeConfig = [
   'DAO',
   'SocialFi',
   'GameFi',
-  'Public chain',
+  'Public Chain',
   'Other',
 ]
 

@@ -323,7 +323,7 @@ export default function Home() {
             fontWeight="600"
             marginTop="24px"
           >
-            No logos related to &quot;
+            No logo related to &quot;
             <Typography
               component="span"
               color="#0D5FFF"
@@ -332,7 +332,7 @@ export default function Home() {
             >
               {inputValue || logoType}
             </Typography>
-            &quot; were found
+            &quot; found
           </Typography>
           <Typography
             component="p"
