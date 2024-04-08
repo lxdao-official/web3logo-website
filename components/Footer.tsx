@@ -29,9 +29,22 @@ function Footer() {
               Get it all here
             </Box>
             <Box display="flex">
-              <Image src={telegram} alt="telegram" />
-              <Image style={{ margin: '0 16px' }} src={discord} alt="discord" />
-              <Image src={twitter} alt="twitter" />
+              <Link href="https://t.me/LXDAO" target="_blank">
+                <Image src={telegram} alt="telegram" />
+              </Link>
+              <Link
+                href="https://discord.com/invite/KwDbCFRnYQ"
+                target="_blank"
+              >
+                <Image
+                  style={{ margin: '0 16px' }}
+                  src={discord}
+                  alt="discord"
+                />
+              </Link>
+              <Link href="https://twitter.com/LXDAO_Official" target="_blank">
+                <Image src={twitter} alt="twitter" />
+              </Link>
             </Box>
           </Grid>
           <Grid md={3} xs={12} textAlign={{ md: 'right' }}>

@@ -1,18 +1,18 @@
 import { Metadata } from 'next/types'
 import RootConfigLayout from '@/components/RootConfigLayout'
 
-const title = 'web3logo'
+const title = 'Web3Logo'
 const description =
-  'The Web3logo website is just like its name suggests. We will gather the source files (primarily in SVG format) of all Web3-related logos, making it convenient for designers, operations personnel, and all other relevant users to download and use them.'
+  'The Web3Logo website is just like its name suggests. We will gather the source files (primarily in SVG format) of all Web3-related logos, making it convenient for designers, operations personnel, and all other relevant users to download and use them.'
 
 export const metadata: Metadata = {
   title,
   description,
-  generator: 'web3logo',
-  applicationName: 'web3logo',
+  generator: 'Web3Logo',
+  applicationName: 'Web3Logo',
   referrer: 'origin-when-cross-origin',
-  keywords: ['web3logo', 'logo', 'web3', 'lxdao'],
-  authors: [{ name: 'web3logo' }],
+  keywords: ['Web3Logo', 'logo', 'web3', 'lxdao'],
+  authors: [{ name: 'Web3Logo' }],
   creator: title,
   publisher: title,
 

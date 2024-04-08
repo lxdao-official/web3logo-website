@@ -211,6 +211,8 @@ function DetailPage(props: { params: { ids: string[] } }) {
               textDecoration: 'none',
               color: '#272D37',
               fontWeight: '600',
+              height: '24px',
+              display: 'inline-block',
             }}
             href="/"
           >
@@ -295,7 +297,12 @@ function DetailPage(props: { params: { ids: string[] } }) {
                       variant="outlined"
                       size="small"
                       style={{ minWidth: '40px' }}
-                      sx={{ background: 'white' }}
+                      sx={{
+                        background: 'white',
+                        '&:hover': {
+                          background: 'white',
+                        },
+                      }}
                     >
                       {logo.fileType.includes('svg') ? 'svg' : logo.fileType}
                     </Button>
@@ -303,7 +310,12 @@ function DetailPage(props: { params: { ids: string[] } }) {
                       variant="outlined"
                       size="small"
                       style={{ minWidth: '40px' }}
-                      sx={{ background: 'white' }}
+                      sx={{
+                        background: 'white',
+                        '&:hover': {
+                          background: 'white',
+                        },
+                      }}
                     >
                       {formatNumWithK(logo.downloadNum)}
                     </Button>
@@ -359,7 +371,7 @@ function DetailPage(props: { params: { ids: string[] } }) {
                     }}
                     onClick={() => toPersonal(logo.authorAddress)}
                   >
-                    <svg
+                    {/* <svg
                       style={{ marginRight: '12px' }}
                       xmlns="http://www.w3.org/2000/svg"
                       width="29"
@@ -368,7 +380,7 @@ function DetailPage(props: { params: { ids: string[] } }) {
                       fill="none"
                     >
                       <circle cx="14.5" cy="14" r="14" fill="#F0F0F0" />
-                    </svg>
+                    </svg> */}
                     {formateAddress(logo.authorAddress)}
                   </Box>
                   <Box
@@ -382,7 +394,6 @@ function DetailPage(props: { params: { ids: string[] } }) {
                       style={{
                         width: '12px',
                         height: '12px',
-                        marginLeft: '12px',
                         marginRight: '6px',
                       }}
                     />

@@ -1,5 +1,18 @@
 'use client'
-import { Avatar, Box, Button, Menu, MenuItem } from '@mui/material'
+import {
+  Avatar,
+  Box,
+  Button,
+  List,
+  ListItem,
+  ListItemButton,
+  Menu,
+  MenuItem,
+  SwipeableDrawer,
+  Typography,
+} from '@mui/material'
+
+import MenuIcon from '@mui/icons-material/Menu'
 import Image from 'next/image'
 import logo from '@/public/images/logo.svg'
 import Link from 'next/link'
@@ -30,6 +43,43 @@ function Header() {
     setOpen(false)
   }
 
+  const HiddenMenu = () => (
+    <Box role="presentation" onClick={handleClose} onKeyDown={handleClose}>
+      <List>
+        {hasAvatar && (
+          <ListItem disablePadding>
+            <Link
+              href="/personal"
+              style={{
+                paddingLeft: '16px',
+                paddingRight: '16px',
+                color: '#2E2E2E',
+                textDecoration: 'none',
+              }}
+            >
+              Personal
+            </Link>
+          </ListItem>
+        )}
+        {uploadBtnShow && (
+          <ListItem disablePadding>
+            <Link
+              href="/upload"
+              style={{
+                paddingLeft: '16px',
+                paddingRight: '16px',
+                color: '#2E2E2E',
+                textDecoration: 'none',
+              }}
+            >
+              upload
+            </Link>
+          </ListItem>
+        )}
+      </List>
+    </Box>
+  )
+
   return (
     <Box
       padding={{ lg: '0 112px', md: '0 65px', xs: '0 20px' }}
@@ -45,7 +95,7 @@ function Header() {
       <Link href="/">
         <Image src={logo} style={{ width: 130 }} alt="web3logo" />
       </Link>
-      <Box display={{ md: 'flex', xs: 'none' }}>
+      <Box display="flex">
         {uploadBtnShow && (
           <Button
             disableFocusRipple={true}
@@ -74,61 +124,29 @@ function Header() {
         )}
         <ConnectButton
           label="Connect Wallet "
-          accountStatus="address"
-          chainStatus="none"
-          showBalance={false}
-        />
-      </Box>
-
-      <Box display={{ md: 'none', xs: 'flex' }}>
-        <Button
-          id="basic-button"
-          aria-controls={open ? 'basic-menu' : undefined}
-          aria-haspopup="true"
-          aria-expanded={open ? 'true' : undefined}
-          onClick={handleClick}
-        >
-          MENU
-        </Button>
-        <Menu id="basic-menu" open={open} onClose={handleClose}>
-          {hasAvatar && (
-            <MenuItem onClick={handleClose}>
-              <Link
-                href="/personal"
-                style={{
-                  paddingLeft: '16px',
-                  paddingRight: '16px',
-                  color: '#2E2E2E',
-                  textDecoration: 'none',
-                }}
-              >
-                Personal
-              </Link>
-            </MenuItem>
-          )}
-          {uploadBtnShow && (
-            <MenuItem onClick={handleClose}>
-              <Link
-                href="/upload"
-                style={{
-                  paddingLeft: '16px',
-                  paddingRight: '16px',
-                  color: '#2E2E2E',
-                  textDecoration: 'none',
-                }}
-              >
-                upload
-              </Link>
-            </MenuItem>
-          )}
-        </Menu>
-        <ConnectButton
-          label="Connect Wallet "
           accountStatus="avatar"
           chainStatus="none"
           showBalance={false}
         />
       </Box>
+
+      {/* <Box display={{ md: 'none', xs: 'flex' }}>
+        <MenuIcon
+          sx={{
+            display: { md: 'none', sm: 'block', xs: 'block' },
+            cursor: 'pointer',
+          }}
+          onClick={handleClick}
+        />
+        <SwipeableDrawer
+          anchor="top"
+          open={open}
+          onClose={handleClose}
+          onOpen={handleClick}
+        >
+          <HiddenMenu />
+        </SwipeableDrawer>
+      </Box> */}
     </Box>
   )
 }

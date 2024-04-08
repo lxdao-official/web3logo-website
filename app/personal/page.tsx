@@ -25,6 +25,7 @@ import { toast } from 'react-toastify'
 import styled from '@emotion/styled'
 import { logoTypeConfig } from '@/config'
 import { Img3 } from '@lxdao/img3'
+import Image from 'next/image'
 
 const Heart = styled.div`
   width: 46px;
@@ -40,6 +41,11 @@ const Heart = styled.div`
 const ADMIN_ADDRESS = process.env.NEXT_PUBLIC_ADMIN_ADDRESS
   ? process.env.NEXT_PUBLIC_ADMIN_ADDRESS.split(',')
   : []
+
+const NoDataText = {
+  upload: 'No uploaded logo',
+  favorite: 'No liked logo',
+}
 
 function Personal({ searchParams = { address: '' } }) {
   const { address = '' } = useAccount()
@@ -209,7 +215,7 @@ function Personal({ searchParams = { address: '' } }) {
           }}
           onClick={() => changeTab('upload')}
         >
-          I uploaded
+          uploaded
         </Button>
         <Button
           variant="contained"
@@ -224,7 +230,7 @@ function Personal({ searchParams = { address: '' } }) {
           }}
           onClick={() => changeTab('favorite')}
         >
-          I liked
+          liked
         </Button>
         {isAdmin && isSelf && (
           <Button
@@ -273,7 +279,7 @@ function Personal({ searchParams = { address: '' } }) {
       <Box>
         {tabKey !== 'checking' ? (
           <Grid container spacing={3}>
-            {logoList.length > 0 &&
+            {logoList.length > 0 ? (
               logoList.map((item) => (
                 <Grid lg={3} md={4} sm={6} xs={6} key={item.id}>
                   <Box
@@ -329,7 +335,12 @@ function Personal({ searchParams = { address: '' } }) {
                     )}
                   </Box>
                 </Grid>
-              ))}
+              ))
+            ) : (
+              <Typography width="100%" textAlign="center" marginTop="30px">
+                {NoDataText[tabKey as keyof typeof NoDataText]}
+              </Typography>
+            )}
           </Grid>
         ) : (
           <BasicTable
