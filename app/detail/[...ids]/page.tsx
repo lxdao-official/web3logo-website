@@ -461,7 +461,10 @@ function DetailPage(props: { params: { ids: string[] } }) {
           Downloading the logo is only for communication and learning. If you
           need authorization to use it, please contact the project party. If
           there is an error, please{' '}
-          <Link href="#" color="#0D5FFF">
+          <Link
+            href="https://t.me/davyzhang"
+            style={{ textDecoration: 'underline' }}
+          >
             {' '}
             contact us{' '}
           </Link>{' '}
