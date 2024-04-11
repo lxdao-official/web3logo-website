@@ -463,7 +463,8 @@ function DetailPage(props: { params: { ids: string[] } }) {
           there is an error, please{' '}
           <Link
             href="https://t.me/davyzhang"
-            style={{ textDecoration: 'underline' }}
+            target="_blank"
+            style={{ textDecoration: 'underline', color: '#666F85' }}
           >
             {' '}
             contact us{' '}
