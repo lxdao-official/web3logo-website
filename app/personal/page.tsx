@@ -26,6 +26,7 @@ import styled from '@emotion/styled'
 import { logoTypeConfig } from '@/config'
 import { Img3 } from '@lxdao/img3'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Heart = styled.div`
   width: 46px;
@@ -413,7 +414,11 @@ function BasicTable(props: {
               key={logo.id}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
-              <TableCell component="th" scope="row">
+              <TableCell
+                component="th"
+                scope="row"
+                style={{ maxWidth: '100px' }}
+              >
                 {logo.fileName}
               </TableCell>
               <TableCell align="center">{logo.logoName?.logoName}</TableCell>
@@ -445,13 +450,30 @@ function BasicTable(props: {
                   component="img"
                   src={logo.file}
                   style={{
-                    width: '100px',
+                    maxWidth: '100px',
                     height: '100px',
                     objectFit: 'contain',
                   }}
                 />
               </TableCell>
-              <TableCell align="center">{logo?.logoName?.website}</TableCell>
+              <TableCell align="center">
+                {logo.logoName?.website ? (
+                  <Link
+                    href={logo.logoName?.website}
+                    style={{
+                      display: 'block',
+                      maxWidth: '200px',
+                      objectFit: 'contain',
+                      overflowWrap: 'break-word',
+                    }}
+                    target="_blank"
+                  >
+                    {logo?.logoName?.website}
+                  </Link>
+                ) : (
+                  ''
+                )}
+              </TableCell>
               <TableCell align="center">
                 <Button
                   onClick={() => handleAgree(logo)}
