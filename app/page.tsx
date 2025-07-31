@@ -268,7 +268,7 @@ export default function Home() {
                         display="none"
                         color="#000"
                       >
-                        {item.logoName}
+                        <Typography>{item.logoName}</Typography>
                       </Box>
                       {item.logo[0] && (
                         <>

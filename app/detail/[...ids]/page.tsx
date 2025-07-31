@@ -216,7 +216,7 @@ function DetailPage(props: { params: { ids: string[] } }) {
             }}
             href="/"
           >
-            Home
+            <Typography>Home</Typography>
           </Link>
           <Typography color="#437EF7">{data?.logoName}</Typography>
         </Breadcrumbs>

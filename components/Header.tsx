@@ -57,7 +57,7 @@ function Header() {
                 textDecoration: 'none',
               }}
             >
-              Personal
+              <Typography>Personal</Typography>
             </Link>
           </ListItem>
         )}

@@ -180,7 +180,6 @@ function Personal({ searchParams = { address: '' } }) {
         component="p"
         style={{
           color: '#272D37',
-          fontFamily: 'Inter',
           fontSize: '28px',
           fontStyle: 'normal',
           fontWeight: 600,
@@ -199,7 +198,9 @@ function Personal({ searchParams = { address: '' } }) {
         }}
         component="p"
       >
-        {addressInfo ? formateAddress(addressInfo as string) : ''}
+        <Typography>
+          {addressInfo ? formateAddress(addressInfo as string) : ''}
+        </Typography>
       </Box>
       <Box style={{ padding: '36px 0' }}>
         <Button
@@ -314,9 +315,11 @@ function Personal({ searchParams = { address: '' } }) {
                       display="none"
                       color="#000"
                     >
-                      {tabKey === 'favorite'
-                        ? item.logo?.fileName
-                        : item.fileName}
+                      <Typography>
+                        {tabKey === 'favorite'
+                          ? item.logo?.fileName
+                          : item.fileName}
+                      </Typography>
                     </Box>
                     <Box
                       component="img"
