@@ -3,7 +3,8 @@ import { Inter } from 'next/font/google'
 import '@/app/global.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { Box, ThemeProvider, createTheme } from '@mui/material'
+import Box from '@mui/material/Box'
+import { ThemeProvider, createTheme } from '@mui/material/styles'
 import '@rainbow-me/rainbowkit/styles.css'
 import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit'
 import { configureChains, createConfig, WagmiConfig } from 'wagmi'
@@ -13,7 +14,6 @@ import { publicProvider } from 'wagmi/providers/public'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import { Img3Provider } from '@lxdao/img3'
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -23,7 +23,10 @@ const queryClient = new QueryClient({
   },
 })
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+})
 const { chains, publicClient } = configureChains(
   [mainnet, polygon, optimism, arbitrum, base, zora],
   [
