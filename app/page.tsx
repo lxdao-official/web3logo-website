@@ -61,9 +61,9 @@ export default function Home() {
     if (pageInfo.current.page === 0) {
       setLogoNamesList(data?.data || [])
     } else {
-      setLogoNamesList([...logoNamesList, ...(data?.data || [])])
+      setLogoNamesList((prev) => [...prev, ...(data?.data || [])])
     }
-  }, [data])
+  }, [data, isError])
 
   const initSearchParam = () => {
     setLogoNamesList([])
