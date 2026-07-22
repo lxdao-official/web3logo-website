@@ -3,6 +3,7 @@
 import { access, readFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { cloudflareLegacyRedirectLine } from './legacy-redirects.mjs'
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)))
 const dist = resolve(root, 'dist')
@@ -86,7 +87,7 @@ try {
   if (catalog.logos.length > 0) throw error
 }
 for (const logo of idMap.logos) {
-  if (!redirects.includes(`${logo.legacyPath} ${logo.targetPath} 301`)) {
+  if (!redirects.includes(cloudflareLegacyRedirectLine(logo))) {
     throw new Error(`legacy redirect is missing for ID ${logo.legacyId}`)
   }
 }

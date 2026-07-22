@@ -72,7 +72,7 @@
 /detail/aura/164 /logos/aura/ 301
 /detail/auto/169 /logos/auto/ 301
 /detail/avalanche/10 /logos/avalanche/ 301
-/detail/Avalanche%20%28AVAX%29/880 /logos/avalanche-avax/ 301
+/detail/*/880 /logos/avalanche-avax/ 301
 /detail/Avault/947 /logos/avault/ 301
 /detail/awc/173 /logos/awc/ 301
 /detail/axp/174 /logos/axp/ 301
@@ -90,7 +90,7 @@
 /detail/bcha/181 /logos/bcha/ 301
 /detail/bcn/185 /logos/bcn/ 301
 /detail/bco/187 /logos/bco/ 301
-/detail/Beefy%20%28BIFI%29/889 /logos/beefy-bifi/ 301
+/detail/*/889 /logos/beefy-bifi/ 301
 /detail/bel/186 /logos/bel/ 301
 /detail/beta/182 /logos/beta/ 301
 /detail/BeWater/49 /logos/bewater/ 301
@@ -107,7 +107,7 @@
 /detail/block/192 /logos/block/ 301
 /detail/BlockBooster/51 /logos/blockbooster/ 301
 /detail/Blockchain%20Academy/1019 /logos/blockchain-academy/ 301
-/detail/Blockchain%20for%20Good%20Alliance%20%28BGA%29/1020 /logos/blockchain-for-good-alliance-bga/ 301
+/detail/*/1020 /logos/blockchain-for-good-alliance-bga/ 301
 /detail/Blocklike%20LOGO%20color%20horizontal/55 /logos/blocklike-logo-color-horizontal/ 301
 /detail/blocksec/1080 /logos/blocksec/ 301
 /detail/blt/197 /logos/blt/ 301
@@ -160,7 +160,7 @@
 /detail/cel/232 /logos/cel/ 301
 /detail/Celer/865 /logos/celer/ 301
 /detail/Celestia/804 /logos/celestia/ 301
-/detail/Celestia%20%28TIA%29/881 /logos/celestia-tia/ 301
+/detail/*/881 /logos/celestia-tia/ 301
 /detail/celo/229 /logos/celo/ 301
 /detail/CELO/907 /logos/celo-907/ 301
 /detail/celr/233 /logos/celr/ 301
@@ -169,7 +169,7 @@
 /detail/cfx/235 /logos/cfx/ 301
 /detail/chai/231 /logos/chai/ 301
 /detail/Chainbase/998 /logos/chainbase/ 301
-/detail/Chainlink%20%28LINK%29/1004 /logos/chainlink-link/ 301
+/detail/*/1004 /logos/chainlink-link/ 301
 /detail/chat/234 /logos/chat/ 301
 /detail/chatcoin-chat/847 /logos/chatcoin-chat/ 301
 /detail/chz/239 /logos/chz/ 301
@@ -222,7 +222,7 @@
 /detail/dadi/275 /logos/dadi/ 301
 /detail/dafi/269 /logos/dafi/ 301
 /detail/dai/270 /logos/dai/ 301
-/detail/Dai%20%28DAI%29/1007 /logos/dai-dai/ 301
+/detail/*/1007 /logos/dai-dai/ 301
 /detail/%E5%8D%97%E5%A1%98%20DAO/1075 /legacy-unavailable/ 301
 /detail/DAO%20Tokyo/1015 /logos/dao-tokyo/ 301
 /detail/DAOStar/25 /logos/daostar/ 301
@@ -230,7 +230,7 @@
 /detail/dat/279 /logos/dat/ 301
 /detail/data/284 /logos/data/ 301
 /detail/Datamall%20Coin/788 /logos/datamall-coin/ 301
-/detail/Datamall%20Coin%28DMC%29/970 /logos/datamall-coin-dmc/ 301
+/detail/*/970 /logos/datamall-coin-dmc/ 301
 /detail/datx/283 /logos/datx/ 301
 /detail/dbc/285 /logos/dbc/ 301
 /detail/dcn/287 /logos/dcn/ 301
@@ -311,14 +311,14 @@
 /detail/etc/336 /logos/etc/ 301
 /detail/eth/329 /logos/eth/ 301
 /detail/Ethereum/3 /logos/ethereum/ 301
-/detail/Ethereum%20Cat%20Herders%20%28ECH%29/1056 /logos/ethereum-cat-herders-ech/ 301
+/detail/*/1056 /logos/ethereum-cat-herders-ech/ 301
 /detail/ETHPanda/969 /logos/ethpanda/ 301
 /detail/EthSign/59 /logos/ethsign/ 301
 /detail/EthStorage/973 /logos/ethstorage/ 301
 /detail/etn/334 /logos/etn/ 301
 /detail/etp/335 /logos/etp/ 301
 /detail/etz/337 /logos/etz/ 301
-/detail/EURA%20%28ex-agEUR%29/867 /logos/eura-ex-ageur/ 301
+/detail/*/867 /logos/eura-ex-ageur/ 301
 /detail/evx/339 /logos/evx/ 301
 /detail/ewt/342 /logos/ewt/ 301
 /detail/exrn/338 /logos/exrn/ 301
@@ -356,7 +356,7 @@
 /detail/FXS/912 /logos/fxs/ 301
 /detail/fxt/365 /logos/fxt/ 301
 /detail/gala/367 /logos/gala/ 301
-/detail/Game%20Mine%20Alliance%20%28GMA%29/1069 /logos/game-mine-alliance-gma/ 301
+/detail/*/1069 /logos/game-mine-alliance-gma/ 301
 /detail/gate.io/989 /logos/gate-io/ 301
 /detail/GCC/14 /logos/gcc/ 301
 /detail/GCLX/33 /logos/gclx/ 301
@@ -389,7 +389,7 @@
 /detail/HashKey%20Chain/1090 /logos/hashkey-chain/ 301
 /detail/hbar/385 /logos/hbar/ 301
 /detail/hc/389 /logos/hc/ 301
-/detail/Hedera%20%28HBAR%29/1012 /logos/hedera-hbar/ 301
+/detail/*/1012 /logos/hedera-hbar/ 301
 /detail/hedg/390 /logos/hedg/ 301
 /detail/her/391 /logos/her/ 301
 /detail/hex/392 /logos/hex/ 301
@@ -440,8 +440,8 @@
 /detail/jst/430 /logos/jst/ 301
 /detail/juno/431 /logos/juno/ 301
 /detail/Jupiter/817 /logos/jupiter/ 301
-/detail/Jupiter%20%28JUP%29/888 /logos/jupiter-jup/ 301
-/detail/JUST%20%28JST%29/885 /logos/just-jst/ 301
+/detail/*/888 /logos/jupiter-jup/ 301
+/detail/*/885 /logos/just-jst/ 301
 /detail/KACO/948 /logos/kaco/ 301
 /detail/kanadecoin/854 /logos/kanadecoin/ 301
 /detail/karatgold/855 /logos/karatgold/ 301
@@ -474,11 +474,11 @@
 /detail/leo/451 /logos/leo/ 301
 /detail/Libra%20Finance/963 /logos/libra-finance/ 301
 /detail/Licredity/1082 /logos/licredity/ 301
-/detail/Lido%20Staked%20ETH%20%28stETH%29/884 /logos/lido-staked-eth-steth/ 301
+/detail/*/884 /logos/lido-staked-eth-steth/ 301
 /detail/LIFI/942 /logos/lifi/ 301
 /detail/link/457 /logos/link/ 301
 /detail/lit/454 /logos/lit/ 301
-/detail/Litecoin%20%28LTC%29/1008 /logos/litecoin-ltc/ 301
+/detail/*/1008 /logos/litecoin-ltc/ 301
 /detail/lky/448 /logos/lky/ 301
 /detail/ln/450 /logos/ln/ 301
 /detail/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A4%A7%E5%AD%A6/1054 /logos/logo-1054/ 301
@@ -518,7 +518,7 @@
 /detail/Magic%20Eden/823 /logos/magic-eden/ 301
 /detail/maha/470 /logos/maha/ 301
 /detail/maid/469 /logos/maid/ 301
-/detail/Maker%20%28MKR%29/1010 /logos/maker-mkr/ 301
+/detail/*/1010 /logos/maker-mkr/ 301
 /detail/man/472 /logos/man/ 301
 /detail/mana/477 /logos/mana/ 301
 /detail/Manta%20Network/844 /logos/manta-network/ 301
@@ -676,7 +676,7 @@
 /detail/poa/586 /logos/poa/ 301
 /detail/poe/580 /logos/poe/ 301
 /detail/pokt/577 /logos/pokt/ 301
-/detail/Polkadot%20%28DOT%29/1003 /logos/polkadot-dot/ 301
+/detail/*/1003 /logos/polkadot-dot/ 301
 /detail/pols/578 /logos/pols/ 301
 /detail/POLS/930 /logos/pols-930/ 301
 /detail/poly/581 /logos/poly/ 301
@@ -697,7 +697,7 @@
 /detail/pst/591 /logos/pst/ 301
 /detail/puffer/1027 /logos/puffer/ 301
 /detail/PYTH/816 /logos/pyth/ 301
-/detail/Pyth%20Network%20%28PYTH%29/887 /logos/pyth-network-pyth/ 301
+/detail/*/887 /logos/pyth-network-pyth/ 301
 /detail/qbit/597 /logos/qbit/ 301
 /detail/qi/602 /logos/qi/ 301
 /detail/qkc/604 /logos/qkc/ 301
@@ -754,7 +754,7 @@
 /detail/sem/637 /logos/sem/ 301
 /detail/sfi/638 /logos/sfi/ 301
 /detail/shib/643 /logos/shib/ 301
-/detail/Shiba%20Inu%20%28SHIB%29/1005 /logos/shiba-inu-shib/ 301
+/detail/*/1005 /logos/shiba-inu-shib/ 301
 /detail/SHIBI/920 /logos/shibi/ 301
 /detail/shr/645 /logos/shr/ 301
 /detail/shuf/640 /logos/shuf/ 301
@@ -776,10 +776,10 @@
 /detail/Solcial/975 /logos/solcial/ 301
 /detail/soul/655 /logos/soul/ 301
 /detail/sov/656 /logos/sov/ 301
-/detail/SPACE%20ID%20%28ID%29/883 /logos/space-id-id/ 301
+/detail/*/883 /logos/space-id-id/ 301
 /detail/spn/659 /logos/spn/ 301
 /detail/srm/658 /logos/srm/ 301
-/detail/Stacks%20%28STX%29/1011 /logos/stacks-stx/ 301
+/detail/*/1011 /logos/stacks-stx/ 301
 /detail/stake/661 /logos/stake/ 301
 /detail/Stargate/977 /logos/stargate/ 301
 /detail/Starknet/838 /logos/starknet/ 301
@@ -842,7 +842,7 @@
 /detail/trb/701 /logos/trb/ 301
 /detail/tribe/697 /logos/tribe/ 301
 /detail/trig/700 /logos/trig/ 301
-/detail/TRON%20%28TRX%29/1006 /logos/tron-trx/ 301
+/detail/*/1006 /logos/tron-trx/ 301
 /detail/trtl/702 /logos/trtl/ 301
 /detail/tru/705 /logos/tru/ 301
 /detail/TrustGo/843 /logos/trustgo/ 301
