@@ -1,0 +1,36 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro'
+
+const repository = 'https://github.com/lxdao-official/web3logo-website'
+---
+
+<BaseLayout title="Submit a logo" description="Contribute a verified Web3 logo to the public registry.">
+  <section class="submit-page">
+    <p class="eyebrow">Community contributions</p>
+    <h1>Submit a logo</h1>
+    <p class="submit-lead">
+      Add a project with its official source, usage rights, category, aliases, and a safe SVG, PNG,
+      or WebP asset.
+    </p>
+    <div class="submit-actions">
+      <section>
+        <h2>Request an addition</h2>
+        <p>Open a structured request for maintainers when you do not have a repository-ready change.</p>
+        <a class="button button--primary" href={`${repository}/issues/new?template=logo-submission.yml`}>
+          Open submission form
+        </a>
+      </section>
+      <section>
+        <h2>Submit a pull request</h2>
+        <p>Add validated metadata and the original asset directly for the fastest review path.</p>
+        <a class="button button--secondary" href={`${repository}/blob/main/README.md#direct-pull-requests`}>
+          Read contribution steps
+        </a>
+      </section>
+    </div>
+    <aside class="rights-note">
+      <strong>Rights matter.</strong> Only submit assets from an official source or with permission.
+      Logos remain trademarks of their respective owners.
+    </aside>
+  </section>
+</BaseLayout>

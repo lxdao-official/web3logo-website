@@ -1,0 +1,5666 @@
+[
+  {
+    "slug": "0x499",
+    "name": "0x499",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "0xcuhksz",
+    "name": "港中深链协 0xCUHKSZ",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "0xu",
+    "name": "0xU",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "1inch",
+    "name": "1inch",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "1st",
+    "name": "1st",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "4seas",
+    "name": "4Seas",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "8dao",
+    "name": "8Dao",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "a16z-crypto",
+    "name": "a16z crypto",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "aastar",
+    "name": "AAstar",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "aave",
+    "name": "aave",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "abt",
+    "name": "abt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ac3",
+    "name": "ac3",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "aca",
+    "name": "ACA",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "act",
+    "name": "act",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "adb",
+    "name": "adb",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "adventurex",
+    "name": "AdventureX",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "adx",
+    "name": "adx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ae",
+    "name": "ae",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "aergo",
+    "name": "aergo",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "agi",
+    "name": "agi",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ainn",
+    "name": "AINN",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "aion",
+    "name": "aion",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ait",
+    "name": "ait",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "akro",
+    "name": "akro",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "akt",
+    "name": "akt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "alcx",
+    "name": "alcx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "aleph",
+    "name": "aleph",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "algo",
+    "name": "ALGO",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "alibaba-cloud",
+    "name": "Alibaba Cloud",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "alis",
+    "name": "alis",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "alpha",
+    "name": "alpha",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "alx",
+    "name": "alx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "amb",
+    "name": "amb",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "amlt",
+    "name": "amlt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "amp",
+    "name": "amp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "amphi",
+    "name": "Amphi",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ampl",
+    "name": "ampl",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "anc",
+    "name": "anc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "angle",
+    "name": "ANGLE",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "anj",
+    "name": "anj",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ankr",
+    "name": "ANKR",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ankr-152",
+    "name": "ankr",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "anoma",
+    "name": "Anoma",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ant",
+    "name": "ant",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "anyswap",
+    "name": "AnySwap",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "apecoin",
+    "name": "apecoin",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "aph",
+    "name": "aph",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "api3",
+    "name": "API3",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "apl",
+    "name": "apl",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "appc",
+    "name": "appc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "aptos",
+    "name": "aptos",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "apw",
+    "name": "apw",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "apy",
+    "name": "apy",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ar",
+    "name": "ar",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "arbitrum",
+    "name": "arbitrum",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "arcblock",
+    "name": "ArcBlock",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ardr",
+    "name": "ardr",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "argent",
+    "name": "Argent",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "ark",
+    "name": "ark",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "armor",
+    "name": "armor",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "arn",
+    "name": "arn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "aro",
+    "name": "aro",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "arrr",
+    "name": "arrr",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "artela",
+    "name": "Artela",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ast",
+    "name": "ast",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "astar-928",
+    "name": "ASTAR",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "astriddao",
+    "name": "AstridDao",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "atom",
+    "name": "atom",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "auc",
+    "name": "auc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "aura",
+    "name": "aura",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "auto",
+    "name": "auto",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "avalanche",
+    "name": "avalanche",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "avalanche-avax",
+    "name": "Avalanche (AVAX)",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "avault",
+    "name": "Avault",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "awc",
+    "name": "awc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "axp",
+    "name": "axp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "axs",
+    "name": "AXS",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bac",
+    "name": "bac",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bal",
+    "name": "Bal",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "band",
+    "name": "band",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "banklessdaocn",
+    "name": "BanklessDAOCN",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "bat",
+    "name": "bat",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "bay",
+    "name": "bay",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "bbr",
+    "name": "bbr",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "bcd",
+    "name": "bcd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bch",
+    "name": "bch",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bcha",
+    "name": "bcha",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bcn",
+    "name": "bcn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bco",
+    "name": "bco",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "beefy-bifi",
+    "name": "Beefy (BIFI)",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "bel",
+    "name": "bel",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "beta",
+    "name": "beta",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bewater",
+    "name": "BeWater",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bf",
+    "name": "bf",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bifi",
+    "name": "bifi",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "binance",
+    "name": "Binance",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "biolinkx",
+    "name": "BioLinkX",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "bitcoin",
+    "name": "Bitcoin",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "bitfinex",
+    "name": "Bitfinex",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "bitget",
+    "name": "Bitget",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "bitmart",
+    "name": "Bitmart",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "bix",
+    "name": "bix",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "blk",
+    "name": "blk",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "block",
+    "name": "block",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "blockbooster",
+    "name": "BlockBooster",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "blockchain-academy",
+    "name": "Blockchain Academy",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "blockchain-for-good-alliance-bga",
+    "name": "Blockchain for Good Alliance (BGA)",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "blocklike-logo-color-horizontal",
+    "name": "Blocklike LOGO color horizontal",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "blocksec",
+    "name": "blocksec",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "blt",
+    "name": "blt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "blue",
+    "name": "blue",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "blur",
+    "name": "Blur",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "blz",
+    "name": "blz",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bnb",
+    "name": "bnb",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "bnt",
+    "name": "bnt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bnt-934",
+    "name": "BNT",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bond",
+    "name": "bond",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bondly",
+    "name": "bondly",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bora",
+    "name": "bora",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "box",
+    "name": "box",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bpt",
+    "name": "bpt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "brand3dao",
+    "name": "Brand3DAO",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "brd",
+    "name": "brd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "btc",
+    "name": "btc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "btcd",
+    "name": "btcd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "btcd-937",
+    "name": "BTCD",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "btcp",
+    "name": "btcp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "btg",
+    "name": "btg",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "btmx",
+    "name": "btmx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bto",
+    "name": "bto",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bts",
+    "name": "bts",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "btt",
+    "name": "btt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "btu",
+    "name": "btu",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bu",
+    "name": "bu",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "buidlerdao",
+    "name": "BuidlerDAO",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "buidlguidl",
+    "name": "BuidlGuidl",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bunny",
+    "name": "bunny",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bupt3dao",
+    "name": "BUPT3DAO",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "busd",
+    "name": "busd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bwt",
+    "name": "bwt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bybit",
+    "name": "Bybit",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "bz",
+    "name": "bz",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bznt",
+    "name": "bznt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "bzrx",
+    "name": "bzrx",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "bzx-protocol-bzrx",
+    "name": "bzx-protocol-bzrx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "c20",
+    "name": "c20",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "c98",
+    "name": "c98",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cake",
+    "name": "cake",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "capp",
+    "name": "capp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "car",
+    "name": "car",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "card",
+    "name": "card",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cardano-ada",
+    "name": "cardano-ada",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cbat",
+    "name": "cbat",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cbt",
+    "name": "cbt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cdai",
+    "name": "cdai",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cdt",
+    "name": "cdt",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "cel",
+    "name": "cel",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "celer",
+    "name": "Celer",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "celestia",
+    "name": "Celestia",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "celestia-tia",
+    "name": "Celestia (TIA)",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "celo",
+    "name": "celo",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "celo-907",
+    "name": "CELO",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "celr",
+    "name": "celr",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "certik",
+    "name": "Certik",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ceth",
+    "name": "ceth",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cfx",
+    "name": "cfx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "chai",
+    "name": "chai",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "chainbase",
+    "name": "Chainbase",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "chainlink-link",
+    "name": "Chainlink (LINK)",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "chat",
+    "name": "chat",
+    "aliases": [],
+    "category": "DID"
+  },
+  {
+    "slug": "chatcoin-chat",
+    "name": "chatcoin-chat",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "chz",
+    "name": "chz",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ckb",
+    "name": "ckb",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "clo",
+    "name": "clo",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cloak",
+    "name": "cloak",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "clout",
+    "name": "clout",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cmt",
+    "name": "cmt",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "cnd",
+    "name": "cnd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cnx",
+    "name": "cnx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "code-for-japan",
+    "name": "Code for Japan",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "coinbase",
+    "name": "Coinbase",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "coinloan",
+    "name": "coinloan",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "cointime",
+    "name": "Cointime",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "coinw",
+    "name": "CoinW",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "comp",
+    "name": "comp",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "conflux",
+    "name": "Conflux",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "coni",
+    "name": "coni",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cosdao",
+    "name": "Cosdao",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "cosm",
+    "name": "cosm",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "coti",
+    "name": "coti",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cov",
+    "name": "cov",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cova",
+    "name": "cova",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cover",
+    "name": "cover",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cpc",
+    "name": "cpc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cre",
+    "name": "cre",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cream",
+    "name": "cream",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cred",
+    "name": "cred",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "crep",
+    "name": "crep",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cro",
+    "name": "cro",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "crpt",
+    "name": "crpt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "crust",
+    "name": "Crust",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "crv",
+    "name": "crv",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cs",
+    "name": "cs",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "csai",
+    "name": "csai",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "csc",
+    "name": "csc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ctc",
+    "name": "ctc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cto",
+    "name": "CTO",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ctxc",
+    "name": "ctxc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "curve",
+    "name": "Curve",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cusdc",
+    "name": "cusdc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cv",
+    "name": "cv",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cvc",
+    "name": "cvc",
+    "aliases": [],
+    "category": "DID"
+  },
+  {
+    "slug": "cvt",
+    "name": "cvt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cvx",
+    "name": "cvx",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cwbtc",
+    "name": "cwbtc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "cybermiles",
+    "name": "cybermiles",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "cyptogeek",
+    "name": "CyptoGeek",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "czrx",
+    "name": "czrx",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "dadi",
+    "name": "dadi",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "dafi",
+    "name": "dafi",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "dai",
+    "name": "dai",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "dai-dai",
+    "name": "Dai (DAI)",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "dao-tokyo",
+    "name": "DAO Tokyo",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "daostar",
+    "name": "DAOStar",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "dash",
+    "name": "dash",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "dat",
+    "name": "dat",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "data",
+    "name": "data",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "datamall-coin",
+    "name": "Datamall Coin",
+    "aliases": [],
+    "category": "Plugin"
+  },
+  {
+    "slug": "datamall-coin-dmc",
+    "name": "Datamall Coin(DMC)",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "datx",
+    "name": "datx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dbc",
+    "name": "dbc",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "dcn",
+    "name": "dcn",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "dcr",
+    "name": "dcr",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dct",
+    "name": "dct",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ddd",
+    "name": "ddd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "de-university-of-ethereum",
+    "name": "De University of Ethereum",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "debox",
+    "name": "DeBox",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "debox-black",
+    "name": "DeBox_black",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "defihacklabs",
+    "name": "DeFiHackLabs",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "degate",
+    "name": "degate",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "degate-1041",
+    "name": "DeGate",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "dejob",
+    "name": "DeJob",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "delysium",
+    "name": "Delysium",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dent",
+    "name": "dent",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "deri",
+    "name": "deri",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "desci-sino",
+    "name": "DeSci SINO",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "dfi",
+    "name": "dfi",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dft",
+    "name": "dft",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dfyn",
+    "name": "dfyn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dgb",
+    "name": "dgb",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "dgd",
+    "name": "dgd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dgd-933",
+    "name": "DGD",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dgtx",
+    "name": "dgtx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dia",
+    "name": "Dia",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "divi",
+    "name": "divi",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dlt",
+    "name": "dlt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "dmail",
+    "name": "Dmail",
+    "aliases": [],
+    "category": "SocialFi"
+  },
+  {
+    "slug": "dmarket",
+    "name": "dmarket",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dmc",
+    "name": "DMC",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "dmt",
+    "name": "dmt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "dnt",
+    "name": "dnt",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "dock",
+    "name": "dock",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "dodo",
+    "name": "dodo",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "dogecoin",
+    "name": "Dogecoin",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "donate3",
+    "name": "Donate3",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dor",
+    "name": "dor",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "dot",
+    "name": "dot",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "dot-961",
+    "name": "Dot",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "drgn",
+    "name": "drgn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "drift",
+    "name": "Drift",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "drop",
+    "name": "drop",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dta",
+    "name": "dta",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dtr",
+    "name": "dtr",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dtx",
+    "name": "dtx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dvf",
+    "name": "dvf",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dxd",
+    "name": "dxd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "dxt",
+    "name": "dxt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "edg",
+    "name": "edg",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "edo",
+    "name": "edo",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "efi",
+    "name": "efi",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "efx",
+    "name": "efx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "egld",
+    "name": "egld",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "egt",
+    "name": "egt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "eip-fun",
+    "name": "EIP Fun",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "eipfun",
+    "name": "EIPFun",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "ekg",
+    "name": "ekg",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "ekt",
+    "name": "ekt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ela",
+    "name": "ela",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "elec",
+    "name": "elec",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "eleduck",
+    "name": "ELEDUCK",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "element",
+    "name": "Element",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "elf",
+    "name": "elf",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "emc",
+    "name": "emc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "emc2",
+    "name": "emc2",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "eng",
+    "name": "eng",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "enj",
+    "name": "ENJ",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "enj-321",
+    "name": "enj",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ens",
+    "name": "ENS",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "eos",
+    "name": "eos",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "eosdac",
+    "name": "eosdac",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ern",
+    "name": "ern",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "eru",
+    "name": "ERU",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "esd",
+    "name": "esd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "esp",
+    "name": "esp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ess",
+    "name": "ess",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "etc",
+    "name": "etc",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "eth",
+    "name": "eth",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ethereum-cat-herders-ech",
+    "name": "Ethereum Cat Herders (ECH)",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ethpanda",
+    "name": "ETHPanda",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "ethsign",
+    "name": "EthSign",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ethstorage",
+    "name": "EthStorage",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "etn",
+    "name": "etn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "etp",
+    "name": "etp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "etz",
+    "name": "etz",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "eura-ex-ageur",
+    "name": "EURA (ex-agEUR)",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "evx",
+    "name": "evx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ewt",
+    "name": "ewt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "exrn",
+    "name": "exrn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "exy",
+    "name": "exy",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fab",
+    "name": "fab",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fct",
+    "name": "fct",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fct-931",
+    "name": "FCT",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "feed",
+    "name": "feed",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fei",
+    "name": "fei",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "fet",
+    "name": "fet",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fet-893",
+    "name": "FET",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fida",
+    "name": "fida",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fil",
+    "name": "fil",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "filda",
+    "name": "filda",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "filecoin",
+    "name": "filecoin",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "floki",
+    "name": "Floki",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "flow",
+    "name": "flow",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "fota",
+    "name": "fota",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "fox",
+    "name": "fox",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "fracton",
+    "name": "Fracton",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "frax",
+    "name": "frax",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "frax-price",
+    "name": "frax-price",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "friend-tech",
+    "name": "Friend.tech",
+    "aliases": [],
+    "category": "SocialFi"
+  },
+  {
+    "slug": "frm",
+    "name": "frm",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "front",
+    "name": "front",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fsn",
+    "name": "fsn",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ft",
+    "name": "ft",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ftc",
+    "name": "ftc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ftt",
+    "name": "ftt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "fuel",
+    "name": "fuel",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fun",
+    "name": "fun",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fun-932",
+    "name": "FUN",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "funding-the-commons",
+    "name": "Funding the Commons",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fxc",
+    "name": "fxc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fxs",
+    "name": "FXS",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "fxt",
+    "name": "fxt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "gala",
+    "name": "gala",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "game-mine-alliance-gma",
+    "name": "Game Mine Alliance (GMA)",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "gate-io",
+    "name": "gate.io",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "gcc",
+    "name": "GCC",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "gclx",
+    "name": "GCLX",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "gdc",
+    "name": "gdc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "gem",
+    "name": "gem",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "gen",
+    "name": "gen",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "gitcoin",
+    "name": "gitcoin",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "gmton",
+    "name": "GMTON",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "gmx",
+    "name": "GMX",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "gno",
+    "name": "gno",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "gnosis-gno",
+    "name": "gnosis-gno",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "gnt",
+    "name": "gnt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "gnx",
+    "name": "gnx",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "go",
+    "name": "go",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "goc",
+    "name": "goc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "got",
+    "name": "got",
+    "aliases": [],
+    "category": "DID"
+  },
+  {
+    "slug": "grin",
+    "name": "grin",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "grs",
+    "name": "grs",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "grt",
+    "name": "grt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "grt-894",
+    "name": "GRT",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "gsc",
+    "name": "gsc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "gswap",
+    "name": "gswap",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "gt",
+    "name": "gt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "gtc",
+    "name": "gtc",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "gto",
+    "name": "gto",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "gusd",
+    "name": "gusd",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "gvt",
+    "name": "gvt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "gxs",
+    "name": "gxs",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "hakka",
+    "name": "hakka",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "hashkey-chain",
+    "name": "HashKey Chain",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "hbar",
+    "name": "hbar",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "hc",
+    "name": "hc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "hedera-hbar",
+    "name": "Hedera (HBAR)",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "hedg",
+    "name": "hedg",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "her",
+    "name": "her",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "hex",
+    "name": "hex",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "high",
+    "name": "high",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "hive",
+    "name": "hive",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "hnt",
+    "name": "hnt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "hollaex",
+    "name": "hollaex",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "hot",
+    "name": "hot",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "hot-x",
+    "name": "hot-x",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "hpb",
+    "name": "hpb",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "hsr",
+    "name": "hsr",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "ht",
+    "name": "ht",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "hum",
+    "name": "hum",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "huobi",
+    "name": "Huobi",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "husd",
+    "name": "husd",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "hydro",
+    "name": "hydro",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "hyn",
+    "name": "hyn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "hzn",
+    "name": "hzn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ibat",
+    "name": "ibat",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "icn",
+    "name": "icn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "icp",
+    "name": "ICP",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "icx",
+    "name": "icx",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "idai",
+    "name": "idai",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ieth",
+    "name": "ieth",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ignis",
+    "name": "ignis",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "iknc",
+    "name": "iknc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ilink",
+    "name": "ilink",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "imtoken-962",
+    "name": "imToken",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "imx",
+    "name": "IMX",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "inb",
+    "name": "inb",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "intensive-co-learning",
+    "name": "Intensive Co-learning",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "intmax",
+    "name": "INTMAX",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "iost",
+    "name": "iost",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "iotx",
+    "name": "iotx",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ipor",
+    "name": "IPOR",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "iq",
+    "name": "iq",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "irep",
+    "name": "irep",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "iris",
+    "name": "iris",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "isusd",
+    "name": "isusd",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "itheum",
+    "name": "Itheum",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "iusdc",
+    "name": "iusdc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "iwbtc",
+    "name": "iwbtc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "izrx",
+    "name": "izrx",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "japan-dao-association",
+    "name": "Japan DAO Association",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "jito",
+    "name": "Jito",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "jnt",
+    "name": "jnt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "jst",
+    "name": "jst",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "juno",
+    "name": "juno",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "jupiter",
+    "name": "Jupiter",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "jupiter-jup",
+    "name": "Jupiter (JUP)",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "just-jst",
+    "name": "JUST (JST)",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "kaco",
+    "name": "KACO",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "kanadecoin",
+    "name": "kanadecoin",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "karatgold",
+    "name": "karatgold",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "karsiers",
+    "name": "Karsiers",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "kava",
+    "name": "kava",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "kcs",
+    "name": "kcs",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "kda",
+    "name": "kda",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "keplr",
+    "name": "Keplr",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "key",
+    "name": "key",
+    "aliases": [],
+    "category": "DID"
+  },
+  {
+    "slug": "kick",
+    "name": "kick",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "kin",
+    "name": "kin",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "kinto",
+    "name": "KINTO",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "klay",
+    "name": "klay",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "klv",
+    "name": "klv",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "kmd",
+    "name": "kmd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "kmd-941",
+    "name": "KMD",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "knc",
+    "name": "knc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ksm",
+    "name": "ksm",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "kucoin",
+    "name": "KuCoin",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "lamb",
+    "name": "lamb",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "land",
+    "name": "land",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "layerswap",
+    "name": "layerswap",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "layerzero",
+    "name": "Layerzero",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lba",
+    "name": "lba",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lcx",
+    "name": "lcx",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "ldo",
+    "name": "ldo",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "learnblockchain",
+    "name": "learnblockchain",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "legendary-humanity",
+    "name": "Legendary Humanity",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lend",
+    "name": "lend",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "leo",
+    "name": "leo",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "libra-finance",
+    "name": "Libra Finance",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "licredity",
+    "name": "Licredity",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lido-staked-eth-steth",
+    "name": "Lido Staked ETH (stETH)",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "lifi",
+    "name": "LIFI",
+    "aliases": [],
+    "category": "Plugin"
+  },
+  {
+    "slug": "link",
+    "name": "link",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lit",
+    "name": "lit",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "litecoin-ltc",
+    "name": "Litecoin (LTC)",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "lky",
+    "name": "lky",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ln",
+    "name": "ln",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1054",
+    "name": "中国人民大学",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1066",
+    "name": "律动",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1067",
+    "name": "曼昆律师事务所",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1068",
+    "name": "深技大链协",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1070",
+    "name": "华政链协",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1071",
+    "name": "吴说",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1072",
+    "name": "广州大学链协会",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1074",
+    "name": "浙农林链协",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1076",
+    "name": "江软链协",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1077",
+    "name": "大连民族大学链协",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1078",
+    "name": "西南政法大学链协",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1079",
+    "name": "比特鹰",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-1084",
+    "name": "万向区块链实验室",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-950",
+    "name": "币扑",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-951",
+    "name": "金色财经",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-952",
+    "name": "链闻",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-953",
+    "name": "星球日报",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "logo-957",
+    "name": "币乎",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "loki",
+    "name": "loki",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lon",
+    "name": "lon",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "looks",
+    "name": "looks",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "loom",
+    "name": "loom",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lpt",
+    "name": "lpt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lqd",
+    "name": "lqd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lqty",
+    "name": "lqty",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lrc",
+    "name": "lrc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lsk",
+    "name": "lsk",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ltc",
+    "name": "ltc",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "lto",
+    "name": "lto",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lun",
+    "name": "lun",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "luna",
+    "name": "luna",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lxdao",
+    "name": "LXDAO",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "lxt",
+    "name": "lxt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "lym",
+    "name": "lym",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "magic-eden",
+    "name": "Magic Eden",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "maha",
+    "name": "maha",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "maid",
+    "name": "maid",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "maker-mkr",
+    "name": "Maker (MKR)",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "man",
+    "name": "man",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mana",
+    "name": "mana",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "manta-network",
+    "name": "Manta Network",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mantle",
+    "name": "Mantle",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "map-protocol",
+    "name": "Map Protocol",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "marsdao",
+    "name": "MarsDAO",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "masari",
+    "name": "masari",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mask",
+    "name": "Mask",
+    "aliases": [],
+    "category": "SocialFi"
+  },
+  {
+    "slug": "math",
+    "name": "math",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "math-964",
+    "name": "Math",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "matic",
+    "name": "matic",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "matter",
+    "name": "matter",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "matters-lab",
+    "name": "Matters Lab",
+    "aliases": [],
+    "category": "SocialFi"
+  },
+  {
+    "slug": "mav",
+    "name": "MAV",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mbc",
+    "name": "mbc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mco",
+    "name": "mco",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "mcx",
+    "name": "mcx",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "mda",
+    "name": "mda",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mds",
+    "name": "mds",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "med",
+    "name": "med",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "medx",
+    "name": "medx",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "met",
+    "name": "met",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "metamask",
+    "name": "MetaMask",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "mew",
+    "name": "MEW",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "mfg",
+    "name": "mfg",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mft",
+    "name": "mft",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "mim",
+    "name": "mim",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "mir",
+    "name": "mir",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "mirror-improvements",
+    "name": "Mirror Improvements",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mith",
+    "name": "mith",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "mixin",
+    "name": "mixin",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mkr",
+    "name": "mkr",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "mkr-914",
+    "name": "MKR",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mln",
+    "name": "mln",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mngo",
+    "name": "mngo",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "mod",
+    "name": "mod",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "molecular",
+    "name": "molecular",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "moledao",
+    "name": "moledao",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "morpho",
+    "name": "Morpho",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "mot",
+    "name": "mot",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mpl",
+    "name": "mpl",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "mta",
+    "name": "mta",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "mth",
+    "name": "mth",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "mtl",
+    "name": "mtl",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mtn",
+    "name": "mtn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mvc",
+    "name": "mvc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mvl",
+    "name": "mvl",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "mvp",
+    "name": "mvp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "mwat",
+    "name": "mwat",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "mwc",
+    "name": "mwc",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "mxm",
+    "name": "mxm",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "myb",
+    "name": "myb",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "nametag",
+    "name": "Nametag",
+    "aliases": [],
+    "category": "DID"
+  },
+  {
+    "slug": "nano",
+    "name": "nano",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "nas",
+    "name": "nas",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "nav",
+    "name": "nav",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ncash",
+    "name": "ncash",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "nct",
+    "name": "nct",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "near",
+    "name": "near",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "nec",
+    "name": "nec",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "neo",
+    "name": "neo",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "nervos",
+    "name": "Nervos",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "neumark",
+    "name": "neumark",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "new",
+    "name": "new",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "nex",
+    "name": "nex",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "nextart",
+    "name": "NEXTART",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "nextheater",
+    "name": "NEXTHEATER",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "nextheater-832",
+    "name": "nextheater",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "nexxo",
+    "name": "nexxo",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "nft",
+    "name": "nft",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "ngc",
+    "name": "ngc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "niox",
+    "name": "niox",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "nkn",
+    "name": "nkn",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "nlg",
+    "name": "nlg",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "nmr",
+    "name": "nmr",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "noia",
+    "name": "noia",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "nper",
+    "name": "nper",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "npxs",
+    "name": "npxs",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "nrg",
+    "name": "nrg",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "nrve",
+    "name": "nrve",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "nu",
+    "name": "nu",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "nuls",
+    "name": "nuls",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "nxs",
+    "name": "nxs",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "nxt",
+    "name": "nxt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "oag",
+    "name": "oag",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "oasys",
+    "name": "OASYS",
+    "aliases": [],
+    "category": "GameFi"
+  },
+  {
+    "slug": "oax",
+    "name": "oax",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "ocean",
+    "name": "ocean",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ocn",
+    "name": "ocn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ode",
+    "name": "ode",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "oev-network",
+    "name": "OEV Network",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ogn",
+    "name": "ogn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ohm",
+    "name": "ohm",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "okb",
+    "name": "okb",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "okx",
+    "name": "OKX",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "olt",
+    "name": "olt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "omg",
+    "name": "omg",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "one",
+    "name": "one",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "one-915",
+    "name": "ONE",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "one-key",
+    "name": "One key",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "onekey",
+    "name": "OneKey",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "onion",
+    "name": "onion",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ont",
+    "name": "ont",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "ontology",
+    "name": "ontology",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "op",
+    "name": "OP 中文力量",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "open",
+    "name": "open",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "openbuild",
+    "name": "OpenBuild",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "opencas",
+    "name": "OpenCAS",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "openex-oex-network",
+    "name": "OpenEx OEX Network",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "opensea",
+    "name": "OpenSea",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "opium",
+    "name": "opium",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "optimism",
+    "name": "optimism",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "oraichain",
+    "name": "Oraichain",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "orbs",
+    "name": "orbs",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "orc",
+    "name": "orc",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "orn",
+    "name": "orn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "osmo",
+    "name": "osmo",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ost",
+    "name": "ost",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ovc",
+    "name": "ovc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "oxt",
+    "name": "oxt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "pai",
+    "name": "pai",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "paka",
+    "name": "PAKA",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "pal",
+    "name": "pal",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "pancakeswap",
+    "name": "pancakeswap",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "panews",
+    "name": "PANews",
+    "aliases": [],
+    "category": "Plugin"
+  },
+  {
+    "slug": "par",
+    "name": "par",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "part",
+    "name": "part",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "pax",
+    "name": "pax",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "paxg",
+    "name": "paxg",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "pay",
+    "name": "pay",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "paypex",
+    "name": "paypex",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "pbr",
+    "name": "pbr",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "pbtc",
+    "name": "pBTC",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "pendle",
+    "name": "pendle",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "pepe",
+    "name": "pepe",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "perl",
+    "name": "perl",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "perp",
+    "name": "perp",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "perp-916",
+    "name": "PERP",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "pg",
+    "name": "PG",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "phala",
+    "name": "Phala",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "phantom",
+    "name": "Phantom",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "pickle",
+    "name": "pickle",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "pku",
+    "name": "PKU",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "planckericon",
+    "name": "Planckericon",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "plasm",
+    "name": "Plasm",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "play",
+    "name": "play",
+    "aliases": [],
+    "category": "GameFi"
+  },
+  {
+    "slug": "pldai",
+    "name": "plDAI",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "plr",
+    "name": "plr",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "plusdc",
+    "name": "plUSDC",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "png",
+    "name": "png",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "pnk",
+    "name": "pnk",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "pnt",
+    "name": "pnt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "poa",
+    "name": "poa",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "poe",
+    "name": "poe",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "pokt",
+    "name": "pokt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "polkadot-dot",
+    "name": "Polkadot (DOT)",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "pols",
+    "name": "pols",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "pols-930",
+    "name": "POLS",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "poly",
+    "name": "poly",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "polygon",
+    "name": "Polygon",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "pond",
+    "name": "pond",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "poocoin",
+    "name": "poocoin",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "pool",
+    "name": "pool",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "powr",
+    "name": "powr",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ppay",
+    "name": "ppay",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ppc",
+    "name": "ppc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ppp",
+    "name": "ppp",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ppt",
+    "name": "ppt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "pre",
+    "name": "pre",
+    "aliases": [],
+    "category": "Plugin"
+  },
+  {
+    "slug": "premia",
+    "name": "premia",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "prl",
+    "name": "prl",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "pro",
+    "name": "pro",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "pros",
+    "name": "pros",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "pst",
+    "name": "pst",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "puffer",
+    "name": "puffer",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "pyth",
+    "name": "PYTH",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "pyth-network-pyth",
+    "name": "Pyth Network (PYTH)",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "qbit",
+    "name": "qbit",
+    "aliases": [],
+    "category": "SocialFi"
+  },
+  {
+    "slug": "qi",
+    "name": "qi",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "qkc",
+    "name": "qkc",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "qlc",
+    "name": "qlc",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "qnt",
+    "name": "qnt",
+    "aliases": [],
+    "category": "Plugin"
+  },
+  {
+    "slug": "qsp",
+    "name": "qsp",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "quantstamp",
+    "name": "Quantstamp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "questn",
+    "name": "Questn",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "quick",
+    "name": "quick",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "r",
+    "name": "r",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "rae",
+    "name": "rae",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "rari",
+    "name": "rari",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "rarible",
+    "name": "Rarible",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "rcn",
+    "name": "rcn",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "rdd",
+    "name": "rdd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "rdn",
+    "name": "rdn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "reactive-network",
+    "name": "Reactive Network",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "relay",
+    "name": "Relay",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "ren",
+    "name": "ren",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "rep",
+    "name": "rep",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "req",
+    "name": "req",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "rev",
+    "name": "rev",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "rfox",
+    "name": "rfox",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "rhino-fi",
+    "name": "rhino.fi",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "rhoc",
+    "name": "rhoc",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "rlc",
+    "name": "rlc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "rndr",
+    "name": "RNDR",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "rook",
+    "name": "rook",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "rose",
+    "name": "rose",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "rpx",
+    "name": "rpx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "rsv",
+    "name": "rsv",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "rune",
+    "name": "rune",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "rune-917",
+    "name": "RUNE",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "rvn",
+    "name": "rvn",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "s",
+    "name": "s",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sai",
+    "name": "sai",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "salt",
+    "name": "salt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "san",
+    "name": "san",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sand",
+    "name": "sand",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "sar",
+    "name": "sar",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "scrl",
+    "name": "scrl",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "scrt",
+    "name": "scrt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "scutba",
+    "name": "SCUTBA",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "scutba-1052",
+    "name": "华南理工链协 SCUTBA",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sdn",
+    "name": "SDN",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "sdt",
+    "name": "sdt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "seedao",
+    "name": "SEEDAO",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "seedao-834",
+    "name": "SeeDAO",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "seele",
+    "name": "seele",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "sefi",
+    "name": "sefi",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "sei",
+    "name": "SEI",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sem",
+    "name": "sem",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "sfi",
+    "name": "sfi",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "shib",
+    "name": "shib",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "shiba-inu-shib",
+    "name": "Shiba Inu (SHIB)",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "shibi",
+    "name": "SHIBI",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "shr",
+    "name": "shr",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "shuf",
+    "name": "shuf",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "sia",
+    "name": "sia",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "skl",
+    "name": "skl",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sky",
+    "name": "sky",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sky-938",
+    "name": "SKY",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "slt",
+    "name": "slt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "smart",
+    "name": "smart",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "smartdeer",
+    "name": "SmartDeer",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "snc",
+    "name": "snc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sngls",
+    "name": "sngls",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "snt",
+    "name": "snt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "snx",
+    "name": "snx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "social-layer",
+    "name": "Social Layer",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sol",
+    "name": "sol",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "solana",
+    "name": "Solana",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "solcial",
+    "name": "Solcial",
+    "aliases": [],
+    "category": "SocialFi"
+  },
+  {
+    "slug": "soul",
+    "name": "soul",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sov",
+    "name": "sov",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "space-id-id",
+    "name": "SPACE ID (ID)",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "spn",
+    "name": "spn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "srm",
+    "name": "srm",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "stacks-stx",
+    "name": "Stacks (STX)",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "stake",
+    "name": "stake",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "stargate",
+    "name": "Stargate",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "starknet",
+    "name": "Starknet",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "starly",
+    "name": "Starly",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "steem",
+    "name": "steem",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "step",
+    "name": "step",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "stepn",
+    "name": "StepN",
+    "aliases": [],
+    "category": "GameFi"
+  },
+  {
+    "slug": "steth",
+    "name": "steth",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "steur",
+    "name": "stEUR",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "stmx",
+    "name": "stmx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "storj",
+    "name": "storj",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "storm",
+    "name": "storm",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "stpt",
+    "name": "stpt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "strat",
+    "name": "strat",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "stusd",
+    "name": "stUSD",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "stx",
+    "name": "stx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sub",
+    "name": "sub",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sui",
+    "name": "SUI",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "suiet",
+    "name": "Suiet",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "super",
+    "name": "super",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "suqa",
+    "name": "suqa",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "susd",
+    "name": "sUSD",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sushi",
+    "name": "sushi",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "suter",
+    "name": "suter",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "swap",
+    "name": "swap",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "swth",
+    "name": "swth",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sxdt",
+    "name": "sxdt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "sxp",
+    "name": "sxp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "synapse",
+    "name": "Synapse",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "syncswap",
+    "name": "SyncSwap",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "sys",
+    "name": "sys",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "talisman",
+    "name": "Talisman",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "tbtc",
+    "name": "tbtc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tct",
+    "name": "tct",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tel",
+    "name": "tel",
+    "aliases": [],
+    "category": "Plugin"
+  },
+  {
+    "slug": "tfuel",
+    "name": "tfuel",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "thc",
+    "name": "thc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "the-mu",
+    "name": "The mu",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "theta",
+    "name": "theta",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "thr",
+    "name": "thr",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "thuba",
+    "name": "清华链协 THUBA",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tidal",
+    "name": "Tidal",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tintinland",
+    "name": "TinTinLand",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "tio",
+    "name": "tio",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "titan",
+    "name": "titan",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tkn",
+    "name": "tkn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tky",
+    "name": "tky",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tnb",
+    "name": "tnb",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tnc",
+    "name": "tnc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tnt",
+    "name": "tnt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tokenclub",
+    "name": "TokenClub",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "tokenlon",
+    "name": "Tokenlon",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "tomo",
+    "name": "tomo",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "torn",
+    "name": "torn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tpay",
+    "name": "tpay",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "trac",
+    "name": "trac",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tradao",
+    "name": "Tradao",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "trantor",
+    "name": "Trantor",
+    "aliases": [],
+    "category": "SocialFi"
+  },
+  {
+    "slug": "trb",
+    "name": "trb",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tribe",
+    "name": "tribe",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "trig",
+    "name": "trig",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tron-trx",
+    "name": "TRON (TRX)",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "trtl",
+    "name": "trtl",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tru",
+    "name": "tru",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "trustgo",
+    "name": "TrustGo",
+    "aliases": [],
+    "category": "DID"
+  },
+  {
+    "slug": "trx",
+    "name": "trx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tryb",
+    "name": "tryb",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tube",
+    "name": "tube",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "tusd",
+    "name": "tusd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "twt",
+    "name": "twt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ubq",
+    "name": "ubq",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ubt",
+    "name": "ubt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "uft",
+    "name": "uft",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "ult",
+    "name": "ult",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "uncommons",
+    "name": "Uncommons",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "uncx",
+    "name": "uncx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "unibase",
+    "name": "Unibase",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "uniswap",
+    "name": "uniswap",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "unn",
+    "name": "unn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "uos",
+    "name": "uos",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "upp",
+    "name": "upp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "usda",
+    "name": "USDA",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "usdc",
+    "name": "usdc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "usdc-23",
+    "name": "USDC",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "usdp",
+    "name": "usdp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "usds",
+    "name": "usds",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "usdt",
+    "name": "USDT",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "usdt-720",
+    "name": "usdt",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "utilify",
+    "name": "Utilify",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "utk",
+    "name": "utk",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "uuu",
+    "name": "uuu",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "value",
+    "name": "value",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "venus",
+    "name": "venus",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "veri",
+    "name": "veri",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vest",
+    "name": "vest",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vet",
+    "name": "vet",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vfans",
+    "name": "Vfans",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "vgx",
+    "name": "vgx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "via",
+    "name": "via",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vib",
+    "name": "vib",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vibe",
+    "name": "vibe",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vibeman",
+    "name": "Vibeman",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vidt",
+    "name": "vidt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vikky",
+    "name": "vikky",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vin",
+    "name": "vin",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vite",
+    "name": "vite",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "viu",
+    "name": "viu",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vlx",
+    "name": "vlx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vrs",
+    "name": "vrs",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vsp",
+    "name": "vsp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vsys",
+    "name": "vsys",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "vtc",
+    "name": "vtc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "wabi",
+    "name": "wabi",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "wan",
+    "name": "wan",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "waves",
+    "name": "waves",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "wbtc",
+    "name": "wbtc",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "wct",
+    "name": "wct",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "web3",
+    "name": "Web3 实习计划",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "web3-career-build-wcb",
+    "name": "Web3 Career Build WCB",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "web3auth",
+    "name": "web3auth",
+    "aliases": [],
+    "category": "Wallet"
+  },
+  {
+    "slug": "web3buidlertech",
+    "name": "Web3BuidlerTech",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "web3mq",
+    "name": "Web3MQ",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "weth",
+    "name": "WETH",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "wexpoly",
+    "name": "wexpoly",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "whale",
+    "name": "whale",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "wib",
+    "name": "wib",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "wing",
+    "name": "wing",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "wings",
+    "name": "wings",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "wld",
+    "name": "WLD",
+    "aliases": [],
+    "category": "SocialFi"
+  },
+  {
+    "slug": "woo",
+    "name": "woo",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "worldcoin",
+    "name": "Worldcoin",
+    "aliases": [],
+    "category": "DID"
+  },
+  {
+    "slug": "wpr",
+    "name": "wpr",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "wrx",
+    "name": "wrx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "wtc",
+    "name": "wtc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "wxt",
+    "name": "wxt",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "x",
+    "name": "零X干货铺",
+    "aliases": [],
+    "category": "DAO"
+  },
+  {
+    "slug": "xag",
+    "name": "XAG",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xas",
+    "name": "xas",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xau",
+    "name": "XAU",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xchf",
+    "name": "xchf",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xem",
+    "name": "xem",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xin",
+    "name": "xin",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xlm",
+    "name": "xlm",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xlq",
+    "name": "xlq",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xmark",
+    "name": "xmark",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xmr",
+    "name": "xmr",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xmx",
+    "name": "xmx",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xnk",
+    "name": "xnk",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xns",
+    "name": "xns",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xor",
+    "name": "xor",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xrd",
+    "name": "xrd",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xrp",
+    "name": "xrp",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xsn",
+    "name": "xsn",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xsr",
+    "name": "xsr",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xtz",
+    "name": "xtz",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xvg",
+    "name": "xvg",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xy-finance",
+    "name": "XY Finance",
+    "aliases": [],
+    "category": "DeFi"
+  },
+  {
+    "slug": "xyo",
+    "name": "xyo",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "xzc",
+    "name": "xzc",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "yfi",
+    "name": "yfi",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "zai",
+    "name": "zai",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "zb",
+    "name": "zb",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "zco",
+    "name": "zco",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "zec",
+    "name": "zec",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "zen",
+    "name": "zen",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "zerius",
+    "name": "Zerius",
+    "aliases": [],
+    "category": "NFTs"
+  },
+  {
+    "slug": "zetachain",
+    "name": "ZetaChain",
+    "aliases": [],
+    "category": "Public Chain"
+  },
+  {
+    "slug": "zil",
+    "name": "zil",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "zil-900",
+    "name": "ZIL",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "zircuit",
+    "name": "zircuit",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "zksync",
+    "name": "ZKsync",
+    "aliases": [],
+    "category": "Other"
+  },
+  {
+    "slug": "zrx",
+    "name": "zrx",
+    "aliases": [],
+    "category": "Other"
+  }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1656 452.3" style="enable-background:new 0 0 1656 452.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#333333;}
+	.st1{fill:#85888F;}
+	.st2{fill:#FF563F;}
+</style>
+<polygon class="st0" points="259.6,0 0,214.5 0,452.3 259.6,214.5 519.3,452.3 519.3,214.5 "/>
+<polygon class="st1" points="145.3,319.2 259.6,0 0,214.5 "/>
+<polygon class="st1" points="259.6,0 374,319.2 519.3,214.5 "/>
+<g>
+	<path class="st0" d="M1236.7,127.3h55.3l88.1,200.8h-61.5l-15.1-35.6h-79.8l-14.8,35.6h-60.3L1236.7,127.3z M1286.9,249.5
+		l-23.1-56.7l-23.3,56.7H1286.9z"/>
+</g>
+<path class="st0" d="M898.2,128.7h60.6l49.4,77.2l49.4-77.2h60.6v199.4h-57.1V213.6l-52.9,78.1h-1.2l-52.6-77.5v114h-56.2
+	L898.2,128.7L898.2,128.7z"/>
+<path class="st0" d="M1410.4,128.7h57.7v199.4h-57.7V128.7z"/>
+<path class="st0" d="M1498.4,128.7h57.4v151H1656v48.4h-157.6V128.7z"/>
+<path class="st2" d="M868,228.5l-82.3-99.6h-68.8h-22.4h-43.1v199.3h65.5l0,0h68.8L868,228.5z M716.8,153.3l68.8,75.2l-68.8,75.2
+	V153.3z"/>
+</svg>
