@@ -86,6 +86,19 @@ try {
 } catch (error) {
   if (catalog.logos.length > 0) throw error
 }
+const redirectRules = redirects
+  .split('\n')
+  .map((line) => line.trim())
+  .filter((line) => line && !line.startsWith('#'))
+const firstDynamicRedirect = redirectRules.findIndex((line) => line.split(/\s+/)[0].includes('*'))
+if (
+  firstDynamicRedirect !== -1 &&
+  redirectRules
+    .slice(firstDynamicRedirect)
+    .some((line) => !line.split(/\s+/)[0].includes('*'))
+) {
+  throw new Error('Cloudflare Pages static redirects must precede dynamic redirects')
+}
 for (const logo of idMap.logos) {
   if (!redirects.includes(cloudflareLegacyRedirectLine(logo))) {
     throw new Error(`legacy redirect is missing for ID ${logo.legacyId}`)
