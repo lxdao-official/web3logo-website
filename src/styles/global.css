@@ -134,12 +134,12 @@ a {
 }
 
 .catalog-intro {
-  min-height: 270px;
+  min-height: 214px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  gap: 36px;
-  padding-block: 64px 48px;
+  gap: 24px;
+  padding-block: 42px 32px;
 }
 
 .catalog-intro > div {
@@ -390,6 +390,73 @@ h3 {
   margin: 32px auto 0;
 }
 
+/* The catalog is a dense browsing surface; detail-page related cards keep the roomier defaults. */
+.catalog-intro h1 {
+  font-size: 3.5rem;
+}
+
+.catalog-intro p:not(.eyebrow) {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.catalog .search-row {
+  gap: 16px;
+  padding-block: 16px;
+}
+
+.catalog .search-field input {
+  min-height: 44px;
+}
+
+.catalog .category-filters {
+  padding-bottom: 16px;
+}
+
+.catalog .category-filter {
+  min-height: 34px;
+  padding: 6px 10px;
+  font-size: 0.75rem;
+}
+
+.catalog .logo-grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.catalog .logo-card {
+  padding: 10px;
+}
+
+.catalog .logo-card__preview {
+  aspect-ratio: 5 / 3;
+  padding: 16px;
+}
+
+.catalog .logo-card__identity {
+  min-height: 52px;
+  gap: 8px;
+  padding: 10px 1px 8px;
+}
+
+.catalog .logo-card__identity h2 {
+  font-size: 0.875rem;
+}
+
+.catalog .logo-card__identity span {
+  font-size: 0.625rem;
+}
+
+.catalog .logo-card__download {
+  min-height: 36px;
+  padding: 7px 8px;
+  font-size: 0.75rem;
+}
+
+.catalog .show-more {
+  margin-top: 24px;
+}
+
 .empty-state {
   padding: 72px 20px;
   text-align: center;
@@ -637,6 +704,10 @@ code {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .catalog .logo-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .asset-grid {
     grid-template-columns: 1fr;
   }
@@ -704,6 +775,32 @@ code {
   .logo-grid--related {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
+  }
+
+  .catalog .logo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .catalog .logo-card {
+    padding: 8px;
+  }
+
+  .catalog .logo-card__preview {
+    aspect-ratio: 4 / 3;
+    padding: 16px;
+  }
+
+  .catalog .logo-card__identity {
+    min-height: 72px;
+    flex-direction: column;
+    gap: 4px;
+    padding-block: 10px;
+  }
+
+  .catalog .logo-card__download {
+    min-height: 42px;
+    padding-inline: 8px;
+    font-size: 0.75rem;
   }
 
   .logo-card {
