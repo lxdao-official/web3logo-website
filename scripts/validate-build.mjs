@@ -68,6 +68,25 @@ if (/\/logos\/\*[\s\S]*?Cache-Control:[^\n]*immutable/.test(headers)) {
   throw new Error('mutable logo asset paths must not use immutable caching')
 }
 
+const headerBlocks = new Map()
+let currentHeaderPath = null
+for (const line of headers.split('\n')) {
+  if (line && !/^\s/.test(line)) {
+    currentHeaderPath = line.trim()
+    headerBlocks.set(currentHeaderPath, [])
+  } else if (currentHeaderPath && line.trim()) {
+    headerBlocks.get(currentHeaderPath).push(line.trim())
+  }
+}
+const logoHeaders = headerBlocks.get('/logos/*') ?? []
+if (logoHeaders.some((line) => line.startsWith('Content-Security-Policy:'))) {
+  throw new Error('logo detail pages must not receive the sandboxed asset CSP')
+}
+const svgHeaders = headerBlocks.get('/logos/*.svg') ?? []
+if (!svgHeaders.some((line) => line.includes("default-src 'none'") && line.includes('sandbox'))) {
+  throw new Error('SVG logo assets are missing the sandboxed CSP')
+}
+
 const sitemapIndex = await readFile(resolve(dist, 'sitemap-index.xml'), 'utf8')
 if (!sitemapIndex.includes('https://web3logo.lxdao.io/sitemap-0.xml')) {
   throw new Error('sitemap index does not use the canonical production origin')
