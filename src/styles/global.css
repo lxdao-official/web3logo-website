@@ -432,8 +432,15 @@ h3 {
   aspect-ratio: 5 / 3;
   min-height: 0;
   padding: 16px;
-  overflow: hidden;
   contain: size;
+}
+
+.catalog .logo-card__preview img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .catalog .logo-card__identity {

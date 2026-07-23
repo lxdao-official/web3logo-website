@@ -19,7 +19,17 @@ describe('catalog density', () => {
     const preview = rule('.catalog .logo-card__preview')
     expect(preview).toContain('aspect-ratio: 5 / 3;')
     expect(preview).toContain('contain: size;')
-    expect(preview).toContain('overflow: hidden;')
+  })
+
+  it('contains every source logo without cropping it', () => {
+    const preview = rule('.catalog .logo-card__preview')
+    const image = rule('.catalog .logo-card__preview img')
+    expect(preview).not.toContain('overflow: hidden;')
+    expect(image).toContain('width: auto;')
+    expect(image).toContain('height: auto;')
+    expect(image).toContain('max-width: 100%;')
+    expect(image).toContain('max-height: 100%;')
+    expect(image).toContain('object-fit: contain;')
   })
 
   it('keeps the catalog usable on narrow screens', () => {
