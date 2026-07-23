@@ -1,0 +1,88 @@
+---
+import LogoCard from '@/components/LogoCard.astro'
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import { formatBytes, logos, relatedLogos, type Logo } from '@/lib/catalog'
+
+export function getStaticPaths() {
+  return logos.map((logo) => ({ params: { slug: logo.slug }, props: { logo } }))
+}
+
+interface Props {
+  logo: Logo
+}
+
+const { logo } = Astro.props
+const related = relatedLogos(logo)
+---
+
+<BaseLayout
+  title={logo.name}
+  description={`Download verified ${logo.name} brand assets from Web3Logo.`}
+  image={logo.assets[0]?.path}
+>
+  <article class="detail-page">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Browse</a><span aria-hidden="true">/</span><span aria-current="page">{logo.name}</span>
+    </nav>
+    <header class="detail-header">
+      <div>
+        <p class="eyebrow">{logo.category}</p>
+        <h1>{logo.name}</h1>
+        {logo.aliases.length > 0 && <p>Also known as {logo.aliases.join(', ')}</p>}
+      </div>
+      {logo.website && (
+        <a class="button button--secondary" href={logo.website} rel="external nofollow">
+          Official website
+        </a>
+      )}
+    </header>
+
+    <section class="asset-section" aria-labelledby="assets-heading">
+      <h2 id="assets-heading">Available assets</h2>
+      <div class="asset-grid">
+        {logo.assets.map((asset) => (
+          <article class="asset-item">
+            <div class="asset-preview">
+              <img src={asset.path} alt={`${logo.name} ${asset.name}`} width="320" height="240" />
+            </div>
+            <div class="asset-meta">
+              <div>
+                <h3>{asset.name}</h3>
+                <p>{asset.format.toUpperCase()} · {formatBytes(asset.bytes)}</p>
+              </div>
+              <a class="button button--primary" href={asset.path} download={`${logo.slug}.${asset.format}`}>
+                Download
+              </a>
+            </div>
+            <details>
+              <summary>File provenance</summary>
+              <dl>
+                <div><dt>SHA-256</dt><dd><code>{asset.sha256}</code></dd></div>
+                <div><dt>Legacy asset ID</dt><dd>{asset.legacyId}</dd></div>
+                <div><dt>Source</dt><dd><a href={asset.sourceUrl}>Legacy CDN asset</a></dd></div>
+              </dl>
+            </details>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="provenance" aria-labelledby="usage-heading">
+      <h2 id="usage-heading">Usage and verification</h2>
+      <dl>
+        <div><dt>Rights</dt><dd>{logo.license}</dd></div>
+        <div><dt>Verification</dt><dd>{logo.verification}</dd></div>
+        <div><dt>Legacy catalog ID</dt><dd>{logo.legacyId}</dd></div>
+      </dl>
+    </section>
+
+    {related.length > 0 && (
+      <section class="related" aria-labelledby="related-heading">
+        <h2 id="related-heading">More in {logo.category}</h2>
+        <div class="logo-grid logo-grid--related">
+          {related.map((item) => <LogoCard logo={item} related />)}
+        </div>
+      </section>
+    )}
+  </article>
+</BaseLayout>

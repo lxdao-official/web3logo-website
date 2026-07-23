@@ -1,0 +1,330 @@
+{
+  "assets": [
+    {
+      "legacyAssetId": 30,
+      "legacyLogoId": 2,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/bafkreicruq3cgenkwjgkt4nwru77l6xuem4f3oh73lparff5nlfxthst2m.svg"
+    },
+    {
+      "legacyAssetId": 31,
+      "legacyLogoId": 2,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/bafkreicup5jlqcocvtg7ukhd46imarv6iaf6p6akgvhfdm7uix5vbpqkee.svg"
+    },
+    {
+      "details": "SVG contains an external reference",
+      "legacyAssetId": 495,
+      "legacyLogoId": 471,
+      "reason": "unsafe-svg",
+      "sourceUrl": "https://cdn.lxdao.io/bafybeiet3vo6kik3zbl4ey6a4zgkulvnpql3fgyjqlsyqtsajlysjkvt7i.svg"
+    },
+    {
+      "details": "SVG contains an external reference",
+      "legacyAssetId": 587,
+      "legacyLogoId": 561,
+      "reason": "unsafe-svg",
+      "sourceUrl": "https://cdn.lxdao.io/bafkreibgbgtjecitdgwqmbxp4w52scwavtuhav3s76552p6s7xa2p46mg4.svg"
+    },
+    {
+      "details": "download failed after 4 attempts: remote server returned HTTP 403",
+      "legacyAssetId": 846,
+      "legacyLogoId": 791,
+      "reason": "download-failed",
+      "sourceUrl": "https://cdn.lxdao.io/bafkreifgb2p6utq5meyo2julj23ki4ej5udci2i6jwcz3rn6onyjf2hbai.svg"
+    },
+    {
+      "details": "SVG contains an external reference",
+      "legacyAssetId": 954,
+      "legacyLogoId": 809,
+      "reason": "unsafe-svg",
+      "sourceUrl": "https://cdn.lxdao.io/a1bc519d-7423-44c0-91b5-bf05272fe0d4.svg"
+    },
+    {
+      "details": "SVG contains an external reference",
+      "legacyAssetId": 957,
+      "legacyLogoId": 812,
+      "reason": "unsafe-svg",
+      "sourceUrl": "https://cdn.lxdao.io/ddea6f26-f689-4cc6-819c-35d9536a3f86.svg"
+    },
+    {
+      "details": "SVG contains an external reference",
+      "legacyAssetId": 958,
+      "legacyLogoId": 813,
+      "reason": "unsafe-svg",
+      "sourceUrl": "https://cdn.lxdao.io/82c186e9-208f-41e4-adc8-9f099bf7c00b.svg"
+    },
+    {
+      "details": "SVG contains an external reference",
+      "legacyAssetId": 989,
+      "legacyLogoId": 842,
+      "reason": "unsafe-svg",
+      "sourceUrl": "https://cdn.lxdao.io/8cba1d27-e5b3-471d-8913-3104b1b2c430.svg"
+    },
+    {
+      "details": "SVG contains an external reference",
+      "legacyAssetId": 1045,
+      "legacyLogoId": 892,
+      "reason": "unsafe-svg",
+      "sourceUrl": "https://cdn.lxdao.io/0a0b3d64-1665-422a-bdfd-8e458088648e.svg"
+    },
+    {
+      "details": "SVG contains an external reference",
+      "legacyAssetId": 1052,
+      "legacyLogoId": 898,
+      "reason": "unsafe-svg",
+      "sourceUrl": "https://cdn.lxdao.io/c47ce041-1acc-4840-9ecb-734ebd2cbd0d.svg"
+    },
+    {
+      "legacyAssetId": 1357,
+      "legacyLogoId": 1037,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/1d289d3e-d013-4ee1-81d9-4b3095a9852a.svg"
+    },
+    {
+      "legacyAssetId": 1358,
+      "legacyLogoId": 1037,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/cc803fc6-4c03-4316-a2a4-4506bc175c1f.svg"
+    },
+    {
+      "legacyAssetId": 1359,
+      "legacyLogoId": 1037,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/230a997e-dab7-4f84-8043-724f72027f6c.svg"
+    },
+    {
+      "details": "SVG contains an external reference",
+      "legacyAssetId": 1509,
+      "legacyLogoId": 1058,
+      "reason": "unsafe-svg",
+      "sourceUrl": "https://cdn.lxdao.io/65c1823a-a6b4-4f6f-9196-bb7d87d29308.svg"
+    },
+    {
+      "legacyAssetId": 1514,
+      "legacyLogoId": 1060,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/6459c381-d850-45fd-81b2-63907d75c8de.svg"
+    },
+    {
+      "details": "SVG contains an external reference",
+      "legacyAssetId": 1516,
+      "legacyLogoId": 1062,
+      "reason": "unsafe-svg",
+      "sourceUrl": "https://cdn.lxdao.io/b3a7b4aa-c6e6-4a04-9ff0-6482a9c31e18.svg"
+    },
+    {
+      "legacyAssetId": 1535,
+      "legacyLogoId": 1064,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/bebcaaea-2442-42cd-a41c-f2a9adde5327.svg"
+    },
+    {
+      "legacyAssetId": 1536,
+      "legacyLogoId": 1064,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/df648ee0-e191-444a-8c02-15b4a6561079.ai"
+    },
+    {
+      "legacyAssetId": 1538,
+      "legacyLogoId": 1064,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/2268bde1-1c7b-48c8-bb73-2c3b834b4357.svg"
+    },
+    {
+      "legacyAssetId": 1539,
+      "legacyLogoId": 1064,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/5e3bcf37-8b24-499a-9e56-37ac6d7ffd91.svg"
+    },
+    {
+      "legacyAssetId": 1540,
+      "legacyLogoId": 1064,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/497f1a0c-9d21-4af7-9f2e-54f09ff20ab1.svg"
+    },
+    {
+      "legacyAssetId": 1541,
+      "legacyLogoId": 1064,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/e9ab7180-1dee-43ef-a027-49f90a79c0a1.svg"
+    },
+    {
+      "legacyAssetId": 1543,
+      "legacyLogoId": 1064,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/1abaf965-1051-418d-8417-5a26ddb5b955.ai"
+    },
+    {
+      "legacyAssetId": 1544,
+      "legacyLogoId": 1064,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/4ecb018a-d247-43dd-a4e7-c261ae4727b7.svg"
+    },
+    {
+      "legacyAssetId": 1560,
+      "legacyLogoId": 1069,
+      "reason": "unsupported-format",
+      "sourceUrl": "https://cdn.lxdao.io/deab3c27-dda0-4689-8e20-fa951b442351.ai"
+    },
+    {
+      "details": "SVG contains an external reference",
+      "legacyAssetId": 1568,
+      "legacyLogoId": 1075,
+      "reason": "unsafe-svg",
+      "sourceUrl": "https://cdn.lxdao.io/4f73206a-d375-4642-bce4-5de9e8746368.svg"
+    },
+    {
+      "details": "response exceeds 5242880 byte limit",
+      "legacyAssetId": 1624,
+      "legacyLogoId": 1091,
+      "reason": "oversized-asset",
+      "sourceUrl": "https://cdn.lxdao.io/218c627a-52a8-4c34-a9ce-661686668504.png"
+    },
+    {
+      "details": "response exceeds 5242880 byte limit",
+      "legacyAssetId": 1625,
+      "legacyLogoId": 1091,
+      "reason": "oversized-asset",
+      "sourceUrl": "https://cdn.lxdao.io/b6650843-688e-405e-8ecc-ed88c0992562.png"
+    },
+    {
+      "details": "response exceeds 5242880 byte limit",
+      "legacyAssetId": 1626,
+      "legacyLogoId": 1091,
+      "reason": "oversized-asset",
+      "sourceUrl": "https://cdn.lxdao.io/ae84a878-7214-4bbe-992c-c301545da00d.png"
+    }
+  ],
+  "logos": [
+    {
+      "legacyLogoId": 471,
+      "name": "mars",
+      "reason": "no-publishable-assets",
+      "slug": "mars"
+    },
+    {
+      "legacyLogoId": 561,
+      "name": "paint",
+      "reason": "no-publishable-assets",
+      "slug": "paint"
+    },
+    {
+      "legacyLogoId": 809,
+      "name": "imToken",
+      "reason": "no-publishable-assets",
+      "slug": "imtoken"
+    },
+    {
+      "legacyLogoId": 812,
+      "name": "Backpack",
+      "reason": "no-publishable-assets",
+      "slug": "backpack"
+    },
+    {
+      "legacyLogoId": 813,
+      "name": "Ronin",
+      "reason": "no-publishable-assets",
+      "slug": "ronin"
+    },
+    {
+      "legacyLogoId": 842,
+      "name": "Swoop Exange",
+      "reason": "no-publishable-assets",
+      "slug": "swoop-exange"
+    },
+    {
+      "legacyLogoId": 892,
+      "name": "DGB",
+      "reason": "no-publishable-assets",
+      "slug": "dgb-892"
+    },
+    {
+      "legacyLogoId": 898,
+      "name": "RPL",
+      "reason": "no-publishable-assets",
+      "slug": "rpl"
+    },
+    {
+      "legacyLogoId": 1058,
+      "name": "漫雾科技 SLOWMIST",
+      "reason": "no-publishable-assets",
+      "slug": "slowmist"
+    },
+    {
+      "legacyLogoId": 1075,
+      "name": "南塘 DAO",
+      "reason": "no-publishable-assets",
+      "slug": "dao"
+    }
+  ],
+  "metadata": [
+    {
+      "field": "website",
+      "legacyLogoId": 1,
+      "reason": "non-https-url-omitted",
+      "sourceValue": "www.lxdao.io"
+    },
+    {
+      "field": "website",
+      "legacyLogoId": 791,
+      "reason": "non-https-url-omitted",
+      "sourceValue": "tradao.xyz"
+    },
+    {
+      "field": "website",
+      "legacyLogoId": 792,
+      "reason": "non-https-url-omitted",
+      "sourceValue": "eip.fun"
+    },
+    {
+      "field": "website",
+      "legacyLogoId": 793,
+      "reason": "non-https-url-omitted",
+      "sourceValue": "eip.fun"
+    },
+    {
+      "field": "website",
+      "legacyLogoId": 799,
+      "reason": "non-https-url-omitted",
+      "sourceValue": "http://web3buidler.tech"
+    },
+    {
+      "field": "website",
+      "legacyLogoId": 830,
+      "reason": "non-https-url-omitted",
+      "sourceValue": "vfans.org"
+    },
+    {
+      "field": "website",
+      "legacyLogoId": 895,
+      "reason": "non-https-url-omitted",
+      "sourceValue": "www.immutable.com"
+    },
+    {
+      "field": "website",
+      "legacyLogoId": 972,
+      "reason": "non-https-url-omitted",
+      "sourceValue": "descisino.notion.site"
+    },
+    {
+      "field": "website",
+      "legacyLogoId": 983,
+      "reason": "non-https-url-omitted",
+      "sourceValue": "www.binance.com"
+    },
+    {
+      "field": "website",
+      "legacyLogoId": 989,
+      "reason": "non-https-url-omitted",
+      "sourceValue": "www.gate.io"
+    },
+    {
+      "field": "website",
+      "legacyLogoId": 1046,
+      "reason": "non-https-url-omitted",
+      "sourceValue": "intensivecolearn.ing"
+    }
+  ],
+  "schemaVersion": 1
+}

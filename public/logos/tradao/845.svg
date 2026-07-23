@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#_未命名的渐变_11);
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 4.66px;
+      }
+    </style>
+    <linearGradient id="_未命名的渐变_11" data-name="未命名的渐变 11" x1="0" y1="100" x2="200" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6650eb"/>
+      <stop offset="1" stop-color="#7f50eb"/>
+    </linearGradient>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <g>
+      <circle class="cls-2" cx="100" cy="100" r="100"/>
+      <path class="cls-3" d="M190.82,100c-.15,47.41-41.68,85.99-90.82,88.19-49.12,2.5-90.77-36.08-90.93-88.19C9.23,47.89,50.88,9.31,100,11.81c49.14,2.19,90.67,40.77,90.82,88.19Z"/>
+      <g>
+        <path class="cls-1" d="M61.32,92.75h72.16c8.2,0,14.86,6.66,14.86,14.86v14.14H61.32v-29.01h0Z" transform="translate(212.09 2.42) rotate(90)"/>
+        <path class="cls-1" d="M80.66,63.74h65.27v9.31c0,8.2-6.66,14.86-14.86,14.86h-50.41v-24.17h0Z"/>
+        <circle class="cls-1" cx="61.32" cy="75.83" r="12.09"/>
+      </g>
+    </g>
+  </g>
+</svg>

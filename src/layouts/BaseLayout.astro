@@ -1,0 +1,67 @@
+---
+import '@/styles/global.css'
+
+interface Props {
+  title?: string
+  description?: string
+  image?: string
+}
+
+const {
+  title = 'Web3Logo',
+  description = 'A community-maintained collection of Web3 brand assets.',
+  image = '/images/logo.png',
+} = Astro.props
+const site = Astro.site ?? new URL('https://web3logo.lxdao.io')
+const pageTitle = title === 'Web3Logo' ? title : `${title} | Web3Logo`
+const canonical = new URL(Astro.url.pathname, site)
+const socialImage = new URL(image, site)
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/images/logo.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Web3Logo" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={socialImage} />
+    <meta name="twitter:card" content="summary" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Web3Logo home">
+        <img src="/images/logo.svg" width="349" height="74" alt="Web3Logo" />
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="/" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>Browse</a>
+        <a href="/submit/" aria-current={Astro.url.pathname === '/submit/' ? 'page' : undefined}>
+          Submit a logo
+        </a>
+      </nav>
+    </header>
+    <main id="main-content">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div>
+        <img src="/images/logo.svg" width="349" height="74" alt="Web3Logo" loading="lazy" />
+        <p>A public Web3 design resource maintained by LXDAO contributors.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/lxdao-official/web3logo-website">GitHub</a>
+        <a href="https://lxdao.io/">LXDAO</a>
+      </div>
+    </footer>
+  </body>
+</html>

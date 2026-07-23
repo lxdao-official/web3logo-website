@@ -1,0 +1,79 @@
+name: Logo submission
+description: Request a new logo or an update to an existing catalog entry
+title: "[Logo]: "
+labels:
+  - logo-submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit only official or authorized assets. Maintainers review requests manually and may ask for additional provenance.
+  - type: input
+    id: project-name
+    attributes:
+      label: Project name
+      placeholder: ETHPanda
+    validations:
+      required: true
+  - type: input
+    id: official-website
+    attributes:
+      label: Official website
+      description: Use the project's canonical HTTPS URL.
+      placeholder: https://example.org
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: Official asset source URL
+      description: Link to the brand kit, official repository, or original file.
+      placeholder: https://github.com/example/project/blob/main/brand/logo.svg
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - DeFi
+        - NFTs
+        - DID
+        - Wallet
+        - Plugin
+        - DAO
+        - SocialFi
+        - GameFi
+        - Public Chain
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: aliases
+    attributes:
+      label: Aliases
+      description: Comma-separated names people may search for, or "None".
+      placeholder: ETH Panda, Ethereum Panda
+    validations:
+      required: true
+  - type: textarea
+    id: licensing
+    attributes:
+      label: Licensing and trademark statement
+      description: State why this asset may be redistributed and any trademark usage conditions.
+    validations:
+      required: true
+  - type: textarea
+    id: asset
+    attributes:
+      label: Asset attachment or direct source link
+      description: Drag the SVG, PNG, JPEG, or WebP here, or provide a direct HTTPS download URL.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Submission confirmation
+      options:
+        - label: I confirm this is an official or authorized asset and the information above is accurate.
+          required: true

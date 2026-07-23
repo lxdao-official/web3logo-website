@@ -1,0 +1,4 @@
+# Imported logo bytes are content-addressed in the catalog and must not be
+# rewritten by Git's text normalization. SVG source whitespace is validated by
+# the asset safety checks rather than generic patch whitespace rules.
+public/logos/** -text whitespace=-trailing-space

@@ -1,0 +1,80 @@
+---
+import LogoCard from '@/components/LogoCard.astro'
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import { CATEGORIES, logos } from '@/lib/catalog'
+import { HOMEPAGE_FEATURED_SLUGS, orderHomepageLogos } from '@/lib/homepage-order'
+
+const homepageLogos = orderHomepageLogos(logos)
+const inlineSearchIndex = JSON.stringify(
+  homepageLogos.map(({ slug, name, aliases, category }) => {
+    const priority = HOMEPAGE_FEATURED_SLUGS.indexOf(slug as (typeof HOMEPAGE_FEATURED_SLUGS)[number])
+    return { slug, name, aliases, category, ...(priority === -1 ? {} : { priority }) }
+  })
+).replaceAll('<', '\\u003c')
+---
+
+<BaseLayout>
+  <section class="catalog-intro">
+    <div>
+      <p class="eyebrow">Open brand asset registry</p>
+      <h1>Web3Logo</h1>
+      <p>Find source-quality logos for Web3 projects, protocols, communities, and public goods.</p>
+    </div>
+    <a class="button button--primary" href="/submit/">Submit a logo</a>
+  </section>
+
+  <section class="catalog" aria-labelledby="catalog-heading">
+    <h2 id="catalog-heading" class="visually-hidden">Logo catalog</h2>
+    <div class="search-row">
+      <label class="search-field">
+        <span class="visually-hidden">Search logos</span>
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-4-4"></path>
+        </svg>
+        <input
+          id="catalog-search"
+          type="search"
+          inputmode="search"
+          autocomplete="off"
+          placeholder="Search by name or alias"
+        />
+      </label>
+      <p id="result-count" class="result-count" aria-live="polite">
+        {logos.length} {logos.length === 1 ? 'logo' : 'logos'}
+      </p>
+    </div>
+
+    <div class="category-filters" role="group" aria-label="Filter by category">
+      <button type="button" class="category-filter is-active" data-category="" aria-pressed="true">
+        All
+      </button>
+      {CATEGORIES.map((category) => (
+        <button type="button" class="category-filter" data-category={category} aria-pressed="false">
+          {category}
+        </button>
+      ))}
+    </div>
+
+    <div id="logo-grid" class="logo-grid">
+      {homepageLogos.map((logo) => <LogoCard logo={logo} />)}
+    </div>
+    <div id="empty-state" class="empty-state" hidden>
+      <h2>No matching logos</h2>
+      <p>Try another spelling or category.</p>
+    </div>
+    {logos.length === 0 && (
+      <div class="empty-state">
+        <h2>Catalog migration pending</h2>
+        <p>The verified legacy snapshot has not been imported yet.</p>
+      </div>
+    )}
+    <button id="show-more" class="button button--secondary show-more" type="button" hidden>
+      Show more
+    </button>
+  </section>
+  <script id="search-index" type="application/json" is:inline set:html={inlineSearchIndex}></script>
+  <script>
+    import '@/scripts/search-client'
+  </script>
+</BaseLayout>

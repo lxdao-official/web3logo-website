@@ -1,0 +1,7637 @@
+{
+  "logos": [
+    {
+      "legacyId": 1053,
+      "legacyPath": "/detail/0x499/1053",
+      "name": "0x499",
+      "slug": "0x499",
+      "status": "published",
+      "targetPath": "/logos/0x499/"
+    },
+    {
+      "legacyId": 1073,
+      "legacyPath": "/detail/%E6%B8%AF%E4%B8%AD%E6%B7%B1%E9%93%BE%E5%8D%8F%200xCUHKSZ/1073",
+      "name": "港中深链协 0xCUHKSZ",
+      "slug": "0xcuhksz",
+      "status": "published",
+      "targetPath": "/logos/0xcuhksz/"
+    },
+    {
+      "legacyId": 1062,
+      "legacyPath": "/detail/0xU/1062",
+      "name": "0xU",
+      "slug": "0xu",
+      "status": "published",
+      "targetPath": "/logos/0xu/"
+    },
+    {
+      "legacyId": 39,
+      "legacyPath": "/detail/1inch/39",
+      "name": "1inch",
+      "slug": "1inch",
+      "status": "published",
+      "targetPath": "/logos/1inch/"
+    },
+    {
+      "legacyId": 120,
+      "legacyPath": "/detail/1st/120",
+      "name": "1st",
+      "slug": "1st",
+      "status": "published",
+      "targetPath": "/logos/1st/"
+    },
+    {
+      "legacyId": 982,
+      "legacyPath": "/detail/4Seas/982",
+      "name": "4Seas",
+      "slug": "4seas",
+      "status": "published",
+      "targetPath": "/logos/4seas/"
+    },
+    {
+      "legacyId": 48,
+      "legacyPath": "/detail/8Dao/48",
+      "name": "8Dao",
+      "slug": "8dao",
+      "status": "published",
+      "targetPath": "/logos/8dao/"
+    },
+    {
+      "legacyId": 1000,
+      "legacyPath": "/detail/a16z%20crypto/1000",
+      "name": "a16z crypto",
+      "slug": "a16z-crypto",
+      "status": "published",
+      "targetPath": "/logos/a16z-crypto/"
+    },
+    {
+      "legacyId": 47,
+      "legacyPath": "/detail/AAstar/47",
+      "name": "AAstar",
+      "slug": "aastar",
+      "status": "published",
+      "targetPath": "/logos/aastar/"
+    },
+    {
+      "legacyId": 8,
+      "legacyPath": "/detail/aave/8",
+      "name": "aave",
+      "slug": "aave",
+      "status": "published",
+      "targetPath": "/logos/aave/"
+    },
+    {
+      "legacyId": 124,
+      "legacyPath": "/detail/abt/124",
+      "name": "abt",
+      "slug": "abt",
+      "status": "published",
+      "targetPath": "/logos/abt/"
+    },
+    {
+      "legacyId": 127,
+      "legacyPath": "/detail/ac3/127",
+      "name": "ac3",
+      "slug": "ac3",
+      "status": "published",
+      "targetPath": "/logos/ac3/"
+    },
+    {
+      "legacyId": 954,
+      "legacyPath": "/detail/ACA/954",
+      "name": "ACA",
+      "slug": "aca",
+      "status": "published",
+      "targetPath": "/logos/aca/"
+    },
+    {
+      "legacyId": 119,
+      "legacyPath": "/detail/act/119",
+      "name": "act",
+      "slug": "act",
+      "status": "published",
+      "targetPath": "/logos/act/"
+    },
+    {
+      "legacyId": 122,
+      "legacyPath": "/detail/adb/122",
+      "name": "adb",
+      "slug": "adb",
+      "status": "published",
+      "targetPath": "/logos/adb/"
+    },
+    {
+      "legacyId": 1050,
+      "legacyPath": "/detail/AdventureX/1050",
+      "name": "AdventureX",
+      "slug": "adventurex",
+      "status": "published",
+      "targetPath": "/logos/adventurex/"
+    },
+    {
+      "legacyId": 128,
+      "legacyPath": "/detail/adx/128",
+      "name": "adx",
+      "slug": "adx",
+      "status": "published",
+      "targetPath": "/logos/adx/"
+    },
+    {
+      "legacyId": 137,
+      "legacyPath": "/detail/ae/137",
+      "name": "ae",
+      "slug": "ae",
+      "status": "published",
+      "targetPath": "/logos/ae/"
+    },
+    {
+      "legacyId": 134,
+      "legacyPath": "/detail/aergo/134",
+      "name": "aergo",
+      "slug": "aergo",
+      "status": "published",
+      "targetPath": "/logos/aergo/"
+    },
+    {
+      "legacyId": 129,
+      "legacyPath": "/detail/agi/129",
+      "name": "agi",
+      "slug": "agi",
+      "status": "published",
+      "targetPath": "/logos/agi/"
+    },
+    {
+      "legacyId": 833,
+      "legacyPath": "/detail/AINN/833",
+      "name": "AINN",
+      "slug": "ainn",
+      "status": "published",
+      "targetPath": "/logos/ainn/"
+    },
+    {
+      "legacyId": 132,
+      "legacyPath": "/detail/aion/132",
+      "name": "aion",
+      "slug": "aion",
+      "status": "published",
+      "targetPath": "/logos/aion/"
+    },
+    {
+      "legacyId": 136,
+      "legacyPath": "/detail/ait/136",
+      "name": "ait",
+      "slug": "ait",
+      "status": "published",
+      "targetPath": "/logos/ait/"
+    },
+    {
+      "legacyId": 130,
+      "legacyPath": "/detail/akro/130",
+      "name": "akro",
+      "slug": "akro",
+      "status": "published",
+      "targetPath": "/logos/akro/"
+    },
+    {
+      "legacyId": 133,
+      "legacyPath": "/detail/akt/133",
+      "name": "akt",
+      "slug": "akt",
+      "status": "published",
+      "targetPath": "/logos/akt/"
+    },
+    {
+      "legacyId": 131,
+      "legacyPath": "/detail/alcx/131",
+      "name": "alcx",
+      "slug": "alcx",
+      "status": "published",
+      "targetPath": "/logos/alcx/"
+    },
+    {
+      "legacyId": 139,
+      "legacyPath": "/detail/aleph/139",
+      "name": "aleph",
+      "slug": "aleph",
+      "status": "published",
+      "targetPath": "/logos/aleph/"
+    },
+    {
+      "legacyId": 42,
+      "legacyPath": "/detail/ALGO/42",
+      "name": "ALGO",
+      "slug": "algo",
+      "status": "published",
+      "targetPath": "/logos/algo/"
+    },
+    {
+      "legacyId": 1089,
+      "legacyPath": "/detail/Alibaba%20Cloud/1089",
+      "name": "Alibaba Cloud",
+      "slug": "alibaba-cloud",
+      "status": "published",
+      "targetPath": "/logos/alibaba-cloud/"
+    },
+    {
+      "legacyId": 147,
+      "legacyPath": "/detail/alis/147",
+      "name": "alis",
+      "slug": "alis",
+      "status": "published",
+      "targetPath": "/logos/alis/"
+    },
+    {
+      "legacyId": 143,
+      "legacyPath": "/detail/alpha/143",
+      "name": "alpha",
+      "slug": "alpha",
+      "status": "published",
+      "targetPath": "/logos/alpha/"
+    },
+    {
+      "legacyId": 146,
+      "legacyPath": "/detail/alx/146",
+      "name": "alx",
+      "slug": "alx",
+      "status": "published",
+      "targetPath": "/logos/alx/"
+    },
+    {
+      "legacyId": 144,
+      "legacyPath": "/detail/amb/144",
+      "name": "amb",
+      "slug": "amb",
+      "status": "published",
+      "targetPath": "/logos/amb/"
+    },
+    {
+      "legacyId": 142,
+      "legacyPath": "/detail/amlt/142",
+      "name": "amlt",
+      "slug": "amlt",
+      "status": "published",
+      "targetPath": "/logos/amlt/"
+    },
+    {
+      "legacyId": 140,
+      "legacyPath": "/detail/amp/140",
+      "name": "amp",
+      "slug": "amp",
+      "status": "published",
+      "targetPath": "/logos/amp/"
+    },
+    {
+      "legacyId": 50,
+      "legacyPath": "/detail/Amphi/50",
+      "name": "Amphi",
+      "slug": "amphi",
+      "status": "published",
+      "targetPath": "/logos/amphi/"
+    },
+    {
+      "legacyId": 145,
+      "legacyPath": "/detail/ampl/145",
+      "name": "ampl",
+      "slug": "ampl",
+      "status": "published",
+      "targetPath": "/logos/ampl/"
+    },
+    {
+      "legacyId": 141,
+      "legacyPath": "/detail/anc/141",
+      "name": "anc",
+      "slug": "anc",
+      "status": "published",
+      "targetPath": "/logos/anc/"
+    },
+    {
+      "legacyId": 869,
+      "legacyPath": "/detail/ANGLE/869",
+      "name": "ANGLE",
+      "slug": "angle",
+      "status": "published",
+      "targetPath": "/logos/angle/"
+    },
+    {
+      "legacyId": 148,
+      "legacyPath": "/detail/anj/148",
+      "name": "anj",
+      "slug": "anj",
+      "status": "published",
+      "targetPath": "/logos/anj/"
+    },
+    {
+      "legacyId": 40,
+      "legacyPath": "/detail/ANKR/40",
+      "name": "ANKR",
+      "slug": "ankr",
+      "status": "published",
+      "targetPath": "/logos/ankr/"
+    },
+    {
+      "legacyId": 152,
+      "legacyPath": "/detail/ankr/152",
+      "name": "ankr",
+      "slug": "ankr-152",
+      "status": "published",
+      "targetPath": "/logos/ankr-152/"
+    },
+    {
+      "legacyId": 1028,
+      "legacyPath": "/detail/Anoma/1028",
+      "name": "Anoma",
+      "slug": "anoma",
+      "status": "published",
+      "targetPath": "/logos/anoma/"
+    },
+    {
+      "legacyId": 149,
+      "legacyPath": "/detail/ant/149",
+      "name": "ant",
+      "slug": "ant",
+      "status": "published",
+      "targetPath": "/logos/ant/"
+    },
+    {
+      "legacyId": 955,
+      "legacyPath": "/detail/AnySwap/955",
+      "name": "AnySwap",
+      "slug": "anyswap",
+      "status": "published",
+      "targetPath": "/logos/anyswap/"
+    },
+    {
+      "legacyId": 4,
+      "legacyPath": "/detail/apecoin/4",
+      "name": "apecoin",
+      "slug": "apecoin",
+      "status": "published",
+      "targetPath": "/logos/apecoin/"
+    },
+    {
+      "legacyId": 154,
+      "legacyPath": "/detail/aph/154",
+      "name": "aph",
+      "slug": "aph",
+      "status": "published",
+      "targetPath": "/logos/aph/"
+    },
+    {
+      "legacyId": 1037,
+      "legacyPath": "/detail/API3/1037",
+      "name": "API3",
+      "slug": "api3",
+      "status": "published",
+      "targetPath": "/logos/api3/"
+    },
+    {
+      "legacyId": 150,
+      "legacyPath": "/detail/apl/150",
+      "name": "apl",
+      "slug": "apl",
+      "status": "published",
+      "targetPath": "/logos/apl/"
+    },
+    {
+      "legacyId": 153,
+      "legacyPath": "/detail/appc/153",
+      "name": "appc",
+      "slug": "appc",
+      "status": "published",
+      "targetPath": "/logos/appc/"
+    },
+    {
+      "legacyId": 6,
+      "legacyPath": "/detail/aptos/6",
+      "name": "aptos",
+      "slug": "aptos",
+      "status": "published",
+      "targetPath": "/logos/aptos/"
+    },
+    {
+      "legacyId": 156,
+      "legacyPath": "/detail/apw/156",
+      "name": "apw",
+      "slug": "apw",
+      "status": "published",
+      "targetPath": "/logos/apw/"
+    },
+    {
+      "legacyId": 157,
+      "legacyPath": "/detail/apy/157",
+      "name": "apy",
+      "slug": "apy",
+      "status": "published",
+      "targetPath": "/logos/apy/"
+    },
+    {
+      "legacyId": 155,
+      "legacyPath": "/detail/ar/155",
+      "name": "ar",
+      "slug": "ar",
+      "status": "published",
+      "targetPath": "/logos/ar/"
+    },
+    {
+      "legacyId": 9,
+      "legacyPath": "/detail/arbitrum/9",
+      "name": "arbitrum",
+      "slug": "arbitrum",
+      "status": "published",
+      "targetPath": "/logos/arbitrum/"
+    },
+    {
+      "legacyId": 1040,
+      "legacyPath": "/detail/ArcBlock/1040",
+      "name": "ArcBlock",
+      "slug": "arcblock",
+      "status": "published",
+      "targetPath": "/logos/arcblock/"
+    },
+    {
+      "legacyId": 151,
+      "legacyPath": "/detail/ardr/151",
+      "name": "ardr",
+      "slug": "ardr",
+      "status": "published",
+      "targetPath": "/logos/ardr/"
+    },
+    {
+      "legacyId": 836,
+      "legacyPath": "/detail/Argent/836",
+      "name": "Argent",
+      "slug": "argent",
+      "status": "published",
+      "targetPath": "/logos/argent/"
+    },
+    {
+      "legacyId": 159,
+      "legacyPath": "/detail/ark/159",
+      "name": "ark",
+      "slug": "ark",
+      "status": "published",
+      "targetPath": "/logos/ark/"
+    },
+    {
+      "legacyId": 160,
+      "legacyPath": "/detail/armor/160",
+      "name": "armor",
+      "slug": "armor",
+      "status": "published",
+      "targetPath": "/logos/armor/"
+    },
+    {
+      "legacyId": 158,
+      "legacyPath": "/detail/arn/158",
+      "name": "arn",
+      "slug": "arn",
+      "status": "published",
+      "targetPath": "/logos/arn/"
+    },
+    {
+      "legacyId": 167,
+      "legacyPath": "/detail/aro/167",
+      "name": "aro",
+      "slug": "aro",
+      "status": "published",
+      "targetPath": "/logos/aro/"
+    },
+    {
+      "legacyId": 165,
+      "legacyPath": "/detail/arrr/165",
+      "name": "arrr",
+      "slug": "arrr",
+      "status": "published",
+      "targetPath": "/logos/arrr/"
+    },
+    {
+      "legacyId": 994,
+      "legacyPath": "/detail/Artela/994",
+      "name": "Artela",
+      "slug": "artela",
+      "status": "published",
+      "targetPath": "/logos/artela/"
+    },
+    {
+      "legacyId": 163,
+      "legacyPath": "/detail/ast/163",
+      "name": "ast",
+      "slug": "ast",
+      "status": "published",
+      "targetPath": "/logos/ast/"
+    },
+    {
+      "legacyId": 827,
+      "legacyPath": "/detail/Astar/827",
+      "name": "Astar",
+      "slug": "astar",
+      "status": "published",
+      "targetPath": "/logos/astar/"
+    },
+    {
+      "legacyId": 928,
+      "legacyPath": "/detail/ASTAR/928",
+      "name": "ASTAR",
+      "slug": "astar-928",
+      "status": "published",
+      "targetPath": "/logos/astar-928/"
+    },
+    {
+      "legacyId": 956,
+      "legacyPath": "/detail/AstridDao/956",
+      "name": "AstridDao",
+      "slug": "astriddao",
+      "status": "published",
+      "targetPath": "/logos/astriddao/"
+    },
+    {
+      "legacyId": 162,
+      "legacyPath": "/detail/atom/162",
+      "name": "atom",
+      "slug": "atom",
+      "status": "published",
+      "targetPath": "/logos/atom/"
+    },
+    {
+      "legacyId": 161,
+      "legacyPath": "/detail/auc/161",
+      "name": "auc",
+      "slug": "auc",
+      "status": "published",
+      "targetPath": "/logos/auc/"
+    },
+    {
+      "legacyId": 164,
+      "legacyPath": "/detail/aura/164",
+      "name": "aura",
+      "slug": "aura",
+      "status": "published",
+      "targetPath": "/logos/aura/"
+    },
+    {
+      "legacyId": 169,
+      "legacyPath": "/detail/auto/169",
+      "name": "auto",
+      "slug": "auto",
+      "status": "published",
+      "targetPath": "/logos/auto/"
+    },
+    {
+      "legacyId": 10,
+      "legacyPath": "/detail/avalanche/10",
+      "name": "avalanche",
+      "slug": "avalanche",
+      "status": "published",
+      "targetPath": "/logos/avalanche/"
+    },
+    {
+      "legacyId": 880,
+      "legacyPath": "/detail/Avalanche%20%28AVAX%29/880",
+      "name": "Avalanche (AVAX)",
+      "slug": "avalanche-avax",
+      "status": "published",
+      "targetPath": "/logos/avalanche-avax/"
+    },
+    {
+      "legacyId": 947,
+      "legacyPath": "/detail/Avault/947",
+      "name": "Avault",
+      "slug": "avault",
+      "status": "published",
+      "targetPath": "/logos/avault/"
+    },
+    {
+      "legacyId": 173,
+      "legacyPath": "/detail/awc/173",
+      "name": "awc",
+      "slug": "awc",
+      "status": "published",
+      "targetPath": "/logos/awc/"
+    },
+    {
+      "legacyId": 174,
+      "legacyPath": "/detail/axp/174",
+      "name": "axp",
+      "slug": "axp",
+      "status": "published",
+      "targetPath": "/logos/axp/"
+    },
+    {
+      "legacyId": 905,
+      "legacyPath": "/detail/AXS/905",
+      "name": "AXS",
+      "slug": "axs",
+      "status": "published",
+      "targetPath": "/logos/axs/"
+    },
+    {
+      "legacyId": 176,
+      "legacyPath": "/detail/bac/176",
+      "name": "bac",
+      "slug": "bac",
+      "status": "published",
+      "targetPath": "/logos/bac/"
+    },
+    {
+      "legacyId": 812,
+      "legacyPath": "/detail/Backpack/812",
+      "name": "Backpack",
+      "slug": "backpack",
+      "status": "excluded",
+      "targetPath": "/legacy-unavailable/"
+    },
+    {
+      "legacyId": 43,
+      "legacyPath": "/detail/Bal/43",
+      "name": "Bal",
+      "slug": "bal",
+      "status": "published",
+      "targetPath": "/logos/bal/"
+    },
+    {
+      "legacyId": 168,
+      "legacyPath": "/detail/band/168",
+      "name": "band",
+      "slug": "band",
+      "status": "published",
+      "targetPath": "/logos/band/"
+    },
+    {
+      "legacyId": 1047,
+      "legacyPath": "/detail/BanklessDAOCN/1047",
+      "name": "BanklessDAOCN",
+      "slug": "banklessdaocn",
+      "status": "published",
+      "targetPath": "/logos/banklessdaocn/"
+    },
+    {
+      "legacyId": 177,
+      "legacyPath": "/detail/bat/177",
+      "name": "bat",
+      "slug": "bat",
+      "status": "published",
+      "targetPath": "/logos/bat/"
+    },
+    {
+      "legacyId": 171,
+      "legacyPath": "/detail/bay/171",
+      "name": "bay",
+      "slug": "bay",
+      "status": "published",
+      "targetPath": "/logos/bay/"
+    },
+    {
+      "legacyId": 178,
+      "legacyPath": "/detail/bbr/178",
+      "name": "bbr",
+      "slug": "bbr",
+      "status": "published",
+      "targetPath": "/logos/bbr/"
+    },
+    {
+      "legacyId": 179,
+      "legacyPath": "/detail/bcd/179",
+      "name": "bcd",
+      "slug": "bcd",
+      "status": "published",
+      "targetPath": "/logos/bcd/"
+    },
+    {
+      "legacyId": 180,
+      "legacyPath": "/detail/bch/180",
+      "name": "bch",
+      "slug": "bch",
+      "status": "published",
+      "targetPath": "/logos/bch/"
+    },
+    {
+      "legacyId": 181,
+      "legacyPath": "/detail/bcha/181",
+      "name": "bcha",
+      "slug": "bcha",
+      "status": "published",
+      "targetPath": "/logos/bcha/"
+    },
+    {
+      "legacyId": 185,
+      "legacyPath": "/detail/bcn/185",
+      "name": "bcn",
+      "slug": "bcn",
+      "status": "published",
+      "targetPath": "/logos/bcn/"
+    },
+    {
+      "legacyId": 187,
+      "legacyPath": "/detail/bco/187",
+      "name": "bco",
+      "slug": "bco",
+      "status": "published",
+      "targetPath": "/logos/bco/"
+    },
+    {
+      "legacyId": 889,
+      "legacyPath": "/detail/Beefy%20%28BIFI%29/889",
+      "name": "Beefy (BIFI)",
+      "slug": "beefy-bifi",
+      "status": "published",
+      "targetPath": "/logos/beefy-bifi/"
+    },
+    {
+      "legacyId": 186,
+      "legacyPath": "/detail/bel/186",
+      "name": "bel",
+      "slug": "bel",
+      "status": "published",
+      "targetPath": "/logos/bel/"
+    },
+    {
+      "legacyId": 182,
+      "legacyPath": "/detail/beta/182",
+      "name": "beta",
+      "slug": "beta",
+      "status": "published",
+      "targetPath": "/logos/beta/"
+    },
+    {
+      "legacyId": 49,
+      "legacyPath": "/detail/BeWater/49",
+      "name": "BeWater",
+      "slug": "bewater",
+      "status": "published",
+      "targetPath": "/logos/bewater/"
+    },
+    {
+      "legacyId": 184,
+      "legacyPath": "/detail/bf/184",
+      "name": "bf",
+      "slug": "bf",
+      "status": "published",
+      "targetPath": "/logos/bf/"
+    },
+    {
+      "legacyId": 183,
+      "legacyPath": "/detail/bifi/183",
+      "name": "bifi",
+      "slug": "bifi",
+      "status": "published",
+      "targetPath": "/logos/bifi/"
+    },
+    {
+      "legacyId": 983,
+      "legacyPath": "/detail/Binance/983",
+      "name": "Binance",
+      "slug": "binance",
+      "status": "published",
+      "targetPath": "/logos/binance/"
+    },
+    {
+      "legacyId": 993,
+      "legacyPath": "/detail/BioLinkX/993",
+      "name": "BioLinkX",
+      "slug": "biolinkx",
+      "status": "published",
+      "targetPath": "/logos/biolinkx/"
+    },
+    {
+      "legacyId": 2,
+      "legacyPath": "/detail/Bitcoin/2",
+      "name": "Bitcoin",
+      "slug": "bitcoin",
+      "status": "published",
+      "targetPath": "/logos/bitcoin/"
+    },
+    {
+      "legacyId": 984,
+      "legacyPath": "/detail/Bitfinex/984",
+      "name": "Bitfinex",
+      "slug": "bitfinex",
+      "status": "published",
+      "targetPath": "/logos/bitfinex/"
+    },
+    {
+      "legacyId": 985,
+      "legacyPath": "/detail/Bitget/985",
+      "name": "Bitget",
+      "slug": "bitget",
+      "status": "published",
+      "targetPath": "/logos/bitget/"
+    },
+    {
+      "legacyId": 986,
+      "legacyPath": "/detail/Bitmart/986",
+      "name": "Bitmart",
+      "slug": "bitmart",
+      "status": "published",
+      "targetPath": "/logos/bitmart/"
+    },
+    {
+      "legacyId": 189,
+      "legacyPath": "/detail/bix/189",
+      "name": "bix",
+      "slug": "bix",
+      "status": "published",
+      "targetPath": "/logos/bix/"
+    },
+    {
+      "legacyId": 188,
+      "legacyPath": "/detail/blk/188",
+      "name": "blk",
+      "slug": "blk",
+      "status": "published",
+      "targetPath": "/logos/blk/"
+    },
+    {
+      "legacyId": 192,
+      "legacyPath": "/detail/block/192",
+      "name": "block",
+      "slug": "block",
+      "status": "published",
+      "targetPath": "/logos/block/"
+    },
+    {
+      "legacyId": 51,
+      "legacyPath": "/detail/BlockBooster/51",
+      "name": "BlockBooster",
+      "slug": "blockbooster",
+      "status": "published",
+      "targetPath": "/logos/blockbooster/"
+    },
+    {
+      "legacyId": 1019,
+      "legacyPath": "/detail/Blockchain%20Academy/1019",
+      "name": "Blockchain Academy",
+      "slug": "blockchain-academy",
+      "status": "published",
+      "targetPath": "/logos/blockchain-academy/"
+    },
+    {
+      "legacyId": 1020,
+      "legacyPath": "/detail/Blockchain%20for%20Good%20Alliance%20%28BGA%29/1020",
+      "name": "Blockchain for Good Alliance (BGA)",
+      "slug": "blockchain-for-good-alliance-bga",
+      "status": "published",
+      "targetPath": "/logos/blockchain-for-good-alliance-bga/"
+    },
+    {
+      "legacyId": 55,
+      "legacyPath": "/detail/Blocklike%20LOGO%20color%20horizontal/55",
+      "name": "Blocklike LOGO color horizontal",
+      "slug": "blocklike-logo-color-horizontal",
+      "status": "published",
+      "targetPath": "/logos/blocklike-logo-color-horizontal/"
+    },
+    {
+      "legacyId": 1080,
+      "legacyPath": "/detail/blocksec/1080",
+      "name": "blocksec",
+      "slug": "blocksec",
+      "status": "published",
+      "targetPath": "/logos/blocksec/"
+    },
+    {
+      "legacyId": 197,
+      "legacyPath": "/detail/blt/197",
+      "name": "blt",
+      "slug": "blt",
+      "status": "published",
+      "targetPath": "/logos/blt/"
+    },
+    {
+      "legacyId": 195,
+      "legacyPath": "/detail/blue/195",
+      "name": "blue",
+      "slug": "blue",
+      "status": "published",
+      "targetPath": "/logos/blue/"
+    },
+    {
+      "legacyId": 45,
+      "legacyPath": "/detail/Blur/45",
+      "name": "Blur",
+      "slug": "blur",
+      "status": "published",
+      "targetPath": "/logos/blur/"
+    },
+    {
+      "legacyId": 196,
+      "legacyPath": "/detail/blz/196",
+      "name": "blz",
+      "slug": "blz",
+      "status": "published",
+      "targetPath": "/logos/blz/"
+    },
+    {
+      "legacyId": 191,
+      "legacyPath": "/detail/bnb/191",
+      "name": "bnb",
+      "slug": "bnb",
+      "status": "published",
+      "targetPath": "/logos/bnb/"
+    },
+    {
+      "legacyId": 194,
+      "legacyPath": "/detail/bnt/194",
+      "name": "bnt",
+      "slug": "bnt",
+      "status": "published",
+      "targetPath": "/logos/bnt/"
+    },
+    {
+      "legacyId": 934,
+      "legacyPath": "/detail/BNT/934",
+      "name": "BNT",
+      "slug": "bnt-934",
+      "status": "published",
+      "targetPath": "/logos/bnt-934/"
+    },
+    {
+      "legacyId": 193,
+      "legacyPath": "/detail/bond/193",
+      "name": "bond",
+      "slug": "bond",
+      "status": "published",
+      "targetPath": "/logos/bond/"
+    },
+    {
+      "legacyId": 190,
+      "legacyPath": "/detail/bondly/190",
+      "name": "bondly",
+      "slug": "bondly",
+      "status": "published",
+      "targetPath": "/logos/bondly/"
+    },
+    {
+      "legacyId": 198,
+      "legacyPath": "/detail/bora/198",
+      "name": "bora",
+      "slug": "bora",
+      "status": "published",
+      "targetPath": "/logos/bora/"
+    },
+    {
+      "legacyId": 200,
+      "legacyPath": "/detail/box/200",
+      "name": "box",
+      "slug": "box",
+      "status": "published",
+      "targetPath": "/logos/box/"
+    },
+    {
+      "legacyId": 202,
+      "legacyPath": "/detail/bpt/202",
+      "name": "bpt",
+      "slug": "bpt",
+      "status": "published",
+      "targetPath": "/logos/bpt/"
+    },
+    {
+      "legacyId": 53,
+      "legacyPath": "/detail/Brand3DAO/53",
+      "name": "Brand3DAO",
+      "slug": "brand3dao",
+      "status": "published",
+      "targetPath": "/logos/brand3dao/"
+    },
+    {
+      "legacyId": 199,
+      "legacyPath": "/detail/brd/199",
+      "name": "brd",
+      "slug": "brd",
+      "status": "published",
+      "targetPath": "/logos/brd/"
+    },
+    {
+      "legacyId": 203,
+      "legacyPath": "/detail/btc/203",
+      "name": "btc",
+      "slug": "btc",
+      "status": "published",
+      "targetPath": "/logos/btc/"
+    },
+    {
+      "legacyId": 206,
+      "legacyPath": "/detail/btcd/206",
+      "name": "btcd",
+      "slug": "btcd",
+      "status": "published",
+      "targetPath": "/logos/btcd/"
+    },
+    {
+      "legacyId": 937,
+      "legacyPath": "/detail/BTCD/937",
+      "name": "BTCD",
+      "slug": "btcd-937",
+      "status": "published",
+      "targetPath": "/logos/btcd-937/"
+    },
+    {
+      "legacyId": 207,
+      "legacyPath": "/detail/btcp/207",
+      "name": "btcp",
+      "slug": "btcp",
+      "status": "published",
+      "targetPath": "/logos/btcp/"
+    },
+    {
+      "legacyId": 204,
+      "legacyPath": "/detail/btg/204",
+      "name": "btg",
+      "slug": "btg",
+      "status": "published",
+      "targetPath": "/logos/btg/"
+    },
+    {
+      "legacyId": 205,
+      "legacyPath": "/detail/btmx/205",
+      "name": "btmx",
+      "slug": "btmx",
+      "status": "published",
+      "targetPath": "/logos/btmx/"
+    },
+    {
+      "legacyId": 210,
+      "legacyPath": "/detail/bto/210",
+      "name": "bto",
+      "slug": "bto",
+      "status": "published",
+      "targetPath": "/logos/bto/"
+    },
+    {
+      "legacyId": 212,
+      "legacyPath": "/detail/bts/212",
+      "name": "bts",
+      "slug": "bts",
+      "status": "published",
+      "targetPath": "/logos/bts/"
+    },
+    {
+      "legacyId": 213,
+      "legacyPath": "/detail/btt/213",
+      "name": "btt",
+      "slug": "btt",
+      "status": "published",
+      "targetPath": "/logos/btt/"
+    },
+    {
+      "legacyId": 209,
+      "legacyPath": "/detail/btu/209",
+      "name": "btu",
+      "slug": "btu",
+      "status": "published",
+      "targetPath": "/logos/btu/"
+    },
+    {
+      "legacyId": 216,
+      "legacyPath": "/detail/bu/216",
+      "name": "bu",
+      "slug": "bu",
+      "status": "published",
+      "targetPath": "/logos/bu/"
+    },
+    {
+      "legacyId": 54,
+      "legacyPath": "/detail/BuidlerDAO/54",
+      "name": "BuidlerDAO",
+      "slug": "buidlerdao",
+      "status": "published",
+      "targetPath": "/logos/buidlerdao/"
+    },
+    {
+      "legacyId": 1057,
+      "legacyPath": "/detail/BuidlGuidl/1057",
+      "name": "BuidlGuidl",
+      "slug": "buidlguidl",
+      "status": "published",
+      "targetPath": "/logos/buidlguidl/"
+    },
+    {
+      "legacyId": 214,
+      "legacyPath": "/detail/bunny/214",
+      "name": "bunny",
+      "slug": "bunny",
+      "status": "published",
+      "targetPath": "/logos/bunny/"
+    },
+    {
+      "legacyId": 1060,
+      "legacyPath": "/detail/BUPT3DAO/1060",
+      "name": "BUPT3DAO",
+      "slug": "bupt3dao",
+      "status": "published",
+      "targetPath": "/logos/bupt3dao/"
+    },
+    {
+      "legacyId": 215,
+      "legacyPath": "/detail/busd/215",
+      "name": "busd",
+      "slug": "busd",
+      "status": "published",
+      "targetPath": "/logos/busd/"
+    },
+    {
+      "legacyId": 208,
+      "legacyPath": "/detail/bwt/208",
+      "name": "bwt",
+      "slug": "bwt",
+      "status": "published",
+      "targetPath": "/logos/bwt/"
+    },
+    {
+      "legacyId": 987,
+      "legacyPath": "/detail/Bybit/987",
+      "name": "Bybit",
+      "slug": "bybit",
+      "status": "published",
+      "targetPath": "/logos/bybit/"
+    },
+    {
+      "legacyId": 211,
+      "legacyPath": "/detail/bz/211",
+      "name": "bz",
+      "slug": "bz",
+      "status": "published",
+      "targetPath": "/logos/bz/"
+    },
+    {
+      "legacyId": 217,
+      "legacyPath": "/detail/bznt/217",
+      "name": "bznt",
+      "slug": "bznt",
+      "status": "published",
+      "targetPath": "/logos/bznt/"
+    },
+    {
+      "legacyId": 225,
+      "legacyPath": "/detail/bzrx/225",
+      "name": "bzrx",
+      "slug": "bzrx",
+      "status": "published",
+      "targetPath": "/logos/bzrx/"
+    },
+    {
+      "legacyId": 846,
+      "legacyPath": "/detail/bzx-protocol-bzrx/846",
+      "name": "bzx-protocol-bzrx",
+      "slug": "bzx-protocol-bzrx",
+      "status": "published",
+      "targetPath": "/logos/bzx-protocol-bzrx/"
+    },
+    {
+      "legacyId": 218,
+      "legacyPath": "/detail/c20/218",
+      "name": "c20",
+      "slug": "c20",
+      "status": "published",
+      "targetPath": "/logos/c20/"
+    },
+    {
+      "legacyId": 219,
+      "legacyPath": "/detail/c98/219",
+      "name": "c98",
+      "slug": "c98",
+      "status": "published",
+      "targetPath": "/logos/c98/"
+    },
+    {
+      "legacyId": 221,
+      "legacyPath": "/detail/cake/221",
+      "name": "cake",
+      "slug": "cake",
+      "status": "published",
+      "targetPath": "/logos/cake/"
+    },
+    {
+      "legacyId": 226,
+      "legacyPath": "/detail/capp/226",
+      "name": "capp",
+      "slug": "capp",
+      "status": "published",
+      "targetPath": "/logos/capp/"
+    },
+    {
+      "legacyId": 227,
+      "legacyPath": "/detail/car/227",
+      "name": "car",
+      "slug": "car",
+      "status": "published",
+      "targetPath": "/logos/car/"
+    },
+    {
+      "legacyId": 223,
+      "legacyPath": "/detail/card/223",
+      "name": "card",
+      "slug": "card",
+      "status": "published",
+      "targetPath": "/logos/card/"
+    },
+    {
+      "legacyId": 876,
+      "legacyPath": "/detail/cardano-ada/876",
+      "name": "cardano-ada",
+      "slug": "cardano-ada",
+      "status": "published",
+      "targetPath": "/logos/cardano-ada/"
+    },
+    {
+      "legacyId": 220,
+      "legacyPath": "/detail/cbat/220",
+      "name": "cbat",
+      "slug": "cbat",
+      "status": "published",
+      "targetPath": "/logos/cbat/"
+    },
+    {
+      "legacyId": 222,
+      "legacyPath": "/detail/cbt/222",
+      "name": "cbt",
+      "slug": "cbt",
+      "status": "published",
+      "targetPath": "/logos/cbt/"
+    },
+    {
+      "legacyId": 224,
+      "legacyPath": "/detail/cdai/224",
+      "name": "cdai",
+      "slug": "cdai",
+      "status": "published",
+      "targetPath": "/logos/cdai/"
+    },
+    {
+      "legacyId": 230,
+      "legacyPath": "/detail/cdt/230",
+      "name": "cdt",
+      "slug": "cdt",
+      "status": "published",
+      "targetPath": "/logos/cdt/"
+    },
+    {
+      "legacyId": 232,
+      "legacyPath": "/detail/cel/232",
+      "name": "cel",
+      "slug": "cel",
+      "status": "published",
+      "targetPath": "/logos/cel/"
+    },
+    {
+      "legacyId": 865,
+      "legacyPath": "/detail/Celer/865",
+      "name": "Celer",
+      "slug": "celer",
+      "status": "published",
+      "targetPath": "/logos/celer/"
+    },
+    {
+      "legacyId": 804,
+      "legacyPath": "/detail/Celestia/804",
+      "name": "Celestia",
+      "slug": "celestia",
+      "status": "published",
+      "targetPath": "/logos/celestia/"
+    },
+    {
+      "legacyId": 881,
+      "legacyPath": "/detail/Celestia%20%28TIA%29/881",
+      "name": "Celestia (TIA)",
+      "slug": "celestia-tia",
+      "status": "published",
+      "targetPath": "/logos/celestia-tia/"
+    },
+    {
+      "legacyId": 229,
+      "legacyPath": "/detail/celo/229",
+      "name": "celo",
+      "slug": "celo",
+      "status": "published",
+      "targetPath": "/logos/celo/"
+    },
+    {
+      "legacyId": 907,
+      "legacyPath": "/detail/CELO/907",
+      "name": "CELO",
+      "slug": "celo-907",
+      "status": "published",
+      "targetPath": "/logos/celo-907/"
+    },
+    {
+      "legacyId": 233,
+      "legacyPath": "/detail/celr/233",
+      "name": "celr",
+      "slug": "celr",
+      "status": "published",
+      "targetPath": "/logos/celr/"
+    },
+    {
+      "legacyId": 958,
+      "legacyPath": "/detail/Certik/958",
+      "name": "Certik",
+      "slug": "certik",
+      "status": "published",
+      "targetPath": "/logos/certik/"
+    },
+    {
+      "legacyId": 236,
+      "legacyPath": "/detail/ceth/236",
+      "name": "ceth",
+      "slug": "ceth",
+      "status": "published",
+      "targetPath": "/logos/ceth/"
+    },
+    {
+      "legacyId": 235,
+      "legacyPath": "/detail/cfx/235",
+      "name": "cfx",
+      "slug": "cfx",
+      "status": "published",
+      "targetPath": "/logos/cfx/"
+    },
+    {
+      "legacyId": 231,
+      "legacyPath": "/detail/chai/231",
+      "name": "chai",
+      "slug": "chai",
+      "status": "published",
+      "targetPath": "/logos/chai/"
+    },
+    {
+      "legacyId": 998,
+      "legacyPath": "/detail/Chainbase/998",
+      "name": "Chainbase",
+      "slug": "chainbase",
+      "status": "published",
+      "targetPath": "/logos/chainbase/"
+    },
+    {
+      "legacyId": 1004,
+      "legacyPath": "/detail/Chainlink%20%28LINK%29/1004",
+      "name": "Chainlink (LINK)",
+      "slug": "chainlink-link",
+      "status": "published",
+      "targetPath": "/logos/chainlink-link/"
+    },
+    {
+      "legacyId": 234,
+      "legacyPath": "/detail/chat/234",
+      "name": "chat",
+      "slug": "chat",
+      "status": "published",
+      "targetPath": "/logos/chat/"
+    },
+    {
+      "legacyId": 847,
+      "legacyPath": "/detail/chatcoin-chat/847",
+      "name": "chatcoin-chat",
+      "slug": "chatcoin-chat",
+      "status": "published",
+      "targetPath": "/logos/chatcoin-chat/"
+    },
+    {
+      "legacyId": 239,
+      "legacyPath": "/detail/chz/239",
+      "name": "chz",
+      "slug": "chz",
+      "status": "published",
+      "targetPath": "/logos/chz/"
+    },
+    {
+      "legacyId": 240,
+      "legacyPath": "/detail/ckb/240",
+      "name": "ckb",
+      "slug": "ckb",
+      "status": "published",
+      "targetPath": "/logos/ckb/"
+    },
+    {
+      "legacyId": 242,
+      "legacyPath": "/detail/clo/242",
+      "name": "clo",
+      "slug": "clo",
+      "status": "published",
+      "targetPath": "/logos/clo/"
+    },
+    {
+      "legacyId": 238,
+      "legacyPath": "/detail/cloak/238",
+      "name": "cloak",
+      "slug": "cloak",
+      "status": "published",
+      "targetPath": "/logos/cloak/"
+    },
+    {
+      "legacyId": 247,
+      "legacyPath": "/detail/clout/247",
+      "name": "clout",
+      "slug": "clout",
+      "status": "published",
+      "targetPath": "/logos/clout/"
+    },
+    {
+      "legacyId": 245,
+      "legacyPath": "/detail/cmt/245",
+      "name": "cmt",
+      "slug": "cmt",
+      "status": "published",
+      "targetPath": "/logos/cmt/"
+    },
+    {
+      "legacyId": 246,
+      "legacyPath": "/detail/cnd/246",
+      "name": "cnd",
+      "slug": "cnd",
+      "status": "published",
+      "targetPath": "/logos/cnd/"
+    },
+    {
+      "legacyId": 241,
+      "legacyPath": "/detail/cnx/241",
+      "name": "cnx",
+      "slug": "cnx",
+      "status": "published",
+      "targetPath": "/logos/cnx/"
+    },
+    {
+      "legacyId": 1016,
+      "legacyPath": "/detail/Code%20for%20Japan/1016",
+      "name": "Code for Japan",
+      "slug": "code-for-japan",
+      "status": "published",
+      "targetPath": "/logos/code-for-japan/"
+    },
+    {
+      "legacyId": 988,
+      "legacyPath": "/detail/Coinbase/988",
+      "name": "Coinbase",
+      "slug": "coinbase",
+      "status": "published",
+      "targetPath": "/logos/coinbase/"
+    },
+    {
+      "legacyId": 848,
+      "legacyPath": "/detail/coinloan/848",
+      "name": "coinloan",
+      "slug": "coinloan",
+      "status": "published",
+      "targetPath": "/logos/coinloan/"
+    },
+    {
+      "legacyId": 1045,
+      "legacyPath": "/detail/Cointime/1045",
+      "name": "Cointime",
+      "slug": "cointime",
+      "status": "published",
+      "targetPath": "/logos/cointime/"
+    },
+    {
+      "legacyId": 1034,
+      "legacyPath": "/detail/CoinW/1034",
+      "name": "CoinW",
+      "slug": "coinw",
+      "status": "published",
+      "targetPath": "/logos/coinw/"
+    },
+    {
+      "legacyId": 244,
+      "legacyPath": "/detail/comp/244",
+      "name": "comp",
+      "slug": "comp",
+      "status": "published",
+      "targetPath": "/logos/comp/"
+    },
+    {
+      "legacyId": 1083,
+      "legacyPath": "/detail/Conflux/1083",
+      "name": "Conflux",
+      "slug": "conflux",
+      "status": "published",
+      "targetPath": "/logos/conflux/"
+    },
+    {
+      "legacyId": 243,
+      "legacyPath": "/detail/coni/243",
+      "name": "coni",
+      "slug": "coni",
+      "status": "published",
+      "targetPath": "/logos/coni/"
+    },
+    {
+      "legacyId": 946,
+      "legacyPath": "/detail/Cosdao/946",
+      "name": "Cosdao",
+      "slug": "cosdao",
+      "status": "published",
+      "targetPath": "/logos/cosdao/"
+    },
+    {
+      "legacyId": 252,
+      "legacyPath": "/detail/cosm/252",
+      "name": "cosm",
+      "slug": "cosm",
+      "status": "published",
+      "targetPath": "/logos/cosm/"
+    },
+    {
+      "legacyId": 248,
+      "legacyPath": "/detail/coti/248",
+      "name": "coti",
+      "slug": "coti",
+      "status": "published",
+      "targetPath": "/logos/coti/"
+    },
+    {
+      "legacyId": 253,
+      "legacyPath": "/detail/cov/253",
+      "name": "cov",
+      "slug": "cov",
+      "status": "published",
+      "targetPath": "/logos/cov/"
+    },
+    {
+      "legacyId": 254,
+      "legacyPath": "/detail/cova/254",
+      "name": "cova",
+      "slug": "cova",
+      "status": "published",
+      "targetPath": "/logos/cova/"
+    },
+    {
+      "legacyId": 255,
+      "legacyPath": "/detail/cover/255",
+      "name": "cover",
+      "slug": "cover",
+      "status": "published",
+      "targetPath": "/logos/cover/"
+    },
+    {
+      "legacyId": 256,
+      "legacyPath": "/detail/cpc/256",
+      "name": "cpc",
+      "slug": "cpc",
+      "status": "published",
+      "targetPath": "/logos/cpc/"
+    },
+    {
+      "legacyId": 249,
+      "legacyPath": "/detail/cre/249",
+      "name": "cre",
+      "slug": "cre",
+      "status": "published",
+      "targetPath": "/logos/cre/"
+    },
+    {
+      "legacyId": 250,
+      "legacyPath": "/detail/cream/250",
+      "name": "cream",
+      "slug": "cream",
+      "status": "published",
+      "targetPath": "/logos/cream/"
+    },
+    {
+      "legacyId": 257,
+      "legacyPath": "/detail/cred/257",
+      "name": "cred",
+      "slug": "cred",
+      "status": "published",
+      "targetPath": "/logos/cred/"
+    },
+    {
+      "legacyId": 251,
+      "legacyPath": "/detail/crep/251",
+      "name": "crep",
+      "slug": "crep",
+      "status": "published",
+      "targetPath": "/logos/crep/"
+    },
+    {
+      "legacyId": 258,
+      "legacyPath": "/detail/cro/258",
+      "name": "cro",
+      "slug": "cro",
+      "status": "published",
+      "targetPath": "/logos/cro/"
+    },
+    {
+      "legacyId": 264,
+      "legacyPath": "/detail/crpt/264",
+      "name": "crpt",
+      "slug": "crpt",
+      "status": "published",
+      "targetPath": "/logos/crpt/"
+    },
+    {
+      "legacyId": 959,
+      "legacyPath": "/detail/Crust/959",
+      "name": "Crust",
+      "slug": "crust",
+      "status": "published",
+      "targetPath": "/logos/crust/"
+    },
+    {
+      "legacyId": 265,
+      "legacyPath": "/detail/crv/265",
+      "name": "crv",
+      "slug": "crv",
+      "status": "published",
+      "targetPath": "/logos/crv/"
+    },
+    {
+      "legacyId": 259,
+      "legacyPath": "/detail/cs/259",
+      "name": "cs",
+      "slug": "cs",
+      "status": "published",
+      "targetPath": "/logos/cs/"
+    },
+    {
+      "legacyId": 261,
+      "legacyPath": "/detail/csai/261",
+      "name": "csai",
+      "slug": "csai",
+      "status": "published",
+      "targetPath": "/logos/csai/"
+    },
+    {
+      "legacyId": 266,
+      "legacyPath": "/detail/csc/266",
+      "name": "csc",
+      "slug": "csc",
+      "status": "published",
+      "targetPath": "/logos/csc/"
+    },
+    {
+      "legacyId": 267,
+      "legacyPath": "/detail/ctc/267",
+      "name": "ctc",
+      "slug": "ctc",
+      "status": "published",
+      "targetPath": "/logos/ctc/"
+    },
+    {
+      "legacyId": 944,
+      "legacyPath": "/detail/CTO/944",
+      "name": "CTO",
+      "slug": "cto",
+      "status": "published",
+      "targetPath": "/logos/cto/"
+    },
+    {
+      "legacyId": 263,
+      "legacyPath": "/detail/ctxc/263",
+      "name": "ctxc",
+      "slug": "ctxc",
+      "status": "published",
+      "targetPath": "/logos/ctxc/"
+    },
+    {
+      "legacyId": 820,
+      "legacyPath": "/detail/Curve/820",
+      "name": "Curve",
+      "slug": "curve",
+      "status": "published",
+      "targetPath": "/logos/curve/"
+    },
+    {
+      "legacyId": 260,
+      "legacyPath": "/detail/cusdc/260",
+      "name": "cusdc",
+      "slug": "cusdc",
+      "status": "published",
+      "targetPath": "/logos/cusdc/"
+    },
+    {
+      "legacyId": 262,
+      "legacyPath": "/detail/cv/262",
+      "name": "cv",
+      "slug": "cv",
+      "status": "published",
+      "targetPath": "/logos/cv/"
+    },
+    {
+      "legacyId": 268,
+      "legacyPath": "/detail/cvc/268",
+      "name": "cvc",
+      "slug": "cvc",
+      "status": "published",
+      "targetPath": "/logos/cvc/"
+    },
+    {
+      "legacyId": 271,
+      "legacyPath": "/detail/cvt/271",
+      "name": "cvt",
+      "slug": "cvt",
+      "status": "published",
+      "targetPath": "/logos/cvt/"
+    },
+    {
+      "legacyId": 273,
+      "legacyPath": "/detail/cvx/273",
+      "name": "cvx",
+      "slug": "cvx",
+      "status": "published",
+      "targetPath": "/logos/cvx/"
+    },
+    {
+      "legacyId": 274,
+      "legacyPath": "/detail/cwbtc/274",
+      "name": "cwbtc",
+      "slug": "cwbtc",
+      "status": "published",
+      "targetPath": "/logos/cwbtc/"
+    },
+    {
+      "legacyId": 849,
+      "legacyPath": "/detail/cybermiles/849",
+      "name": "cybermiles",
+      "slug": "cybermiles",
+      "status": "published",
+      "targetPath": "/logos/cybermiles/"
+    },
+    {
+      "legacyId": 945,
+      "legacyPath": "/detail/CyptoGeek/945",
+      "name": "CyptoGeek",
+      "slug": "cyptogeek",
+      "status": "published",
+      "targetPath": "/logos/cyptogeek/"
+    },
+    {
+      "legacyId": 277,
+      "legacyPath": "/detail/czrx/277",
+      "name": "czrx",
+      "slug": "czrx",
+      "status": "published",
+      "targetPath": "/logos/czrx/"
+    },
+    {
+      "legacyId": 275,
+      "legacyPath": "/detail/dadi/275",
+      "name": "dadi",
+      "slug": "dadi",
+      "status": "published",
+      "targetPath": "/logos/dadi/"
+    },
+    {
+      "legacyId": 269,
+      "legacyPath": "/detail/dafi/269",
+      "name": "dafi",
+      "slug": "dafi",
+      "status": "published",
+      "targetPath": "/logos/dafi/"
+    },
+    {
+      "legacyId": 270,
+      "legacyPath": "/detail/dai/270",
+      "name": "dai",
+      "slug": "dai",
+      "status": "published",
+      "targetPath": "/logos/dai/"
+    },
+    {
+      "legacyId": 1007,
+      "legacyPath": "/detail/Dai%20%28DAI%29/1007",
+      "name": "Dai (DAI)",
+      "slug": "dai-dai",
+      "status": "published",
+      "targetPath": "/logos/dai-dai/"
+    },
+    {
+      "legacyId": 1075,
+      "legacyPath": "/detail/%E5%8D%97%E5%A1%98%20DAO/1075",
+      "name": "南塘 DAO",
+      "slug": "dao",
+      "status": "excluded",
+      "targetPath": "/legacy-unavailable/"
+    },
+    {
+      "legacyId": 1015,
+      "legacyPath": "/detail/DAO%20Tokyo/1015",
+      "name": "DAO Tokyo",
+      "slug": "dao-tokyo",
+      "status": "published",
+      "targetPath": "/logos/dao-tokyo/"
+    },
+    {
+      "legacyId": 25,
+      "legacyPath": "/detail/DAOStar/25",
+      "name": "DAOStar",
+      "slug": "daostar",
+      "status": "published",
+      "targetPath": "/logos/daostar/"
+    },
+    {
+      "legacyId": 278,
+      "legacyPath": "/detail/dash/278",
+      "name": "dash",
+      "slug": "dash",
+      "status": "published",
+      "targetPath": "/logos/dash/"
+    },
+    {
+      "legacyId": 279,
+      "legacyPath": "/detail/dat/279",
+      "name": "dat",
+      "slug": "dat",
+      "status": "published",
+      "targetPath": "/logos/dat/"
+    },
+    {
+      "legacyId": 284,
+      "legacyPath": "/detail/data/284",
+      "name": "data",
+      "slug": "data",
+      "status": "published",
+      "targetPath": "/logos/data/"
+    },
+    {
+      "legacyId": 788,
+      "legacyPath": "/detail/Datamall%20Coin/788",
+      "name": "Datamall Coin",
+      "slug": "datamall-coin",
+      "status": "published",
+      "targetPath": "/logos/datamall-coin/"
+    },
+    {
+      "legacyId": 970,
+      "legacyPath": "/detail/Datamall%20Coin%28DMC%29/970",
+      "name": "Datamall Coin(DMC)",
+      "slug": "datamall-coin-dmc",
+      "status": "published",
+      "targetPath": "/logos/datamall-coin-dmc/"
+    },
+    {
+      "legacyId": 283,
+      "legacyPath": "/detail/datx/283",
+      "name": "datx",
+      "slug": "datx",
+      "status": "published",
+      "targetPath": "/logos/datx/"
+    },
+    {
+      "legacyId": 285,
+      "legacyPath": "/detail/dbc/285",
+      "name": "dbc",
+      "slug": "dbc",
+      "status": "published",
+      "targetPath": "/logos/dbc/"
+    },
+    {
+      "legacyId": 287,
+      "legacyPath": "/detail/dcn/287",
+      "name": "dcn",
+      "slug": "dcn",
+      "status": "published",
+      "targetPath": "/logos/dcn/"
+    },
+    {
+      "legacyId": 280,
+      "legacyPath": "/detail/dcr/280",
+      "name": "dcr",
+      "slug": "dcr",
+      "status": "published",
+      "targetPath": "/logos/dcr/"
+    },
+    {
+      "legacyId": 282,
+      "legacyPath": "/detail/dct/282",
+      "name": "dct",
+      "slug": "dct",
+      "status": "published",
+      "targetPath": "/logos/dct/"
+    },
+    {
+      "legacyId": 281,
+      "legacyPath": "/detail/ddd/281",
+      "name": "ddd",
+      "slug": "ddd",
+      "status": "published",
+      "targetPath": "/logos/ddd/"
+    },
+    {
+      "legacyId": 1024,
+      "legacyPath": "/detail/De%20University%20of%20Ethereum/1024",
+      "name": "De University of Ethereum",
+      "slug": "de-university-of-ethereum",
+      "status": "published",
+      "targetPath": "/logos/de-university-of-ethereum/"
+    },
+    {
+      "legacyId": 56,
+      "legacyPath": "/detail/DeBox/56",
+      "name": "DeBox",
+      "slug": "debox",
+      "status": "published",
+      "targetPath": "/logos/debox/"
+    },
+    {
+      "legacyId": 52,
+      "legacyPath": "/detail/DeBox_black/52",
+      "name": "DeBox_black",
+      "slug": "debox-black",
+      "status": "published",
+      "targetPath": "/logos/debox-black/"
+    },
+    {
+      "legacyId": 1051,
+      "legacyPath": "/detail/DeFiHackLabs/1051",
+      "name": "DeFiHackLabs",
+      "slug": "defihacklabs",
+      "status": "published",
+      "targetPath": "/logos/defihacklabs/"
+    },
+    {
+      "legacyId": 850,
+      "legacyPath": "/detail/degate/850",
+      "name": "degate",
+      "slug": "degate",
+      "status": "published",
+      "targetPath": "/logos/degate/"
+    },
+    {
+      "legacyId": 1041,
+      "legacyPath": "/detail/DeGate/1041",
+      "name": "DeGate",
+      "slug": "degate-1041",
+      "status": "published",
+      "targetPath": "/logos/degate-1041/"
+    },
+    {
+      "legacyId": 1081,
+      "legacyPath": "/detail/DeJob/1081",
+      "name": "DeJob",
+      "slug": "dejob",
+      "status": "published",
+      "targetPath": "/logos/dejob/"
+    },
+    {
+      "legacyId": 1039,
+      "legacyPath": "/detail/Delysium/1039",
+      "name": "Delysium",
+      "slug": "delysium",
+      "status": "published",
+      "targetPath": "/logos/delysium/"
+    },
+    {
+      "legacyId": 286,
+      "legacyPath": "/detail/dent/286",
+      "name": "dent",
+      "slug": "dent",
+      "status": "published",
+      "targetPath": "/logos/dent/"
+    },
+    {
+      "legacyId": 288,
+      "legacyPath": "/detail/deri/288",
+      "name": "deri",
+      "slug": "deri",
+      "status": "published",
+      "targetPath": "/logos/deri/"
+    },
+    {
+      "legacyId": 972,
+      "legacyPath": "/detail/DeSci%20SINO/972",
+      "name": "DeSci SINO",
+      "slug": "desci-sino",
+      "status": "published",
+      "targetPath": "/logos/desci-sino/"
+    },
+    {
+      "legacyId": 291,
+      "legacyPath": "/detail/dfi/291",
+      "name": "dfi",
+      "slug": "dfi",
+      "status": "published",
+      "targetPath": "/logos/dfi/"
+    },
+    {
+      "legacyId": 290,
+      "legacyPath": "/detail/dft/290",
+      "name": "dft",
+      "slug": "dft",
+      "status": "published",
+      "targetPath": "/logos/dft/"
+    },
+    {
+      "legacyId": 289,
+      "legacyPath": "/detail/dfyn/289",
+      "name": "dfyn",
+      "slug": "dfyn",
+      "status": "published",
+      "targetPath": "/logos/dfyn/"
+    },
+    {
+      "legacyId": 292,
+      "legacyPath": "/detail/dgb/292",
+      "name": "dgb",
+      "slug": "dgb",
+      "status": "published",
+      "targetPath": "/logos/dgb/"
+    },
+    {
+      "legacyId": 892,
+      "legacyPath": "/detail/DGB/892",
+      "name": "DGB",
+      "slug": "dgb-892",
+      "status": "excluded",
+      "targetPath": "/legacy-unavailable/"
+    },
+    {
+      "legacyId": 293,
+      "legacyPath": "/detail/dgd/293",
+      "name": "dgd",
+      "slug": "dgd",
+      "status": "published",
+      "targetPath": "/logos/dgd/"
+    },
+    {
+      "legacyId": 933,
+      "legacyPath": "/detail/DGD/933",
+      "name": "DGD",
+      "slug": "dgd-933",
+      "status": "published",
+      "targetPath": "/logos/dgd-933/"
+    },
+    {
+      "legacyId": 294,
+      "legacyPath": "/detail/dgtx/294",
+      "name": "dgtx",
+      "slug": "dgtx",
+      "status": "published",
+      "targetPath": "/logos/dgtx/"
+    },
+    {
+      "legacyId": 960,
+      "legacyPath": "/detail/Dia/960",
+      "name": "Dia",
+      "slug": "dia",
+      "status": "published",
+      "targetPath": "/logos/dia/"
+    },
+    {
+      "legacyId": 296,
+      "legacyPath": "/detail/divi/296",
+      "name": "divi",
+      "slug": "divi",
+      "status": "published",
+      "targetPath": "/logos/divi/"
+    },
+    {
+      "legacyId": 297,
+      "legacyPath": "/detail/dlt/297",
+      "name": "dlt",
+      "slug": "dlt",
+      "status": "published",
+      "targetPath": "/logos/dlt/"
+    },
+    {
+      "legacyId": 824,
+      "legacyPath": "/detail/Dmail/824",
+      "name": "Dmail",
+      "slug": "dmail",
+      "status": "published",
+      "targetPath": "/logos/dmail/"
+    },
+    {
+      "legacyId": 851,
+      "legacyPath": "/detail/dmarket/851",
+      "name": "dmarket",
+      "slug": "dmarket",
+      "status": "published",
+      "targetPath": "/logos/dmarket/"
+    },
+    {
+      "legacyId": 862,
+      "legacyPath": "/detail/DMC/862",
+      "name": "DMC",
+      "slug": "dmc",
+      "status": "published",
+      "targetPath": "/logos/dmc/"
+    },
+    {
+      "legacyId": 295,
+      "legacyPath": "/detail/dmt/295",
+      "name": "dmt",
+      "slug": "dmt",
+      "status": "published",
+      "targetPath": "/logos/dmt/"
+    },
+    {
+      "legacyId": 298,
+      "legacyPath": "/detail/dnt/298",
+      "name": "dnt",
+      "slug": "dnt",
+      "status": "published",
+      "targetPath": "/logos/dnt/"
+    },
+    {
+      "legacyId": 299,
+      "legacyPath": "/detail/dock/299",
+      "name": "dock",
+      "slug": "dock",
+      "status": "published",
+      "targetPath": "/logos/dock/"
+    },
+    {
+      "legacyId": 300,
+      "legacyPath": "/detail/dodo/300",
+      "name": "dodo",
+      "slug": "dodo",
+      "status": "published",
+      "targetPath": "/logos/dodo/"
+    },
+    {
+      "legacyId": 1002,
+      "legacyPath": "/detail/Dogecoin/1002",
+      "name": "Dogecoin",
+      "slug": "dogecoin",
+      "status": "published",
+      "targetPath": "/logos/dogecoin/"
+    },
+    {
+      "legacyId": 58,
+      "legacyPath": "/detail/Donate3/58",
+      "name": "Donate3",
+      "slug": "donate3",
+      "status": "published",
+      "targetPath": "/logos/donate3/"
+    },
+    {
+      "legacyId": 302,
+      "legacyPath": "/detail/dor/302",
+      "name": "dor",
+      "slug": "dor",
+      "status": "published",
+      "targetPath": "/logos/dor/"
+    },
+    {
+      "legacyId": 303,
+      "legacyPath": "/detail/dot/303",
+      "name": "dot",
+      "slug": "dot",
+      "status": "published",
+      "targetPath": "/logos/dot/"
+    },
+    {
+      "legacyId": 961,
+      "legacyPath": "/detail/Dot/961",
+      "name": "Dot",
+      "slug": "dot-961",
+      "status": "published",
+      "targetPath": "/logos/dot-961/"
+    },
+    {
+      "legacyId": 304,
+      "legacyPath": "/detail/drgn/304",
+      "name": "drgn",
+      "slug": "drgn",
+      "status": "published",
+      "targetPath": "/logos/drgn/"
+    },
+    {
+      "legacyId": 825,
+      "legacyPath": "/detail/Drift/825",
+      "name": "Drift",
+      "slug": "drift",
+      "status": "published",
+      "targetPath": "/logos/drift/"
+    },
+    {
+      "legacyId": 305,
+      "legacyPath": "/detail/drop/305",
+      "name": "drop",
+      "slug": "drop",
+      "status": "published",
+      "targetPath": "/logos/drop/"
+    },
+    {
+      "legacyId": 306,
+      "legacyPath": "/detail/dta/306",
+      "name": "dta",
+      "slug": "dta",
+      "status": "published",
+      "targetPath": "/logos/dta/"
+    },
+    {
+      "legacyId": 307,
+      "legacyPath": "/detail/dtr/307",
+      "name": "dtr",
+      "slug": "dtr",
+      "status": "published",
+      "targetPath": "/logos/dtr/"
+    },
+    {
+      "legacyId": 310,
+      "legacyPath": "/detail/dtx/310",
+      "name": "dtx",
+      "slug": "dtx",
+      "status": "published",
+      "targetPath": "/logos/dtx/"
+    },
+    {
+      "legacyId": 312,
+      "legacyPath": "/detail/dvf/312",
+      "name": "dvf",
+      "slug": "dvf",
+      "status": "published",
+      "targetPath": "/logos/dvf/"
+    },
+    {
+      "legacyId": 309,
+      "legacyPath": "/detail/dxd/309",
+      "name": "dxd",
+      "slug": "dxd",
+      "status": "published",
+      "targetPath": "/logos/dxd/"
+    },
+    {
+      "legacyId": 308,
+      "legacyPath": "/detail/dxt/308",
+      "name": "dxt",
+      "slug": "dxt",
+      "status": "published",
+      "targetPath": "/logos/dxt/"
+    },
+    {
+      "legacyId": 313,
+      "legacyPath": "/detail/edg/313",
+      "name": "edg",
+      "slug": "edg",
+      "status": "published",
+      "targetPath": "/logos/edg/"
+    },
+    {
+      "legacyId": 315,
+      "legacyPath": "/detail/edo/315",
+      "name": "edo",
+      "slug": "edo",
+      "status": "published",
+      "targetPath": "/logos/edo/"
+    },
+    {
+      "legacyId": 314,
+      "legacyPath": "/detail/efi/314",
+      "name": "efi",
+      "slug": "efi",
+      "status": "published",
+      "targetPath": "/logos/efi/"
+    },
+    {
+      "legacyId": 316,
+      "legacyPath": "/detail/efx/316",
+      "name": "efx",
+      "slug": "efx",
+      "status": "published",
+      "targetPath": "/logos/efx/"
+    },
+    {
+      "legacyId": 311,
+      "legacyPath": "/detail/egld/311",
+      "name": "egld",
+      "slug": "egld",
+      "status": "published",
+      "targetPath": "/logos/egld/"
+    },
+    {
+      "legacyId": 317,
+      "legacyPath": "/detail/egt/317",
+      "name": "egt",
+      "slug": "egt",
+      "status": "published",
+      "targetPath": "/logos/egt/"
+    },
+    {
+      "legacyId": 792,
+      "legacyPath": "/detail/EIP%20Fun/792",
+      "name": "EIP Fun",
+      "slug": "eip-fun",
+      "status": "published",
+      "targetPath": "/logos/eip-fun/"
+    },
+    {
+      "legacyId": 793,
+      "legacyPath": "/detail/EIPFun/793",
+      "name": "EIPFun",
+      "slug": "eipfun",
+      "status": "published",
+      "targetPath": "/logos/eipfun/"
+    },
+    {
+      "legacyId": 318,
+      "legacyPath": "/detail/ekg/318",
+      "name": "ekg",
+      "slug": "ekg",
+      "status": "published",
+      "targetPath": "/logos/ekg/"
+    },
+    {
+      "legacyId": 322,
+      "legacyPath": "/detail/ekt/322",
+      "name": "ekt",
+      "slug": "ekt",
+      "status": "published",
+      "targetPath": "/logos/ekt/"
+    },
+    {
+      "legacyId": 319,
+      "legacyPath": "/detail/ela/319",
+      "name": "ela",
+      "slug": "ela",
+      "status": "published",
+      "targetPath": "/logos/ela/"
+    },
+    {
+      "legacyId": 320,
+      "legacyPath": "/detail/elec/320",
+      "name": "elec",
+      "slug": "elec",
+      "status": "published",
+      "targetPath": "/logos/elec/"
+    },
+    {
+      "legacyId": 57,
+      "legacyPath": "/detail/ELEDUCK/57",
+      "name": "ELEDUCK",
+      "slug": "eleduck",
+      "status": "published",
+      "targetPath": "/logos/eleduck/"
+    },
+    {
+      "legacyId": 997,
+      "legacyPath": "/detail/Element/997",
+      "name": "Element",
+      "slug": "element",
+      "status": "published",
+      "targetPath": "/logos/element/"
+    },
+    {
+      "legacyId": 323,
+      "legacyPath": "/detail/elf/323",
+      "name": "elf",
+      "slug": "elf",
+      "status": "published",
+      "targetPath": "/logos/elf/"
+    },
+    {
+      "legacyId": 326,
+      "legacyPath": "/detail/emc/326",
+      "name": "emc",
+      "slug": "emc",
+      "status": "published",
+      "targetPath": "/logos/emc/"
+    },
+    {
+      "legacyId": 327,
+      "legacyPath": "/detail/emc2/327",
+      "name": "emc2",
+      "slug": "emc2",
+      "status": "published",
+      "targetPath": "/logos/emc2/"
+    },
+    {
+      "legacyId": 325,
+      "legacyPath": "/detail/eng/325",
+      "name": "eng",
+      "slug": "eng",
+      "status": "published",
+      "targetPath": "/logos/eng/"
+    },
+    {
+      "legacyId": 46,
+      "legacyPath": "/detail/ENJ/46",
+      "name": "ENJ",
+      "slug": "enj",
+      "status": "published",
+      "targetPath": "/logos/enj/"
+    },
+    {
+      "legacyId": 321,
+      "legacyPath": "/detail/enj/321",
+      "name": "enj",
+      "slug": "enj-321",
+      "status": "published",
+      "targetPath": "/logos/enj-321/"
+    },
+    {
+      "legacyId": 1009,
+      "legacyPath": "/detail/ENS/1009",
+      "name": "ENS",
+      "slug": "ens",
+      "status": "published",
+      "targetPath": "/logos/ens/"
+    },
+    {
+      "legacyId": 324,
+      "legacyPath": "/detail/eos/324",
+      "name": "eos",
+      "slug": "eos",
+      "status": "published",
+      "targetPath": "/logos/eos/"
+    },
+    {
+      "legacyId": 328,
+      "legacyPath": "/detail/eosdac/328",
+      "name": "eosdac",
+      "slug": "eosdac",
+      "status": "published",
+      "targetPath": "/logos/eosdac/"
+    },
+    {
+      "legacyId": 330,
+      "legacyPath": "/detail/ern/330",
+      "name": "ern",
+      "slug": "ern",
+      "status": "published",
+      "targetPath": "/logos/ern/"
+    },
+    {
+      "legacyId": 909,
+      "legacyPath": "/detail/ERU/909",
+      "name": "ERU",
+      "slug": "eru",
+      "status": "published",
+      "targetPath": "/logos/eru/"
+    },
+    {
+      "legacyId": 332,
+      "legacyPath": "/detail/esd/332",
+      "name": "esd",
+      "slug": "esd",
+      "status": "published",
+      "targetPath": "/logos/esd/"
+    },
+    {
+      "legacyId": 331,
+      "legacyPath": "/detail/esp/331",
+      "name": "esp",
+      "slug": "esp",
+      "status": "published",
+      "targetPath": "/logos/esp/"
+    },
+    {
+      "legacyId": 333,
+      "legacyPath": "/detail/ess/333",
+      "name": "ess",
+      "slug": "ess",
+      "status": "published",
+      "targetPath": "/logos/ess/"
+    },
+    {
+      "legacyId": 336,
+      "legacyPath": "/detail/etc/336",
+      "name": "etc",
+      "slug": "etc",
+      "status": "published",
+      "targetPath": "/logos/etc/"
+    },
+    {
+      "legacyId": 329,
+      "legacyPath": "/detail/eth/329",
+      "name": "eth",
+      "slug": "eth",
+      "status": "published",
+      "targetPath": "/logos/eth/"
+    },
+    {
+      "legacyId": 3,
+      "legacyPath": "/detail/Ethereum/3",
+      "name": "Ethereum",
+      "slug": "ethereum",
+      "status": "published",
+      "targetPath": "/logos/ethereum/"
+    },
+    {
+      "legacyId": 1056,
+      "legacyPath": "/detail/Ethereum%20Cat%20Herders%20%28ECH%29/1056",
+      "name": "Ethereum Cat Herders (ECH)",
+      "slug": "ethereum-cat-herders-ech",
+      "status": "published",
+      "targetPath": "/logos/ethereum-cat-herders-ech/"
+    },
+    {
+      "legacyId": 969,
+      "legacyPath": "/detail/ETHPanda/969",
+      "name": "ETHPanda",
+      "slug": "ethpanda",
+      "status": "published",
+      "targetPath": "/logos/ethpanda/"
+    },
+    {
+      "legacyId": 59,
+      "legacyPath": "/detail/EthSign/59",
+      "name": "EthSign",
+      "slug": "ethsign",
+      "status": "published",
+      "targetPath": "/logos/ethsign/"
+    },
+    {
+      "legacyId": 973,
+      "legacyPath": "/detail/EthStorage/973",
+      "name": "EthStorage",
+      "slug": "ethstorage",
+      "status": "published",
+      "targetPath": "/logos/ethstorage/"
+    },
+    {
+      "legacyId": 334,
+      "legacyPath": "/detail/etn/334",
+      "name": "etn",
+      "slug": "etn",
+      "status": "published",
+      "targetPath": "/logos/etn/"
+    },
+    {
+      "legacyId": 335,
+      "legacyPath": "/detail/etp/335",
+      "name": "etp",
+      "slug": "etp",
+      "status": "published",
+      "targetPath": "/logos/etp/"
+    },
+    {
+      "legacyId": 337,
+      "legacyPath": "/detail/etz/337",
+      "name": "etz",
+      "slug": "etz",
+      "status": "published",
+      "targetPath": "/logos/etz/"
+    },
+    {
+      "legacyId": 867,
+      "legacyPath": "/detail/EURA%20%28ex-agEUR%29/867",
+      "name": "EURA (ex-agEUR)",
+      "slug": "eura-ex-ageur",
+      "status": "published",
+      "targetPath": "/logos/eura-ex-ageur/"
+    },
+    {
+      "legacyId": 339,
+      "legacyPath": "/detail/evx/339",
+      "name": "evx",
+      "slug": "evx",
+      "status": "published",
+      "targetPath": "/logos/evx/"
+    },
+    {
+      "legacyId": 342,
+      "legacyPath": "/detail/ewt/342",
+      "name": "ewt",
+      "slug": "ewt",
+      "status": "published",
+      "targetPath": "/logos/ewt/"
+    },
+    {
+      "legacyId": 338,
+      "legacyPath": "/detail/exrn/338",
+      "name": "exrn",
+      "slug": "exrn",
+      "status": "published",
+      "targetPath": "/logos/exrn/"
+    },
+    {
+      "legacyId": 341,
+      "legacyPath": "/detail/exy/341",
+      "name": "exy",
+      "slug": "exy",
+      "status": "published",
+      "targetPath": "/logos/exy/"
+    },
+    {
+      "legacyId": 340,
+      "legacyPath": "/detail/fab/340",
+      "name": "fab",
+      "slug": "fab",
+      "status": "published",
+      "targetPath": "/logos/fab/"
+    },
+    {
+      "legacyId": 345,
+      "legacyPath": "/detail/fct/345",
+      "name": "fct",
+      "slug": "fct",
+      "status": "published",
+      "targetPath": "/logos/fct/"
+    },
+    {
+      "legacyId": 931,
+      "legacyPath": "/detail/FCT/931",
+      "name": "FCT",
+      "slug": "fct-931",
+      "status": "published",
+      "targetPath": "/logos/fct-931/"
+    },
+    {
+      "legacyId": 346,
+      "legacyPath": "/detail/feed/346",
+      "name": "feed",
+      "slug": "feed",
+      "status": "published",
+      "targetPath": "/logos/feed/"
+    },
+    {
+      "legacyId": 347,
+      "legacyPath": "/detail/fei/347",
+      "name": "fei",
+      "slug": "fei",
+      "status": "published",
+      "targetPath": "/logos/fei/"
+    },
+    {
+      "legacyId": 344,
+      "legacyPath": "/detail/fet/344",
+      "name": "fet",
+      "slug": "fet",
+      "status": "published",
+      "targetPath": "/logos/fet/"
+    },
+    {
+      "legacyId": 893,
+      "legacyPath": "/detail/FET/893",
+      "name": "FET",
+      "slug": "fet-893",
+      "status": "published",
+      "targetPath": "/logos/fet-893/"
+    },
+    {
+      "legacyId": 343,
+      "legacyPath": "/detail/fida/343",
+      "name": "fida",
+      "slug": "fida",
+      "status": "published",
+      "targetPath": "/logos/fida/"
+    },
+    {
+      "legacyId": 349,
+      "legacyPath": "/detail/fil/349",
+      "name": "fil",
+      "slug": "fil",
+      "status": "published",
+      "targetPath": "/logos/fil/"
+    },
+    {
+      "legacyId": 350,
+      "legacyPath": "/detail/filda/350",
+      "name": "filda",
+      "slug": "filda",
+      "status": "published",
+      "targetPath": "/logos/filda/"
+    },
+    {
+      "legacyId": 13,
+      "legacyPath": "/detail/filecoin/13",
+      "name": "filecoin",
+      "slug": "filecoin",
+      "status": "published",
+      "targetPath": "/logos/filecoin/"
+    },
+    {
+      "legacyId": 822,
+      "legacyPath": "/detail/Floki/822",
+      "name": "Floki",
+      "slug": "floki",
+      "status": "published",
+      "targetPath": "/logos/floki/"
+    },
+    {
+      "legacyId": 352,
+      "legacyPath": "/detail/flow/352",
+      "name": "flow",
+      "slug": "flow",
+      "status": "published",
+      "targetPath": "/logos/flow/"
+    },
+    {
+      "legacyId": 353,
+      "legacyPath": "/detail/fota/353",
+      "name": "fota",
+      "slug": "fota",
+      "status": "published",
+      "targetPath": "/logos/fota/"
+    },
+    {
+      "legacyId": 357,
+      "legacyPath": "/detail/fox/357",
+      "name": "fox",
+      "slug": "fox",
+      "status": "published",
+      "targetPath": "/logos/fox/"
+    },
+    {
+      "legacyId": 1014,
+      "legacyPath": "/detail/Fracton/1014",
+      "name": "Fracton",
+      "slug": "fracton",
+      "status": "published",
+      "targetPath": "/logos/fracton/"
+    },
+    {
+      "legacyId": 356,
+      "legacyPath": "/detail/frax/356",
+      "name": "frax",
+      "slug": "frax",
+      "status": "published",
+      "targetPath": "/logos/frax/"
+    },
+    {
+      "legacyId": 852,
+      "legacyPath": "/detail/frax-price/852",
+      "name": "frax-price",
+      "slug": "frax-price",
+      "status": "published",
+      "targetPath": "/logos/frax-price/"
+    },
+    {
+      "legacyId": 837,
+      "legacyPath": "/detail/Friend.tech/837",
+      "name": "Friend.tech",
+      "slug": "friend-tech",
+      "status": "published",
+      "targetPath": "/logos/friend-tech/"
+    },
+    {
+      "legacyId": 351,
+      "legacyPath": "/detail/frm/351",
+      "name": "frm",
+      "slug": "frm",
+      "status": "published",
+      "targetPath": "/logos/frm/"
+    },
+    {
+      "legacyId": 348,
+      "legacyPath": "/detail/front/348",
+      "name": "front",
+      "slug": "front",
+      "status": "published",
+      "targetPath": "/logos/front/"
+    },
+    {
+      "legacyId": 354,
+      "legacyPath": "/detail/fsn/354",
+      "name": "fsn",
+      "slug": "fsn",
+      "status": "published",
+      "targetPath": "/logos/fsn/"
+    },
+    {
+      "legacyId": 355,
+      "legacyPath": "/detail/ft/355",
+      "name": "ft",
+      "slug": "ft",
+      "status": "published",
+      "targetPath": "/logos/ft/"
+    },
+    {
+      "legacyId": 361,
+      "legacyPath": "/detail/ftc/361",
+      "name": "ftc",
+      "slug": "ftc",
+      "status": "published",
+      "targetPath": "/logos/ftc/"
+    },
+    {
+      "legacyId": 364,
+      "legacyPath": "/detail/ftt/364",
+      "name": "ftt",
+      "slug": "ftt",
+      "status": "published",
+      "targetPath": "/logos/ftt/"
+    },
+    {
+      "legacyId": 359,
+      "legacyPath": "/detail/fuel/359",
+      "name": "fuel",
+      "slug": "fuel",
+      "status": "published",
+      "targetPath": "/logos/fuel/"
+    },
+    {
+      "legacyId": 358,
+      "legacyPath": "/detail/fun/358",
+      "name": "fun",
+      "slug": "fun",
+      "status": "published",
+      "targetPath": "/logos/fun/"
+    },
+    {
+      "legacyId": 932,
+      "legacyPath": "/detail/FUN/932",
+      "name": "FUN",
+      "slug": "fun-932",
+      "status": "published",
+      "targetPath": "/logos/fun-932/"
+    },
+    {
+      "legacyId": 1035,
+      "legacyPath": "/detail/Funding%20the%20Commons/1035",
+      "name": "Funding the Commons",
+      "slug": "funding-the-commons",
+      "status": "published",
+      "targetPath": "/logos/funding-the-commons/"
+    },
+    {
+      "legacyId": 362,
+      "legacyPath": "/detail/fxc/362",
+      "name": "fxc",
+      "slug": "fxc",
+      "status": "published",
+      "targetPath": "/logos/fxc/"
+    },
+    {
+      "legacyId": 912,
+      "legacyPath": "/detail/FXS/912",
+      "name": "FXS",
+      "slug": "fxs",
+      "status": "published",
+      "targetPath": "/logos/fxs/"
+    },
+    {
+      "legacyId": 365,
+      "legacyPath": "/detail/fxt/365",
+      "name": "fxt",
+      "slug": "fxt",
+      "status": "published",
+      "targetPath": "/logos/fxt/"
+    },
+    {
+      "legacyId": 367,
+      "legacyPath": "/detail/gala/367",
+      "name": "gala",
+      "slug": "gala",
+      "status": "published",
+      "targetPath": "/logos/gala/"
+    },
+    {
+      "legacyId": 1069,
+      "legacyPath": "/detail/Game%20Mine%20Alliance%20%28GMA%29/1069",
+      "name": "Game Mine Alliance (GMA)",
+      "slug": "game-mine-alliance-gma",
+      "status": "published",
+      "targetPath": "/logos/game-mine-alliance-gma/"
+    },
+    {
+      "legacyId": 989,
+      "legacyPath": "/detail/gate.io/989",
+      "name": "gate.io",
+      "slug": "gate-io",
+      "status": "published",
+      "targetPath": "/logos/gate-io/"
+    },
+    {
+      "legacyId": 14,
+      "legacyPath": "/detail/GCC/14",
+      "name": "GCC",
+      "slug": "gcc",
+      "status": "published",
+      "targetPath": "/logos/gcc/"
+    },
+    {
+      "legacyId": 33,
+      "legacyPath": "/detail/GCLX/33",
+      "name": "GCLX",
+      "slug": "gclx",
+      "status": "published",
+      "targetPath": "/logos/gclx/"
+    },
+    {
+      "legacyId": 360,
+      "legacyPath": "/detail/gdc/360",
+      "name": "gdc",
+      "slug": "gdc",
+      "status": "published",
+      "targetPath": "/logos/gdc/"
+    },
+    {
+      "legacyId": 366,
+      "legacyPath": "/detail/gem/366",
+      "name": "gem",
+      "slug": "gem",
+      "status": "published",
+      "targetPath": "/logos/gem/"
+    },
+    {
+      "legacyId": 371,
+      "legacyPath": "/detail/gen/371",
+      "name": "gen",
+      "slug": "gen",
+      "status": "published",
+      "targetPath": "/logos/gen/"
+    },
+    {
+      "legacyId": 12,
+      "legacyPath": "/detail/gitcoin/12",
+      "name": "gitcoin",
+      "slug": "gitcoin",
+      "status": "published",
+      "targetPath": "/logos/gitcoin/"
+    },
+    {
+      "legacyId": 1023,
+      "legacyPath": "/detail/GMTON/1023",
+      "name": "GMTON",
+      "slug": "gmton",
+      "status": "published",
+      "targetPath": "/logos/gmton/"
+    },
+    {
+      "legacyId": 911,
+      "legacyPath": "/detail/GMX/911",
+      "name": "GMX",
+      "slug": "gmx",
+      "status": "published",
+      "targetPath": "/logos/gmx/"
+    },
+    {
+      "legacyId": 374,
+      "legacyPath": "/detail/gno/374",
+      "name": "gno",
+      "slug": "gno",
+      "status": "published",
+      "targetPath": "/logos/gno/"
+    },
+    {
+      "legacyId": 886,
+      "legacyPath": "/detail/gnosis-gno/886",
+      "name": "gnosis-gno",
+      "slug": "gnosis-gno",
+      "status": "published",
+      "targetPath": "/logos/gnosis-gno/"
+    },
+    {
+      "legacyId": 368,
+      "legacyPath": "/detail/gnt/368",
+      "name": "gnt",
+      "slug": "gnt",
+      "status": "published",
+      "targetPath": "/logos/gnt/"
+    },
+    {
+      "legacyId": 369,
+      "legacyPath": "/detail/gnx/369",
+      "name": "gnx",
+      "slug": "gnx",
+      "status": "published",
+      "targetPath": "/logos/gnx/"
+    },
+    {
+      "legacyId": 376,
+      "legacyPath": "/detail/go/376",
+      "name": "go",
+      "slug": "go",
+      "status": "published",
+      "targetPath": "/logos/go/"
+    },
+    {
+      "legacyId": 372,
+      "legacyPath": "/detail/goc/372",
+      "name": "goc",
+      "slug": "goc",
+      "status": "published",
+      "targetPath": "/logos/goc/"
+    },
+    {
+      "legacyId": 377,
+      "legacyPath": "/detail/got/377",
+      "name": "got",
+      "slug": "got",
+      "status": "published",
+      "targetPath": "/logos/got/"
+    },
+    {
+      "legacyId": 373,
+      "legacyPath": "/detail/grin/373",
+      "name": "grin",
+      "slug": "grin",
+      "status": "published",
+      "targetPath": "/logos/grin/"
+    },
+    {
+      "legacyId": 370,
+      "legacyPath": "/detail/grs/370",
+      "name": "grs",
+      "slug": "grs",
+      "status": "published",
+      "targetPath": "/logos/grs/"
+    },
+    {
+      "legacyId": 375,
+      "legacyPath": "/detail/grt/375",
+      "name": "grt",
+      "slug": "grt",
+      "status": "published",
+      "targetPath": "/logos/grt/"
+    },
+    {
+      "legacyId": 894,
+      "legacyPath": "/detail/GRT/894",
+      "name": "GRT",
+      "slug": "grt-894",
+      "status": "published",
+      "targetPath": "/logos/grt-894/"
+    },
+    {
+      "legacyId": 380,
+      "legacyPath": "/detail/gsc/380",
+      "name": "gsc",
+      "slug": "gsc",
+      "status": "published",
+      "targetPath": "/logos/gsc/"
+    },
+    {
+      "legacyId": 379,
+      "legacyPath": "/detail/gswap/379",
+      "name": "gswap",
+      "slug": "gswap",
+      "status": "published",
+      "targetPath": "/logos/gswap/"
+    },
+    {
+      "legacyId": 382,
+      "legacyPath": "/detail/gt/382",
+      "name": "gt",
+      "slug": "gt",
+      "status": "published",
+      "targetPath": "/logos/gt/"
+    },
+    {
+      "legacyId": 386,
+      "legacyPath": "/detail/gtc/386",
+      "name": "gtc",
+      "slug": "gtc",
+      "status": "published",
+      "targetPath": "/logos/gtc/"
+    },
+    {
+      "legacyId": 383,
+      "legacyPath": "/detail/gto/383",
+      "name": "gto",
+      "slug": "gto",
+      "status": "published",
+      "targetPath": "/logos/gto/"
+    },
+    {
+      "legacyId": 387,
+      "legacyPath": "/detail/gusd/387",
+      "name": "gusd",
+      "slug": "gusd",
+      "status": "published",
+      "targetPath": "/logos/gusd/"
+    },
+    {
+      "legacyId": 384,
+      "legacyPath": "/detail/gvt/384",
+      "name": "gvt",
+      "slug": "gvt",
+      "status": "published",
+      "targetPath": "/logos/gvt/"
+    },
+    {
+      "legacyId": 378,
+      "legacyPath": "/detail/gxs/378",
+      "name": "gxs",
+      "slug": "gxs",
+      "status": "published",
+      "targetPath": "/logos/gxs/"
+    },
+    {
+      "legacyId": 381,
+      "legacyPath": "/detail/hakka/381",
+      "name": "hakka",
+      "slug": "hakka",
+      "status": "published",
+      "targetPath": "/logos/hakka/"
+    },
+    {
+      "legacyId": 1090,
+      "legacyPath": "/detail/HashKey%20Chain/1090",
+      "name": "HashKey Chain",
+      "slug": "hashkey-chain",
+      "status": "published",
+      "targetPath": "/logos/hashkey-chain/"
+    },
+    {
+      "legacyId": 385,
+      "legacyPath": "/detail/hbar/385",
+      "name": "hbar",
+      "slug": "hbar",
+      "status": "published",
+      "targetPath": "/logos/hbar/"
+    },
+    {
+      "legacyId": 389,
+      "legacyPath": "/detail/hc/389",
+      "name": "hc",
+      "slug": "hc",
+      "status": "published",
+      "targetPath": "/logos/hc/"
+    },
+    {
+      "legacyId": 1012,
+      "legacyPath": "/detail/Hedera%20%28HBAR%29/1012",
+      "name": "Hedera (HBAR)",
+      "slug": "hedera-hbar",
+      "status": "published",
+      "targetPath": "/logos/hedera-hbar/"
+    },
+    {
+      "legacyId": 390,
+      "legacyPath": "/detail/hedg/390",
+      "name": "hedg",
+      "slug": "hedg",
+      "status": "published",
+      "targetPath": "/logos/hedg/"
+    },
+    {
+      "legacyId": 391,
+      "legacyPath": "/detail/her/391",
+      "name": "her",
+      "slug": "her",
+      "status": "published",
+      "targetPath": "/logos/her/"
+    },
+    {
+      "legacyId": 392,
+      "legacyPath": "/detail/hex/392",
+      "name": "hex",
+      "slug": "hex",
+      "status": "published",
+      "targetPath": "/logos/hex/"
+    },
+    {
+      "legacyId": 388,
+      "legacyPath": "/detail/high/388",
+      "name": "high",
+      "slug": "high",
+      "status": "published",
+      "targetPath": "/logos/high/"
+    },
+    {
+      "legacyId": 393,
+      "legacyPath": "/detail/hive/393",
+      "name": "hive",
+      "slug": "hive",
+      "status": "published",
+      "targetPath": "/logos/hive/"
+    },
+    {
+      "legacyId": 394,
+      "legacyPath": "/detail/hnt/394",
+      "name": "hnt",
+      "slug": "hnt",
+      "status": "published",
+      "targetPath": "/logos/hnt/"
+    },
+    {
+      "legacyId": 853,
+      "legacyPath": "/detail/hollaex/853",
+      "name": "hollaex",
+      "slug": "hollaex",
+      "status": "published",
+      "targetPath": "/logos/hollaex/"
+    },
+    {
+      "legacyId": 395,
+      "legacyPath": "/detail/hot/395",
+      "name": "hot",
+      "slug": "hot",
+      "status": "published",
+      "targetPath": "/logos/hot/"
+    },
+    {
+      "legacyId": 397,
+      "legacyPath": "/detail/hot-x/397",
+      "name": "hot-x",
+      "slug": "hot-x",
+      "status": "published",
+      "targetPath": "/logos/hot-x/"
+    },
+    {
+      "legacyId": 396,
+      "legacyPath": "/detail/hpb/396",
+      "name": "hpb",
+      "slug": "hpb",
+      "status": "published",
+      "targetPath": "/logos/hpb/"
+    },
+    {
+      "legacyId": 401,
+      "legacyPath": "/detail/hsr/401",
+      "name": "hsr",
+      "slug": "hsr",
+      "status": "published",
+      "targetPath": "/logos/hsr/"
+    },
+    {
+      "legacyId": 399,
+      "legacyPath": "/detail/ht/399",
+      "name": "ht",
+      "slug": "ht",
+      "status": "published",
+      "targetPath": "/logos/ht/"
+    },
+    {
+      "legacyId": 406,
+      "legacyPath": "/detail/hum/406",
+      "name": "hum",
+      "slug": "hum",
+      "status": "published",
+      "targetPath": "/logos/hum/"
+    },
+    {
+      "legacyId": 990,
+      "legacyPath": "/detail/Huobi/990",
+      "name": "Huobi",
+      "slug": "huobi",
+      "status": "published",
+      "targetPath": "/logos/huobi/"
+    },
+    {
+      "legacyId": 403,
+      "legacyPath": "/detail/husd/403",
+      "name": "husd",
+      "slug": "husd",
+      "status": "published",
+      "targetPath": "/logos/husd/"
+    },
+    {
+      "legacyId": 405,
+      "legacyPath": "/detail/hydro/405",
+      "name": "hydro",
+      "slug": "hydro",
+      "status": "published",
+      "targetPath": "/logos/hydro/"
+    },
+    {
+      "legacyId": 398,
+      "legacyPath": "/detail/hyn/398",
+      "name": "hyn",
+      "slug": "hyn",
+      "status": "published",
+      "targetPath": "/logos/hyn/"
+    },
+    {
+      "legacyId": 402,
+      "legacyPath": "/detail/hzn/402",
+      "name": "hzn",
+      "slug": "hzn",
+      "status": "published",
+      "targetPath": "/logos/hzn/"
+    },
+    {
+      "legacyId": 407,
+      "legacyPath": "/detail/ibat/407",
+      "name": "ibat",
+      "slug": "ibat",
+      "status": "published",
+      "targetPath": "/logos/ibat/"
+    },
+    {
+      "legacyId": 400,
+      "legacyPath": "/detail/icn/400",
+      "name": "icn",
+      "slug": "icn",
+      "status": "published",
+      "targetPath": "/logos/icn/"
+    },
+    {
+      "legacyId": 44,
+      "legacyPath": "/detail/ICP/44",
+      "name": "ICP",
+      "slug": "icp",
+      "status": "published",
+      "targetPath": "/logos/icp/"
+    },
+    {
+      "legacyId": 409,
+      "legacyPath": "/detail/icx/409",
+      "name": "icx",
+      "slug": "icx",
+      "status": "published",
+      "targetPath": "/logos/icx/"
+    },
+    {
+      "legacyId": 410,
+      "legacyPath": "/detail/idai/410",
+      "name": "idai",
+      "slug": "idai",
+      "status": "published",
+      "targetPath": "/logos/idai/"
+    },
+    {
+      "legacyId": 415,
+      "legacyPath": "/detail/ieth/415",
+      "name": "ieth",
+      "slug": "ieth",
+      "status": "published",
+      "targetPath": "/logos/ieth/"
+    },
+    {
+      "legacyId": 416,
+      "legacyPath": "/detail/ignis/416",
+      "name": "ignis",
+      "slug": "ignis",
+      "status": "published",
+      "targetPath": "/logos/ignis/"
+    },
+    {
+      "legacyId": 417,
+      "legacyPath": "/detail/iknc/417",
+      "name": "iknc",
+      "slug": "iknc",
+      "status": "published",
+      "targetPath": "/logos/iknc/"
+    },
+    {
+      "legacyId": 408,
+      "legacyPath": "/detail/ilink/408",
+      "name": "ilink",
+      "slug": "ilink",
+      "status": "published",
+      "targetPath": "/logos/ilink/"
+    },
+    {
+      "legacyId": 809,
+      "legacyPath": "/detail/imToken/809",
+      "name": "imToken",
+      "slug": "imtoken",
+      "status": "excluded",
+      "targetPath": "/legacy-unavailable/"
+    },
+    {
+      "legacyId": 962,
+      "legacyPath": "/detail/imToken/962",
+      "name": "imToken",
+      "slug": "imtoken-962",
+      "status": "published",
+      "targetPath": "/logos/imtoken-962/"
+    },
+    {
+      "legacyId": 895,
+      "legacyPath": "/detail/IMX/895",
+      "name": "IMX",
+      "slug": "imx",
+      "status": "published",
+      "targetPath": "/logos/imx/"
+    },
+    {
+      "legacyId": 413,
+      "legacyPath": "/detail/inb/413",
+      "name": "inb",
+      "slug": "inb",
+      "status": "published",
+      "targetPath": "/logos/inb/"
+    },
+    {
+      "legacyId": 1046,
+      "legacyPath": "/detail/Intensive%20Co-learning/1046",
+      "name": "Intensive Co-learning",
+      "slug": "intensive-co-learning",
+      "status": "published",
+      "targetPath": "/logos/intensive-co-learning/"
+    },
+    {
+      "legacyId": 1029,
+      "legacyPath": "/detail/INTMAX/1029",
+      "name": "INTMAX",
+      "slug": "intmax",
+      "status": "published",
+      "targetPath": "/logos/intmax/"
+    },
+    {
+      "legacyId": 419,
+      "legacyPath": "/detail/iost/419",
+      "name": "iost",
+      "slug": "iost",
+      "status": "published",
+      "targetPath": "/logos/iost/"
+    },
+    {
+      "legacyId": 418,
+      "legacyPath": "/detail/iotx/418",
+      "name": "iotx",
+      "slug": "iotx",
+      "status": "published",
+      "targetPath": "/logos/iotx/"
+    },
+    {
+      "legacyId": 978,
+      "legacyPath": "/detail/IPOR/978",
+      "name": "IPOR",
+      "slug": "ipor",
+      "status": "published",
+      "targetPath": "/logos/ipor/"
+    },
+    {
+      "legacyId": 421,
+      "legacyPath": "/detail/iq/421",
+      "name": "iq",
+      "slug": "iq",
+      "status": "published",
+      "targetPath": "/logos/iq/"
+    },
+    {
+      "legacyId": 420,
+      "legacyPath": "/detail/irep/420",
+      "name": "irep",
+      "slug": "irep",
+      "status": "published",
+      "targetPath": "/logos/irep/"
+    },
+    {
+      "legacyId": 422,
+      "legacyPath": "/detail/iris/422",
+      "name": "iris",
+      "slug": "iris",
+      "status": "published",
+      "targetPath": "/logos/iris/"
+    },
+    {
+      "legacyId": 427,
+      "legacyPath": "/detail/isusd/427",
+      "name": "isusd",
+      "slug": "isusd",
+      "status": "published",
+      "targetPath": "/logos/isusd/"
+    },
+    {
+      "legacyId": 828,
+      "legacyPath": "/detail/Itheum/828",
+      "name": "Itheum",
+      "slug": "itheum",
+      "status": "published",
+      "targetPath": "/logos/itheum/"
+    },
+    {
+      "legacyId": 424,
+      "legacyPath": "/detail/iusdc/424",
+      "name": "iusdc",
+      "slug": "iusdc",
+      "status": "published",
+      "targetPath": "/logos/iusdc/"
+    },
+    {
+      "legacyId": 425,
+      "legacyPath": "/detail/iwbtc/425",
+      "name": "iwbtc",
+      "slug": "iwbtc",
+      "status": "published",
+      "targetPath": "/logos/iwbtc/"
+    },
+    {
+      "legacyId": 426,
+      "legacyPath": "/detail/izrx/426",
+      "name": "izrx",
+      "slug": "izrx",
+      "status": "published",
+      "targetPath": "/logos/izrx/"
+    },
+    {
+      "legacyId": 1017,
+      "legacyPath": "/detail/Japan%20DAO%20Association/1017",
+      "name": "Japan DAO Association",
+      "slug": "japan-dao-association",
+      "status": "published",
+      "targetPath": "/logos/japan-dao-association/"
+    },
+    {
+      "legacyId": 818,
+      "legacyPath": "/detail/Jito/818",
+      "name": "Jito",
+      "slug": "jito",
+      "status": "published",
+      "targetPath": "/logos/jito/"
+    },
+    {
+      "legacyId": 429,
+      "legacyPath": "/detail/jnt/429",
+      "name": "jnt",
+      "slug": "jnt",
+      "status": "published",
+      "targetPath": "/logos/jnt/"
+    },
+    {
+      "legacyId": 430,
+      "legacyPath": "/detail/jst/430",
+      "name": "jst",
+      "slug": "jst",
+      "status": "published",
+      "targetPath": "/logos/jst/"
+    },
+    {
+      "legacyId": 431,
+      "legacyPath": "/detail/juno/431",
+      "name": "juno",
+      "slug": "juno",
+      "status": "published",
+      "targetPath": "/logos/juno/"
+    },
+    {
+      "legacyId": 817,
+      "legacyPath": "/detail/Jupiter/817",
+      "name": "Jupiter",
+      "slug": "jupiter",
+      "status": "published",
+      "targetPath": "/logos/jupiter/"
+    },
+    {
+      "legacyId": 888,
+      "legacyPath": "/detail/Jupiter%20%28JUP%29/888",
+      "name": "Jupiter (JUP)",
+      "slug": "jupiter-jup",
+      "status": "published",
+      "targetPath": "/logos/jupiter-jup/"
+    },
+    {
+      "legacyId": 885,
+      "legacyPath": "/detail/JUST%20%28JST%29/885",
+      "name": "JUST (JST)",
+      "slug": "just-jst",
+      "status": "published",
+      "targetPath": "/logos/just-jst/"
+    },
+    {
+      "legacyId": 948,
+      "legacyPath": "/detail/KACO/948",
+      "name": "KACO",
+      "slug": "kaco",
+      "status": "published",
+      "targetPath": "/logos/kaco/"
+    },
+    {
+      "legacyId": 854,
+      "legacyPath": "/detail/kanadecoin/854",
+      "name": "kanadecoin",
+      "slug": "kanadecoin",
+      "status": "published",
+      "targetPath": "/logos/kanadecoin/"
+    },
+    {
+      "legacyId": 855,
+      "legacyPath": "/detail/karatgold/855",
+      "name": "karatgold",
+      "slug": "karatgold",
+      "status": "published",
+      "targetPath": "/logos/karatgold/"
+    },
+    {
+      "legacyId": 949,
+      "legacyPath": "/detail/Karsiers/949",
+      "name": "Karsiers",
+      "slug": "karsiers",
+      "status": "published",
+      "targetPath": "/logos/karsiers/"
+    },
+    {
+      "legacyId": 428,
+      "legacyPath": "/detail/kava/428",
+      "name": "kava",
+      "slug": "kava",
+      "status": "published",
+      "targetPath": "/logos/kava/"
+    },
+    {
+      "legacyId": 435,
+      "legacyPath": "/detail/kcs/435",
+      "name": "kcs",
+      "slug": "kcs",
+      "status": "published",
+      "targetPath": "/logos/kcs/"
+    },
+    {
+      "legacyId": 436,
+      "legacyPath": "/detail/kda/436",
+      "name": "kda",
+      "slug": "kda",
+      "status": "published",
+      "targetPath": "/logos/kda/"
+    },
+    {
+      "legacyId": 811,
+      "legacyPath": "/detail/Keplr/811",
+      "name": "Keplr",
+      "slug": "keplr",
+      "status": "published",
+      "targetPath": "/logos/keplr/"
+    },
+    {
+      "legacyId": 432,
+      "legacyPath": "/detail/key/432",
+      "name": "key",
+      "slug": "key",
+      "status": "published",
+      "targetPath": "/logos/key/"
+    },
+    {
+      "legacyId": 433,
+      "legacyPath": "/detail/kick/433",
+      "name": "kick",
+      "slug": "kick",
+      "status": "published",
+      "targetPath": "/logos/kick/"
+    },
+    {
+      "legacyId": 434,
+      "legacyPath": "/detail/kin/434",
+      "name": "kin",
+      "slug": "kin",
+      "status": "published",
+      "targetPath": "/logos/kin/"
+    },
+    {
+      "legacyId": 1032,
+      "legacyPath": "/detail/KINTO/1032",
+      "name": "KINTO",
+      "slug": "kinto",
+      "status": "published",
+      "targetPath": "/logos/kinto/"
+    },
+    {
+      "legacyId": 440,
+      "legacyPath": "/detail/klay/440",
+      "name": "klay",
+      "slug": "klay",
+      "status": "published",
+      "targetPath": "/logos/klay/"
+    },
+    {
+      "legacyId": 444,
+      "legacyPath": "/detail/klv/444",
+      "name": "klv",
+      "slug": "klv",
+      "status": "published",
+      "targetPath": "/logos/klv/"
+    },
+    {
+      "legacyId": 443,
+      "legacyPath": "/detail/kmd/443",
+      "name": "kmd",
+      "slug": "kmd",
+      "status": "published",
+      "targetPath": "/logos/kmd/"
+    },
+    {
+      "legacyId": 941,
+      "legacyPath": "/detail/KMD/941",
+      "name": "KMD",
+      "slug": "kmd-941",
+      "status": "published",
+      "targetPath": "/logos/kmd-941/"
+    },
+    {
+      "legacyId": 439,
+      "legacyPath": "/detail/knc/439",
+      "name": "knc",
+      "slug": "knc",
+      "status": "published",
+      "targetPath": "/logos/knc/"
+    },
+    {
+      "legacyId": 442,
+      "legacyPath": "/detail/ksm/442",
+      "name": "ksm",
+      "slug": "ksm",
+      "status": "published",
+      "targetPath": "/logos/ksm/"
+    },
+    {
+      "legacyId": 991,
+      "legacyPath": "/detail/KuCoin/991",
+      "name": "KuCoin",
+      "slug": "kucoin",
+      "status": "published",
+      "targetPath": "/logos/kucoin/"
+    },
+    {
+      "legacyId": 438,
+      "legacyPath": "/detail/lamb/438",
+      "name": "lamb",
+      "slug": "lamb",
+      "status": "published",
+      "targetPath": "/logos/lamb/"
+    },
+    {
+      "legacyId": 445,
+      "legacyPath": "/detail/land/445",
+      "name": "land",
+      "slug": "land",
+      "status": "published",
+      "targetPath": "/logos/land/"
+    },
+    {
+      "legacyId": 863,
+      "legacyPath": "/detail/layerswap/863",
+      "name": "layerswap",
+      "slug": "layerswap",
+      "status": "published",
+      "targetPath": "/logos/layerswap/"
+    },
+    {
+      "legacyId": 943,
+      "legacyPath": "/detail/Layerzero/943",
+      "name": "Layerzero",
+      "slug": "layerzero",
+      "status": "published",
+      "targetPath": "/logos/layerzero/"
+    },
+    {
+      "legacyId": 447,
+      "legacyPath": "/detail/lba/447",
+      "name": "lba",
+      "slug": "lba",
+      "status": "published",
+      "targetPath": "/logos/lba/"
+    },
+    {
+      "legacyId": 441,
+      "legacyPath": "/detail/lcx/441",
+      "name": "lcx",
+      "slug": "lcx",
+      "status": "published",
+      "targetPath": "/logos/lcx/"
+    },
+    {
+      "legacyId": 446,
+      "legacyPath": "/detail/ldo/446",
+      "name": "ldo",
+      "slug": "ldo",
+      "status": "published",
+      "targetPath": "/logos/ldo/"
+    },
+    {
+      "legacyId": 1059,
+      "legacyPath": "/detail/learnblockchain/1059",
+      "name": "learnblockchain",
+      "slug": "learnblockchain",
+      "status": "published",
+      "targetPath": "/logos/learnblockchain/"
+    },
+    {
+      "legacyId": 1042,
+      "legacyPath": "/detail/Legendary%20Humanity/1042",
+      "name": "Legendary Humanity",
+      "slug": "legendary-humanity",
+      "status": "published",
+      "targetPath": "/logos/legendary-humanity/"
+    },
+    {
+      "legacyId": 449,
+      "legacyPath": "/detail/lend/449",
+      "name": "lend",
+      "slug": "lend",
+      "status": "published",
+      "targetPath": "/logos/lend/"
+    },
+    {
+      "legacyId": 451,
+      "legacyPath": "/detail/leo/451",
+      "name": "leo",
+      "slug": "leo",
+      "status": "published",
+      "targetPath": "/logos/leo/"
+    },
+    {
+      "legacyId": 963,
+      "legacyPath": "/detail/Libra%20Finance/963",
+      "name": "Libra Finance",
+      "slug": "libra-finance",
+      "status": "published",
+      "targetPath": "/logos/libra-finance/"
+    },
+    {
+      "legacyId": 1082,
+      "legacyPath": "/detail/Licredity/1082",
+      "name": "Licredity",
+      "slug": "licredity",
+      "status": "published",
+      "targetPath": "/logos/licredity/"
+    },
+    {
+      "legacyId": 884,
+      "legacyPath": "/detail/Lido%20Staked%20ETH%20%28stETH%29/884",
+      "name": "Lido Staked ETH (stETH)",
+      "slug": "lido-staked-eth-steth",
+      "status": "published",
+      "targetPath": "/logos/lido-staked-eth-steth/"
+    },
+    {
+      "legacyId": 942,
+      "legacyPath": "/detail/LIFI/942",
+      "name": "LIFI",
+      "slug": "lifi",
+      "status": "published",
+      "targetPath": "/logos/lifi/"
+    },
+    {
+      "legacyId": 457,
+      "legacyPath": "/detail/link/457",
+      "name": "link",
+      "slug": "link",
+      "status": "published",
+      "targetPath": "/logos/link/"
+    },
+    {
+      "legacyId": 454,
+      "legacyPath": "/detail/lit/454",
+      "name": "lit",
+      "slug": "lit",
+      "status": "published",
+      "targetPath": "/logos/lit/"
+    },
+    {
+      "legacyId": 1008,
+      "legacyPath": "/detail/Litecoin%20%28LTC%29/1008",
+      "name": "Litecoin (LTC)",
+      "slug": "litecoin-ltc",
+      "status": "published",
+      "targetPath": "/logos/litecoin-ltc/"
+    },
+    {
+      "legacyId": 448,
+      "legacyPath": "/detail/lky/448",
+      "name": "lky",
+      "slug": "lky",
+      "status": "published",
+      "targetPath": "/logos/lky/"
+    },
+    {
+      "legacyId": 450,
+      "legacyPath": "/detail/ln/450",
+      "name": "ln",
+      "slug": "ln",
+      "status": "published",
+      "targetPath": "/logos/ln/"
+    },
+    {
+      "legacyId": 1054,
+      "legacyPath": "/detail/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A4%A7%E5%AD%A6/1054",
+      "name": "中国人民大学",
+      "slug": "logo-1054",
+      "status": "published",
+      "targetPath": "/logos/logo-1054/"
+    },
+    {
+      "legacyId": 1066,
+      "legacyPath": "/detail/%E5%BE%8B%E5%8A%A8/1066",
+      "name": "律动",
+      "slug": "logo-1066",
+      "status": "published",
+      "targetPath": "/logos/logo-1066/"
+    },
+    {
+      "legacyId": 1067,
+      "legacyPath": "/detail/%E6%9B%BC%E6%98%86%E5%BE%8B%E5%B8%88%E4%BA%8B%E5%8A%A1%E6%89%80/1067",
+      "name": "曼昆律师事务所",
+      "slug": "logo-1067",
+      "status": "published",
+      "targetPath": "/logos/logo-1067/"
+    },
+    {
+      "legacyId": 1068,
+      "legacyPath": "/detail/%E6%B7%B1%E6%8A%80%E5%A4%A7%E9%93%BE%E5%8D%8F/1068",
+      "name": "深技大链协",
+      "slug": "logo-1068",
+      "status": "published",
+      "targetPath": "/logos/logo-1068/"
+    },
+    {
+      "legacyId": 1070,
+      "legacyPath": "/detail/%E5%8D%8E%E6%94%BF%E9%93%BE%E5%8D%8F/1070",
+      "name": "华政链协",
+      "slug": "logo-1070",
+      "status": "published",
+      "targetPath": "/logos/logo-1070/"
+    },
+    {
+      "legacyId": 1071,
+      "legacyPath": "/detail/%E5%90%B4%E8%AF%B4/1071",
+      "name": "吴说",
+      "slug": "logo-1071",
+      "status": "published",
+      "targetPath": "/logos/logo-1071/"
+    },
+    {
+      "legacyId": 1072,
+      "legacyPath": "/detail/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E9%93%BE%E5%8D%8F%E4%BC%9A/1072",
+      "name": "广州大学链协会",
+      "slug": "logo-1072",
+      "status": "published",
+      "targetPath": "/logos/logo-1072/"
+    },
+    {
+      "legacyId": 1074,
+      "legacyPath": "/detail/%E6%B5%99%E5%86%9C%E6%9E%97%E9%93%BE%E5%8D%8F/1074",
+      "name": "浙农林链协",
+      "slug": "logo-1074",
+      "status": "published",
+      "targetPath": "/logos/logo-1074/"
+    },
+    {
+      "legacyId": 1076,
+      "legacyPath": "/detail/%E6%B1%9F%E8%BD%AF%E9%93%BE%E5%8D%8F/1076",
+      "name": "江软链协",
+      "slug": "logo-1076",
+      "status": "published",
+      "targetPath": "/logos/logo-1076/"
+    },
+    {
+      "legacyId": 1077,
+      "legacyPath": "/detail/%E5%A4%A7%E8%BF%9E%E6%B0%91%E6%97%8F%E5%A4%A7%E5%AD%A6%E9%93%BE%E5%8D%8F/1077",
+      "name": "大连民族大学链协",
+      "slug": "logo-1077",
+      "status": "published",
+      "targetPath": "/logos/logo-1077/"
+    },
+    {
+      "legacyId": 1078,
+      "legacyPath": "/detail/%E8%A5%BF%E5%8D%97%E6%94%BF%E6%B3%95%E5%A4%A7%E5%AD%A6%E9%93%BE%E5%8D%8F/1078",
+      "name": "西南政法大学链协",
+      "slug": "logo-1078",
+      "status": "published",
+      "targetPath": "/logos/logo-1078/"
+    },
+    {
+      "legacyId": 1079,
+      "legacyPath": "/detail/%E6%AF%94%E7%89%B9%E9%B9%B0/1079",
+      "name": "比特鹰",
+      "slug": "logo-1079",
+      "status": "published",
+      "targetPath": "/logos/logo-1079/"
+    },
+    {
+      "legacyId": 1084,
+      "legacyPath": "/detail/%E4%B8%87%E5%90%91%E5%8C%BA%E5%9D%97%E9%93%BE%E5%AE%9E%E9%AA%8C%E5%AE%A4/1084",
+      "name": "万向区块链实验室",
+      "slug": "logo-1084",
+      "status": "published",
+      "targetPath": "/logos/logo-1084/"
+    },
+    {
+      "legacyId": 950,
+      "legacyPath": "/detail/%E5%B8%81%E6%89%91/950",
+      "name": "币扑",
+      "slug": "logo-950",
+      "status": "published",
+      "targetPath": "/logos/logo-950/"
+    },
+    {
+      "legacyId": 951,
+      "legacyPath": "/detail/%E9%87%91%E8%89%B2%E8%B4%A2%E7%BB%8F/951",
+      "name": "金色财经",
+      "slug": "logo-951",
+      "status": "published",
+      "targetPath": "/logos/logo-951/"
+    },
+    {
+      "legacyId": 952,
+      "legacyPath": "/detail/%E9%93%BE%E9%97%BB/952",
+      "name": "链闻",
+      "slug": "logo-952",
+      "status": "published",
+      "targetPath": "/logos/logo-952/"
+    },
+    {
+      "legacyId": 953,
+      "legacyPath": "/detail/%E6%98%9F%E7%90%83%E6%97%A5%E6%8A%A5/953",
+      "name": "星球日报",
+      "slug": "logo-953",
+      "status": "published",
+      "targetPath": "/logos/logo-953/"
+    },
+    {
+      "legacyId": 957,
+      "legacyPath": "/detail/%E5%B8%81%E4%B9%8E/957",
+      "name": "币乎",
+      "slug": "logo-957",
+      "status": "published",
+      "targetPath": "/logos/logo-957/"
+    },
+    {
+      "legacyId": 452,
+      "legacyPath": "/detail/loki/452",
+      "name": "loki",
+      "slug": "loki",
+      "status": "published",
+      "targetPath": "/logos/loki/"
+    },
+    {
+      "legacyId": 455,
+      "legacyPath": "/detail/lon/455",
+      "name": "lon",
+      "slug": "lon",
+      "status": "published",
+      "targetPath": "/logos/lon/"
+    },
+    {
+      "legacyId": 456,
+      "legacyPath": "/detail/looks/456",
+      "name": "looks",
+      "slug": "looks",
+      "status": "published",
+      "targetPath": "/logos/looks/"
+    },
+    {
+      "legacyId": 453,
+      "legacyPath": "/detail/loom/453",
+      "name": "loom",
+      "slug": "loom",
+      "status": "published",
+      "targetPath": "/logos/loom/"
+    },
+    {
+      "legacyId": 458,
+      "legacyPath": "/detail/lpt/458",
+      "name": "lpt",
+      "slug": "lpt",
+      "status": "published",
+      "targetPath": "/logos/lpt/"
+    },
+    {
+      "legacyId": 466,
+      "legacyPath": "/detail/lqd/466",
+      "name": "lqd",
+      "slug": "lqd",
+      "status": "published",
+      "targetPath": "/logos/lqd/"
+    },
+    {
+      "legacyId": 462,
+      "legacyPath": "/detail/lqty/462",
+      "name": "lqty",
+      "slug": "lqty",
+      "status": "published",
+      "targetPath": "/logos/lqty/"
+    },
+    {
+      "legacyId": 460,
+      "legacyPath": "/detail/lrc/460",
+      "name": "lrc",
+      "slug": "lrc",
+      "status": "published",
+      "targetPath": "/logos/lrc/"
+    },
+    {
+      "legacyId": 461,
+      "legacyPath": "/detail/lsk/461",
+      "name": "lsk",
+      "slug": "lsk",
+      "status": "published",
+      "targetPath": "/logos/lsk/"
+    },
+    {
+      "legacyId": 465,
+      "legacyPath": "/detail/ltc/465",
+      "name": "ltc",
+      "slug": "ltc",
+      "status": "published",
+      "targetPath": "/logos/ltc/"
+    },
+    {
+      "legacyId": 467,
+      "legacyPath": "/detail/lto/467",
+      "name": "lto",
+      "slug": "lto",
+      "status": "published",
+      "targetPath": "/logos/lto/"
+    },
+    {
+      "legacyId": 463,
+      "legacyPath": "/detail/lun/463",
+      "name": "lun",
+      "slug": "lun",
+      "status": "published",
+      "targetPath": "/logos/lun/"
+    },
+    {
+      "legacyId": 459,
+      "legacyPath": "/detail/luna/459",
+      "name": "luna",
+      "slug": "luna",
+      "status": "published",
+      "targetPath": "/logos/luna/"
+    },
+    {
+      "legacyId": 1,
+      "legacyPath": "/detail/LXDAO/1",
+      "name": "LXDAO",
+      "slug": "lxdao",
+      "status": "published",
+      "targetPath": "/logos/lxdao/"
+    },
+    {
+      "legacyId": 464,
+      "legacyPath": "/detail/lxt/464",
+      "name": "lxt",
+      "slug": "lxt",
+      "status": "published",
+      "targetPath": "/logos/lxt/"
+    },
+    {
+      "legacyId": 476,
+      "legacyPath": "/detail/lym/476",
+      "name": "lym",
+      "slug": "lym",
+      "status": "published",
+      "targetPath": "/logos/lym/"
+    },
+    {
+      "legacyId": 823,
+      "legacyPath": "/detail/Magic%20Eden/823",
+      "name": "Magic Eden",
+      "slug": "magic-eden",
+      "status": "published",
+      "targetPath": "/logos/magic-eden/"
+    },
+    {
+      "legacyId": 470,
+      "legacyPath": "/detail/maha/470",
+      "name": "maha",
+      "slug": "maha",
+      "status": "published",
+      "targetPath": "/logos/maha/"
+    },
+    {
+      "legacyId": 469,
+      "legacyPath": "/detail/maid/469",
+      "name": "maid",
+      "slug": "maid",
+      "status": "published",
+      "targetPath": "/logos/maid/"
+    },
+    {
+      "legacyId": 1010,
+      "legacyPath": "/detail/Maker%20%28MKR%29/1010",
+      "name": "Maker (MKR)",
+      "slug": "maker-mkr",
+      "status": "published",
+      "targetPath": "/logos/maker-mkr/"
+    },
+    {
+      "legacyId": 472,
+      "legacyPath": "/detail/man/472",
+      "name": "man",
+      "slug": "man",
+      "status": "published",
+      "targetPath": "/logos/man/"
+    },
+    {
+      "legacyId": 477,
+      "legacyPath": "/detail/mana/477",
+      "name": "mana",
+      "slug": "mana",
+      "status": "published",
+      "targetPath": "/logos/mana/"
+    },
+    {
+      "legacyId": 844,
+      "legacyPath": "/detail/Manta%20Network/844",
+      "name": "Manta Network",
+      "slug": "manta-network",
+      "status": "published",
+      "targetPath": "/logos/manta-network/"
+    },
+    {
+      "legacyId": 874,
+      "legacyPath": "/detail/Mantle/874",
+      "name": "Mantle",
+      "slug": "mantle",
+      "status": "published",
+      "targetPath": "/logos/mantle/"
+    },
+    {
+      "legacyId": 1044,
+      "legacyPath": "/detail/Map%20Protocol/1044",
+      "name": "Map Protocol",
+      "slug": "map-protocol",
+      "status": "published",
+      "targetPath": "/logos/map-protocol/"
+    },
+    {
+      "legacyId": 471,
+      "legacyPath": "/detail/mars/471",
+      "name": "mars",
+      "slug": "mars",
+      "status": "excluded",
+      "targetPath": "/legacy-unavailable/"
+    },
+    {
+      "legacyId": 32,
+      "legacyPath": "/detail/MarsDAO/32",
+      "name": "MarsDAO",
+      "slug": "marsdao",
+      "status": "published",
+      "targetPath": "/logos/marsdao/"
+    },
+    {
+      "legacyId": 856,
+      "legacyPath": "/detail/masari/856",
+      "name": "masari",
+      "slug": "masari",
+      "status": "published",
+      "targetPath": "/logos/masari/"
+    },
+    {
+      "legacyId": 803,
+      "legacyPath": "/detail/Mask/803",
+      "name": "Mask",
+      "slug": "mask",
+      "status": "published",
+      "targetPath": "/logos/mask/"
+    },
+    {
+      "legacyId": 474,
+      "legacyPath": "/detail/math/474",
+      "name": "math",
+      "slug": "math",
+      "status": "published",
+      "targetPath": "/logos/math/"
+    },
+    {
+      "legacyId": 964,
+      "legacyPath": "/detail/Math/964",
+      "name": "Math",
+      "slug": "math-964",
+      "status": "published",
+      "targetPath": "/logos/math-964/"
+    },
+    {
+      "legacyId": 468,
+      "legacyPath": "/detail/matic/468",
+      "name": "matic",
+      "slug": "matic",
+      "status": "published",
+      "targetPath": "/logos/matic/"
+    },
+    {
+      "legacyId": 473,
+      "legacyPath": "/detail/matter/473",
+      "name": "matter",
+      "slug": "matter",
+      "status": "published",
+      "targetPath": "/logos/matter/"
+    },
+    {
+      "legacyId": 1043,
+      "legacyPath": "/detail/Matters%20Lab/1043",
+      "name": "Matters Lab",
+      "slug": "matters-lab",
+      "status": "published",
+      "targetPath": "/logos/matters-lab/"
+    },
+    {
+      "legacyId": 926,
+      "legacyPath": "/detail/MAV/926",
+      "name": "MAV",
+      "slug": "mav",
+      "status": "published",
+      "targetPath": "/logos/mav/"
+    },
+    {
+      "legacyId": 475,
+      "legacyPath": "/detail/mbc/475",
+      "name": "mbc",
+      "slug": "mbc",
+      "status": "published",
+      "targetPath": "/logos/mbc/"
+    },
+    {
+      "legacyId": 482,
+      "legacyPath": "/detail/mco/482",
+      "name": "mco",
+      "slug": "mco",
+      "status": "published",
+      "targetPath": "/logos/mco/"
+    },
+    {
+      "legacyId": 478,
+      "legacyPath": "/detail/mcx/478",
+      "name": "mcx",
+      "slug": "mcx",
+      "status": "published",
+      "targetPath": "/logos/mcx/"
+    },
+    {
+      "legacyId": 479,
+      "legacyPath": "/detail/mda/479",
+      "name": "mda",
+      "slug": "mda",
+      "status": "published",
+      "targetPath": "/logos/mda/"
+    },
+    {
+      "legacyId": 483,
+      "legacyPath": "/detail/mds/483",
+      "name": "mds",
+      "slug": "mds",
+      "status": "published",
+      "targetPath": "/logos/mds/"
+    },
+    {
+      "legacyId": 484,
+      "legacyPath": "/detail/med/484",
+      "name": "med",
+      "slug": "med",
+      "status": "published",
+      "targetPath": "/logos/med/"
+    },
+    {
+      "legacyId": 487,
+      "legacyPath": "/detail/medx/487",
+      "name": "medx",
+      "slug": "medx",
+      "status": "published",
+      "targetPath": "/logos/medx/"
+    },
+    {
+      "legacyId": 485,
+      "legacyPath": "/detail/met/485",
+      "name": "met",
+      "slug": "met",
+      "status": "published",
+      "targetPath": "/logos/met/"
+    },
+    {
+      "legacyId": 1001,
+      "legacyPath": "/detail/MetaMask/1001",
+      "name": "MetaMask",
+      "slug": "metamask",
+      "status": "published",
+      "targetPath": "/logos/metamask/"
+    },
+    {
+      "legacyId": 845,
+      "legacyPath": "/detail/MEW/845",
+      "name": "MEW",
+      "slug": "mew",
+      "status": "published",
+      "targetPath": "/logos/mew/"
+    },
+    {
+      "legacyId": 481,
+      "legacyPath": "/detail/mfg/481",
+      "name": "mfg",
+      "slug": "mfg",
+      "status": "published",
+      "targetPath": "/logos/mfg/"
+    },
+    {
+      "legacyId": 480,
+      "legacyPath": "/detail/mft/480",
+      "name": "mft",
+      "slug": "mft",
+      "status": "published",
+      "targetPath": "/logos/mft/"
+    },
+    {
+      "legacyId": 486,
+      "legacyPath": "/detail/mim/486",
+      "name": "mim",
+      "slug": "mim",
+      "status": "published",
+      "targetPath": "/logos/mim/"
+    },
+    {
+      "legacyId": 488,
+      "legacyPath": "/detail/mir/488",
+      "name": "mir",
+      "slug": "mir",
+      "status": "published",
+      "targetPath": "/logos/mir/"
+    },
+    {
+      "legacyId": 61,
+      "legacyPath": "/detail/Mirror%20Improvements/61",
+      "name": "Mirror Improvements",
+      "slug": "mirror-improvements",
+      "status": "published",
+      "targetPath": "/logos/mirror-improvements/"
+    },
+    {
+      "legacyId": 489,
+      "legacyPath": "/detail/mith/489",
+      "name": "mith",
+      "slug": "mith",
+      "status": "published",
+      "targetPath": "/logos/mith/"
+    },
+    {
+      "legacyId": 857,
+      "legacyPath": "/detail/mixin/857",
+      "name": "mixin",
+      "slug": "mixin",
+      "status": "published",
+      "targetPath": "/logos/mixin/"
+    },
+    {
+      "legacyId": 490,
+      "legacyPath": "/detail/mkr/490",
+      "name": "mkr",
+      "slug": "mkr",
+      "status": "published",
+      "targetPath": "/logos/mkr/"
+    },
+    {
+      "legacyId": 914,
+      "legacyPath": "/detail/MKR/914",
+      "name": "MKR",
+      "slug": "mkr-914",
+      "status": "published",
+      "targetPath": "/logos/mkr-914/"
+    },
+    {
+      "legacyId": 494,
+      "legacyPath": "/detail/mln/494",
+      "name": "mln",
+      "slug": "mln",
+      "status": "published",
+      "targetPath": "/logos/mln/"
+    },
+    {
+      "legacyId": 496,
+      "legacyPath": "/detail/mngo/496",
+      "name": "mngo",
+      "slug": "mngo",
+      "status": "published",
+      "targetPath": "/logos/mngo/"
+    },
+    {
+      "legacyId": 497,
+      "legacyPath": "/detail/mod/497",
+      "name": "mod",
+      "slug": "mod",
+      "status": "published",
+      "targetPath": "/logos/mod/"
+    },
+    {
+      "legacyId": 858,
+      "legacyPath": "/detail/molecular/858",
+      "name": "molecular",
+      "slug": "molecular",
+      "status": "published",
+      "targetPath": "/logos/molecular/"
+    },
+    {
+      "legacyId": 1021,
+      "legacyPath": "/detail/moledao/1021",
+      "name": "moledao",
+      "slug": "moledao",
+      "status": "published",
+      "targetPath": "/logos/moledao/"
+    },
+    {
+      "legacyId": 979,
+      "legacyPath": "/detail/Morpho/979",
+      "name": "Morpho",
+      "slug": "morpho",
+      "status": "published",
+      "targetPath": "/logos/morpho/"
+    },
+    {
+      "legacyId": 495,
+      "legacyPath": "/detail/mot/495",
+      "name": "mot",
+      "slug": "mot",
+      "status": "published",
+      "targetPath": "/logos/mot/"
+    },
+    {
+      "legacyId": 492,
+      "legacyPath": "/detail/mpl/492",
+      "name": "mpl",
+      "slug": "mpl",
+      "status": "published",
+      "targetPath": "/logos/mpl/"
+    },
+    {
+      "legacyId": 491,
+      "legacyPath": "/detail/mta/491",
+      "name": "mta",
+      "slug": "mta",
+      "status": "published",
+      "targetPath": "/logos/mta/"
+    },
+    {
+      "legacyId": 493,
+      "legacyPath": "/detail/mth/493",
+      "name": "mth",
+      "slug": "mth",
+      "status": "published",
+      "targetPath": "/logos/mth/"
+    },
+    {
+      "legacyId": 499,
+      "legacyPath": "/detail/mtl/499",
+      "name": "mtl",
+      "slug": "mtl",
+      "status": "published",
+      "targetPath": "/logos/mtl/"
+    },
+    {
+      "legacyId": 502,
+      "legacyPath": "/detail/mtn/502",
+      "name": "mtn",
+      "slug": "mtn",
+      "status": "published",
+      "targetPath": "/logos/mtn/"
+    },
+    {
+      "legacyId": 506,
+      "legacyPath": "/detail/mvc/506",
+      "name": "mvc",
+      "slug": "mvc",
+      "status": "published",
+      "targetPath": "/logos/mvc/"
+    },
+    {
+      "legacyId": 507,
+      "legacyPath": "/detail/mvl/507",
+      "name": "mvl",
+      "slug": "mvl",
+      "status": "published",
+      "targetPath": "/logos/mvl/"
+    },
+    {
+      "legacyId": 505,
+      "legacyPath": "/detail/mvp/505",
+      "name": "mvp",
+      "slug": "mvp",
+      "status": "published",
+      "targetPath": "/logos/mvp/"
+    },
+    {
+      "legacyId": 504,
+      "legacyPath": "/detail/mwat/504",
+      "name": "mwat",
+      "slug": "mwat",
+      "status": "published",
+      "targetPath": "/logos/mwat/"
+    },
+    {
+      "legacyId": 498,
+      "legacyPath": "/detail/mwc/498",
+      "name": "mwc",
+      "slug": "mwc",
+      "status": "published",
+      "targetPath": "/logos/mwc/"
+    },
+    {
+      "legacyId": 501,
+      "legacyPath": "/detail/mxm/501",
+      "name": "mxm",
+      "slug": "mxm",
+      "status": "published",
+      "targetPath": "/logos/mxm/"
+    },
+    {
+      "legacyId": 500,
+      "legacyPath": "/detail/myb/500",
+      "name": "myb",
+      "slug": "myb",
+      "status": "published",
+      "targetPath": "/logos/myb/"
+    },
+    {
+      "legacyId": 826,
+      "legacyPath": "/detail/Nametag/826",
+      "name": "Nametag",
+      "slug": "nametag",
+      "status": "published",
+      "targetPath": "/logos/nametag/"
+    },
+    {
+      "legacyId": 503,
+      "legacyPath": "/detail/nano/503",
+      "name": "nano",
+      "slug": "nano",
+      "status": "published",
+      "targetPath": "/logos/nano/"
+    },
+    {
+      "legacyId": 508,
+      "legacyPath": "/detail/nas/508",
+      "name": "nas",
+      "slug": "nas",
+      "status": "published",
+      "targetPath": "/logos/nas/"
+    },
+    {
+      "legacyId": 510,
+      "legacyPath": "/detail/nav/510",
+      "name": "nav",
+      "slug": "nav",
+      "status": "published",
+      "targetPath": "/logos/nav/"
+    },
+    {
+      "legacyId": 515,
+      "legacyPath": "/detail/ncash/515",
+      "name": "ncash",
+      "slug": "ncash",
+      "status": "published",
+      "targetPath": "/logos/ncash/"
+    },
+    {
+      "legacyId": 512,
+      "legacyPath": "/detail/nct/512",
+      "name": "nct",
+      "slug": "nct",
+      "status": "published",
+      "targetPath": "/logos/nct/"
+    },
+    {
+      "legacyId": 514,
+      "legacyPath": "/detail/near/514",
+      "name": "near",
+      "slug": "near",
+      "status": "published",
+      "targetPath": "/logos/near/"
+    },
+    {
+      "legacyId": 516,
+      "legacyPath": "/detail/nec/516",
+      "name": "nec",
+      "slug": "nec",
+      "status": "published",
+      "targetPath": "/logos/nec/"
+    },
+    {
+      "legacyId": 509,
+      "legacyPath": "/detail/neo/509",
+      "name": "neo",
+      "slug": "neo",
+      "status": "published",
+      "targetPath": "/logos/neo/"
+    },
+    {
+      "legacyId": 866,
+      "legacyPath": "/detail/Nervos/866",
+      "name": "Nervos",
+      "slug": "nervos",
+      "status": "published",
+      "targetPath": "/logos/nervos/"
+    },
+    {
+      "legacyId": 859,
+      "legacyPath": "/detail/neumark/859",
+      "name": "neumark",
+      "slug": "neumark",
+      "status": "published",
+      "targetPath": "/logos/neumark/"
+    },
+    {
+      "legacyId": 511,
+      "legacyPath": "/detail/new/511",
+      "name": "new",
+      "slug": "new",
+      "status": "published",
+      "targetPath": "/logos/new/"
+    },
+    {
+      "legacyId": 513,
+      "legacyPath": "/detail/nex/513",
+      "name": "nex",
+      "slug": "nex",
+      "status": "published",
+      "targetPath": "/logos/nex/"
+    },
+    {
+      "legacyId": 831,
+      "legacyPath": "/detail/NEXTART/831",
+      "name": "NEXTART",
+      "slug": "nextart",
+      "status": "published",
+      "targetPath": "/logos/nextart/"
+    },
+    {
+      "legacyId": 808,
+      "legacyPath": "/detail/NEXTHEATER/808",
+      "name": "NEXTHEATER",
+      "slug": "nextheater",
+      "status": "published",
+      "targetPath": "/logos/nextheater/"
+    },
+    {
+      "legacyId": 832,
+      "legacyPath": "/detail/nextheater/832",
+      "name": "nextheater",
+      "slug": "nextheater-832",
+      "status": "published",
+      "targetPath": "/logos/nextheater-832/"
+    },
+    {
+      "legacyId": 524,
+      "legacyPath": "/detail/nexxo/524",
+      "name": "nexxo",
+      "slug": "nexxo",
+      "status": "published",
+      "targetPath": "/logos/nexxo/"
+    },
+    {
+      "legacyId": 519,
+      "legacyPath": "/detail/nft/519",
+      "name": "nft",
+      "slug": "nft",
+      "status": "published",
+      "targetPath": "/logos/nft/"
+    },
+    {
+      "legacyId": 518,
+      "legacyPath": "/detail/ngc/518",
+      "name": "ngc",
+      "slug": "ngc",
+      "status": "published",
+      "targetPath": "/logos/ngc/"
+    },
+    {
+      "legacyId": 520,
+      "legacyPath": "/detail/niox/520",
+      "name": "niox",
+      "slug": "niox",
+      "status": "published",
+      "targetPath": "/logos/niox/"
+    },
+    {
+      "legacyId": 522,
+      "legacyPath": "/detail/nkn/522",
+      "name": "nkn",
+      "slug": "nkn",
+      "status": "published",
+      "targetPath": "/logos/nkn/"
+    },
+    {
+      "legacyId": 527,
+      "legacyPath": "/detail/nlg/527",
+      "name": "nlg",
+      "slug": "nlg",
+      "status": "published",
+      "targetPath": "/logos/nlg/"
+    },
+    {
+      "legacyId": 526,
+      "legacyPath": "/detail/nmr/526",
+      "name": "nmr",
+      "slug": "nmr",
+      "status": "published",
+      "targetPath": "/logos/nmr/"
+    },
+    {
+      "legacyId": 521,
+      "legacyPath": "/detail/noia/521",
+      "name": "noia",
+      "slug": "noia",
+      "status": "published",
+      "targetPath": "/logos/noia/"
+    },
+    {
+      "legacyId": 523,
+      "legacyPath": "/detail/nper/523",
+      "name": "nper",
+      "slug": "nper",
+      "status": "published",
+      "targetPath": "/logos/nper/"
+    },
+    {
+      "legacyId": 525,
+      "legacyPath": "/detail/npxs/525",
+      "name": "npxs",
+      "slug": "npxs",
+      "status": "published",
+      "targetPath": "/logos/npxs/"
+    },
+    {
+      "legacyId": 529,
+      "legacyPath": "/detail/nrg/529",
+      "name": "nrg",
+      "slug": "nrg",
+      "status": "published",
+      "targetPath": "/logos/nrg/"
+    },
+    {
+      "legacyId": 528,
+      "legacyPath": "/detail/nrve/528",
+      "name": "nrve",
+      "slug": "nrve",
+      "status": "published",
+      "targetPath": "/logos/nrve/"
+    },
+    {
+      "legacyId": 530,
+      "legacyPath": "/detail/nu/530",
+      "name": "nu",
+      "slug": "nu",
+      "status": "published",
+      "targetPath": "/logos/nu/"
+    },
+    {
+      "legacyId": 531,
+      "legacyPath": "/detail/nuls/531",
+      "name": "nuls",
+      "slug": "nuls",
+      "status": "published",
+      "targetPath": "/logos/nuls/"
+    },
+    {
+      "legacyId": 532,
+      "legacyPath": "/detail/nxs/532",
+      "name": "nxs",
+      "slug": "nxs",
+      "status": "published",
+      "targetPath": "/logos/nxs/"
+    },
+    {
+      "legacyId": 533,
+      "legacyPath": "/detail/nxt/533",
+      "name": "nxt",
+      "slug": "nxt",
+      "status": "published",
+      "targetPath": "/logos/nxt/"
+    },
+    {
+      "legacyId": 534,
+      "legacyPath": "/detail/oag/534",
+      "name": "oag",
+      "slug": "oag",
+      "status": "published",
+      "targetPath": "/logos/oag/"
+    },
+    {
+      "legacyId": 1033,
+      "legacyPath": "/detail/OASYS/1033",
+      "name": "OASYS",
+      "slug": "oasys",
+      "status": "published",
+      "targetPath": "/logos/oasys/"
+    },
+    {
+      "legacyId": 535,
+      "legacyPath": "/detail/oax/535",
+      "name": "oax",
+      "slug": "oax",
+      "status": "published",
+      "targetPath": "/logos/oax/"
+    },
+    {
+      "legacyId": 537,
+      "legacyPath": "/detail/ocean/537",
+      "name": "ocean",
+      "slug": "ocean",
+      "status": "published",
+      "targetPath": "/logos/ocean/"
+    },
+    {
+      "legacyId": 536,
+      "legacyPath": "/detail/ocn/536",
+      "name": "ocn",
+      "slug": "ocn",
+      "status": "published",
+      "targetPath": "/logos/ocn/"
+    },
+    {
+      "legacyId": 538,
+      "legacyPath": "/detail/ode/538",
+      "name": "ode",
+      "slug": "ode",
+      "status": "published",
+      "targetPath": "/logos/ode/"
+    },
+    {
+      "legacyId": 1038,
+      "legacyPath": "/detail/OEV%20Network/1038",
+      "name": "OEV Network",
+      "slug": "oev-network",
+      "status": "published",
+      "targetPath": "/logos/oev-network/"
+    },
+    {
+      "legacyId": 540,
+      "legacyPath": "/detail/ogn/540",
+      "name": "ogn",
+      "slug": "ogn",
+      "status": "published",
+      "targetPath": "/logos/ogn/"
+    },
+    {
+      "legacyId": 543,
+      "legacyPath": "/detail/ohm/543",
+      "name": "ohm",
+      "slug": "ohm",
+      "status": "published",
+      "targetPath": "/logos/ohm/"
+    },
+    {
+      "legacyId": 15,
+      "legacyPath": "/detail/okb/15",
+      "name": "okb",
+      "slug": "okb",
+      "status": "published",
+      "targetPath": "/logos/okb/"
+    },
+    {
+      "legacyId": 992,
+      "legacyPath": "/detail/OKX/992",
+      "name": "OKX",
+      "slug": "okx",
+      "status": "published",
+      "targetPath": "/logos/okx/"
+    },
+    {
+      "legacyId": 539,
+      "legacyPath": "/detail/olt/539",
+      "name": "olt",
+      "slug": "olt",
+      "status": "published",
+      "targetPath": "/logos/olt/"
+    },
+    {
+      "legacyId": 542,
+      "legacyPath": "/detail/omg/542",
+      "name": "omg",
+      "slug": "omg",
+      "status": "published",
+      "targetPath": "/logos/omg/"
+    },
+    {
+      "legacyId": 541,
+      "legacyPath": "/detail/one/541",
+      "name": "one",
+      "slug": "one",
+      "status": "published",
+      "targetPath": "/logos/one/"
+    },
+    {
+      "legacyId": 915,
+      "legacyPath": "/detail/ONE/915",
+      "name": "ONE",
+      "slug": "one-915",
+      "status": "published",
+      "targetPath": "/logos/one-915/"
+    },
+    {
+      "legacyId": 1055,
+      "legacyPath": "/detail/One%20key/1055",
+      "name": "One key",
+      "slug": "one-key",
+      "status": "published",
+      "targetPath": "/logos/one-key/"
+    },
+    {
+      "legacyId": 1049,
+      "legacyPath": "/detail/OneKey/1049",
+      "name": "OneKey",
+      "slug": "onekey",
+      "status": "published",
+      "targetPath": "/logos/onekey/"
+    },
+    {
+      "legacyId": 545,
+      "legacyPath": "/detail/onion/545",
+      "name": "onion",
+      "slug": "onion",
+      "status": "published",
+      "targetPath": "/logos/onion/"
+    },
+    {
+      "legacyId": 546,
+      "legacyPath": "/detail/ont/546",
+      "name": "ont",
+      "slug": "ont",
+      "status": "published",
+      "targetPath": "/logos/ont/"
+    },
+    {
+      "legacyId": 16,
+      "legacyPath": "/detail/ontology/16",
+      "name": "ontology",
+      "slug": "ontology",
+      "status": "published",
+      "targetPath": "/logos/ontology/"
+    },
+    {
+      "legacyId": 800,
+      "legacyPath": "/detail/OP%20%E4%B8%AD%E6%96%87%E5%8A%9B%E9%87%8F/800",
+      "name": "OP 中文力量",
+      "slug": "op",
+      "status": "published",
+      "targetPath": "/logos/op/"
+    },
+    {
+      "legacyId": 544,
+      "legacyPath": "/detail/open/544",
+      "name": "open",
+      "slug": "open",
+      "status": "published",
+      "targetPath": "/logos/open/"
+    },
+    {
+      "legacyId": 981,
+      "legacyPath": "/detail/OpenBuild/981",
+      "name": "OpenBuild",
+      "slug": "openbuild",
+      "status": "published",
+      "targetPath": "/logos/openbuild/"
+    },
+    {
+      "legacyId": 1063,
+      "legacyPath": "/detail/OpenCAS/1063",
+      "name": "OpenCAS",
+      "slug": "opencas",
+      "status": "published",
+      "targetPath": "/logos/opencas/"
+    },
+    {
+      "legacyId": 974,
+      "legacyPath": "/detail/OpenEx%20OEX%20Network/974",
+      "name": "OpenEx OEX Network",
+      "slug": "openex-oex-network",
+      "status": "published",
+      "targetPath": "/logos/openex-oex-network/"
+    },
+    {
+      "legacyId": 996,
+      "legacyPath": "/detail/OpenSea/996",
+      "name": "OpenSea",
+      "slug": "opensea",
+      "status": "published",
+      "targetPath": "/logos/opensea/"
+    },
+    {
+      "legacyId": 547,
+      "legacyPath": "/detail/opium/547",
+      "name": "opium",
+      "slug": "opium",
+      "status": "published",
+      "targetPath": "/logos/opium/"
+    },
+    {
+      "legacyId": 24,
+      "legacyPath": "/detail/optimism/24",
+      "name": "optimism",
+      "slug": "optimism",
+      "status": "published",
+      "targetPath": "/logos/optimism/"
+    },
+    {
+      "legacyId": 796,
+      "legacyPath": "/detail/Oraichain/796",
+      "name": "Oraichain",
+      "slug": "oraichain",
+      "status": "published",
+      "targetPath": "/logos/oraichain/"
+    },
+    {
+      "legacyId": 553,
+      "legacyPath": "/detail/orbs/553",
+      "name": "orbs",
+      "slug": "orbs",
+      "status": "published",
+      "targetPath": "/logos/orbs/"
+    },
+    {
+      "legacyId": 551,
+      "legacyPath": "/detail/orc/551",
+      "name": "orc",
+      "slug": "orc",
+      "status": "published",
+      "targetPath": "/logos/orc/"
+    },
+    {
+      "legacyId": 548,
+      "legacyPath": "/detail/orn/548",
+      "name": "orn",
+      "slug": "orn",
+      "status": "published",
+      "targetPath": "/logos/orn/"
+    },
+    {
+      "legacyId": 549,
+      "legacyPath": "/detail/osmo/549",
+      "name": "osmo",
+      "slug": "osmo",
+      "status": "published",
+      "targetPath": "/logos/osmo/"
+    },
+    {
+      "legacyId": 554,
+      "legacyPath": "/detail/ost/554",
+      "name": "ost",
+      "slug": "ost",
+      "status": "published",
+      "targetPath": "/logos/ost/"
+    },
+    {
+      "legacyId": 552,
+      "legacyPath": "/detail/ovc/552",
+      "name": "ovc",
+      "slug": "ovc",
+      "status": "published",
+      "targetPath": "/logos/ovc/"
+    },
+    {
+      "legacyId": 555,
+      "legacyPath": "/detail/oxt/555",
+      "name": "oxt",
+      "slug": "oxt",
+      "status": "published",
+      "targetPath": "/logos/oxt/"
+    },
+    {
+      "legacyId": 550,
+      "legacyPath": "/detail/pai/550",
+      "name": "pai",
+      "slug": "pai",
+      "status": "published",
+      "targetPath": "/logos/pai/"
+    },
+    {
+      "legacyId": 561,
+      "legacyPath": "/detail/paint/561",
+      "name": "paint",
+      "slug": "paint",
+      "status": "excluded",
+      "targetPath": "/legacy-unavailable/"
+    },
+    {
+      "legacyId": 1022,
+      "legacyPath": "/detail/PAKA/1022",
+      "name": "PAKA",
+      "slug": "paka",
+      "status": "published",
+      "targetPath": "/logos/paka/"
+    },
+    {
+      "legacyId": 557,
+      "legacyPath": "/detail/pal/557",
+      "name": "pal",
+      "slug": "pal",
+      "status": "published",
+      "targetPath": "/logos/pal/"
+    },
+    {
+      "legacyId": 19,
+      "legacyPath": "/detail/pancakeswap/19",
+      "name": "pancakeswap",
+      "slug": "pancakeswap",
+      "status": "published",
+      "targetPath": "/logos/pancakeswap/"
+    },
+    {
+      "legacyId": 789,
+      "legacyPath": "/detail/PANews/789",
+      "name": "PANews",
+      "slug": "panews",
+      "status": "published",
+      "targetPath": "/logos/panews/"
+    },
+    {
+      "legacyId": 560,
+      "legacyPath": "/detail/par/560",
+      "name": "par",
+      "slug": "par",
+      "status": "published",
+      "targetPath": "/logos/par/"
+    },
+    {
+      "legacyId": 562,
+      "legacyPath": "/detail/part/562",
+      "name": "part",
+      "slug": "part",
+      "status": "published",
+      "targetPath": "/logos/part/"
+    },
+    {
+      "legacyId": 563,
+      "legacyPath": "/detail/pax/563",
+      "name": "pax",
+      "slug": "pax",
+      "status": "published",
+      "targetPath": "/logos/pax/"
+    },
+    {
+      "legacyId": 566,
+      "legacyPath": "/detail/paxg/566",
+      "name": "paxg",
+      "slug": "paxg",
+      "status": "published",
+      "targetPath": "/logos/paxg/"
+    },
+    {
+      "legacyId": 565,
+      "legacyPath": "/detail/pay/565",
+      "name": "pay",
+      "slug": "pay",
+      "status": "published",
+      "targetPath": "/logos/pay/"
+    },
+    {
+      "legacyId": 860,
+      "legacyPath": "/detail/paypex/860",
+      "name": "paypex",
+      "slug": "paypex",
+      "status": "published",
+      "targetPath": "/logos/paypex/"
+    },
+    {
+      "legacyId": 558,
+      "legacyPath": "/detail/pbr/558",
+      "name": "pbr",
+      "slug": "pbr",
+      "status": "published",
+      "targetPath": "/logos/pbr/"
+    },
+    {
+      "legacyId": 556,
+      "legacyPath": "/detail/pBTC/556",
+      "name": "pBTC",
+      "slug": "pbtc",
+      "status": "published",
+      "targetPath": "/logos/pbtc/"
+    },
+    {
+      "legacyId": 564,
+      "legacyPath": "/detail/pendle/564",
+      "name": "pendle",
+      "slug": "pendle",
+      "status": "published",
+      "targetPath": "/logos/pendle/"
+    },
+    {
+      "legacyId": 31,
+      "legacyPath": "/detail/pepe/31",
+      "name": "pepe",
+      "slug": "pepe",
+      "status": "published",
+      "targetPath": "/logos/pepe/"
+    },
+    {
+      "legacyId": 559,
+      "legacyPath": "/detail/perl/559",
+      "name": "perl",
+      "slug": "perl",
+      "status": "published",
+      "targetPath": "/logos/perl/"
+    },
+    {
+      "legacyId": 567,
+      "legacyPath": "/detail/perp/567",
+      "name": "perp",
+      "slug": "perp",
+      "status": "published",
+      "targetPath": "/logos/perp/"
+    },
+    {
+      "legacyId": 916,
+      "legacyPath": "/detail/PERP/916",
+      "name": "PERP",
+      "slug": "perp-916",
+      "status": "published",
+      "targetPath": "/logos/perp-916/"
+    },
+    {
+      "legacyId": 927,
+      "legacyPath": "/detail/PG/927",
+      "name": "PG",
+      "slug": "pg",
+      "status": "published",
+      "targetPath": "/logos/pg/"
+    },
+    {
+      "legacyId": 801,
+      "legacyPath": "/detail/Phala/801",
+      "name": "Phala",
+      "slug": "phala",
+      "status": "published",
+      "targetPath": "/logos/phala/"
+    },
+    {
+      "legacyId": 810,
+      "legacyPath": "/detail/Phantom/810",
+      "name": "Phantom",
+      "slug": "phantom",
+      "status": "published",
+      "targetPath": "/logos/phantom/"
+    },
+    {
+      "legacyId": 572,
+      "legacyPath": "/detail/pickle/572",
+      "name": "pickle",
+      "slug": "pickle",
+      "status": "published",
+      "targetPath": "/logos/pickle/"
+    },
+    {
+      "legacyId": 1064,
+      "legacyPath": "/detail/PKU/1064",
+      "name": "PKU",
+      "slug": "pku",
+      "status": "published",
+      "targetPath": "/logos/pku/"
+    },
+    {
+      "legacyId": 790,
+      "legacyPath": "/detail/Planckericon/790",
+      "name": "Planckericon",
+      "slug": "planckericon",
+      "status": "published",
+      "targetPath": "/logos/planckericon/"
+    },
+    {
+      "legacyId": 965,
+      "legacyPath": "/detail/Plasm/965",
+      "name": "Plasm",
+      "slug": "plasm",
+      "status": "published",
+      "targetPath": "/logos/plasm/"
+    },
+    {
+      "legacyId": 573,
+      "legacyPath": "/detail/play/573",
+      "name": "play",
+      "slug": "play",
+      "status": "published",
+      "targetPath": "/logos/play/"
+    },
+    {
+      "legacyId": 568,
+      "legacyPath": "/detail/plDAI/568",
+      "name": "plDAI",
+      "slug": "pldai",
+      "status": "published",
+      "targetPath": "/logos/pldai/"
+    },
+    {
+      "legacyId": 574,
+      "legacyPath": "/detail/plr/574",
+      "name": "plr",
+      "slug": "plr",
+      "status": "published",
+      "targetPath": "/logos/plr/"
+    },
+    {
+      "legacyId": 570,
+      "legacyPath": "/detail/plUSDC/570",
+      "name": "plUSDC",
+      "slug": "plusdc",
+      "status": "published",
+      "targetPath": "/logos/plusdc/"
+    },
+    {
+      "legacyId": 576,
+      "legacyPath": "/detail/png/576",
+      "name": "png",
+      "slug": "png",
+      "status": "published",
+      "targetPath": "/logos/png/"
+    },
+    {
+      "legacyId": 571,
+      "legacyPath": "/detail/pnk/571",
+      "name": "pnk",
+      "slug": "pnk",
+      "status": "published",
+      "targetPath": "/logos/pnk/"
+    },
+    {
+      "legacyId": 575,
+      "legacyPath": "/detail/pnt/575",
+      "name": "pnt",
+      "slug": "pnt",
+      "status": "published",
+      "targetPath": "/logos/pnt/"
+    },
+    {
+      "legacyId": 586,
+      "legacyPath": "/detail/poa/586",
+      "name": "poa",
+      "slug": "poa",
+      "status": "published",
+      "targetPath": "/logos/poa/"
+    },
+    {
+      "legacyId": 580,
+      "legacyPath": "/detail/poe/580",
+      "name": "poe",
+      "slug": "poe",
+      "status": "published",
+      "targetPath": "/logos/poe/"
+    },
+    {
+      "legacyId": 577,
+      "legacyPath": "/detail/pokt/577",
+      "name": "pokt",
+      "slug": "pokt",
+      "status": "published",
+      "targetPath": "/logos/pokt/"
+    },
+    {
+      "legacyId": 1003,
+      "legacyPath": "/detail/Polkadot%20%28DOT%29/1003",
+      "name": "Polkadot (DOT)",
+      "slug": "polkadot-dot",
+      "status": "published",
+      "targetPath": "/logos/polkadot-dot/"
+    },
+    {
+      "legacyId": 578,
+      "legacyPath": "/detail/pols/578",
+      "name": "pols",
+      "slug": "pols",
+      "status": "published",
+      "targetPath": "/logos/pols/"
+    },
+    {
+      "legacyId": 930,
+      "legacyPath": "/detail/POLS/930",
+      "name": "POLS",
+      "slug": "pols-930",
+      "status": "published",
+      "targetPath": "/logos/pols-930/"
+    },
+    {
+      "legacyId": 581,
+      "legacyPath": "/detail/poly/581",
+      "name": "poly",
+      "slug": "poly",
+      "status": "published",
+      "targetPath": "/logos/poly/"
+    },
+    {
+      "legacyId": 999,
+      "legacyPath": "/detail/Polygon/999",
+      "name": "Polygon",
+      "slug": "polygon",
+      "status": "published",
+      "targetPath": "/logos/polygon/"
+    },
+    {
+      "legacyId": 579,
+      "legacyPath": "/detail/pond/579",
+      "name": "pond",
+      "slug": "pond",
+      "status": "published",
+      "targetPath": "/logos/pond/"
+    },
+    {
+      "legacyId": 20,
+      "legacyPath": "/detail/poocoin/20",
+      "name": "poocoin",
+      "slug": "poocoin",
+      "status": "published",
+      "targetPath": "/logos/poocoin/"
+    },
+    {
+      "legacyId": 582,
+      "legacyPath": "/detail/pool/582",
+      "name": "pool",
+      "slug": "pool",
+      "status": "published",
+      "targetPath": "/logos/pool/"
+    },
+    {
+      "legacyId": 584,
+      "legacyPath": "/detail/powr/584",
+      "name": "powr",
+      "slug": "powr",
+      "status": "published",
+      "targetPath": "/logos/powr/"
+    },
+    {
+      "legacyId": 583,
+      "legacyPath": "/detail/ppay/583",
+      "name": "ppay",
+      "slug": "ppay",
+      "status": "published",
+      "targetPath": "/logos/ppay/"
+    },
+    {
+      "legacyId": 585,
+      "legacyPath": "/detail/ppc/585",
+      "name": "ppc",
+      "slug": "ppc",
+      "status": "published",
+      "targetPath": "/logos/ppc/"
+    },
+    {
+      "legacyId": 587,
+      "legacyPath": "/detail/ppp/587",
+      "name": "ppp",
+      "slug": "ppp",
+      "status": "published",
+      "targetPath": "/logos/ppp/"
+    },
+    {
+      "legacyId": 589,
+      "legacyPath": "/detail/ppt/589",
+      "name": "ppt",
+      "slug": "ppt",
+      "status": "published",
+      "targetPath": "/logos/ppt/"
+    },
+    {
+      "legacyId": 588,
+      "legacyPath": "/detail/pre/588",
+      "name": "pre",
+      "slug": "pre",
+      "status": "published",
+      "targetPath": "/logos/pre/"
+    },
+    {
+      "legacyId": 593,
+      "legacyPath": "/detail/premia/593",
+      "name": "premia",
+      "slug": "premia",
+      "status": "published",
+      "targetPath": "/logos/premia/"
+    },
+    {
+      "legacyId": 594,
+      "legacyPath": "/detail/prl/594",
+      "name": "prl",
+      "slug": "prl",
+      "status": "published",
+      "targetPath": "/logos/prl/"
+    },
+    {
+      "legacyId": 595,
+      "legacyPath": "/detail/pro/595",
+      "name": "pro",
+      "slug": "pro",
+      "status": "published",
+      "targetPath": "/logos/pro/"
+    },
+    {
+      "legacyId": 592,
+      "legacyPath": "/detail/pros/592",
+      "name": "pros",
+      "slug": "pros",
+      "status": "published",
+      "targetPath": "/logos/pros/"
+    },
+    {
+      "legacyId": 591,
+      "legacyPath": "/detail/pst/591",
+      "name": "pst",
+      "slug": "pst",
+      "status": "published",
+      "targetPath": "/logos/pst/"
+    },
+    {
+      "legacyId": 1027,
+      "legacyPath": "/detail/puffer/1027",
+      "name": "puffer",
+      "slug": "puffer",
+      "status": "published",
+      "targetPath": "/logos/puffer/"
+    },
+    {
+      "legacyId": 816,
+      "legacyPath": "/detail/PYTH/816",
+      "name": "PYTH",
+      "slug": "pyth",
+      "status": "published",
+      "targetPath": "/logos/pyth/"
+    },
+    {
+      "legacyId": 887,
+      "legacyPath": "/detail/Pyth%20Network%20%28PYTH%29/887",
+      "name": "Pyth Network (PYTH)",
+      "slug": "pyth-network-pyth",
+      "status": "published",
+      "targetPath": "/logos/pyth-network-pyth/"
+    },
+    {
+      "legacyId": 597,
+      "legacyPath": "/detail/qbit/597",
+      "name": "qbit",
+      "slug": "qbit",
+      "status": "published",
+      "targetPath": "/logos/qbit/"
+    },
+    {
+      "legacyId": 602,
+      "legacyPath": "/detail/qi/602",
+      "name": "qi",
+      "slug": "qi",
+      "status": "published",
+      "targetPath": "/logos/qi/"
+    },
+    {
+      "legacyId": 604,
+      "legacyPath": "/detail/qkc/604",
+      "name": "qkc",
+      "slug": "qkc",
+      "status": "published",
+      "targetPath": "/logos/qkc/"
+    },
+    {
+      "legacyId": 605,
+      "legacyPath": "/detail/qlc/605",
+      "name": "qlc",
+      "slug": "qlc",
+      "status": "published",
+      "targetPath": "/logos/qlc/"
+    },
+    {
+      "legacyId": 598,
+      "legacyPath": "/detail/qnt/598",
+      "name": "qnt",
+      "slug": "qnt",
+      "status": "published",
+      "targetPath": "/logos/qnt/"
+    },
+    {
+      "legacyId": 599,
+      "legacyPath": "/detail/qsp/599",
+      "name": "qsp",
+      "slug": "qsp",
+      "status": "published",
+      "targetPath": "/logos/qsp/"
+    },
+    {
+      "legacyId": 1031,
+      "legacyPath": "/detail/Quantstamp/1031",
+      "name": "Quantstamp",
+      "slug": "quantstamp",
+      "status": "published",
+      "targetPath": "/logos/quantstamp/"
+    },
+    {
+      "legacyId": 873,
+      "legacyPath": "/detail/Questn/873",
+      "name": "Questn",
+      "slug": "questn",
+      "status": "published",
+      "targetPath": "/logos/questn/"
+    },
+    {
+      "legacyId": 603,
+      "legacyPath": "/detail/quick/603",
+      "name": "quick",
+      "slug": "quick",
+      "status": "published",
+      "targetPath": "/logos/quick/"
+    },
+    {
+      "legacyId": 601,
+      "legacyPath": "/detail/r/601",
+      "name": "r",
+      "slug": "r",
+      "status": "published",
+      "targetPath": "/logos/r/"
+    },
+    {
+      "legacyId": 606,
+      "legacyPath": "/detail/rae/606",
+      "name": "rae",
+      "slug": "rae",
+      "status": "published",
+      "targetPath": "/logos/rae/"
+    },
+    {
+      "legacyId": 607,
+      "legacyPath": "/detail/rari/607",
+      "name": "rari",
+      "slug": "rari",
+      "status": "published",
+      "targetPath": "/logos/rari/"
+    },
+    {
+      "legacyId": 872,
+      "legacyPath": "/detail/Rarible/872",
+      "name": "Rarible",
+      "slug": "rarible",
+      "status": "published",
+      "targetPath": "/logos/rarible/"
+    },
+    {
+      "legacyId": 610,
+      "legacyPath": "/detail/rcn/610",
+      "name": "rcn",
+      "slug": "rcn",
+      "status": "published",
+      "targetPath": "/logos/rcn/"
+    },
+    {
+      "legacyId": 612,
+      "legacyPath": "/detail/rdd/612",
+      "name": "rdd",
+      "slug": "rdd",
+      "status": "published",
+      "targetPath": "/logos/rdd/"
+    },
+    {
+      "legacyId": 613,
+      "legacyPath": "/detail/rdn/613",
+      "name": "rdn",
+      "slug": "rdn",
+      "status": "published",
+      "targetPath": "/logos/rdn/"
+    },
+    {
+      "legacyId": 1092,
+      "legacyPath": "/detail/Reactive%20Network/1092",
+      "name": "Reactive Network",
+      "slug": "reactive-network",
+      "status": "published",
+      "targetPath": "/logos/reactive-network/"
+    },
+    {
+      "legacyId": 864,
+      "legacyPath": "/detail/Relay/864",
+      "name": "Relay",
+      "slug": "relay",
+      "status": "published",
+      "targetPath": "/logos/relay/"
+    },
+    {
+      "legacyId": 615,
+      "legacyPath": "/detail/ren/615",
+      "name": "ren",
+      "slug": "ren",
+      "status": "published",
+      "targetPath": "/logos/ren/"
+    },
+    {
+      "legacyId": 609,
+      "legacyPath": "/detail/rep/609",
+      "name": "rep",
+      "slug": "rep",
+      "status": "published",
+      "targetPath": "/logos/rep/"
+    },
+    {
+      "legacyId": 611,
+      "legacyPath": "/detail/req/611",
+      "name": "req",
+      "slug": "req",
+      "status": "published",
+      "targetPath": "/logos/req/"
+    },
+    {
+      "legacyId": 614,
+      "legacyPath": "/detail/rev/614",
+      "name": "rev",
+      "slug": "rev",
+      "status": "published",
+      "targetPath": "/logos/rev/"
+    },
+    {
+      "legacyId": 616,
+      "legacyPath": "/detail/rfox/616",
+      "name": "rfox",
+      "slug": "rfox",
+      "status": "published",
+      "targetPath": "/logos/rfox/"
+    },
+    {
+      "legacyId": 839,
+      "legacyPath": "/detail/rhino.fi/839",
+      "name": "rhino.fi",
+      "slug": "rhino-fi",
+      "status": "published",
+      "targetPath": "/logos/rhino-fi/"
+    },
+    {
+      "legacyId": 617,
+      "legacyPath": "/detail/rhoc/617",
+      "name": "rhoc",
+      "slug": "rhoc",
+      "status": "published",
+      "targetPath": "/logos/rhoc/"
+    },
+    {
+      "legacyId": 625,
+      "legacyPath": "/detail/rlc/625",
+      "name": "rlc",
+      "slug": "rlc",
+      "status": "published",
+      "targetPath": "/logos/rlc/"
+    },
+    {
+      "legacyId": 897,
+      "legacyPath": "/detail/RNDR/897",
+      "name": "RNDR",
+      "slug": "rndr",
+      "status": "published",
+      "targetPath": "/logos/rndr/"
+    },
+    {
+      "legacyId": 813,
+      "legacyPath": "/detail/Ronin/813",
+      "name": "Ronin",
+      "slug": "ronin",
+      "status": "excluded",
+      "targetPath": "/legacy-unavailable/"
+    },
+    {
+      "legacyId": 621,
+      "legacyPath": "/detail/rook/621",
+      "name": "rook",
+      "slug": "rook",
+      "status": "published",
+      "targetPath": "/logos/rook/"
+    },
+    {
+      "legacyId": 619,
+      "legacyPath": "/detail/rose/619",
+      "name": "rose",
+      "slug": "rose",
+      "status": "published",
+      "targetPath": "/logos/rose/"
+    },
+    {
+      "legacyId": 898,
+      "legacyPath": "/detail/RPL/898",
+      "name": "RPL",
+      "slug": "rpl",
+      "status": "excluded",
+      "targetPath": "/legacy-unavailable/"
+    },
+    {
+      "legacyId": 626,
+      "legacyPath": "/detail/rpx/626",
+      "name": "rpx",
+      "slug": "rpx",
+      "status": "published",
+      "targetPath": "/logos/rpx/"
+    },
+    {
+      "legacyId": 618,
+      "legacyPath": "/detail/rsv/618",
+      "name": "rsv",
+      "slug": "rsv",
+      "status": "published",
+      "targetPath": "/logos/rsv/"
+    },
+    {
+      "legacyId": 620,
+      "legacyPath": "/detail/rune/620",
+      "name": "rune",
+      "slug": "rune",
+      "status": "published",
+      "targetPath": "/logos/rune/"
+    },
+    {
+      "legacyId": 917,
+      "legacyPath": "/detail/RUNE/917",
+      "name": "RUNE",
+      "slug": "rune-917",
+      "status": "published",
+      "targetPath": "/logos/rune-917/"
+    },
+    {
+      "legacyId": 622,
+      "legacyPath": "/detail/rvn/622",
+      "name": "rvn",
+      "slug": "rvn",
+      "status": "published",
+      "targetPath": "/logos/rvn/"
+    },
+    {
+      "legacyId": 627,
+      "legacyPath": "/detail/s/627",
+      "name": "s",
+      "slug": "s",
+      "status": "published",
+      "targetPath": "/logos/s/"
+    },
+    {
+      "legacyId": 628,
+      "legacyPath": "/detail/sai/628",
+      "name": "sai",
+      "slug": "sai",
+      "status": "published",
+      "targetPath": "/logos/sai/"
+    },
+    {
+      "legacyId": 632,
+      "legacyPath": "/detail/salt/632",
+      "name": "salt",
+      "slug": "salt",
+      "status": "published",
+      "targetPath": "/logos/salt/"
+    },
+    {
+      "legacyId": 633,
+      "legacyPath": "/detail/san/633",
+      "name": "san",
+      "slug": "san",
+      "status": "published",
+      "targetPath": "/logos/san/"
+    },
+    {
+      "legacyId": 634,
+      "legacyPath": "/detail/sand/634",
+      "name": "sand",
+      "slug": "sand",
+      "status": "published",
+      "targetPath": "/logos/sand/"
+    },
+    {
+      "legacyId": 629,
+      "legacyPath": "/detail/sar/629",
+      "name": "sar",
+      "slug": "sar",
+      "status": "published",
+      "targetPath": "/logos/sar/"
+    },
+    {
+      "legacyId": 630,
+      "legacyPath": "/detail/scrl/630",
+      "name": "scrl",
+      "slug": "scrl",
+      "status": "published",
+      "targetPath": "/logos/scrl/"
+    },
+    {
+      "legacyId": 636,
+      "legacyPath": "/detail/scrt/636",
+      "name": "scrt",
+      "slug": "scrt",
+      "status": "published",
+      "targetPath": "/logos/scrt/"
+    },
+    {
+      "legacyId": 1048,
+      "legacyPath": "/detail/SCUTBA/1048",
+      "name": "SCUTBA",
+      "slug": "scutba",
+      "status": "published",
+      "targetPath": "/logos/scutba/"
+    },
+    {
+      "legacyId": 1052,
+      "legacyPath": "/detail/%E5%8D%8E%E5%8D%97%E7%90%86%E5%B7%A5%E9%93%BE%E5%8D%8F%20SCUTBA/1052",
+      "name": "华南理工链协 SCUTBA",
+      "slug": "scutba-1052",
+      "status": "published",
+      "targetPath": "/logos/scutba-1052/"
+    },
+    {
+      "legacyId": 890,
+      "legacyPath": "/detail/SDN/890",
+      "name": "SDN",
+      "slug": "sdn",
+      "status": "published",
+      "targetPath": "/logos/sdn/"
+    },
+    {
+      "legacyId": 635,
+      "legacyPath": "/detail/sdt/635",
+      "name": "sdt",
+      "slug": "sdt",
+      "status": "published",
+      "targetPath": "/logos/sdt/"
+    },
+    {
+      "legacyId": 63,
+      "legacyPath": "/detail/SEEDAO/63",
+      "name": "SEEDAO",
+      "slug": "seedao",
+      "status": "published",
+      "targetPath": "/logos/seedao/"
+    },
+    {
+      "legacyId": 834,
+      "legacyPath": "/detail/SeeDAO/834",
+      "name": "SeeDAO",
+      "slug": "seedao-834",
+      "status": "published",
+      "targetPath": "/logos/seedao-834/"
+    },
+    {
+      "legacyId": 631,
+      "legacyPath": "/detail/seele/631",
+      "name": "seele",
+      "slug": "seele",
+      "status": "published",
+      "targetPath": "/logos/seele/"
+    },
+    {
+      "legacyId": 641,
+      "legacyPath": "/detail/sefi/641",
+      "name": "sefi",
+      "slug": "sefi",
+      "status": "published",
+      "targetPath": "/logos/sefi/"
+    },
+    {
+      "legacyId": 924,
+      "legacyPath": "/detail/SEI/924",
+      "name": "SEI",
+      "slug": "sei",
+      "status": "published",
+      "targetPath": "/logos/sei/"
+    },
+    {
+      "legacyId": 637,
+      "legacyPath": "/detail/sem/637",
+      "name": "sem",
+      "slug": "sem",
+      "status": "published",
+      "targetPath": "/logos/sem/"
+    },
+    {
+      "legacyId": 638,
+      "legacyPath": "/detail/sfi/638",
+      "name": "sfi",
+      "slug": "sfi",
+      "status": "published",
+      "targetPath": "/logos/sfi/"
+    },
+    {
+      "legacyId": 643,
+      "legacyPath": "/detail/shib/643",
+      "name": "shib",
+      "slug": "shib",
+      "status": "published",
+      "targetPath": "/logos/shib/"
+    },
+    {
+      "legacyId": 1005,
+      "legacyPath": "/detail/Shiba%20Inu%20%28SHIB%29/1005",
+      "name": "Shiba Inu (SHIB)",
+      "slug": "shiba-inu-shib",
+      "status": "published",
+      "targetPath": "/logos/shiba-inu-shib/"
+    },
+    {
+      "legacyId": 920,
+      "legacyPath": "/detail/SHIBI/920",
+      "name": "SHIBI",
+      "slug": "shibi",
+      "status": "published",
+      "targetPath": "/logos/shibi/"
+    },
+    {
+      "legacyId": 645,
+      "legacyPath": "/detail/shr/645",
+      "name": "shr",
+      "slug": "shr",
+      "status": "published",
+      "targetPath": "/logos/shr/"
+    },
+    {
+      "legacyId": 640,
+      "legacyPath": "/detail/shuf/640",
+      "name": "shuf",
+      "slug": "shuf",
+      "status": "published",
+      "targetPath": "/logos/shuf/"
+    },
+    {
+      "legacyId": 639,
+      "legacyPath": "/detail/sia/639",
+      "name": "sia",
+      "slug": "sia",
+      "status": "published",
+      "targetPath": "/logos/sia/"
+    },
+    {
+      "legacyId": 644,
+      "legacyPath": "/detail/skl/644",
+      "name": "skl",
+      "slug": "skl",
+      "status": "published",
+      "targetPath": "/logos/skl/"
+    },
+    {
+      "legacyId": 646,
+      "legacyPath": "/detail/sky/646",
+      "name": "sky",
+      "slug": "sky",
+      "status": "published",
+      "targetPath": "/logos/sky/"
+    },
+    {
+      "legacyId": 938,
+      "legacyPath": "/detail/SKY/938",
+      "name": "SKY",
+      "slug": "sky-938",
+      "status": "published",
+      "targetPath": "/logos/sky-938/"
+    },
+    {
+      "legacyId": 1058,
+      "legacyPath": "/detail/%E6%BC%AB%E9%9B%BE%E7%A7%91%E6%8A%80%20SLOWMIST/1058",
+      "name": "漫雾科技 SLOWMIST",
+      "slug": "slowmist",
+      "status": "excluded",
+      "targetPath": "/legacy-unavailable/"
+    },
+    {
+      "legacyId": 647,
+      "legacyPath": "/detail/slt/647",
+      "name": "slt",
+      "slug": "slt",
+      "status": "published",
+      "targetPath": "/logos/slt/"
+    },
+    {
+      "legacyId": 652,
+      "legacyPath": "/detail/smart/652",
+      "name": "smart",
+      "slug": "smart",
+      "status": "published",
+      "targetPath": "/logos/smart/"
+    },
+    {
+      "legacyId": 1065,
+      "legacyPath": "/detail/SmartDeer/1065",
+      "name": "SmartDeer",
+      "slug": "smartdeer",
+      "status": "published",
+      "targetPath": "/logos/smartdeer/"
+    },
+    {
+      "legacyId": 654,
+      "legacyPath": "/detail/snc/654",
+      "name": "snc",
+      "slug": "snc",
+      "status": "published",
+      "targetPath": "/logos/snc/"
+    },
+    {
+      "legacyId": 651,
+      "legacyPath": "/detail/sngls/651",
+      "name": "sngls",
+      "slug": "sngls",
+      "status": "published",
+      "targetPath": "/logos/sngls/"
+    },
+    {
+      "legacyId": 649,
+      "legacyPath": "/detail/snt/649",
+      "name": "snt",
+      "slug": "snt",
+      "status": "published",
+      "targetPath": "/logos/snt/"
+    },
+    {
+      "legacyId": 650,
+      "legacyPath": "/detail/snx/650",
+      "name": "snx",
+      "slug": "snx",
+      "status": "published",
+      "targetPath": "/logos/snx/"
+    },
+    {
+      "legacyId": 1013,
+      "legacyPath": "/detail/Social%20Layer/1013",
+      "name": "Social Layer",
+      "slug": "social-layer",
+      "status": "published",
+      "targetPath": "/logos/social-layer/"
+    },
+    {
+      "legacyId": 653,
+      "legacyPath": "/detail/sol/653",
+      "name": "sol",
+      "slug": "sol",
+      "status": "published",
+      "targetPath": "/logos/sol/"
+    },
+    {
+      "legacyId": 819,
+      "legacyPath": "/detail/Solana/819",
+      "name": "Solana",
+      "slug": "solana",
+      "status": "published",
+      "targetPath": "/logos/solana/"
+    },
+    {
+      "legacyId": 975,
+      "legacyPath": "/detail/Solcial/975",
+      "name": "Solcial",
+      "slug": "solcial",
+      "status": "published",
+      "targetPath": "/logos/solcial/"
+    },
+    {
+      "legacyId": 655,
+      "legacyPath": "/detail/soul/655",
+      "name": "soul",
+      "slug": "soul",
+      "status": "published",
+      "targetPath": "/logos/soul/"
+    },
+    {
+      "legacyId": 656,
+      "legacyPath": "/detail/sov/656",
+      "name": "sov",
+      "slug": "sov",
+      "status": "published",
+      "targetPath": "/logos/sov/"
+    },
+    {
+      "legacyId": 883,
+      "legacyPath": "/detail/SPACE%20ID%20%28ID%29/883",
+      "name": "SPACE ID (ID)",
+      "slug": "space-id-id",
+      "status": "published",
+      "targetPath": "/logos/space-id-id/"
+    },
+    {
+      "legacyId": 659,
+      "legacyPath": "/detail/spn/659",
+      "name": "spn",
+      "slug": "spn",
+      "status": "published",
+      "targetPath": "/logos/spn/"
+    },
+    {
+      "legacyId": 658,
+      "legacyPath": "/detail/srm/658",
+      "name": "srm",
+      "slug": "srm",
+      "status": "published",
+      "targetPath": "/logos/srm/"
+    },
+    {
+      "legacyId": 1011,
+      "legacyPath": "/detail/Stacks%20%28STX%29/1011",
+      "name": "Stacks (STX)",
+      "slug": "stacks-stx",
+      "status": "published",
+      "targetPath": "/logos/stacks-stx/"
+    },
+    {
+      "legacyId": 661,
+      "legacyPath": "/detail/stake/661",
+      "name": "stake",
+      "slug": "stake",
+      "status": "published",
+      "targetPath": "/logos/stake/"
+    },
+    {
+      "legacyId": 977,
+      "legacyPath": "/detail/Stargate/977",
+      "name": "Stargate",
+      "slug": "stargate",
+      "status": "published",
+      "targetPath": "/logos/stargate/"
+    },
+    {
+      "legacyId": 838,
+      "legacyPath": "/detail/Starknet/838",
+      "name": "Starknet",
+      "slug": "starknet",
+      "status": "published",
+      "targetPath": "/logos/starknet/"
+    },
+    {
+      "legacyId": 966,
+      "legacyPath": "/detail/Starly/966",
+      "name": "Starly",
+      "slug": "starly",
+      "status": "published",
+      "targetPath": "/logos/starly/"
+    },
+    {
+      "legacyId": 660,
+      "legacyPath": "/detail/steem/660",
+      "name": "steem",
+      "slug": "steem",
+      "status": "published",
+      "targetPath": "/logos/steem/"
+    },
+    {
+      "legacyId": 662,
+      "legacyPath": "/detail/step/662",
+      "name": "step",
+      "slug": "step",
+      "status": "published",
+      "targetPath": "/logos/step/"
+    },
+    {
+      "legacyId": 995,
+      "legacyPath": "/detail/StepN/995",
+      "name": "StepN",
+      "slug": "stepn",
+      "status": "published",
+      "targetPath": "/logos/stepn/"
+    },
+    {
+      "legacyId": 666,
+      "legacyPath": "/detail/steth/666",
+      "name": "steth",
+      "slug": "steth",
+      "status": "published",
+      "targetPath": "/logos/steth/"
+    },
+    {
+      "legacyId": 868,
+      "legacyPath": "/detail/stEUR/868",
+      "name": "stEUR",
+      "slug": "steur",
+      "status": "published",
+      "targetPath": "/logos/steur/"
+    },
+    {
+      "legacyId": 663,
+      "legacyPath": "/detail/stmx/663",
+      "name": "stmx",
+      "slug": "stmx",
+      "status": "published",
+      "targetPath": "/logos/stmx/"
+    },
+    {
+      "legacyId": 657,
+      "legacyPath": "/detail/storj/657",
+      "name": "storj",
+      "slug": "storj",
+      "status": "published",
+      "targetPath": "/logos/storj/"
+    },
+    {
+      "legacyId": 664,
+      "legacyPath": "/detail/storm/664",
+      "name": "storm",
+      "slug": "storm",
+      "status": "published",
+      "targetPath": "/logos/storm/"
+    },
+    {
+      "legacyId": 665,
+      "legacyPath": "/detail/stpt/665",
+      "name": "stpt",
+      "slug": "stpt",
+      "status": "published",
+      "targetPath": "/logos/stpt/"
+    },
+    {
+      "legacyId": 667,
+      "legacyPath": "/detail/strat/667",
+      "name": "strat",
+      "slug": "strat",
+      "status": "published",
+      "targetPath": "/logos/strat/"
+    },
+    {
+      "legacyId": 871,
+      "legacyPath": "/detail/stUSD/871",
+      "name": "stUSD",
+      "slug": "stusd",
+      "status": "published",
+      "targetPath": "/logos/stusd/"
+    },
+    {
+      "legacyId": 671,
+      "legacyPath": "/detail/stx/671",
+      "name": "stx",
+      "slug": "stx",
+      "status": "published",
+      "targetPath": "/logos/stx/"
+    },
+    {
+      "legacyId": 672,
+      "legacyPath": "/detail/sub/672",
+      "name": "sub",
+      "slug": "sub",
+      "status": "published",
+      "targetPath": "/logos/sub/"
+    },
+    {
+      "legacyId": 918,
+      "legacyPath": "/detail/SUI/918",
+      "name": "SUI",
+      "slug": "sui",
+      "status": "published",
+      "targetPath": "/logos/sui/"
+    },
+    {
+      "legacyId": 814,
+      "legacyPath": "/detail/Suiet/814",
+      "name": "Suiet",
+      "slug": "suiet",
+      "status": "published",
+      "targetPath": "/logos/suiet/"
+    },
+    {
+      "legacyId": 674,
+      "legacyPath": "/detail/super/674",
+      "name": "super",
+      "slug": "super",
+      "status": "published",
+      "targetPath": "/logos/super/"
+    },
+    {
+      "legacyId": 676,
+      "legacyPath": "/detail/suqa/676",
+      "name": "suqa",
+      "slug": "suqa",
+      "status": "published",
+      "targetPath": "/logos/suqa/"
+    },
+    {
+      "legacyId": 899,
+      "legacyPath": "/detail/sUSD/899",
+      "name": "sUSD",
+      "slug": "susd",
+      "status": "published",
+      "targetPath": "/logos/susd/"
+    },
+    {
+      "legacyId": 669,
+      "legacyPath": "/detail/sushi/669",
+      "name": "sushi",
+      "slug": "sushi",
+      "status": "published",
+      "targetPath": "/logos/sushi/"
+    },
+    {
+      "legacyId": 673,
+      "legacyPath": "/detail/suter/673",
+      "name": "suter",
+      "slug": "suter",
+      "status": "published",
+      "targetPath": "/logos/suter/"
+    },
+    {
+      "legacyId": 670,
+      "legacyPath": "/detail/swap/670",
+      "name": "swap",
+      "slug": "swap",
+      "status": "published",
+      "targetPath": "/logos/swap/"
+    },
+    {
+      "legacyId": 842,
+      "legacyPath": "/detail/Swoop%20Exange/842",
+      "name": "Swoop Exange",
+      "slug": "swoop-exange",
+      "status": "excluded",
+      "targetPath": "/legacy-unavailable/"
+    },
+    {
+      "legacyId": 675,
+      "legacyPath": "/detail/swth/675",
+      "name": "swth",
+      "slug": "swth",
+      "status": "published",
+      "targetPath": "/logos/swth/"
+    },
+    {
+      "legacyId": 668,
+      "legacyPath": "/detail/sxdt/668",
+      "name": "sxdt",
+      "slug": "sxdt",
+      "status": "published",
+      "targetPath": "/logos/sxdt/"
+    },
+    {
+      "legacyId": 677,
+      "legacyPath": "/detail/sxp/677",
+      "name": "sxp",
+      "slug": "sxp",
+      "status": "published",
+      "targetPath": "/logos/sxp/"
+    },
+    {
+      "legacyId": 980,
+      "legacyPath": "/detail/Synapse/980",
+      "name": "Synapse",
+      "slug": "synapse",
+      "status": "published",
+      "targetPath": "/logos/synapse/"
+    },
+    {
+      "legacyId": 835,
+      "legacyPath": "/detail/SyncSwap/835",
+      "name": "SyncSwap",
+      "slug": "syncswap",
+      "status": "published",
+      "targetPath": "/logos/syncswap/"
+    },
+    {
+      "legacyId": 678,
+      "legacyPath": "/detail/sys/678",
+      "name": "sys",
+      "slug": "sys",
+      "status": "published",
+      "targetPath": "/logos/sys/"
+    },
+    {
+      "legacyId": 802,
+      "legacyPath": "/detail/Talisman/802",
+      "name": "Talisman",
+      "slug": "talisman",
+      "status": "published",
+      "targetPath": "/logos/talisman/"
+    },
+    {
+      "legacyId": 682,
+      "legacyPath": "/detail/tbtc/682",
+      "name": "tbtc",
+      "slug": "tbtc",
+      "status": "published",
+      "targetPath": "/logos/tbtc/"
+    },
+    {
+      "legacyId": 683,
+      "legacyPath": "/detail/tct/683",
+      "name": "tct",
+      "slug": "tct",
+      "status": "published",
+      "targetPath": "/logos/tct/"
+    },
+    {
+      "legacyId": 684,
+      "legacyPath": "/detail/tel/684",
+      "name": "tel",
+      "slug": "tel",
+      "status": "published",
+      "targetPath": "/logos/tel/"
+    },
+    {
+      "legacyId": 685,
+      "legacyPath": "/detail/tfuel/685",
+      "name": "tfuel",
+      "slug": "tfuel",
+      "status": "published",
+      "targetPath": "/logos/tfuel/"
+    },
+    {
+      "legacyId": 681,
+      "legacyPath": "/detail/thc/681",
+      "name": "thc",
+      "slug": "thc",
+      "status": "published",
+      "targetPath": "/logos/thc/"
+    },
+    {
+      "legacyId": 1036,
+      "legacyPath": "/detail/The%20mu/1036",
+      "name": "The mu",
+      "slug": "the-mu",
+      "status": "published",
+      "targetPath": "/logos/the-mu/"
+    },
+    {
+      "legacyId": 680,
+      "legacyPath": "/detail/theta/680",
+      "name": "theta",
+      "slug": "theta",
+      "status": "published",
+      "targetPath": "/logos/theta/"
+    },
+    {
+      "legacyId": 686,
+      "legacyPath": "/detail/thr/686",
+      "name": "thr",
+      "slug": "thr",
+      "status": "published",
+      "targetPath": "/logos/thr/"
+    },
+    {
+      "legacyId": 1061,
+      "legacyPath": "/detail/%E6%B8%85%E5%8D%8E%E9%93%BE%E5%8D%8F%20THUBA/1061",
+      "name": "清华链协 THUBA",
+      "slug": "thuba",
+      "status": "published",
+      "targetPath": "/logos/thuba/"
+    },
+    {
+      "legacyId": 967,
+      "legacyPath": "/detail/Tidal/967",
+      "name": "Tidal",
+      "slug": "tidal",
+      "status": "published",
+      "targetPath": "/logos/tidal/"
+    },
+    {
+      "legacyId": 1018,
+      "legacyPath": "/detail/TinTinLand/1018",
+      "name": "TinTinLand",
+      "slug": "tintinland",
+      "status": "published",
+      "targetPath": "/logos/tintinland/"
+    },
+    {
+      "legacyId": 679,
+      "legacyPath": "/detail/tio/679",
+      "name": "tio",
+      "slug": "tio",
+      "status": "published",
+      "targetPath": "/logos/tio/"
+    },
+    {
+      "legacyId": 687,
+      "legacyPath": "/detail/titan/687",
+      "name": "titan",
+      "slug": "titan",
+      "status": "published",
+      "targetPath": "/logos/titan/"
+    },
+    {
+      "legacyId": 691,
+      "legacyPath": "/detail/tkn/691",
+      "name": "tkn",
+      "slug": "tkn",
+      "status": "published",
+      "targetPath": "/logos/tkn/"
+    },
+    {
+      "legacyId": 688,
+      "legacyPath": "/detail/tky/688",
+      "name": "tky",
+      "slug": "tky",
+      "status": "published",
+      "targetPath": "/logos/tky/"
+    },
+    {
+      "legacyId": 689,
+      "legacyPath": "/detail/tnb/689",
+      "name": "tnb",
+      "slug": "tnb",
+      "status": "published",
+      "targetPath": "/logos/tnb/"
+    },
+    {
+      "legacyId": 693,
+      "legacyPath": "/detail/tnc/693",
+      "name": "tnc",
+      "slug": "tnc",
+      "status": "published",
+      "targetPath": "/logos/tnc/"
+    },
+    {
+      "legacyId": 696,
+      "legacyPath": "/detail/tnt/696",
+      "name": "tnt",
+      "slug": "tnt",
+      "status": "published",
+      "targetPath": "/logos/tnt/"
+    },
+    {
+      "legacyId": 968,
+      "legacyPath": "/detail/TokenClub/968",
+      "name": "TokenClub",
+      "slug": "tokenclub",
+      "status": "published",
+      "targetPath": "/logos/tokenclub/"
+    },
+    {
+      "legacyId": 821,
+      "legacyPath": "/detail/Tokenlon/821",
+      "name": "Tokenlon",
+      "slug": "tokenlon",
+      "status": "published",
+      "targetPath": "/logos/tokenlon/"
+    },
+    {
+      "legacyId": 695,
+      "legacyPath": "/detail/tomo/695",
+      "name": "tomo",
+      "slug": "tomo",
+      "status": "published",
+      "targetPath": "/logos/tomo/"
+    },
+    {
+      "legacyId": 694,
+      "legacyPath": "/detail/torn/694",
+      "name": "torn",
+      "slug": "torn",
+      "status": "published",
+      "targetPath": "/logos/torn/"
+    },
+    {
+      "legacyId": 692,
+      "legacyPath": "/detail/tpay/692",
+      "name": "tpay",
+      "slug": "tpay",
+      "status": "published",
+      "targetPath": "/logos/tpay/"
+    },
+    {
+      "legacyId": 690,
+      "legacyPath": "/detail/trac/690",
+      "name": "trac",
+      "slug": "trac",
+      "status": "published",
+      "targetPath": "/logos/trac/"
+    },
+    {
+      "legacyId": 791,
+      "legacyPath": "/detail/Tradao/791",
+      "name": "Tradao",
+      "slug": "tradao",
+      "status": "published",
+      "targetPath": "/logos/tradao/"
+    },
+    {
+      "legacyId": 976,
+      "legacyPath": "/detail/Trantor/976",
+      "name": "Trantor",
+      "slug": "trantor",
+      "status": "published",
+      "targetPath": "/logos/trantor/"
+    },
+    {
+      "legacyId": 701,
+      "legacyPath": "/detail/trb/701",
+      "name": "trb",
+      "slug": "trb",
+      "status": "published",
+      "targetPath": "/logos/trb/"
+    },
+    {
+      "legacyId": 697,
+      "legacyPath": "/detail/tribe/697",
+      "name": "tribe",
+      "slug": "tribe",
+      "status": "published",
+      "targetPath": "/logos/tribe/"
+    },
+    {
+      "legacyId": 700,
+      "legacyPath": "/detail/trig/700",
+      "name": "trig",
+      "slug": "trig",
+      "status": "published",
+      "targetPath": "/logos/trig/"
+    },
+    {
+      "legacyId": 1006,
+      "legacyPath": "/detail/TRON%20%28TRX%29/1006",
+      "name": "TRON (TRX)",
+      "slug": "tron-trx",
+      "status": "published",
+      "targetPath": "/logos/tron-trx/"
+    },
+    {
+      "legacyId": 702,
+      "legacyPath": "/detail/trtl/702",
+      "name": "trtl",
+      "slug": "trtl",
+      "status": "published",
+      "targetPath": "/logos/trtl/"
+    },
+    {
+      "legacyId": 705,
+      "legacyPath": "/detail/tru/705",
+      "name": "tru",
+      "slug": "tru",
+      "status": "published",
+      "targetPath": "/logos/tru/"
+    },
+    {
+      "legacyId": 843,
+      "legacyPath": "/detail/TrustGo/843",
+      "name": "TrustGo",
+      "slug": "trustgo",
+      "status": "published",
+      "targetPath": "/logos/trustgo/"
+    },
+    {
+      "legacyId": 704,
+      "legacyPath": "/detail/trx/704",
+      "name": "trx",
+      "slug": "trx",
+      "status": "published",
+      "targetPath": "/logos/trx/"
+    },
+    {
+      "legacyId": 706,
+      "legacyPath": "/detail/tryb/706",
+      "name": "tryb",
+      "slug": "tryb",
+      "status": "published",
+      "targetPath": "/logos/tryb/"
+    },
+    {
+      "legacyId": 699,
+      "legacyPath": "/detail/tube/699",
+      "name": "tube",
+      "slug": "tube",
+      "status": "published",
+      "targetPath": "/logos/tube/"
+    },
+    {
+      "legacyId": 703,
+      "legacyPath": "/detail/tusd/703",
+      "name": "tusd",
+      "slug": "tusd",
+      "status": "published",
+      "targetPath": "/logos/tusd/"
+    },
+    {
+      "legacyId": 698,
+      "legacyPath": "/detail/twt/698",
+      "name": "twt",
+      "slug": "twt",
+      "status": "published",
+      "targetPath": "/logos/twt/"
+    },
+    {
+      "legacyId": 707,
+      "legacyPath": "/detail/ubq/707",
+      "name": "ubq",
+      "slug": "ubq",
+      "status": "published",
+      "targetPath": "/logos/ubq/"
+    },
+    {
+      "legacyId": 710,
+      "legacyPath": "/detail/ubt/710",
+      "name": "ubt",
+      "slug": "ubt",
+      "status": "published",
+      "targetPath": "/logos/ubt/"
+    },
+    {
+      "legacyId": 713,
+      "legacyPath": "/detail/uft/713",
+      "name": "uft",
+      "slug": "uft",
+      "status": "published",
+      "targetPath": "/logos/uft/"
+    },
+    {
+      "legacyId": 715,
+      "legacyPath": "/detail/ult/715",
+      "name": "ult",
+      "slug": "ult",
+      "status": "published",
+      "targetPath": "/logos/ult/"
+    },
+    {
+      "legacyId": 971,
+      "legacyPath": "/detail/Uncommons/971",
+      "name": "Uncommons",
+      "slug": "uncommons",
+      "status": "published",
+      "targetPath": "/logos/uncommons/"
+    },
+    {
+      "legacyId": 714,
+      "legacyPath": "/detail/uncx/714",
+      "name": "uncx",
+      "slug": "uncx",
+      "status": "published",
+      "targetPath": "/logos/uncx/"
+    },
+    {
+      "legacyId": 1087,
+      "legacyPath": "/detail/Unibase/1087",
+      "name": "Unibase",
+      "slug": "unibase",
+      "status": "published",
+      "targetPath": "/logos/unibase/"
+    },
+    {
+      "legacyId": 18,
+      "legacyPath": "/detail/uniswap/18",
+      "name": "uniswap",
+      "slug": "uniswap",
+      "status": "published",
+      "targetPath": "/logos/uniswap/"
+    },
+    {
+      "legacyId": 708,
+      "legacyPath": "/detail/unn/708",
+      "name": "unn",
+      "slug": "unn",
+      "status": "published",
+      "targetPath": "/logos/unn/"
+    },
+    {
+      "legacyId": 711,
+      "legacyPath": "/detail/uos/711",
+      "name": "uos",
+      "slug": "uos",
+      "status": "published",
+      "targetPath": "/logos/uos/"
+    },
+    {
+      "legacyId": 718,
+      "legacyPath": "/detail/upp/718",
+      "name": "upp",
+      "slug": "upp",
+      "status": "published",
+      "targetPath": "/logos/upp/"
+    },
+    {
+      "legacyId": 870,
+      "legacyPath": "/detail/USDA/870",
+      "name": "USDA",
+      "slug": "usda",
+      "status": "published",
+      "targetPath": "/logos/usda/"
+    },
+    {
+      "legacyId": 17,
+      "legacyPath": "/detail/usdc/17",
+      "name": "usdc",
+      "slug": "usdc",
+      "status": "published",
+      "targetPath": "/logos/usdc/"
+    },
+    {
+      "legacyId": 23,
+      "legacyPath": "/detail/USDC/23",
+      "name": "USDC",
+      "slug": "usdc-23",
+      "status": "published",
+      "targetPath": "/logos/usdc-23/"
+    },
+    {
+      "legacyId": 722,
+      "legacyPath": "/detail/usdp/722",
+      "name": "usdp",
+      "slug": "usdp",
+      "status": "published",
+      "targetPath": "/logos/usdp/"
+    },
+    {
+      "legacyId": 717,
+      "legacyPath": "/detail/usds/717",
+      "name": "usds",
+      "slug": "usds",
+      "status": "published",
+      "targetPath": "/logos/usds/"
+    },
+    {
+      "legacyId": 22,
+      "legacyPath": "/detail/USDT/22",
+      "name": "USDT",
+      "slug": "usdt",
+      "status": "published",
+      "targetPath": "/logos/usdt/"
+    },
+    {
+      "legacyId": 720,
+      "legacyPath": "/detail/usdt/720",
+      "name": "usdt",
+      "slug": "usdt-720",
+      "status": "published",
+      "targetPath": "/logos/usdt-720/"
+    },
+    {
+      "legacyId": 829,
+      "legacyPath": "/detail/Utilify/829",
+      "name": "Utilify",
+      "slug": "utilify",
+      "status": "published",
+      "targetPath": "/logos/utilify/"
+    },
+    {
+      "legacyId": 724,
+      "legacyPath": "/detail/utk/724",
+      "name": "utk",
+      "slug": "utk",
+      "status": "published",
+      "targetPath": "/logos/utk/"
+    },
+    {
+      "legacyId": 723,
+      "legacyPath": "/detail/uuu/723",
+      "name": "uuu",
+      "slug": "uuu",
+      "status": "published",
+      "targetPath": "/logos/uuu/"
+    },
+    {
+      "legacyId": 725,
+      "legacyPath": "/detail/value/725",
+      "name": "value",
+      "slug": "value",
+      "status": "published",
+      "targetPath": "/logos/value/"
+    },
+    {
+      "legacyId": 875,
+      "legacyPath": "/detail/venus/875",
+      "name": "venus",
+      "slug": "venus",
+      "status": "published",
+      "targetPath": "/logos/venus/"
+    },
+    {
+      "legacyId": 719,
+      "legacyPath": "/detail/veri/719",
+      "name": "veri",
+      "slug": "veri",
+      "status": "published",
+      "targetPath": "/logos/veri/"
+    },
+    {
+      "legacyId": 721,
+      "legacyPath": "/detail/vest/721",
+      "name": "vest",
+      "slug": "vest",
+      "status": "published",
+      "targetPath": "/logos/vest/"
+    },
+    {
+      "legacyId": 733,
+      "legacyPath": "/detail/vet/733",
+      "name": "vet",
+      "slug": "vet",
+      "status": "published",
+      "targetPath": "/logos/vet/"
+    },
+    {
+      "legacyId": 830,
+      "legacyPath": "/detail/Vfans/830",
+      "name": "Vfans",
+      "slug": "vfans",
+      "status": "published",
+      "targetPath": "/logos/vfans/"
+    },
+    {
+      "legacyId": 730,
+      "legacyPath": "/detail/vgx/730",
+      "name": "vgx",
+      "slug": "vgx",
+      "status": "published",
+      "targetPath": "/logos/vgx/"
+    },
+    {
+      "legacyId": 728,
+      "legacyPath": "/detail/via/728",
+      "name": "via",
+      "slug": "via",
+      "status": "published",
+      "targetPath": "/logos/via/"
+    },
+    {
+      "legacyId": 726,
+      "legacyPath": "/detail/vib/726",
+      "name": "vib",
+      "slug": "vib",
+      "status": "published",
+      "targetPath": "/logos/vib/"
+    },
+    {
+      "legacyId": 727,
+      "legacyPath": "/detail/vibe/727",
+      "name": "vibe",
+      "slug": "vibe",
+      "status": "published",
+      "targetPath": "/logos/vibe/"
+    },
+    {
+      "legacyId": 1093,
+      "legacyPath": "/detail/Vibeman/1093",
+      "name": "Vibeman",
+      "slug": "vibeman",
+      "status": "published",
+      "targetPath": "/logos/vibeman/"
+    },
+    {
+      "legacyId": 731,
+      "legacyPath": "/detail/vidt/731",
+      "name": "vidt",
+      "slug": "vidt",
+      "status": "published",
+      "targetPath": "/logos/vidt/"
+    },
+    {
+      "legacyId": 729,
+      "legacyPath": "/detail/vikky/729",
+      "name": "vikky",
+      "slug": "vikky",
+      "status": "published",
+      "targetPath": "/logos/vikky/"
+    },
+    {
+      "legacyId": 734,
+      "legacyPath": "/detail/vin/734",
+      "name": "vin",
+      "slug": "vin",
+      "status": "published",
+      "targetPath": "/logos/vin/"
+    },
+    {
+      "legacyId": 732,
+      "legacyPath": "/detail/vite/732",
+      "name": "vite",
+      "slug": "vite",
+      "status": "published",
+      "targetPath": "/logos/vite/"
+    },
+    {
+      "legacyId": 735,
+      "legacyPath": "/detail/viu/735",
+      "name": "viu",
+      "slug": "viu",
+      "status": "published",
+      "targetPath": "/logos/viu/"
+    },
+    {
+      "legacyId": 739,
+      "legacyPath": "/detail/vlx/739",
+      "name": "vlx",
+      "slug": "vlx",
+      "status": "published",
+      "targetPath": "/logos/vlx/"
+    },
+    {
+      "legacyId": 738,
+      "legacyPath": "/detail/vrs/738",
+      "name": "vrs",
+      "slug": "vrs",
+      "status": "published",
+      "targetPath": "/logos/vrs/"
+    },
+    {
+      "legacyId": 742,
+      "legacyPath": "/detail/vsp/742",
+      "name": "vsp",
+      "slug": "vsp",
+      "status": "published",
+      "targetPath": "/logos/vsp/"
+    },
+    {
+      "legacyId": 737,
+      "legacyPath": "/detail/vsys/737",
+      "name": "vsys",
+      "slug": "vsys",
+      "status": "published",
+      "targetPath": "/logos/vsys/"
+    },
+    {
+      "legacyId": 736,
+      "legacyPath": "/detail/vtc/736",
+      "name": "vtc",
+      "slug": "vtc",
+      "status": "published",
+      "targetPath": "/logos/vtc/"
+    },
+    {
+      "legacyId": 744,
+      "legacyPath": "/detail/wabi/744",
+      "name": "wabi",
+      "slug": "wabi",
+      "status": "published",
+      "targetPath": "/logos/wabi/"
+    },
+    {
+      "legacyId": 743,
+      "legacyPath": "/detail/wan/743",
+      "name": "wan",
+      "slug": "wan",
+      "status": "published",
+      "targetPath": "/logos/wan/"
+    },
+    {
+      "legacyId": 740,
+      "legacyPath": "/detail/waves/740",
+      "name": "waves",
+      "slug": "waves",
+      "status": "published",
+      "targetPath": "/logos/waves/"
+    },
+    {
+      "legacyId": 745,
+      "legacyPath": "/detail/wbtc/745",
+      "name": "wbtc",
+      "slug": "wbtc",
+      "status": "published",
+      "targetPath": "/logos/wbtc/"
+    },
+    {
+      "legacyId": 741,
+      "legacyPath": "/detail/wct/741",
+      "name": "wct",
+      "slug": "wct",
+      "status": "published",
+      "targetPath": "/logos/wct/"
+    },
+    {
+      "legacyId": 1085,
+      "legacyPath": "/detail/Web3%20%E5%AE%9E%E4%B9%A0%E8%AE%A1%E5%88%92/1085",
+      "name": "Web3 实习计划",
+      "slug": "web3",
+      "status": "published",
+      "targetPath": "/logos/web3/"
+    },
+    {
+      "legacyId": 1091,
+      "legacyPath": "/detail/Web3%20Career%20Build%20WCB/1091",
+      "name": "Web3 Career Build WCB",
+      "slug": "web3-career-build-wcb",
+      "status": "published",
+      "targetPath": "/logos/web3-career-build-wcb/"
+    },
+    {
+      "legacyId": 1030,
+      "legacyPath": "/detail/web3auth/1030",
+      "name": "web3auth",
+      "slug": "web3auth",
+      "status": "published",
+      "targetPath": "/logos/web3auth/"
+    },
+    {
+      "legacyId": 799,
+      "legacyPath": "/detail/Web3BuidlerTech/799",
+      "name": "Web3BuidlerTech",
+      "slug": "web3buidlertech",
+      "status": "published",
+      "targetPath": "/logos/web3buidlertech/"
+    },
+    {
+      "legacyId": 60,
+      "legacyPath": "/detail/Web3MQ/60",
+      "name": "Web3MQ",
+      "slug": "web3mq",
+      "status": "published",
+      "targetPath": "/logos/web3mq/"
+    },
+    {
+      "legacyId": 940,
+      "legacyPath": "/detail/WETH/940",
+      "name": "WETH",
+      "slug": "weth",
+      "status": "published",
+      "targetPath": "/logos/weth/"
+    },
+    {
+      "legacyId": 748,
+      "legacyPath": "/detail/wexpoly/748",
+      "name": "wexpoly",
+      "slug": "wexpoly",
+      "status": "published",
+      "targetPath": "/logos/wexpoly/"
+    },
+    {
+      "legacyId": 746,
+      "legacyPath": "/detail/whale/746",
+      "name": "whale",
+      "slug": "whale",
+      "status": "published",
+      "targetPath": "/logos/whale/"
+    },
+    {
+      "legacyId": 747,
+      "legacyPath": "/detail/wib/747",
+      "name": "wib",
+      "slug": "wib",
+      "status": "published",
+      "targetPath": "/logos/wib/"
+    },
+    {
+      "legacyId": 754,
+      "legacyPath": "/detail/wing/754",
+      "name": "wing",
+      "slug": "wing",
+      "status": "published",
+      "targetPath": "/logos/wing/"
+    },
+    {
+      "legacyId": 751,
+      "legacyPath": "/detail/wings/751",
+      "name": "wings",
+      "slug": "wings",
+      "status": "published",
+      "targetPath": "/logos/wings/"
+    },
+    {
+      "legacyId": 923,
+      "legacyPath": "/detail/WLD/923",
+      "name": "WLD",
+      "slug": "wld",
+      "status": "published",
+      "targetPath": "/logos/wld/"
+    },
+    {
+      "legacyId": 752,
+      "legacyPath": "/detail/woo/752",
+      "name": "woo",
+      "slug": "woo",
+      "status": "published",
+      "targetPath": "/logos/woo/"
+    },
+    {
+      "legacyId": 815,
+      "legacyPath": "/detail/Worldcoin/815",
+      "name": "Worldcoin",
+      "slug": "worldcoin",
+      "status": "published",
+      "targetPath": "/logos/worldcoin/"
+    },
+    {
+      "legacyId": 753,
+      "legacyPath": "/detail/wpr/753",
+      "name": "wpr",
+      "slug": "wpr",
+      "status": "published",
+      "targetPath": "/logos/wpr/"
+    },
+    {
+      "legacyId": 749,
+      "legacyPath": "/detail/wrx/749",
+      "name": "wrx",
+      "slug": "wrx",
+      "status": "published",
+      "targetPath": "/logos/wrx/"
+    },
+    {
+      "legacyId": 750,
+      "legacyPath": "/detail/wtc/750",
+      "name": "wtc",
+      "slug": "wtc",
+      "status": "published",
+      "targetPath": "/logos/wtc/"
+    },
+    {
+      "legacyId": 755,
+      "legacyPath": "/detail/wxt/755",
+      "name": "wxt",
+      "slug": "wxt",
+      "status": "published",
+      "targetPath": "/logos/wxt/"
+    },
+    {
+      "legacyId": 795,
+      "legacyPath": "/detail/%E9%9B%B6X%E5%B9%B2%E8%B4%A7%E9%93%BA/795",
+      "name": "零X干货铺",
+      "slug": "x",
+      "status": "published",
+      "targetPath": "/logos/x/"
+    },
+    {
+      "legacyId": 921,
+      "legacyPath": "/detail/XAG/921",
+      "name": "XAG",
+      "slug": "xag",
+      "status": "published",
+      "targetPath": "/logos/xag/"
+    },
+    {
+      "legacyId": 757,
+      "legacyPath": "/detail/xas/757",
+      "name": "xas",
+      "slug": "xas",
+      "status": "published",
+      "targetPath": "/logos/xas/"
+    },
+    {
+      "legacyId": 922,
+      "legacyPath": "/detail/XAU/922",
+      "name": "XAU",
+      "slug": "xau",
+      "status": "published",
+      "targetPath": "/logos/xau/"
+    },
+    {
+      "legacyId": 761,
+      "legacyPath": "/detail/xchf/761",
+      "name": "xchf",
+      "slug": "xchf",
+      "status": "published",
+      "targetPath": "/logos/xchf/"
+    },
+    {
+      "legacyId": 756,
+      "legacyPath": "/detail/xem/756",
+      "name": "xem",
+      "slug": "xem",
+      "status": "published",
+      "targetPath": "/logos/xem/"
+    },
+    {
+      "legacyId": 760,
+      "legacyPath": "/detail/xin/760",
+      "name": "xin",
+      "slug": "xin",
+      "status": "published",
+      "targetPath": "/logos/xin/"
+    },
+    {
+      "legacyId": 764,
+      "legacyPath": "/detail/xlm/764",
+      "name": "xlm",
+      "slug": "xlm",
+      "status": "published",
+      "targetPath": "/logos/xlm/"
+    },
+    {
+      "legacyId": 765,
+      "legacyPath": "/detail/xlq/765",
+      "name": "xlq",
+      "slug": "xlq",
+      "status": "published",
+      "targetPath": "/logos/xlq/"
+    },
+    {
+      "legacyId": 758,
+      "legacyPath": "/detail/xmark/758",
+      "name": "xmark",
+      "slug": "xmark",
+      "status": "published",
+      "targetPath": "/logos/xmark/"
+    },
+    {
+      "legacyId": 762,
+      "legacyPath": "/detail/xmr/762",
+      "name": "xmr",
+      "slug": "xmr",
+      "status": "published",
+      "targetPath": "/logos/xmr/"
+    },
+    {
+      "legacyId": 759,
+      "legacyPath": "/detail/xmx/759",
+      "name": "xmx",
+      "slug": "xmx",
+      "status": "published",
+      "targetPath": "/logos/xmx/"
+    },
+    {
+      "legacyId": 770,
+      "legacyPath": "/detail/xnk/770",
+      "name": "xnk",
+      "slug": "xnk",
+      "status": "published",
+      "targetPath": "/logos/xnk/"
+    },
+    {
+      "legacyId": 767,
+      "legacyPath": "/detail/xns/767",
+      "name": "xns",
+      "slug": "xns",
+      "status": "published",
+      "targetPath": "/logos/xns/"
+    },
+    {
+      "legacyId": 768,
+      "legacyPath": "/detail/xor/768",
+      "name": "xor",
+      "slug": "xor",
+      "status": "published",
+      "targetPath": "/logos/xor/"
+    },
+    {
+      "legacyId": 769,
+      "legacyPath": "/detail/xrd/769",
+      "name": "xrd",
+      "slug": "xrd",
+      "status": "published",
+      "targetPath": "/logos/xrd/"
+    },
+    {
+      "legacyId": 771,
+      "legacyPath": "/detail/xrp/771",
+      "name": "xrp",
+      "slug": "xrp",
+      "status": "published",
+      "targetPath": "/logos/xrp/"
+    },
+    {
+      "legacyId": 772,
+      "legacyPath": "/detail/xsn/772",
+      "name": "xsn",
+      "slug": "xsn",
+      "status": "published",
+      "targetPath": "/logos/xsn/"
+    },
+    {
+      "legacyId": 766,
+      "legacyPath": "/detail/xsr/766",
+      "name": "xsr",
+      "slug": "xsr",
+      "status": "published",
+      "targetPath": "/logos/xsr/"
+    },
+    {
+      "legacyId": 773,
+      "legacyPath": "/detail/xtz/773",
+      "name": "xtz",
+      "slug": "xtz",
+      "status": "published",
+      "targetPath": "/logos/xtz/"
+    },
+    {
+      "legacyId": 774,
+      "legacyPath": "/detail/xvg/774",
+      "name": "xvg",
+      "slug": "xvg",
+      "status": "published",
+      "targetPath": "/logos/xvg/"
+    },
+    {
+      "legacyId": 840,
+      "legacyPath": "/detail/XY%20Finance/840",
+      "name": "XY Finance",
+      "slug": "xy-finance",
+      "status": "published",
+      "targetPath": "/logos/xy-finance/"
+    },
+    {
+      "legacyId": 775,
+      "legacyPath": "/detail/xyo/775",
+      "name": "xyo",
+      "slug": "xyo",
+      "status": "published",
+      "targetPath": "/logos/xyo/"
+    },
+    {
+      "legacyId": 776,
+      "legacyPath": "/detail/xzc/776",
+      "name": "xzc",
+      "slug": "xzc",
+      "status": "published",
+      "targetPath": "/logos/xzc/"
+    },
+    {
+      "legacyId": 778,
+      "legacyPath": "/detail/yfi/778",
+      "name": "yfi",
+      "slug": "yfi",
+      "status": "published",
+      "targetPath": "/logos/yfi/"
+    },
+    {
+      "legacyId": 783,
+      "legacyPath": "/detail/zai/783",
+      "name": "zai",
+      "slug": "zai",
+      "status": "published",
+      "targetPath": "/logos/zai/"
+    },
+    {
+      "legacyId": 784,
+      "legacyPath": "/detail/zb/784",
+      "name": "zb",
+      "slug": "zb",
+      "status": "published",
+      "targetPath": "/logos/zb/"
+    },
+    {
+      "legacyId": 782,
+      "legacyPath": "/detail/zco/782",
+      "name": "zco",
+      "slug": "zco",
+      "status": "published",
+      "targetPath": "/logos/zco/"
+    },
+    {
+      "legacyId": 785,
+      "legacyPath": "/detail/zec/785",
+      "name": "zec",
+      "slug": "zec",
+      "status": "published",
+      "targetPath": "/logos/zec/"
+    },
+    {
+      "legacyId": 780,
+      "legacyPath": "/detail/zen/780",
+      "name": "zen",
+      "slug": "zen",
+      "status": "published",
+      "targetPath": "/logos/zen/"
+    },
+    {
+      "legacyId": 841,
+      "legacyPath": "/detail/Zerius/841",
+      "name": "Zerius",
+      "slug": "zerius",
+      "status": "published",
+      "targetPath": "/logos/zerius/"
+    },
+    {
+      "legacyId": 1088,
+      "legacyPath": "/detail/ZetaChain/1088",
+      "name": "ZetaChain",
+      "slug": "zetachain",
+      "status": "published",
+      "targetPath": "/logos/zetachain/"
+    },
+    {
+      "legacyId": 779,
+      "legacyPath": "/detail/zil/779",
+      "name": "zil",
+      "slug": "zil",
+      "status": "published",
+      "targetPath": "/logos/zil/"
+    },
+    {
+      "legacyId": 900,
+      "legacyPath": "/detail/ZIL/900",
+      "name": "ZIL",
+      "slug": "zil-900",
+      "status": "published",
+      "targetPath": "/logos/zil-900/"
+    },
+    {
+      "legacyId": 1025,
+      "legacyPath": "/detail/zircuit/1025",
+      "name": "zircuit",
+      "slug": "zircuit",
+      "status": "published",
+      "targetPath": "/logos/zircuit/"
+    },
+    {
+      "legacyId": 1026,
+      "legacyPath": "/detail/ZKsync/1026",
+      "name": "ZKsync",
+      "slug": "zksync",
+      "status": "published",
+      "targetPath": "/logos/zksync/"
+    },
+    {
+      "legacyId": 786,
+      "legacyPath": "/detail/zrx/786",
+      "name": "zrx",
+      "slug": "zrx",
+      "status": "published",
+      "targetPath": "/logos/zrx/"
+    }
+  ],
+  "schemaVersion": 1
+}

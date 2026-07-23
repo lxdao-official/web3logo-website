@@ -1,0 +1,41 @@
+---
+import type { Logo } from '@/lib/catalog'
+
+interface Props {
+  logo: Logo
+  related?: boolean
+}
+
+const { logo, related = false } = Astro.props
+const primary = logo.assets[0]
+---
+
+<article
+  class:list={['logo-card', { 'logo-card--related': related }]}
+  data-logo-card
+  data-slug={logo.slug}
+>
+  <a class="logo-card__main" href={`/logos/${logo.slug}/`} aria-label={`View ${logo.name}`}>
+    <div class="logo-card__preview">
+      {primary && (
+        <img
+          src={primary.path}
+          width="160"
+          height="160"
+          loading="lazy"
+          decoding="async"
+          alt={`${logo.name} logo`}
+        />
+      )}
+    </div>
+    <div class="logo-card__identity">
+      <h2>{logo.name}</h2>
+      <span>{logo.category}</span>
+    </div>
+  </a>
+  {primary && (
+    <a class="button button--secondary logo-card__download" href={primary.path} download>
+      Download {primary.format.toUpperCase()}
+    </a>
+  )}
+</article>

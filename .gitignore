@@ -2,15 +2,18 @@
 
 # dependencies
 /node_modules
+__pycache__/
 /.pnp
 .pnp.js
 
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
+# generated framework output
+/.astro/
+/dist/
+.web3logo-import-transaction.json*
+.*.import-backup
 
 # production
 /build
