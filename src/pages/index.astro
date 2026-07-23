@@ -2,9 +2,14 @@
 import LogoCard from '@/components/LogoCard.astro'
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import { CATEGORIES, logos } from '@/lib/catalog'
+import { HOMEPAGE_FEATURED_SLUGS, orderHomepageLogos } from '@/lib/homepage-order'
 
+const homepageLogos = orderHomepageLogos(logos)
 const inlineSearchIndex = JSON.stringify(
-  logos.map(({ slug, name, aliases, category }) => ({ slug, name, aliases, category }))
+  homepageLogos.map(({ slug, name, aliases, category }) => {
+    const priority = HOMEPAGE_FEATURED_SLUGS.indexOf(slug as (typeof HOMEPAGE_FEATURED_SLUGS)[number])
+    return { slug, name, aliases, category, ...(priority === -1 ? {} : { priority }) }
+  })
 ).replaceAll('<', '\\u003c')
 ---
 
@@ -52,7 +57,7 @@ const inlineSearchIndex = JSON.stringify(
     </div>
 
     <div id="logo-grid" class="logo-grid">
-      {logos.map((logo) => <LogoCard logo={logo} />)}
+      {homepageLogos.map((logo) => <LogoCard logo={logo} />)}
     </div>
     <div id="empty-state" class="empty-state" hidden>
       <h2>No matching logos</h2>

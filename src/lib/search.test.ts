@@ -33,6 +33,15 @@ describe('searchCatalog', () => {
     ])
   })
 
+  it('uses presentation priority before alphabetical order when ranks tie', () => {
+    const prioritized: SearchItem[] = [
+      { slug: 'aave', name: 'Aave', aliases: [], category: 'DeFi' },
+      { slug: 'ethpanda', name: 'ETHPanda', aliases: [], category: 'DAO', priority: 1 },
+      { slug: 'lxdao', name: 'LXDAO', aliases: [], category: 'DAO', priority: 0 },
+    ]
+    expect(searchCatalog(prioritized, '').map((item) => item.slug)).toEqual(['lxdao', 'ethpanda', 'aave'])
+  })
+
   it('finds Chinese names', () => {
     expect(searchCatalog(catalog, '比特币')[0]?.slug).toBe('bi-shi')
   })

@@ -3,6 +3,7 @@ export interface SearchItem {
   name: string
   aliases: string[]
   category: string
+  priority?: number
 }
 
 export interface SearchOptions {
@@ -89,6 +90,8 @@ export function searchCatalog(
     .sort(
       (left, right) =>
         left.score - right.score ||
+        (left.item.priority ?? Number.POSITIVE_INFINITY) -
+          (right.item.priority ?? Number.POSITIVE_INFINITY) ||
         compareText(normalizeSearchTerm(left.item.name), normalizeSearchTerm(right.item.name)) ||
         compareText(left.item.slug, right.item.slug)
     )
