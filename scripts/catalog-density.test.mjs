@@ -15,6 +15,13 @@ describe('catalog density', () => {
     expect(rule('.catalog .logo-card__preview')).toContain('aspect-ratio: 5 / 3;')
   })
 
+  it('keeps catalog preview slots uniform despite source image aspect ratios', () => {
+    const preview = rule('.catalog .logo-card__preview')
+    expect(preview).toContain('aspect-ratio: 5 / 3;')
+    expect(preview).toContain('contain: size;')
+    expect(preview).toContain('overflow: hidden;')
+  })
+
   it('keeps the catalog usable on narrow screens', () => {
     expect(css).toMatch(/@media \(max-width: 900px\)[\s\S]*?\.catalog \.logo-grid\s*\{[\s\S]*?repeat\(4, minmax\(0, 1fr\)\)/)
     expect(css).toMatch(/@media \(max-width: 680px\)[\s\S]*?\.catalog \.logo-grid\s*\{[\s\S]*?repeat\(2, minmax\(0, 1fr\)\)/)
